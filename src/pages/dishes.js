@@ -1,4 +1,5 @@
 import image_02 from '../images/image_02.jpg'
+import image_kukorica from '../images/image_kukorica.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -46,5 +47,31 @@ export default [
             "Összefőzzük és tésztával együtt tálaljuk"
         ],
         image: image_02,
+    },
+    {
+        title: "majonézes kukoricasaláta - Csirkével és krokettel",
+        original: "https://www.nosalty.hu/recept/majonezes-kukoricasalata",
+        details: "Egyszerű kukoricasaláta, hozzá csirkemell és krokett.",
+        ingredients: [
+            {
+                title: "Kukorica salátához:",
+                 list: [
+                    "29 dkg csemegekukorica",
+                    "30 g majonéz",
+                    "5 g mustár",
+                    "60 g tejföl",
+                    "50 dkg csirkemell",
+                    "1 csomag fagyasztott krokett",
+                    "só, bors és egyéb fűszerek"
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "A kukorica levét leöntjük.",
+            "A majonézt kikeverjük a mustárral és a tejföllel, majd az egészet összekeverjük a kukoricával.",
+            "Csirkemellett felszeleteljük, fűszerezzük ízlés szerint és megsütjük kevés olajban",
+            "Krokettet kiolvasztjuk majd megsütjük a sütőben",
+        ],
+        image: image_kukorica,
     },
 ];

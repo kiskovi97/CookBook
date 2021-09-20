@@ -1,6 +1,7 @@
 import image_01 from '../images/image_01.jpg'
 import image_03 from '../images/image_03.jpg'
 import image_boci from '../images/image_boci.jpg'
+import image_csaszar from '../images/image_csaszar.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -95,5 +96,38 @@ export default [
                 "Sütőbe toljuk, először nagy lángon 2-3 percig, majd takaréklángon kb 30 perc alatt megsütjük. Langyosan már jól szeletelhető, és akkor a legfinomabb.",
             ],
         image: image_boci,
+    },
+    {
+        title: "Gyors császármorzsa",
+        original: "https://www.nosalty.hu/recept/gyors-csaszarmorzsa-barna-fruzsinatol",
+        details: "Gyorsan elkészíthető finomság. Vacsorára lekvárral tökéletes.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "5 evőkanál búzadara",
+                    "2 evőkanál finomliszt",
+                    "3 ek cukor",
+                    "2 ek napraforgó olaj",
+                    "1.5 dl tej",
+                    "1 marék mazsola",
+                    "0.5 csomag vaníliás cukor",
+                    "2 db tojás",
+                    "1 citromból nyert citromhéj (reszelve)",
+                    "1 ek napraforgó olaj (serpenyőbe)",
+                    "1 teáskanál porcukor (szóráshoz)",
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "A tejet felmelegítjük.",
+                "A mazsola és a tojás kivételével minden alapanyagot összekeverünk egy tálban.",
+                "A tojásokat szétválasztjuk. A fehérjét külön tálban habbá verjük. A sárgáját hozzáadjuk a tésztához.",
+                "A felvert habot óvatosan beleforgatjuk a tésztába.",
+                "A serpenyőbe teszünk egy evőkanál olajat. Közepes lángon felforrósítjuk. A forró serpenyőbe beleöntjük a tésztát.",
+                "A még folyós tészta tetejét megszórjuk a mazsolával.",
+                "Ha az alsó fele megbarnult, megfordítjuk, ahogy sikerül. Nem kell megijedni, ha szakad, vagy lecsurog. :) Ha mindkét fele megbarnult, fakanállal/spatulával apró darabokra tördeljük. Ahol kell, a darabokat forgatjuk, pirítjuk még picit, hogy ne maradjon nyers rész. A recepthez leírt joghurtos öntettel és porcukorral, vagy hagyományosan lekvárral és porcukorral tálaljuk.",
+            ],
+        image: image_csaszar,
     },
 ];

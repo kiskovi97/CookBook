@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.30744fee.chunk.css",
-    "main.js": "/CookBook/static/js/main.5da76f8e.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.5da76f8e.chunk.js.map",
-    "runtime-main.js": "/CookBook/static/js/runtime-main.0cbdf4e7.js",
-    "runtime-main.js.map": "/CookBook/static/js/runtime-main.0cbdf4e7.js.map",
-    "static/js/2.45ffceef.chunk.js": "/CookBook/static/js/2.45ffceef.chunk.js",
-    "static/js/2.45ffceef.chunk.js.map": "/CookBook/static/js/2.45ffceef.chunk.js.map",
-    "static/js/3.9ee5816c.chunk.js": "/CookBook/static/js/3.9ee5816c.chunk.js",
-    "static/js/3.9ee5816c.chunk.js.map": "/CookBook/static/js/3.9ee5816c.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.3753005d.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.3753005d.chunk.js.map",
+    "runtime-main.js": "/CookBook/static/js/runtime-main.36d025a1.js",
+    "runtime-main.js.map": "/CookBook/static/js/runtime-main.36d025a1.js.map",
+    "static/js/2.8faf278f.chunk.js": "/CookBook/static/js/2.8faf278f.chunk.js",
+    "static/js/2.8faf278f.chunk.js.map": "/CookBook/static/js/2.8faf278f.chunk.js.map",
+    "static/js/3.b17319d7.chunk.js": "/CookBook/static/js/3.b17319d7.chunk.js",
+    "static/js/3.b17319d7.chunk.js.map": "/CookBook/static/js/3.b17319d7.chunk.js.map",
     "index.html": "/CookBook/index.html",
     "static/css/main.30744fee.chunk.css.map": "/CookBook/static/css/main.30744fee.chunk.css.map",
-    "static/js/2.45ffceef.chunk.js.LICENSE.txt": "/CookBook/static/js/2.45ffceef.chunk.js.LICENSE.txt",
+    "static/js/2.8faf278f.chunk.js.LICENSE.txt": "/CookBook/static/js/2.8faf278f.chunk.js.LICENSE.txt",
     "static/media/City.1cfa61fa.png": "/CookBook/static/media/City.1cfa61fa.png",
     "static/media/Crowd.1a9f6a62.png": "/CookBook/static/media/Crowd.1a9f6a62.png",
     "static/media/Deeper.f6989982.png": "/CookBook/static/media/Deeper.f6989982.png",
@@ -32,9 +32,9 @@
     "static/media/unity.fe4a9b2b.svg": "/CookBook/static/media/unity.fe4a9b2b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cbdf4e7.js",
-    "static/js/2.45ffceef.chunk.js",
+    "static/js/runtime-main.36d025a1.js",
+    "static/js/2.8faf278f.chunk.js",
     "static/css/main.30744fee.chunk.css",
-    "static/js/main.5da76f8e.chunk.js"
+    "static/js/main.3753005d.chunk.js"
   ]
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
 import Project from './Components/Project'
-import {Unity, Android, BME} from './Icons'
+import {Cookie, Pasta, Chicken} from './Icons'
 import city from '../images/image_01.png'
 import crowd from '../images/image_02.png'
 import deeper from '../images/image_03.png'
@@ -80,7 +80,7 @@ var References = () =>
             <div>
                 <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutDown" animateOnce>
                 <div className={styles.logo}>
-                    <Android />
+                    <Cookie />
                 </div>
                 </ScrollAnimation>
             </div>
@@ -88,7 +88,7 @@ var References = () =>
         <div className={gStyles.grid}>
             <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutDown" animateOnce>
                 <div className={styles.logo}>
-                    <BME />
+                    <Pasta />
                 </div>
             </ScrollAnimation>
             <div>
@@ -103,7 +103,7 @@ var References = () =>
             </div>
             <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutDown" animateOnce>
                 <div className={styles.logo}>
-                    <Unity />
+                    <Chicken />
                 </div>
             </ScrollAnimation>
         </div>

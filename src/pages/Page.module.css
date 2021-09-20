@@ -10,47 +10,6 @@
     color: primarydark;
 }
 
-.page > div:nth-child(odd){
-    background-color: primarydark;
-    color: primarydark;
-    background: linear-gradient(0deg, primarylight 0%, rgba(0, 0, 0, 0) 40%);
-}
-
-.page > div:nth-child(odd) a{
-    color: white;
-}
-
-
-.page > div:nth-child(odd) .logo svg path, .page > div:nth-child(odd) .logo svg line, .page > div:nth-child(odd) .logo svg polyline, .page > div:nth-child(odd) .logo svg polygon{
-    fill: primarydark;
-    color: primarydark;
-    stroke: primarydark;
-}
-
-.page > div:nth-child(even) .logo svg path, .page > div:nth-child(even) .logo svg line, .page > div:nth-child(even) .logo svg polyline, .page > div:nth-child(even) .logo svg polygon{
-    fill: primarydark;
-    color: primarydark;
-    stroke: primarydark;
-}
-
-.page > div:nth-child(odd) h2, .page > div:nth-child(odd) h1,.page > div:nth-child(odd) h3 {
-    color: primarydark;
-}
-
-.page > div:nth-child(even) {
-    background-color: secondarylight;
-    color: primarydark;
-    background: linear-gradient(0deg, secondarylightShadow 0%, secondarylight 40%);
-}
-
-.page > div:nth-child(even) h2,.page > div:nth-child(even) h1,.page > div:nth-child(even) h3 {
-    color: primarydark;
-}
-
-.page > div:nth-child(even) a{
-    color: black;
-}
-
 .page > div {
     position: relative;
     min-height: 30em;

@@ -7,8 +7,8 @@ var Navbar = () =>
     <div className={styles.Header}>
         <ul>
             <li> <Link to="/">Home</Link></li>
-            <li> <Link to="/about" >About Me</Link></li>
-            <li> <Link to="/references">References</Link></li>
+            <li> <Link to="/desserts" >Desserts</Link></li>
+            <li> <Link to="/dishes" >Main dishes</Link></li>
         </ul>
     </div>)
 

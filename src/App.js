@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Error from './pages/Error';
 import Navbar from './Navbar';
 import Desserts from './pages/Desserts.jsx';
-import Dishes from './pages/Dishes';
+import Dishes from './pages/Dishes.jsx';
 
 function App() {
   return (

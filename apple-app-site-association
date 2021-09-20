@@ -1,0 +1,11 @@
+{
+    "applinks" : {
+        "apps": [],
+        "details" : [
+            {
+                "appID": "SXC4WT865Z.com.bookrkids.tbc",
+                "paths": ["*"]
+            }
+        ]
+    }
+}

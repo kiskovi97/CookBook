@@ -2,8 +2,9 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import Error from './pages/Error';
-import References from './pages/References';
 import Navbar from './Navbar';
+import Desserts from './pages/Desserts.jsx';
+import Dishes from './pages/Dishes';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home}  />
-        <Route exact path="/desserts" component={References} />
-        <Route exact path="/dishes" component={References} />
+        <Route exact path="/desserts" component={Desserts} />
+        <Route exact path="/dishes" component={Dishes} />
         <Route component={Error} />
       </Switch>
     </main>

@@ -1,8 +1,3 @@
-import React from 'react'
-import styles from './Page.module.css'
-import gStyles from './Grid.module.css'
-import Project from './Components/Project'
-import {Cookie, Pasta, Chicken} from './Icons'
 import city from '../images/image_01.png'
 import crowd from '../images/image_02.png'
 import deeper from '../images/image_03.png'
@@ -10,9 +5,9 @@ import johny from '../images/image_01.png'
 import marching from '../images/image_02.png'
 import rewind from '../images/image_03.png'
 import duplicate from '../images/image_01.png'
-import ScrollAnimation from 'react-animate-on-scroll'
 
-var projects = [
+// eslint-disable-next-line import/no-anonymous-default-export
+export default [
     {
         title: "Deeper and Deeper - Android game",
         details: "This is an infinty runner type game, with Unity URP and 2D lighting. The graphics is 2D pixel art made by me.",
@@ -67,45 +62,4 @@ var projects = [
         android: "https://play.google.com/store/apps/details?id=com.IgorodCavok.Duplicate",
         image: duplicate,
     },
-]
-
-var References = () =>
-    <div className={styles.page}>
-        <div className={gStyles.grid}>
-            <div>
-                <Project proj={projects[0]} />
-                <Project proj={projects[1]} />
-                <Project proj={projects[6]} />
-            </div>
-            <div>
-                <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutDown" animateOnce>
-                <div className={styles.logo}>
-                    <Cookie />
-                </div>
-                </ScrollAnimation>
-            </div>
-        </div>
-        <div className={gStyles.grid}>
-            <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutDown" animateOnce>
-                <div className={styles.logo}>
-                    <Pasta />
-                </div>
-            </ScrollAnimation>
-            <div>
-                <Project proj={projects[2]} />
-                <Project proj={projects[3]} />
-            </div>
-        </div>
-        <div className={gStyles.grid}>
-            <div>
-                <Project proj={projects[4]} />
-                <Project proj={projects[5]} />
-            </div>
-            <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutDown" animateOnce>
-                <div className={styles.logo}>
-                    <Chicken />
-                </div>
-            </ScrollAnimation>
-        </div>
-    </div>
-export default References
+];

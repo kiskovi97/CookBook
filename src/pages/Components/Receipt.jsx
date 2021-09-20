@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './Project.module.css'
+import styles from './Receipt.module.css'
 import ScrollAnimation from 'react-animate-on-scroll'
 
-class Project extends React.Component {
+class Receipt extends React.Component {
     state = {
         clicked: false
     }
@@ -62,4 +62,4 @@ class Project extends React.Component {
     }
 }
 
-export default Project
+export default Receipt

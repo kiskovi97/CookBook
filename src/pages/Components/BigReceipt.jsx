@@ -11,13 +11,6 @@ class BigReceipt extends React.Component {
         this.setState({clicked: value});
     }
 
-    //componentDidMount() {
-    //    window.open('unitydl://thebookclub?Dashboard', '_blank');
-    //   }
-    //componentWillMount() {
-    //    window.open('unitydl://thebookclub?Dashboard', '_blank');
-    //   }
-
     render () {
         var prop = this.props;
         if (this.state.clicked) {
@@ -36,31 +29,33 @@ class BigReceipt extends React.Component {
             if (prop.proj.original)
                 links.push((<div key="original"><a href={prop.proj.original} hidden={!prop.proj.original}>Original receipt</a></div>))
     
-            return (<div>
-                <div className={styles.project}>
-                    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
-                        <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} onClick={() => this.onImageClicked(true)}/>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
-                        <h3>{prop.proj.title}</h3>
-                        <div className={styles.details}>{prop.proj.details}</div>
-                        <div className={styles.links}>{links}</div>
-                    </ScrollAnimation>
-                </div>
-                <div className={styles.project2}>
-                    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
-                        {prop.proj.ingredients?.map(station => (
-                        <div>
-                            <h1>{station.title}</h1>
+            return(
+            <div className={styles.receipt}>
+                <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
+                    <div className={styles.title}>
+                        <div>{prop.proj.title}</div>
+                    </div>
+                    <div className={styles.details}>
+                        <div>{prop.proj.details}</div>
+                    </div>
+                    <div>
+                            {prop.proj.ingredients?.map(station => (
                             <div>
-                                {station.list?.map(element => (<li>{element}</li>))}
-                            </div>
-                        </div>))}
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
+                                <h3>{station.title}</h3>
+                                <div>
+                                    {station.list?.map(element => (<li>{element}</li>))}
+                                </div>
+                            </div>))}
+                    </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
+                    <div  className={styles.food}>
+                        <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} onClick={() => this.onImageClicked(true)}/>
+                    </div>
+                    <div>
                         {prop.proj.howToMakeIt?.map(station => (<li>{station}</li>))}
-                    </ScrollAnimation>
-                </div>
+                    </div>
+                </ScrollAnimation>
             </div>)
         }
     

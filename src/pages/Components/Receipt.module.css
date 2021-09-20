@@ -16,6 +16,14 @@
     max-width: 70em;
     margin: 0 auto;
 }
+
+.project2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
 .project > div {
     padding: 1em;
 }

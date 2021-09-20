@@ -27,33 +27,40 @@ class BigReceipt extends React.Component {
                     <img src={prop.proj.image} hidden={!prop.proj.image} alt=""/>
                     <div className={styles.details}><h3>{prop.proj.title}</h3>{prop.proj.details}</div>
                 </div>
-                    
             </div>)
         }
 
         if (prop.proj) {
             var links = [];
-            if (prop.proj.github)
-                links.push((<div key="github"><a href={prop.proj.github} hidden={!prop.proj.github}>Github</a></div>))
     
-            if (prop.proj.android)
-                links.push((<div key="android"><a href={prop.proj.android} hidden={!prop.proj.github}>Play store</a></div>))
+            if (prop.proj.original)
+                links.push((<div key="original"><a href={prop.proj.original} hidden={!prop.proj.original}>Original receipt</a></div>))
     
-            if (prop.proj.youtube)
-                links.push((<div key="youtube"><a href={prop.proj.youtube} hidden={!prop.proj.github}>Youtube</a></div>))
-    
-            if (prop.proj.pdf)
-                links.push((<div key="pdf"><a href={prop.proj.pdf} hidden={!prop.proj.github}>Thesis informantion</a></div>))
-    
-            return (<div className={styles.project}>
-                <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
-                    <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} onClick={() => this.onImageClicked(true)}/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
-                    <h3>{prop.proj.title}</h3>
-                    <div className={styles.details}>{prop.proj.details}</div>
-                    <div className={styles.links}>{links}</div>
-                </ScrollAnimation>
+            return (<div>
+                <div className={styles.project}>
+                    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
+                        <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} onClick={() => this.onImageClicked(true)}/>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
+                        <h3>{prop.proj.title}</h3>
+                        <div className={styles.details}>{prop.proj.details}</div>
+                        <div className={styles.links}>{links}</div>
+                    </ScrollAnimation>
+                </div>
+                <div className={styles.project2}>
+                    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
+                        {prop.proj.ingredients?.map(station => (
+                        <div>
+                            <h1>{station.title}</h1>
+                            <div>
+                                {station.list?.map(element => (<li>{element}</li>))}
+                            </div>
+                        </div>))}
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
+                        {prop.proj.howToMakeIt?.map(station => (<li>{station}</li>))}
+                    </ScrollAnimation>
+                </div>
             </div>)
         }
     

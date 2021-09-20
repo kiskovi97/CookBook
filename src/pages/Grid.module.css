@@ -1,0 +1,17 @@
+.grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid > div {
+    margin: auto;
+    position: relative;
+    max-width: 40em;
+}
+
+@media only screen and (max-width: 800px) {
+    .grid {
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+}

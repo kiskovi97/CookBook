@@ -1,0 +1,96 @@
+@value colors: "./colors.css";
+@value primarydark, primarylight, secondarydark, secondarylight, dark, secondarylightShadow, primarydarkShadow from colors;
+
+.page {
+    height: max-content;
+    min-height: 90vh;
+    margin: 0;
+    text-align: left;
+    background-color: primarydark;
+    color: primarylight;
+}
+
+.page > div:nth-child(odd){
+    background-color: primarydark;
+    color: primarylight;
+    background: linear-gradient(0deg, primarydarkShadow 0%, rgba(0, 0, 0, 0) 40%);
+}
+
+.page > div:nth-child(odd) a{
+    color: white;
+}
+
+
+.page > div:nth-child(odd) .logo svg path, .page > div:nth-child(odd) .logo svg line, .page > div:nth-child(odd) .logo svg polyline, .page > div:nth-child(odd) .logo svg polygon{
+    fill: secondarylight;
+    color: secondarylight;
+    stroke: secondarylight;
+}
+
+.page > div:nth-child(even) .logo svg path, .page > div:nth-child(even) .logo svg line, .page > div:nth-child(even) .logo svg polyline, .page > div:nth-child(even) .logo svg polygon{
+    fill: primarydark;
+    color: primarydark;
+    stroke: primarydark;
+}
+
+.page > div:nth-child(odd) h2, .page > div:nth-child(odd) h1,.page > div:nth-child(odd) h3 {
+    color: secondarylight;
+}
+
+.page > div:nth-child(even) {
+    background-color: secondarylight;
+    color: secondarydark;
+    background: linear-gradient(0deg, secondarylightShadow 0%, secondarylight 40%);
+}
+
+.page > div:nth-child(even) h2,.page > div:nth-child(even) h1,.page > div:nth-child(even) h3 {
+    color: primarydark;
+}
+
+.page > div:nth-child(even) a{
+    color: black;
+}
+
+.page > div {
+    position: relative;
+    min-height: 30em;
+    padding: 2em;
+}
+
+img.minilogo, .minilogo img{
+    width: 20pt;
+    height: 20pt;
+    margin: 10pt;
+    object-fit: scale-down;
+    animation: unset;
+    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.315));
+}
+
+.minilogo svg {
+    width: 5em;
+    height: 5em;
+    margin: 10pt;
+    object-fit: scale-down;
+    animation: unset;
+    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.315));
+}
+
+.logo, .logo img, .logo svg {
+    height: 20em;
+    width: 20em;
+    object-fit: scale-down;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .logo, .logo img, .logo svg {
+        height: 10em;
+        width: 10em;
+        object-fit: scale-down;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+}

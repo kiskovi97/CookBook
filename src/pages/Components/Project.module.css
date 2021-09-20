@@ -1,0 +1,93 @@
+@value colors: "../colors.css";
+@value primarydark, primarylight, secondarydark, secondarylight, dark from colors;
+
+.links > div {
+    display: inline;
+    padding: 0.5em;
+}
+
+.details {
+    padding: 0.5em;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.project > div {
+    padding: 1em;
+}
+
+.project > div > img.background {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    animation: unset;
+    margin-right: 2em;
+    margin-top: 2em;
+    border-radius: 25px;
+    filter: grayscale(1) ;
+    transition: width 0.2s, height 0.2s;
+}
+
+.project .fullImage {
+    position: fixed;
+    z-index: 2;
+    height:100%;
+    width:100%;
+    top: 0;
+    left: 0;
+    background-color: dark;
+    padding: 0;
+}
+
+.fullImage .details {
+    max-width: 30em;
+    margin: auto;
+    text-align: center;
+    color: primarylight;
+}
+
+.project .fullImage .details h2, .project .fullImage .details  h1,.project .fullImage .details  h3 {
+    color: secondarylight;
+}
+
+.fullImage img {
+    display: block;
+    width: auto;
+    height: 70%;
+    margin: 1em auto;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.project > div > img.background:hover {
+    transform: scale(1.2, 1.2) ;
+    filter: none;
+    animation-name: hover;
+    animation-duration: 0.2s;
+}
+
+@keyframes hover {
+    from {
+        transform: scale(1, 1) ;
+    }
+    to {
+        transform: scale(1.2, 1.2) ;
+    }
+  }
+
+@media only screen and (max-width: 80em) {
+    .project > div > img.background, .project > div > img.background:hover {
+        width: 0;
+        height: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .project > div {
+        padding: 0em;
+    }
+}

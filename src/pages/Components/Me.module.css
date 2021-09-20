@@ -1,0 +1,72 @@
+@value colors: "../colors.css";
+@value primarydark, primarylight, secondarydark, secondarylight, dark from colors;
+
+.person {
+    height: 30em;
+    width: 30em;
+    object-fit: scale-down;
+    bottom: -3em;
+    left: 10em;
+    z-index: 0;
+    position: absolute;
+}
+
+.person img {
+    height: 30em;
+    width: 30em;
+    object-fit: scale-down;
+}
+
+.frontTitle {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    font-size: 7em;
+    font-weight: bold;
+    color: secondarylight;
+    filter: drop-shadow(4px 5px 10px rgba(34, 34, 34, 0.7));
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+
+.titleBlock {
+    height: 30em;
+    width: 30em;
+}
+
+div.description {
+    max-width: 30em;
+}
+
+@media only screen and (max-width: 800px) {
+    .person {
+        height: 0;
+        width: 0;
+        object-fit: scale-down;
+        bottom: -3em;
+        left: 10em;
+        z-index: 0;
+        position: absolute;
+    }
+
+    .person img {
+        height: 0;
+        width: 0;
+    }
+
+    .title {
+        font-size: 3em;
+        text-align: center;
+    }
+    .titleBlock {
+        width: unset;
+        height: unset;
+    }
+
+    .logos {
+        width: max-content;
+        margin: auto;
+    }
+}

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.772ce397.chunk.css",
-    "main.js": "/CookBook/static/js/main.202a5084.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.202a5084.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.edaebbf6.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.edaebbf6.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.ad3c37be.chunk.js": "/CookBook/static/js/2.ad3c37be.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/image_03.eb4d29cf.jpg": "/CookBook/static/media/image_03.eb4d29cf.jpg",
     "static/media/image_boci.b70a5efc.jpg": "/CookBook/static/media/image_boci.b70a5efc.jpg",
     "static/media/image_csaszar.2bc83351.jpg": "/CookBook/static/media/image_csaszar.2bc83351.jpg",
+    "static/media/image_csirke4.34b14969.jpg": "/CookBook/static/media/image_csirke4.34b14969.jpg",
     "static/media/image_kukorica.b683634c.jpg": "/CookBook/static/media/image_kukorica.b683634c.jpg",
     "static/media/instagram.20d3f9f3.svg": "/CookBook/static/media/instagram.20d3f9f3.svg"
   },
@@ -26,6 +27,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.ad3c37be.chunk.js",
     "static/css/main.772ce397.chunk.css",
-    "static/js/main.202a5084.chunk.js"
+    "static/js/main.edaebbf6.chunk.js"
   ]
 }

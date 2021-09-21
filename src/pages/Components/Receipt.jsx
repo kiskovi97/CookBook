@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Receipt.module.css'
+import styles from './SmallReceipt.module.css'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 class Receipt extends React.Component {
@@ -23,12 +23,13 @@ class Receipt extends React.Component {
 
         if (prop.proj) {
             return (
-            <div className={styles.project}>
+            <div className={styles.receipt}>
                 <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce  className={styles.image}>
                     <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} onClick={() => this.onImageClicked(true)}/>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce  className={styles.title}>
-                    <div>{prop.proj.title}</div>
+                <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
+                    <div className={styles.title}>{prop.proj.title}</div>
+                    <div className={styles.details}>{prop.proj.details}</div>
                 </ScrollAnimation>
             </div>)
         }

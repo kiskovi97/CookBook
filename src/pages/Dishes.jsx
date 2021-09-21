@@ -1,15 +1,14 @@
 import React from 'react'
 import styles from './Page.module.css'
-import BigReceipt from './Components/BigReceipt'
+import gStyles from './Grid.module.css'
+import Receipt from './Components/Receipt'
 import projects from './dishes.js';
 
 var Dishes = () =>
-    <div className={styles.page}>
-        <div>
-            <div>
-                {projects.map(station => (<BigReceipt proj={station}/>))}
-            </div>
-        </div>
+<div className={styles.page}>
+    <div className={gStyles.grid_big}>
+            {projects.map(station => (<Receipt proj={station}/>))}
     </div>
+</div>
     
 export default Dishes

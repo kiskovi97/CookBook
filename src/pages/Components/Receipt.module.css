@@ -59,7 +59,7 @@
 .project {
     max-width: 70em;
     margin: 0 auto;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
     position: relative;
     max-height: 20em;
 }
@@ -70,7 +70,7 @@
 .project .title {
     position: absolute;
     left: 0;
-    bottom: 2em;
+    bottom: 0;
     font-weight: 700;
     font-size: 1.3em;
     color: mainColor;
@@ -126,18 +126,3 @@
         transform: scale(1.2, 1.2) ;
     }
   }
-
-@media only screen and (max-width: 80em) {
-    .project > div > img.background, .project > div > img.background:hover {
-        width: 0;
-        height: 0;
-        margin: 0;
-        border-radius: 0;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .project > div {
-        padding: 0em;
-    }
-}

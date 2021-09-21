@@ -75,3 +75,11 @@ div.description {
         margin: auto;
     }
 }
+
+@media only screen and (max-width: 80em) {
+
+    .Me div.description {
+        height: 0;
+        font-size: 0;
+    }
+}

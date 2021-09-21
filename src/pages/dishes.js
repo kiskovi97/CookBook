@@ -104,7 +104,7 @@ export default [
             "A hagymát és krumplit megpucoljuk, majd feldaraboljuk és a tepsibe helyezzük, majd héjastúl belerakjuk a fokhagymagerezdeket",
             "Fűszerezzük majd meglocsoljuk egy kis olajjal és átforgatjuk",
             "Ráhelyezzük a csirke darabokat és lefedjük fóliával",
-            "Sütőben 30 percet főliával sütjük, majd levesszük róla a fóliát és pirulásig sütjük.",
+            "Sütőben a hús puhulásáig főliával sütjük, majd levesszük róla a fóliát és pirulásig sütjük.",
         ],
         image: image_csirke4,
     },

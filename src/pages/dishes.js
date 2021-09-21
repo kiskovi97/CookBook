@@ -1,5 +1,6 @@
 import image_02 from '../images/image_02.jpg'
 import image_kukorica from '../images/image_kukorica.jpg'
+import image_csirke4 from '../images/image_csirke4.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -60,6 +61,11 @@ export default [
                     "30 g majonéz",
                     "5 g mustár",
                     "60 g tejföl",
+                ]
+            },
+            {
+                title: "Egyéb:",
+                 list: [
                     "50 dkg csirkemell",
                     "1 csomag fagyasztott krokett",
                     "só, bors és egyéb fűszerek"
@@ -73,5 +79,33 @@ export default [
             "Krokettet kiolvasztjuk majd megsütjük a sütőben",
         ],
         image: image_kukorica,
+    },
+    {
+        title: "Fűszeres csirke krumplival",
+        details: "Egyszerű krumplis csirke recept.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                 list: [
+                    "1 egész csirke vagy 1kg csirkeszárny/comb",
+                    "1.5 kg burgonya",
+                    "2 vöröshagyma",
+                    "4 gerezd fokhagyma",
+                    "só, bors",
+                    "petrezselyem",
+                    "majoranna",
+                    "rozmaring",
+                    "8 evőkanál olaj",
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "A csirkét feldaraboljuk és fűszerezzük",
+            "A hagymát és krumplit megpucoljuk, majd feldaraboljuk és a tepsibe helyezzük, majd héjastúl belerakjuk a fokhagymagerezdeket",
+            "Fűszerezzük majd meglocsoljuk egy kis olajjal és átforgatjuk",
+            "Ráhelyezzük a csirke darabokat és lefedjük fóliával",
+            "Sütőben 30 percet főliával sütjük, majd levesszük róla a fóliát és pirulásig sütjük.",
+        ],
+        image: image_csirke4,
     },
 ];

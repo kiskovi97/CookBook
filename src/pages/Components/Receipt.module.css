@@ -3,11 +3,12 @@
 
 .receipt {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 70em;
+    grid-template-columns: 30em 1fr;
+    max-width: 80em;
     margin: 0 auto;
     position: relative;
     margin-bottom: 5em;
+    line-height: 2em;
 }
 
 .receipt > div {
@@ -25,6 +26,7 @@
 
 .receipt > div:nth-child(odd) > div {
     margin-left: auto;
+    width: unset;
 }
 
 .receipt > div:nth-child(odd) {
@@ -43,12 +45,6 @@
     font-weight: 800;
     position: relative;
     left: 2em;
-}
-
-.receipt .details {
-    max-width: 20em;
-    position: relative;
-    left: 4em;
 }
 
 .receipt .food img {
@@ -126,3 +122,35 @@
         transform: scale(1.2, 1.2) ;
     }
   }
+
+
+  @media only screen and (max-width: 60em) {
+
+    .receipt {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .receipt .title {
+        position: unset;
+        left: unset;
+        bottom: unset;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    .receipt .food img {
+        width: 0em;
+        border-radius: 0;
+    }
+
+    .receipt .food {
+        margin: 0;
+        padding: 0;
+    }
+
+    .receipt > div:nth-child(even) {
+        position: unset;
+        z-index: 0;
+    }
+}

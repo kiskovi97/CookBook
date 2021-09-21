@@ -7,7 +7,7 @@ import projects from './desserts.js';
 var Desserts = () =>
     <div className={styles.page}>
         <div className={gStyles.grid_big}>
-            {projects.map(station => (<Receipt proj={station}/>))}
+            {projects.map((station, index)  => (<Receipt proj={station} index={'/dessert/'+ index}/>))}
         </div>
     </div>
     

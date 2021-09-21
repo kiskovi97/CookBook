@@ -10,10 +10,10 @@ var Home = () =>
 <div className={styles.page}>
     <Me/>
     <div className={gStyles.grid_big}>
-        {desserts.map(station => (<Receipt proj={station}/>))}
+        {desserts.map((station, index) => (<Receipt proj={station} index={'/dessert/'+ index}/>))}
     </div>
     <div className={gStyles.grid_big}>
-        {dishes.map(station => (<Receipt proj={station}/>))}
+        {dishes.map((station, index) => (<Receipt proj={station} index={'/dish/'+ index}/>))}
     </div>
 </div>
 export default Home

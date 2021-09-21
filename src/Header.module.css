@@ -4,8 +4,13 @@
 .Header {
     padding-top: 1em;
     color: white;
-    background-color: darkestColor;
+    background-color: mainColor;
     margin: 0;
+}
+
+.Header.Home {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .Header ul {
@@ -30,5 +35,5 @@
 
 .Header ul a:hover {
     color: white;
-    background-color: mainColor;
+    background-color: darkestColor;
 }

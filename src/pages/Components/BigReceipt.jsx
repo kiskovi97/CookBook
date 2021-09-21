@@ -13,22 +13,8 @@ class BigReceipt extends React.Component {
 
     render () {
         var prop = this.props;
-        if (this.state.clicked) {
-            return (
-            <div className={styles.project}>
-                <div className={styles.fullImage}  onClick={() => this.onImageClicked(false)}>
-                    <img src={prop.proj.image} hidden={!prop.proj.image} alt=""/>
-                    <div className={styles.details}><h3>{prop.proj.title}</h3>{prop.proj.details}</div>
-                </div>
-            </div>)
-        }
 
         if (prop.proj) {
-            var links = [];
-    
-            if (prop.proj.original)
-                links.push((<div key="original"><a href={prop.proj.original} hidden={!prop.proj.original}>Original receipt</a></div>))
-    
             return(
             <div className={styles.receipt}>
                 <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
@@ -58,8 +44,7 @@ class BigReceipt extends React.Component {
                 </ScrollAnimation>
             </div>)
         }
-    
-    
+        
         return (<div>NoContentAdded</div>)
     }
 }

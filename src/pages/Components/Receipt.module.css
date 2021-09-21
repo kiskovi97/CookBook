@@ -1,25 +1,6 @@
 @value colors: "../colors.css";
 @value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
-.links > div {
-    display: inline;
-    padding: 0.5em;
-}
-
-.details {
-    padding: 0.5em;
-}
-
-.project {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    max-width: 70em;
-    margin: 0 auto;
-    background-color: white;
-    margin-bottom: 2em;
-    border-radius: 2em;
-}
-
 .receipt {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -75,37 +56,52 @@
     border-radius: 0.5em;
 }
 
-.project2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.project {
     max-width: 70em;
     margin: 0 auto;
+    padding-bottom: 4em;
+    position: relative;
+    max-height: 20em;
+}
+.project .image {
+    margin-left: 3em;
+}
+
+.project .title {
+    position: absolute;
+    left: 0;
+    bottom: 2em;
+    font-weight: 700;
+    font-size: 1.3em;
+    color: mainColor;
+}
+
+.project .details {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20em;
+    height: fit-content;
 }
 
 .project > div {
+    background-color: white;
+    margin-bottom: 2em;
+    border-radius: 2em;
     padding: 1em;
+    margin-right: 2em;
+    height: fit-content;
+    width: fit-content;
 }
 
 .project > div > img.background {
-    width: 10em;
-    height: 10em;
+    width: 14em;
+    height: 14em;
     object-fit: cover;
     animation: unset;
-    margin-right: 2em;
     border-radius: 25px;
     filter: grayscale(1) ;
     transition: width 0.2s, height 0.2s;
-}
-
-.project .fullImage {
-    position: fixed;
-    z-index: 2;
-    height:100%;
-    width:100%;
-    top: 0;
-    left: 0;
-    background-color: mainColor;
-    padding: 0;
 }
 
 .fullImage .details {
@@ -113,19 +109,6 @@
     margin: auto;
     text-align: center;
     color: white;
-}
-
-.project .fullImage .details h2, .project .fullImage .details  h1,.project .fullImage .details  h3 {
-    color: secondarylight;
-}
-
-.fullImage img {
-    display: block;
-    width: auto;
-    height: 70%;
-    margin: 1em auto;
-    object-fit: cover;
-    border-radius: 25px;
 }
 
 .project > div > img.background:hover {

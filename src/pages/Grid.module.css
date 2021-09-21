@@ -3,6 +3,13 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.grid_big {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100em;
+    margin: 0 auto;
+}
+
 .grid > div {
     margin: auto;
     position: relative;

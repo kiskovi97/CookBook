@@ -9,7 +9,7 @@ import github from '../../logos/github.svg'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 var Me = () => 
-    <div className={gStyles.grid}>
+    <div className={gStyles.grid + " " + styles.Me}>
         <div className={styles.titleBlock}>
             <div className={styles.frontTitle}>
                 <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce offset={20}>

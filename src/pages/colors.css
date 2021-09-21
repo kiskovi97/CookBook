@@ -1,8 +1,5 @@
-
-@value dark: #1A1423;
-@value primarydark: #000000;
-@value primarydarkShadow: #401010;
-@value primarylight: #FFFFFF;
-@value secondarydark: #402020;
-@value secondarylight: #903030;
-@value secondarylightShadow: #802020;
+@value backgroundColor: #EFE2E2;
+@value mainColor: #91071e;
+@value darkestColor: #252422;
+@value lightColor: #CCC5B9;
+@value lightdarkColor: #403D39;

@@ -10,9 +10,7 @@ import dishes from './dishes.js';
 
 var Home = () => 
 <div className={styles.page}>
-    <div>
-        <Me/>
-    </div>
+    <Me/>
     <div className={gStyles.grid}>
         <div>
             {desserts.map(station => (<Receipt proj={station}/>))}

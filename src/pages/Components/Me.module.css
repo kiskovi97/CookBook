@@ -1,5 +1,10 @@
 @value colors: "../colors.css";
-@value primarydark, primarylight, secondarydark, secondarylight, dark from colors;
+@value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
+
+.Me  {
+    background-color: mainColor;
+    color: white;
+}
 
 .person {
     height: 30em;

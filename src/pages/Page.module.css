@@ -1,13 +1,13 @@
 @value colors: "./colors.css";
-@value primarydark, primarylight, secondarydark, secondarylight, dark, secondarylightShadow, primarydarkShadow from colors;
+@value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
 .page {
     height: max-content;
     min-height: 90vh;
     margin: 0;
     text-align: left;
-    background-color: primarylight;
-    color: primarydark;
+    background-color: backgroundColor;
+    color: darkestColor;
 }
 
 .page > div {

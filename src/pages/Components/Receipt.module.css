@@ -1,5 +1,5 @@
 @value colors: "../colors.css";
-@value primarydark, primarylight, secondarydark, secondarylight, dark from colors;
+@value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
 .links > div {
     display: inline;
@@ -15,6 +15,9 @@
     grid-template-columns: auto 1fr;
     max-width: 70em;
     margin: 0 auto;
+    background-color: white;
+    margin-bottom: 2em;
+    border-radius: 2em;
 }
 
 .receipt {
@@ -89,7 +92,6 @@
     object-fit: cover;
     animation: unset;
     margin-right: 2em;
-    margin-top: 2em;
     border-radius: 25px;
     filter: grayscale(1) ;
     transition: width 0.2s, height 0.2s;
@@ -102,7 +104,7 @@
     width:100%;
     top: 0;
     left: 0;
-    background-color: dark;
+    background-color: mainColor;
     padding: 0;
 }
 
@@ -110,7 +112,7 @@
     max-width: 30em;
     margin: auto;
     text-align: center;
-    color: primarylight;
+    color: white;
 }
 
 .project .fullImage .details h2, .project .fullImage .details  h1,.project .fullImage .details  h3 {

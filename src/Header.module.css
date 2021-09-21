@@ -1,10 +1,10 @@
 @value colors: "./pages/colors.css";
-@value primarydark, primarylight, secondarydark, secondarylight, dark from colors;
+@value backgroundColor, darkestColor, mainColor, lightdarkColor from colors;
 
 .Header {
     padding-top: 1em;
     color: white;
-    background-color: dark;
+    background-color: darkestColor;
     margin: 0;
 }
 
@@ -29,6 +29,6 @@
 }
 
 .Header ul a:hover {
-    color: primarylight;
-    background-color: primarydark;
+    color: white;
+    background-color: mainColor;
 }

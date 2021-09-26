@@ -1,6 +1,7 @@
 import image_02 from '../images/image_02.jpg'
 import image_kukorica from '../images/image_kukorica.jpg'
 import image_csirke4 from '../images/image_csirke4.jpg'
+import image_tortilla from '../images/image_tortilla.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -107,5 +108,55 @@ export default [
             "Sütőben a hús puhulásáig főliával sütjük, majd levesszük róla a fóliát és pirulásig sütjük.",
         ],
         image: image_csirke4,
+    },
+    {
+        title: "Chicken Tortilla Wrap",
+        original: "https://www.instagram.com/p/CTW2-pbjalX/",
+        details: "Tortilla lapokból összerakott rakott csirke",
+        ingredients: [
+            {
+                title: "Töltelékhez",
+                 list: [
+                    "0.5 kg csirkemell",
+                    "400 ml sűrített paradicsom",
+                    "2 kaliforniai paprika",
+                    "1 vöröshagyma",
+                    "1 lilahagyma",
+                    "2 gerezd fokhagyma",
+                    "só, bors",
+                    "cayenne bors",
+                    "mozarella vagy egyéb sajt"
+                ]
+            },
+            {
+                title: "Szószhoz:",
+                 list: [
+                    "3 dl tejföl",
+                    "cayenne bors",
+                    "só, bors",
+                    "citromlé",
+                    "3 db koktélparadicsom",
+                    "kukorica",
+                ]
+            },
+            {
+                title: "Egyéb:",
+                 list: [
+                    "6-12 db tortilla lap",
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "A paprikát, hagymákat és a csirkemellet felvágjuk kis szeletekre, majd belehelyezzük a kis olajjal kikent serpenyőbe.",
+            "A tölteléket fűszerezzük, és rányomjuk vagy szeljük a fokhagymát",
+            "A tölteléket addig sütjük, amíg nem fehéredik ki a csirke. Majd utána a hozzáadott paradicsomlében főzzük tovább.",
+            "A kiolajozott tepsibe belehelyezzük a tortilla lapokat. Először a sarkokra majd a szélekre helyezünk egy-egy lapot úgy, hogy fele kilógjon a tepsiből. "+
+            "A tespi alján lév lyukakat még pár lappal befedjük, majd megszórjuk az egészet reszelt sajttal.",
+            "Bele kanalazzuk a tölteléket, szépen elterítjük majd a tetejét megszórjuk reszelt sajttal.",
+            "A kilógó tortilla lapokat behajtjuk. Majd a lyukakat befedjük további lapokkal.",
+            "A lapok tetejére ráhelyezünk egy másik tepsit, hogy lenyomja és a sütőben 30-45 perc alatt megsütjük.",
+            "A szószhoz a paradicsomokat felvágjuk és a hozzávalókat összekeverjük."
+        ],
+        image: image_tortilla,
     },
 ];

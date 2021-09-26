@@ -2,6 +2,7 @@ import image_01 from '../images/image_01.jpg'
 import image_03 from '../images/image_03.jpg'
 import image_boci from '../images/image_boci.jpg'
 import image_csaszar from '../images/image_csaszar.jpg'
+import image_csiga3 from '../images/image_csiga3.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -129,5 +130,45 @@ export default [
                 "Ha az alsó fele megbarnult, megfordítjuk, ahogy sikerül. Nem kell megijedni, ha szakad, vagy lecsurog. :) Ha mindkét fele megbarnult, fakanállal/spatulával apró darabokra tördeljük. Ahol kell, a darabokat forgatjuk, pirítjuk még picit, hogy ne maradjon nyers rész. A recepthez leírt joghurtos öntettel és porcukorral, vagy hagyományosan lekvárral és porcukorral tálaljuk.",
             ],
         image: image_csaszar,
+    },
+    {
+        title: "Csupacsokis csiga",
+        details: "Egy töltelékben gazdag csiga. Kelt tésztával. 23x35 tepsinyi",
+        ingredients: [
+            {
+                title: "Tésztához:",
+                list: [
+                    "fél csomag élesztő",
+                    "fél maréknyi cukor",
+                    "1 kg liszt",
+                    "1 tojás",
+                    "100 g vaj",
+                    "2 dl tej",
+                    "csipetnyi só",
+                    ]
+            },
+            {
+                title: "Töltelékhez:",
+                list: [
+                    "100 g vaj",
+                    "100 g kakaó",
+                    "100 g cukor (ízlés szerint)",
+                    "200 g csokoládé"
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "A cukrot összekeverjük az élesztővel addig, amíg folyós nem lesz.",
+                "A kézmeleg tejet hozzáöntjük és addig keverjük, amíg az összes cukor fel nem oldódik.",
+                "Fél kiló lisztet hozzáöntünk és addig gyúrjuk amíg kemény nem lesz.",
+                "Hozzáadjuk a tojást és a vajat (felolvasztva), összedolgozzuk a tésztával",
+                "Adunk hozzá egy kis lisztet, összegyúrjuk és ezt addig folytatjuk amíg kemény tésztát nem kapunk.",
+                "Hagyjuk kelni 30-45 percig.",
+                "A kész tésztát ketté vesszük majd lapos téglalpokra gyúrjuk. (minél vékonyabb legyen a tészta).",
+                "A tésztát megkenjük vajjal majd rászórjuk a kakóport. Majd a cukrot és az apróra darabolt csokoládét.",
+                "A végén még csöpögtetünk rá egy kis vajat, majd feltekerjük a tésztát és kis csigákra vágjuk",
+                "A 25x35 cm-es tepsibe (vajjal kikenve, vagy sütőpapírral) helyezzük szorosan egymás mellé. Maradék vajjal még lekenhetjük a tetejüket. Majd sütőben 30-45 percig sütjük."
+            ],
+        image: image_csiga3,
     },
 ];

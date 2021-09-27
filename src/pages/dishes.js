@@ -2,6 +2,9 @@ import image_02 from '../images/image_02.jpg'
 import image_kukorica from '../images/image_kukorica.jpg'
 import image_csirke4 from '../images/image_csirke4.jpg'
 import image_tortilla from '../images/image_tortilla.jpg'
+import image_csirke1 from '../images/image_csirke1.jpg'
+import image_csirke2 from '../images/image_csirke2.jpg'
+import image_hamburger from '../images/image_hamburger.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -159,4 +162,99 @@ export default [
         ],
         image: image_tortilla,
     },
+    {
+        title: "Narancsos csirke",
+        details: "Könnyed ebéd csirkéből. Rizzsel tálalva tökéletes.",
+        ingredients: [
+            {
+                title: "Csirkéhez:",
+                 list: [
+                    "50 dkg csirkemell",
+                    "só, bors",
+                    "3 gerezd fokhagyma",
+                    "1 evőkanál vaj",
+                ]
+            },
+            {
+                title: "Öntethez:",
+                 list: [
+                    "10 dkg vaj/margarin",
+                    "3 evőkanál méz",
+                    "2 narancs leve"
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "A csirkét feldaraboljuk megsózzuk, borsózzuk majd bekenjük a zúzott fokhagymával.",
+            "Serpenyőben felolvasztunk egy evőkanál vajat, majd belehelyezzük a csirkét és elkezdjük sütni.",
+            "A maradék vajat felolvasztjuk, belekeverjük a mézek és a naracslevet, majd ha a csirkedarabok már elég puhák, akkor rájuköntjük és tovább sütjük.",
+            "Ha a csirkék puhák és úgyérezzük átsültek rendesen akkor főtt rizzsel tálaljuk"
+        ],
+        image: image_csirke1,
+    },
+    {
+        title: "Ananászos csirkemell",
+        details: "Könnyed ebéd csirkéből. Rizzsel tálalva tökéletes.",
+        ingredients: [
+            {
+                title: "Csirkéhez:",
+                 list: [
+                    "50 dkg csirkemell",
+                    "só, bors",
+                    "1-2 gerezd fokhagyma",
+                    "10-5 dkg vaj",
+                    "1 konzerv ananász (karikázott nem szeletelt)",
+                    "sajt"
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "A csirkét lapos szeletekre vágjuk, majd fűszerezzük sóval, borssal és fokhagymával.",
+            "Egy tepsit kivajazunk, majd belehelyezzük a csirkemell szeleteket úgy, hogy ne fedjék egymást.",
+            "A tespit behelyezzük az előmelegített sütőbe és egy 10-20 percig sütjük.",
+            "Ha a csirkék már kezdenek fehéredni, akkor kivesszük, megfordítjuk őket és egy-egy karika ananászt és tetejére egy lapka sajtot teszünk, majd visszarakjuk.",
+            "Addig sütjük amíg a sajt rá nem olvad és pirul a csirkékre.",
+            "Készen rízzsel tálaljuk"
+        ],
+        image: image_csirke2,
+    },
+    {
+        title: "Hamburger",
+        details: "Sokszor használt és bevált hamburger recept (hús sütéstől az összeállításig)",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                 list: [
+                    "50 dkg kevert darálthús (disznó és marha 50-50%)",
+                    "só, bors és egyéb fűszerek",
+                    "hamburger buci, vagy zsemle",
+                    "saláta",
+                    "mustár, ketchup, majonéz",
+                    "lapka sajt",
+                    "szalonna",
+                ]
+            },
+            {
+                title: "Kiegészítők:",
+                 list: [
+                    "vöröshagyma",
+                    "paprika",
+                    "uborka",
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "A húst megfűszerezzük és összegyúrjuk. Majd ezek után szétválasztjuk gombócokra. (nagyobbakat mint amekkora húst szeretnénk a buciba, mert össze fog ugrani)",
+            "A szalonnákat olajozatlan serpenyőbe helyezzük és hagyjuk hogy megpiruljanak és eresszenek zsiradékot.",
+            "A húsgolyókat kilapítjuk egy csésze segítségével (érdemes a csészét és a deszkát beolajozni).",
+            "Kiveszük a kész szalonnát a serpenyőből, majd az elkészített hús korongokat a helyükre rakjuk és 5 percig sütjük. Nem mozgatjuk maximum a hőfokot állítgatjuk rajta.",
+            "5 perc után megforgatjuk és tovább sütjük még 5 percig.",
+            "Kész korongokat egy tányérra helyezzük majd egy-egy lapka sajtot helyezünk rájuk amíg még melegek.",
+            "A zsemlét felszeljük és a hús által eresztett szaftban megpirítjuk a belső oldalát kicsit.",
+            "Zöldségeket felvágjuk, esetleg a hagymát pirítjuk ha szeretnénk.",
+            "Összeállításnál előszőr mustárral az alját, majonézzel a tetejét kenjük a szendvicsnek. Erre megy rá a hús, majd ketchup. Aztán pedig a saláta és egyébb zöldségek.",
+            "Amit nem szeretnénk belerakni vagy nem fér bele, azt mellette ízlésesen tudjuk tálalni. (Mi paprikát szoktuk mellé helyezni)"
+        ],
+        image: image_hamburger,
+    }
 ];

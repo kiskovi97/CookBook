@@ -5,6 +5,8 @@ import image_csaszar from '../images/image_csaszar.jpg'
 import image_csiga3 from '../images/image_csiga3.jpg'
 import image_brownie2 from '../images/image_brownie2.jpg'
 import image_csiga2 from '../images/image_csiga2.jpg'
+import image_pancacke from '../images/image_pancacke.jpg'
+import image_saltbrownie from '../images/image_saltbrownie.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -235,5 +237,74 @@ export default [
                 "Sütőpapírral fedett tepsire sorakoztatjuk, majd 200 fokra melegített sütőben 25 perc alatt megsütötjük. Vaníliás porcukorral enyhén meghintjük.",
             ],
         image: image_csiga2,
+    },
+    {
+        title: "Sós karamellás brownie",
+        original: "https://www.nosalty.hu/recept/sos-karamellas-brownie",
+        details: "Kicsit izgalmasabb bornie recept.",
+        ingredients: [
+            {
+                title: "A karamellhez:",
+                list: [
+                    "10 dkg cukor",
+                    "4 ek vaj",
+                    "1 csipet só",
+                    "30 ml habtejszín (sűrű)",
+                    ]
+            },
+            {
+                title: "A tésztához:",
+                list: [
+                    "85 g étcsokoládé (magas kakaótartalmú, durvára vágott)",
+                    "115 g vaj",
+                    "200 g cukor (nálam 100 g)",
+                    "2 db tojás (nagyobb)",
+                    "1 ek vanília kivonat",
+                    "1 csipet só",
+                    "85 g rizsliszt",
+                    "1 teáskanál olaj (a tepsi kikenéséhez)",
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "Karamell készítése: a 4 ek vajat felolvasztjuk, félretesszük.",
+                "Egy teflonos edényt a tűzre teszünk, beleöntjük a kristálycukrot és karamellizáljuk. Ahogy olvadni kezd a cukor, mérsékeljük kissé a hőfokot (elektromos tűzhelyen 5-ös fokozat), átkeverjük, majd hagyjuk, hogy minden cukorszemcse elolvadjon és szép barna színt kapjon a folyadék.",
+                "Az edényt a tűzről lehúzva hozzáadjuk a vajat, elkeverjük.",
+                "A tejszínt és a sót is hozzáadjuk, elkeverjük, majd a tűzre visszatéve átforraljuk.",
+                "Vékonyan kiolajozott sütőpapírra öntjük a karamellt és hagyjuk kihűlni (kb. 20-40 perc, a kinti hőmérséklettől függően, de akár hűtőbe is tehetjük.",
+                "A kihűlt karamellt kockára vágjuk.",
+                "A tészta elkészítése: A sütőt 180 fokra kapcsoljuk, a tepsit sütőpapírral teljesen kibéleljük és vékonyan kivajazzuk (olvasztott vajjal).",
+                "A csokoládét és a vajat összeolvasztjuk: mikróban vagy gőz felett, kinek-kinek vérmérséklete szerint.",
+                "Hozzáadjuk a cukrot és a vaníliát, géppel alaposan kikeverjük. Hozzáadjuk egyenként a tojásokat és alaposan kikeverjük a masszát.",
+                "Lisztet, sót is a masszához adjuk, kanállal egyneművé keverjük a tésztát. A kibélelt sütőformába öntjük a masszát, megszórjuk a karamell kockákkal.",
+                "Előmelegített sütőbe toljuk, 30 perc alatt készre sütjük. Tűpróbával ellenőrizzük! A langyosra hűlt sütit már szelhetjük és élvezhetjük, ahogy nyúlik a karamell."
+            ],
+        image: image_saltbrownie,
+    },
+    {
+        title: "Gyors amerikai palacsinta",
+        original: "https://www.nosalty.hu/recept/gyors-amerikai-palacsinta",
+        details: "Egy jó kis original amerikai palacsinta.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "225 g finomliszt",
+                    "1 db tojás",
+                    "3 dl tej",
+                    "1 csomag sütőpor",
+                    "3 ek cukor",
+                    "1 csomag vaníliás cukor",
+                    "1 késhegynyi fahéj",
+                    "1 ek olaj",
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "Az összes hozzávalót beletesszük a turmixba, és alaposan összemixeljük. Érdemes 2 részletben hozzáadni a tejet és a lisztet, így egyszerűbb, hatékonyabb.",
+                "Felforrósítunk és beolajozunk egy teflon serpenyőt. A tésztakeverékből 2-3 korongot csorgatunk bele. A turmix kiöntője segítségével egyszerű adagolni. Aranybarnára sütjük mindkét oldalát.",
+                "Ízlés szerint fogyaszthatjuk mézzel, mogyorókrémmel, olvasztott csokival, lekvárral, juharsziruppal.",
+            ],
+        image: image_pancacke,
     }
 ];

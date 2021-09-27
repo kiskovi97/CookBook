@@ -10,15 +10,18 @@ const Receipt = (prop) => {
     if (prop.proj) {
         var index = prop.index;
         return (
-        <div className={styles.receipt}>
-            <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce  className={styles.image}>
-                <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} onClick={() => handleClick(index)}/>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
+        <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutUp" animateOnce >
+            <div className={styles.receipt} onClick={() => handleClick(index)}>
+                <div className={styles.image}>
+            <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background}/>
+            </div>
+            <div className={styles.description}>
                 <div className={styles.title}>{prop.proj.title}</div>
                 <div className={styles.details}>{prop.proj.details}</div>
-            </ScrollAnimation>
-        </div>)
+            </div>
+                </div>
+            
+        </ScrollAnimation>)
     }
     return (<div>NoContentAdded</div>)
   };

@@ -90,6 +90,11 @@
         width: 0em;
     }
 
+    .receipt .main {
+        height: fit-content;
+        min-height: 15em;
+    }
+
     .receipt .description > div { 
         margin-left: 1em;
         margin-right: 1em;

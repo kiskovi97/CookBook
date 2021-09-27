@@ -7,6 +7,7 @@
 .grid_big {
     display: flex; 
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 100em;
     margin: 0 auto;
     align-content: center;

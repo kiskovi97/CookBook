@@ -52,6 +52,14 @@
 }
 
 @media only screen and (max-width: 50em) {
+
+    .receipt {
+        display: block;
+        height: max-content;
+        max-height: 40em;
+        max-width: 15em;
+    }
+
     .receipt .title {
         padding: 0.5em;
         font-size: 1em;
@@ -62,7 +70,8 @@
     }
 
     .receipt > div > img.background {
-        width: 6em;
-        height: 6em;
+        width: 100%;
+        height: auto;
+        max-height: 15em;
     }
 }

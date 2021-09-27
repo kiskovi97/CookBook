@@ -2,93 +2,103 @@
 @value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
 .receipt {
-    display: grid;
-    grid-template-columns: 30em 1fr;
+    padding: 0;
+    padding-top: 0;
     max-width: 80em;
     margin: 0 auto;
-    position: relative;
-    margin-bottom: 5em;
-    line-height: 2em;
+    padding-bottom: 20em;
 }
 
-.receipt > div {
-    padding: 1em;
+.receipt .main {
+    background-color: mainColor;
+    color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em;
+    height: 15em;
 }
 
-.receipt > div > div {
+.image img {
+    height: 24em;
+    width: 24em;
+    object-fit: cover;
+    border-radius: 2em;
+}
+.image {
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.title {
+    padding-bottom: 1em;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: start;
+}
+
+.receipt .details {
+    width: 30em;
+    margin: 0 auto;
+}
+
+.receipt .description {
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.description li, .description ol  {
+    margin-bottom: 0.5em;
+}
+
+.receipt .description > div {
     background-color: white;
-    padding: 1em;
-    width: fit-content;
-    margin-bottom: 2em;
     border-radius: 1em;
-    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.315));
+    padding: 2em;
+    margin-top: 2em;
+    height: max-content;
 }
 
-.receipt > div:nth-child(odd) > div {
-    margin-left: auto;
-    width: unset;
-}
-
-.receipt > div:nth-child(odd) {
+.receipt .description > div:nth-child(even) {
     position: relative;
-    z-index: 2;
+    top: 7em;
 }
 
-.receipt > div:nth-child(even) {
-    position: relative;
-    z-index: 0;
-    top: 4em;
+@media only screen and (max-width: 70em) {
+    
+    .image img {
+        height: 20em;
+        width: 20em;
+    }
 }
 
-.receipt .title {
-    font-size: 2em;
-    font-weight: 800;
-    position: relative;
-    left: 2em;
-}
-
-.receipt .food img {
-    width: 20em;
-    border-radius: 0.5em;
-}
-
-@keyframes hover {
-    from {
-        transform: scale(1, 1) ;
-    }
-    to {
-        transform: scale(1.2, 1.2) ;
-    }
-  }
-
-
-  @media only screen and (max-width: 60em) {
-
-    .receipt {
-        display: grid;
-        grid-template-columns: 1fr;
+@media only screen and (max-width: 60em) {
+    .receipt .description {
+        display: unset;
     }
 
-    .receipt .title {
-        position: unset;
-        left: unset;
-        bottom: unset;
-        margin: 0;
-        margin-bottom: 1em;
+    .receipt .description > div:nth-child(even) {
+        top: 0em;
     }
-
-    .receipt .food img {
+    
+    .image img {
+        height: 0em;
         width: 0em;
-        border-radius: 0;
     }
 
-    .receipt .food {
-        margin: 0;
-        padding: 0;
+    .receipt .description > div { 
+        margin-left: 1em;
+        margin-right: 1em;
     }
+}
+@media only screen and (max-width: 50em) {
 
-    .receipt > div:nth-child(even) {
-        position: unset;
-        z-index: 0;
-    }
+    .receipt .details {
+        width: unset;
+        margin: 0 auto;
+    }  
 }

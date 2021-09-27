@@ -1,6 +1,7 @@
 .grid {
     display: grid; 
     grid-template-columns: 1fr 1fr;
+    padding: 2em;
 }
 
 .grid_big {
@@ -10,6 +11,7 @@
     margin: 0 auto;
     align-content: center;
     gap: 2.5em;
+    padding: 2em;
 }
 
 .grid > div {

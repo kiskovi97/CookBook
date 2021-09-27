@@ -54,7 +54,7 @@ export default [
         image: image_02,
     },
     {
-        title: "majonézes kukoricasaláta - Csirkével és krokettel",
+        title: "Majonézes kukoricasaláta - Csirkével és krokettel",
         original: "https://www.nosalty.hu/recept/majonezes-kukoricasalata",
         details: "Egyszerű kukoricasaláta, hozzá csirkemell és krokett.",
         ingredients: [

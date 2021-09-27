@@ -3,6 +3,8 @@ import image_03 from '../images/image_03.jpg'
 import image_boci from '../images/image_boci.jpg'
 import image_csaszar from '../images/image_csaszar.jpg'
 import image_csiga3 from '../images/image_csiga3.jpg'
+import image_brownie2 from '../images/image_brownie2.jpg'
+import image_csiga2 from '../images/image_csiga2.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -171,4 +173,67 @@ export default [
             ],
         image: image_csiga3,
     },
+    {
+        title: "Brownie - Narancsos pudinggal",
+        original: "https://www.mindmegette.hu/csupacsokis-brownie.recept/",
+        details: "Csupacsokis brownie, ami egyszerűen elkészíthető. És hozzá egy narancsos puding ami jól passzol a süti töményebb ízéhez.",
+        ingredients: [
+            {
+                title: "Brownie-hoz:",
+                list: [
+                    "25 dkg vaj",
+                    "20 dkg csoki",
+                    "6.5 dkg liszt",
+                    "36 dkg cukor",
+                    "1 tk sütőpor",
+                    "8 dkg kakaópor",
+                    "4 db tojás",
+                    ]
+            }, 
+            {
+                title: "Szószhoz:",
+                list: [
+                    "1 db pudingpor",
+                    "0.5 l tej",
+                    "3 kanál cukor",
+                    "1 db narancs",
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "Fémtálban, gőzfürdő fölött, folyamatosan kevergetve megolvasztjuk a vajat és a csokit, amíg szép fényes krémet kapunk.",
+                "A tálat levesszük a gőzről, majd egymás után hozzákeverjük a száraz anyagokat: a lisztet, a cukrot, a sütőport és a kakaót. Egyenként hozzáadjuk tojásokat, és elkeverjük a csokis masszában.",
+                "A kész tésztát 5 cm magas, kb. 25x25 cm-es vagy 18x30 cm-es tűzálló edénybe öntjük. A sütőt előmelegítjük 180 fokra, és alsó-felső sütésen, kb. 33-35 perc alatt megsütjük. A tűpróbánál a beleszúrt hegyes eszközre még kissé rátapad a csokis massza, de ne süssük tovább.",
+                "Pudingporból, cukorból és a tejből pudingot főzünk. Még besűrüsödés előtt belereszeljük a narancs héját, majd belselyét belefacsarjuk. Ha akarjuk a narancs facsaratlan részét turmixxal pépesítjük és szintén belerakjuk a pudingba.",
+                "Kivesszük a sütőből, és hagyjuk a tespiben kihűlni, majd egy süteményestálra vegy vágódeszkára helyezve egyforma kockákra vágjuk. Pudinggal tálaljuk",
+            ],
+        image: image_brownie2,
+    },
+    {
+        title: "Túrós-Mazsolás Csiga",
+        original: "https://www.mindmegette.hu/turos-mazsolas-csiga.recept/",
+        details: "Egyik legfinomabb levelestésztás recept. Garantált kedvenc lesz az édesszályúaknál.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "25 dkg leveles tészta",
+                    "30 dkg túró",
+                    "2.5 dl tej",
+                    "1 csom vaníliás pudingpor",
+                    "1-2 csom vaníliás cukor",
+                    "2 ek cukor",
+                    "5 dkg mazsola",
+                    "1 db narancs",
+                    "porcukor",
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "A leveles tésztát a papírról lehúzzuk, majd lisztezett munkalapra terítjük. A pudingport a tejjel és a cukrokkal felfőzzük, majd kihűtjük.",
+                "A val, a mazsolával, a narancs reszelt héjával majd levével ízesítettem. A tölteléket rákenjük, majd feltekerjük. A rövidebb részénél 1,5 cm-es darabokra vágjuk.",
+                "Sütőpapírral fedett tepsire sorakoztatjuk, majd 200 fokra melegített sütőben 25 perc alatt megsütötjük. Vaníliás porcukorral enyhén meghintjük.",
+            ],
+        image: image_csiga2,
+    }
 ];

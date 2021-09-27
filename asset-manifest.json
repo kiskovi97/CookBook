@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.772ce397.chunk.css",
-    "main.js": "/CookBook/static/js/main.a5c41f46.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.a5c41f46.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.a444cd49.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.a444cd49.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.ad3c37be.chunk.js": "/CookBook/static/js/2.ad3c37be.chunk.js",
@@ -22,8 +22,13 @@
     "static/media/image_csaszar.2bc83351.jpg": "/CookBook/static/media/image_csaszar.2bc83351.jpg",
     "static/media/image_csiga2.c4e06fa3.jpg": "/CookBook/static/media/image_csiga2.c4e06fa3.jpg",
     "static/media/image_csiga3.01f32230.jpg": "/CookBook/static/media/image_csiga3.01f32230.jpg",
+    "static/media/image_csirke1.6b588340.jpg": "/CookBook/static/media/image_csirke1.6b588340.jpg",
+    "static/media/image_csirke2.8fa2d12f.jpg": "/CookBook/static/media/image_csirke2.8fa2d12f.jpg",
     "static/media/image_csirke4.34b14969.jpg": "/CookBook/static/media/image_csirke4.34b14969.jpg",
+    "static/media/image_hamburger.3952f6e8.jpg": "/CookBook/static/media/image_hamburger.3952f6e8.jpg",
     "static/media/image_kukorica.b683634c.jpg": "/CookBook/static/media/image_kukorica.b683634c.jpg",
+    "static/media/image_pancacke.65b3fcca.jpg": "/CookBook/static/media/image_pancacke.65b3fcca.jpg",
+    "static/media/image_saltbrownie.03c9a755.jpg": "/CookBook/static/media/image_saltbrownie.03c9a755.jpg",
     "static/media/image_tortilla.97154ab8.jpg": "/CookBook/static/media/image_tortilla.97154ab8.jpg",
     "static/media/instagram.20d3f9f3.svg": "/CookBook/static/media/instagram.20d3f9f3.svg"
   },
@@ -31,6 +36,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.ad3c37be.chunk.js",
     "static/css/main.772ce397.chunk.css",
-    "static/js/main.a5c41f46.chunk.js"
+    "static/js/main.a444cd49.chunk.js"
   ]
 }

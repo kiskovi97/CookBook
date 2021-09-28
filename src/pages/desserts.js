@@ -7,6 +7,9 @@ import image_brownie2 from '../images/image_brownie2.jpg'
 import image_csiga2 from '../images/image_csiga2.jpg'
 import image_pancacke from '../images/image_pancacke.jpg'
 import image_saltbrownie from '../images/image_saltbrownie.jpg'
+import image_palacsinta from '../images/image_palacsinta.jpg'
+import image_szlovak from '../images/image_szlovak.jpg'
+import image_rizskoch from '../images/image_rizskoch.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -306,5 +309,116 @@ export default [
                 "Ízlés szerint fogyaszthatjuk mézzel, mogyorókrémmel, olvasztott csokival, lekvárral, juharsziruppal.",
             ],
         image: image_pancacke,
-    }
+    },
+    {
+        title: "Bécsi túrós palacsinta",
+        details: "Egyszerű palacsinta kétszer sütve.",
+        ingredients: [
+            {
+                title: "Palacsintához:",
+                list: [
+                    "20 dkg liszt",
+                    "2 db tojás",
+                    "3 dl tej",
+                    "2 dl ásványvíz",
+                    "1 csipet só",
+                    "0.75 dl olaj",
+                    ]
+            },
+            {
+                title: "Töltelékhez:",
+                list: [
+                    "csipet só",
+                    "1-2 tojás",
+                    "5 dkg vaj",
+                    "2 kanál porcukor",
+                    "citromhéj",
+                    "túró",
+                    ]
+            },
+            {
+                title: "Összekötő:",
+                list: [
+                    "tej",
+                    "tojás",
+                    "vaníliás cukor",
+                    "cukor",
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "A palacsintatészta elkészítéséhez keverőtálba töltjük a tejet. Hozzáadjuk a tojást, az olajat, a csipet sót, és alaposan összekeverjük. Használhatunk hozzá robotgépet is.",
+                "Hozzámérjük a lisztet, és sűrű, krémszerű tésztát keverünk belőle.",
+                "Végül hozzáadjuk a szódát, vagy a szénsavas ásványvizet is.",
+                "Nagyon fontos, hogy csomómentesre keverjük a palacsintatésztát. Sütés előtt pihentessük legalább 10-15 percet.",
+                "Az első palacsinta sütése előtt a forró serpenyőbe egy kevés olajat öntünk (a következő palacsintáknál erre már nincs szükség, maximálisan elegendő, ami kisül a tésztából), és kisebb merőkanálnyi adagot öntünk rá a tésztából. Hagyjuk, elterülni a serpenyőben.",
+                "A palacsintákat egyenként kisütjük mindkét oldalukon.",
+                "2 tojás fehérjét összekeverünk egy csipetnyi sóval, majd felverjük habosra.",
+                "5 dkg vajat összekeverünk 2 kanál porcukorral, citromhéjjal, a tojássárgákkal és túróval. A végén a habot óvatosan belekeverjük.",
+                "A töltelékel megkenjük a palacsintákat, feltekerjük és 3 felé vágjuk. Ha kevés a töltelék a maradékot más töltelékkel is ízesíhetjük így gazdagabb ízélményt kapunk.",
+                "Elhelyezzük a kivajazott tepsiben úgy, hogy félig fedjék egymást.",
+                "Az összekötőhöz összekeverjük a tejet, a tojást és vaníliás cukrot. Majd ráöntjük a tespibe elhelyezett palacsintákra.",
+                "A sütőbe helyezzük és 20-25 perig sütjük. (amíg meg nem pirul a teteje)",
+                "Ízlés szerint porcukorral, felszelve tároljuk."
+            ],
+        image: image_palacsinta,
+    },
+    {
+        title: "Žemlovka",
+        details: "Egy eredeti szlovák recept. Rakott édes desszert.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "6 db szárazabb kifli",
+                    "5 db alma",
+                    "250 g darabos túró",
+                    "3 db tojás",
+                    "1-2 csom vaníliás cukor",
+                    "1 db fahéjas cukor",
+                    "1 ek méz",
+                    "1 ek citromlé",
+                    "2 dl tej",
+                    "2 ek porcukor",
+                    "mazsola"
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "Öntsön tejet egy tálba, adjon hozzá vaníliás cukrot, 2 tojássárgáját és habverővel keverje össze. Vágja a tekercseket negyedekre és áztassa tejbe. Az áztatott sarkokat kikent formába helyezzük egymás mellé.",
+                "Keverje össze a túrót 1 tojássárgájával, 1 evőkanál mézzel és citromlével. Adhatsz hozzá mazsolát. Tegye egy réteg kiflire. Az almákat megtisztítjuk és lereszeljük. Adjunk hozzájuk fahéjas cukrot, és rétegezzük a túróra. Ezután ismét egy réteg áztatott kiflit tettünk.",
+                "Tegye a zsemlét egy fűtött sütőbe körülbelül 15-20 percre. A sütés vége előtt verje meg a fehérjékből származó havat és 2 PL porcukrot, és kenje rá a tekercs tetejére. Körülbelül 5 percig folytatjuk a sütést. A kész zsemlét megszórhatjuk porcukorral.",
+            ],
+        image: image_szlovak,
+    },
+    {
+        title: "Rizskoch",
+        original: "https://gastrohobbi.hu/2018/01/rizskoch-videoval/",
+        details: "Egyik legfinomabb levelestésztás recept. Garantált kedvenc lesz az édesszályúaknál.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "15 dkg rizs",
+                    "5 dl tej",
+                    "1 dl víz",
+                    "csipet só",
+                    "1 tk bio vaníliaaroma",
+                    "8 dkg cukor + 2 dkg",
+                    "2 dkg vaj",
+                    "fél citrom reszelt héja",
+                    "3 dkg beáztatott mazsola",
+                    "3 tojás"
+                    ]
+            },
+        ],
+        howToMakeIt: [
+                "A rizst, a tejjel, a vízzel, a csipet sóval, a vaníliával gyakori kevergetés mellet puhára főzöm. Tejberizs állagúra, majd a tűzhelyről levéve hozzákeverem a cukrot, a vajat, a citromhéjat, a mazsolát és hagyom kihűlni.",
+                "Amikor a massza szoba-hőmérsékletűre hűlt, hozzákeverem a tojássárgáját, majd a +2 dkg cukorral kemény habbá vert fehérjét és egy kivajazott tepsibe öntöm.",
+                "170 fokra előmelegített sütőben, légkeveréses fokozaton, kb. 45 perc alatt készre sütöm.",
+                "A sütési idő sütőnként változhat, azt javaslom, hogy végezzünk tűpróbát, mielőtt kivesszük.",
+                "Ízlés szerint, porcukorral meghintve, málnaszörppel, házi dzsemmel, vaníliasodóval kínáljuk."
+            ],
+        image: image_rizskoch,
+    },
 ];

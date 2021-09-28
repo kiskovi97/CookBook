@@ -34,6 +34,32 @@ img.minilogo, .minilogo img{
     object-fit: scale-down;
 }
 
+.filters {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.filters button {
+    font-size: 1.2em;
+    margin-right: 1em;
+    border: 0;
+    border-radius: 1em;
+    padding: 1em;
+    cursor: pointer;
+    font-weight: 500;
+    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.315));
+}
+
+.filters button:hover {
+    background-color: lightColor;
+}
+
+.filters button.selected {
+    background-color: lightdarkColor;
+    color: white;
+}
+
 
 @media only screen and (max-width: 800px) {
 

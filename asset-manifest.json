@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.c09a09e2.chunk.css",
-    "main.js": "/CookBook/static/js/main.490846fb.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.490846fb.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.3c6def47.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.3c6def47.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.a03b2d66.chunk.js": "/CookBook/static/js/2.a03b2d66.chunk.js",
@@ -27,8 +27,14 @@
     "static/media/image_csirke4.34b14969.jpg": "/CookBook/static/media/image_csirke4.34b14969.jpg",
     "static/media/image_hamburger.3952f6e8.jpg": "/CookBook/static/media/image_hamburger.3952f6e8.jpg",
     "static/media/image_kukorica.b683634c.jpg": "/CookBook/static/media/image_kukorica.b683634c.jpg",
+    "static/media/image_lasagne.eb2b5f5b.jpg": "/CookBook/static/media/image_lasagne.eb2b5f5b.jpg",
+    "static/media/image_mexican2.4756428a.jpg": "/CookBook/static/media/image_mexican2.4756428a.jpg",
+    "static/media/image_palacsinta.5f531721.jpg": "/CookBook/static/media/image_palacsinta.5f531721.jpg",
     "static/media/image_pancacke.65b3fcca.jpg": "/CookBook/static/media/image_pancacke.65b3fcca.jpg",
+    "static/media/image_rakott.9eba9108.jpg": "/CookBook/static/media/image_rakott.9eba9108.jpg",
+    "static/media/image_rizskoch.64f86889.jpg": "/CookBook/static/media/image_rizskoch.64f86889.jpg",
     "static/media/image_saltbrownie.03c9a755.jpg": "/CookBook/static/media/image_saltbrownie.03c9a755.jpg",
+    "static/media/image_szlovak.355d275d.jpg": "/CookBook/static/media/image_szlovak.355d275d.jpg",
     "static/media/image_tortilla.97154ab8.jpg": "/CookBook/static/media/image_tortilla.97154ab8.jpg",
     "static/media/instagram.20d3f9f3.svg": "/CookBook/static/media/instagram.20d3f9f3.svg"
   },
@@ -36,6 +42,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.a03b2d66.chunk.js",
     "static/css/main.c09a09e2.chunk.css",
-    "static/js/main.490846fb.chunk.js"
+    "static/js/main.3c6def47.chunk.js"
   ]
 }

@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from './Page.module.css'
 import BigReceipt from './Components/BigReceipt'
-import projects from './dishes.js';
+import dishes from './dishes';
 
-var Dish = () =>
-    <div className={styles.page}>
-        <BigReceipt proj={projects[window.location.href.split('/').at(-1)]}/>
-    </div>
+var Dish = () => {
+    var id = window.location.href.split('/').at(-1);
+    return (<div className={styles.page}>
+        <BigReceipt proj={dishes.find(item => item.index === id)}/>
+    </div>);
+}
+    
     
 export default Dish

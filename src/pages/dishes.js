@@ -5,6 +5,9 @@ import image_tortilla from '../images/image_tortilla.jpg'
 import image_csirke1 from '../images/image_csirke1.jpg'
 import image_csirke2 from '../images/image_csirke2.jpg'
 import image_hamburger from '../images/image_hamburger.jpg'
+import image_lasagne from '../images/image_lasagne.jpg'
+import image_mexican2 from '../images/image_mexican2.jpg'
+import image_rakott from '../images/image_rakott.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -256,5 +259,98 @@ export default [
             "Amit nem szeretnénk belerakni vagy nem fér bele, azt mellette ízlésesen tudjuk tálalni. (Mi paprikát szoktuk mellé helyezni)"
         ],
         image: image_hamburger,
+    },
+    {
+        title: "Spenótos Lasagne",
+        details: "Egy finom húsmentes alternatíva a lasagne rajongóinak.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                 list: [
+                    "1 fej vöröshagyma",
+                    "3 gerezd fokhagyma",
+                    "só, bors",
+                    "kevés liszt",
+                    "0.5 kg spenót",
+                    "leveskocka",
+                    "tejszín",
+                    "sajt",
+                    "pest (1 kávéskanálnyi rétegenként)",
+                    "mozzarella"
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "Egy fej vöröshagymát 8 evőkanál olajon üvegesre pirítjuk mehet hozzá 3gerezd fogkagyma, só, bors. Ha szeretnéd hogy sűrűbb legyen még a hagymára tehetsz egy-két kanál lisztet.",
+            "Utánna mehet rá a spenót kb. azt hiszem fél kg de ha több nem rontja el. Gyorsfőzőn forralj fel vizet és csinálj belőle egy alap levet leves kockával én csirkéset szoktam. Utánna öntsd rá a spenótra.",
+            "Főjön. Kb 25 percet. És a legvégén még egy doboz tejszín vagy főző tejszín mehet bele. Krémesebb lesz tőle. Így még 10 perc és kész. Az alap így meg van.",
+            "Jöhet az össze rakás. Egy üveg edénybe az első tészta alá kell egy bő kanálnyi, hogy ne legyen kemény az alja. Utánna egy sor tészta, spenót, sajt.",
+            "A középső sorra pedig 2 evőkanál olíva olajba keverj el 1kávéskanál zöld pestót ezzel kell meglocsolni a tésztát és vékonyra vágott paradicsom karikákkal megrakni majd meget mozzarella sajt vagy amilyet szeretsz.",
+            "Utánna újra tészta, spenót, sajt még két rétegben és a legfelsőt tészta, spenót, sajttal fejezd be. Jöhet a sütés kb 30 perc de látod hogy a tészta puha akkor készen van."
+        ],
+        image: image_lasagne,
+    },
+    {
+        title: "Mexikói rakott tészta",
+        details: "Érdekes mexikói csirkemell recept tésztával.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                 list: [
+                    "1 fej vöröshagyma",
+                    "500 g csirkemell",
+                    "2 kanál zsiradék",
+                    "só, bors",
+                    "bab",
+                    "kukorica",
+                    "sűrített paradicsom",
+                    "petrezselyem",
+                    "fokhagyma",
+                    "cayenne bors",
+                    "őrölt kömény",
+                    "tészta",
+                    "sajt",
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "feltesszük főzni a tésztát, majd nekiállunk a csirkemellnek",
+            "A felkockázott és fűszerezett csirkemellett a zsiradékban megsütjük egy keveset, amíg ki nem fehéredik.",
+            "Utána hozzáadjuk a feldarabolt hagymát, babot és kukoricát. Kicsit összefőzzük.",
+            "Hozzáadjuk a sűrített paradicsomot, a cayane bors-ot és a köményt. Ha a paradicsom miatt kesernyésebb cukorral még ízesíthetjük.",
+            "Ha rendesen összefőtt és a tészta is késsz a kettőt összekeverjük és tűz fölött még egy kis reszelt sajttal összekeverjük.",
+        ],
+        image: image_mexican2,
+    },
+    {
+        title: "Tonhalas rakott tészta",
+        details: "Tonhalas rakott tészta ha nem csirkével ennéd a tésztát.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                 list: [
+                    "40 dkg penne",
+                    "16 dkg tonhalkonzerv (aprított )",
+                    "14 dkg sűrített paradicsom",
+                    "0.3 citromból nyert citromlé",
+                    "1 közepes fej vöröshagyma",
+                    "3 gerezd fokhagyma",
+                    "2 ek ketchup",
+                    "10 dkg sajt (reszelt)",
+                    "só, bors",
+                    "oregánó, kakukkfű",
+                    "1 ek napraforgó olaj",
+                ]
+            },
+        ],   
+        howToMakeIt: [
+            "A tésztát kifőzzük.",
+            "A vöröshagymát apóra vágjuk, megdinszteljük.",
+            "Hozzáadjuk a tonhalkonzervet (olaj nélkül).",
+            "Beletesszük a paradicsompürét is, aketchupot, a citromot és a fokhagymát.Kb. 0,5 – 1 dl vizet adunk hozzá, hogy szósz sűrűségű legyen.",
+            "Ízesítjük sóval, borssal, oreganóval, kakukkfűvel. Pár percig összefőzzük.",
+            "Egy jénaiba összekeverjük a tésztát a szósszal, reszelt sajtot teszünk rá, és aranybarnára sütjük.",
+        ],
+        image: image_rakott,
     }
 ];

@@ -18,6 +18,7 @@
     grid-template-columns: 1fr 1fr;
     padding: 2em;
     height: 15em;
+    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.11));
 }
 
 .image img {
@@ -25,6 +26,7 @@
     width: 24em;
     object-fit: cover;
     border-radius: 2em;
+    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.226));
 }
 .image {
     margin: 0 auto;
@@ -61,6 +63,7 @@
     padding: 2em;
     margin-top: 2em;
     height: max-content;
+    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.11));
 }
 
 .receipt .description > div:nth-child(even) {

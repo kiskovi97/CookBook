@@ -20,6 +20,7 @@ import image_saltbrownie from '../images/image_saltbrownie.jpg'
 import image_palacsinta from '../images/image_palacsinta.jpg'
 import image_szlovak from '../images/image_szlovak.jpg'
 import image_rizskoch from '../images/image_rizskoch.jpg'
+import comming_soon from '../images/comming_soon.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -822,5 +823,61 @@ export default [
                 "Ízlés szerint, porcukorral meghintve, málnaszörppel, házi dzsemmel, vaníliasodóval kínáljuk."
             ],
         image: image_rizskoch,
+    },
+    {
+        index: "023",
+        main: true,
+        chicken: true,
+        title: "Édes-savanyú csirkemell - tojásos rízzsel",
+        details: "Ázsiai izesítésű édes savanyú csirkemell. Kínai tojásos rízzsel",
+        ingredients: [
+            {
+                title: "Szósz:",
+                list: [
+                    "1 dl szója szósz",
+                    "1 dl almecet",
+                    "1 dl ketchup",
+                    "1 ek méz",
+                    "2 gerezd fokhagyma",
+                    ]
+            },
+            {
+                title: "Csirkemell:",
+                list: [
+                    "500 g csirkemell",
+                    "só, bors",
+                    "1-2 kanál étkezési keményítő",
+                    "2 db tojás",
+                    "olaj",
+                    "1 db kaliforniai paprika",
+                    "3 db újhagyma (feje)",
+                    "szezámmag"
+                ]
+            },
+            {
+                title: "Rízshez:",
+                list: [
+                    "só",
+                    "250 g rizs",
+                    "3 db tojás",
+                    "3 db újhagyma (szára)",
+                    "1 ek szója szósz",
+                    "gyömbér",
+                    "fokhagyma",
+                    "1-2 ek (barna) cukor"
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "A szószhoz minden hozzávalót összekeverünk és félrerakjuk.",
+                "A csirkéket felszeleteljük, fűszerezzük, bevonjuk keményítővel majd a felvert tojásokkal összekeverjük.",
+                "A csirkéket bő olajban kicsit megsütjük, majd a szeletelt paprikát és ujhagymát hozzákeverjük.",
+                "Az egészet leöntjük a szósszal és tovább sütjük. A végén szezámmagot rászórva tálaljuk",
+                "A körethez megpirítjuk a rízst kis olajban, majd kifőzzük forró sós vízben.",
+                "A tojást elkészítjük rántottának és apró darabokra szaggatjuk.",
+                "A tojáshoz hozzárakjuk az újhagyma szárát, gyömbért, fokhagymát és (barna) cukrot. Ezeket jól összesütjük.",
+                "Ehhez hozzákeverjük a kifőtt rizset. Meglocsoljuk egy kis olajjal és szójaszósszal és még egy kicsit együtt pároljuk."
+            ],
+        image: comming_soon,
     },
 ];

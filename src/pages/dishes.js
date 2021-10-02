@@ -21,6 +21,7 @@ import image_palacsinta from '../images/image_palacsinta.jpg'
 import image_szlovak from '../images/image_szlovak.jpg'
 import image_rizskoch from '../images/image_rizskoch.jpg'
 import comming_soon from '../images/comming_soon.jpg'
+import image_csirke5 from '../images/image_csirke5.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -879,5 +880,43 @@ export default [
                 "Ehhez hozzákeverjük a kifőtt rizset. Meglocsoljuk egy kis olajjal és szójaszósszal és még egy kicsit együtt pároljuk."
             ],
         image: comming_soon,
+    },
+    {
+        index: "024",
+        main: true,
+        chicken: true,
+        title: "Hagymás csirke - Pirított tésztával",
+        details: "Ázsiai izesítésű hagymás csirkemell. Pirított tésztával",
+        ingredients: [
+            {
+                title: "Csirkemell:",
+                list: [
+                    "500 g csirkemell",
+                    "bors",
+                    "2 fej vöröshagyma",
+                    "1 nagyobb sárgarépa",
+                    "2 szál újhagyma",
+                    "1,5 dl gm szójaszósz",
+                    "2 ek gm kukoricakeményítő",
+                    "mogyoró",
+                    "szezámmag"
+                ]
+            },
+            {
+                title: "Tésztához:",
+                list: [
+                    "250 g rizs",
+                    "szója szósz",
+                    "2 szál újhagyma",
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "A tésztát megfőzöm. Egy wokban felhevítem az olajat, majd a megfőtt tésztát hozzáadom. Ehhez hozzáöntöm a szójaszószt, a felaprított újhagymát és összepirítom.",
+                "Mikor a tészta elkészült kiszedem, felforrósítom a húshoz szánt olajat, rádobom az apró csíkokra vágott keményítőben megforgatott csirkemellet és összepirítom.",
+                "Mikor a csirkemell már elkezd pirulni, hozzá adom a vékony csíkokra szeletelt sárgarépát, a felszeletelt vöröshagymát, újhagymát, meglocsolom a szójaszósszal és összepirítom.",
+                "Amikor már a hagyma összesett, de a sárgarépa még ropogós, leveszem a tűzhelyről, megszórom szezámmaggal és mogyoróval és a rizstésztával tálalom."
+            ],
+        image: image_csirke5,
     },
 ];

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.7ae10dbf.chunk.css",
-    "main.js": "/CookBook/static/js/main.328b3254.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.328b3254.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.e31dd384.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.e31dd384.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.1ae6a030.chunk.js": "/CookBook/static/js/2.1ae6a030.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/image_csirke1.6b588340.jpg": "/CookBook/static/media/image_csirke1.6b588340.jpg",
     "static/media/image_csirke2.8fa2d12f.jpg": "/CookBook/static/media/image_csirke2.8fa2d12f.jpg",
     "static/media/image_csirke4.34b14969.jpg": "/CookBook/static/media/image_csirke4.34b14969.jpg",
+    "static/media/image_csirke5.f337b467.jpg": "/CookBook/static/media/image_csirke5.f337b467.jpg",
     "static/media/image_hamburger.3952f6e8.jpg": "/CookBook/static/media/image_hamburger.3952f6e8.jpg",
     "static/media/image_kukorica.b683634c.jpg": "/CookBook/static/media/image_kukorica.b683634c.jpg",
     "static/media/image_lasagne.eb2b5f5b.jpg": "/CookBook/static/media/image_lasagne.eb2b5f5b.jpg",
@@ -44,6 +45,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.1ae6a030.chunk.js",
     "static/css/main.7ae10dbf.chunk.css",
-    "static/js/main.328b3254.chunk.js"
+    "static/js/main.e31dd384.chunk.js"
   ]
 }

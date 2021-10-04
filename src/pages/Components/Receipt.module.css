@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2em;
-    height: 15em;
+    min-height: 15em;
     filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.11));
 }
 
@@ -27,9 +27,16 @@
     object-fit: cover;
     border-radius: 2em;
     filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.226));
+    position: absolute;
+    left: 0;
+    bottom: -8em;
 }
+
 .image {
+    position: relative;
     margin: 0 auto;
+    width: 24em;
+    height: 100%;
     z-index: 3;
 }
 
@@ -77,6 +84,10 @@
         height: 20em;
         width: 20em;
     }
+
+    .image {
+        width: 20em;
+    }
 }
 
 @media only screen and (max-width: 60em) {
@@ -92,6 +103,11 @@
         height: 0em;
         width: 0em;
     }
+
+    .image {
+        width: 0em;
+    }
+
 
     .receipt .main {
         height: fit-content;

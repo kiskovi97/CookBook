@@ -12,6 +12,7 @@
 .receipt .main {
     background-color: mainColor;
     color: white;
+    background: linear-gradient(-90deg, mainColor 0%, darkestColor 100%);
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     display: grid;

@@ -3,6 +3,7 @@
 
 .Me  {
     background-color: mainColor;
+    background: linear-gradient(-90deg, mainColor 0%, darkestColor 100%);
     color: white;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;

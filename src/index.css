@@ -10,7 +10,7 @@ body {
   font-family: 'MyFont';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/background_texture.jpg");;
+  background: linear-gradient(-90deg, mainColor 0%, darkestColor 100%);
 }
 
 body > div {

@@ -8,6 +8,7 @@
     text-align: left;
     background-color: backgroundColor;
     color: darkestColor;
+    background: linear-gradient(220deg, backgroundColor 0%, lightdarkColor 100%);
 }
 
 img.minilogo, .minilogo img{

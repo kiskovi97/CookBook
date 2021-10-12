@@ -4,7 +4,7 @@
 .receipt {
     margin: 0 auto;
     position: relative;
-    background-color: white;
+    background-color: lightColor;
     display: grid;
     grid-template-columns: auto 1fr;
     border-radius: 2em;

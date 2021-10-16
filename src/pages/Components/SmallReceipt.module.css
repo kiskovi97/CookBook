@@ -24,7 +24,6 @@
 }
 
 .receipt .title {
-    font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 0.5em;
     color: mainColor;
@@ -44,14 +43,14 @@
     width: 12em;
     height: 12em;
     object-fit: cover;
-    filter: grayscale(0.6) ;
+    filter: none ;
 }
 
 .receipt:hover > div > img.background {
-    filter: none;
+    filter: brightness(160%) ;
 }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 80em) {
 
     .receipt {
         display: block;
@@ -60,18 +59,39 @@
         max-width: 15em;
     }
 
-    .receipt .title {
+    .receipt .description {
         padding: 0.5em;
-        font-size: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .receipt .title {
+        padding: 0em;
     }
 
     .receipt .details {
-        font-size: 0em;
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+        height: 0;
     }
 
     .receipt > div > img.background {
         width: 100%;
-        height: auto;
-        max-height: 15em;
+        height: 15em;
     }
+}
+
+@media only screen and (max-width: 60em) {
+
+    .receipt {
+        width: 14em;
+        line-height: 1.5em;
+    }
+    
+    .receipt > div > img.background {
+        width: 100%;
+        height: 10em;
+    }
+
 }

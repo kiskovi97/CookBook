@@ -79,7 +79,11 @@ div.description {
     }
 }
 
-@media only screen and (max-width: 80em) {
+@media only screen and (max-width: 90em) {
+
+    .title {
+        font-size: 8em;
+    }
 
     .Me div.description {
         height: 0;

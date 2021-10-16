@@ -42,7 +42,6 @@ img.minilogo, .minilogo img{
 }
 
 .filters button {
-    font-size: 1.2em;
     margin-right: 1em;
     border: 0;
     border-radius: 1em;
@@ -71,6 +70,5 @@ img.minilogo, .minilogo img{
     }
 
     h1, h2, h3 {
-        font-size: 1.5em;
     }
 }

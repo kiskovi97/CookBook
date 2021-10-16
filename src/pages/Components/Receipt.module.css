@@ -43,7 +43,6 @@
 
 .title {
     padding-bottom: 1em;
-    font-size: 3em;
     font-weight: 700;
     text-align: start;
 }
@@ -59,6 +58,7 @@
     grid-template-columns: 1fr 1fr;
     padding-left: 1em;
     padding-right: 1em;
+  text-align: justify;
 }
 
 .description li, .description ol  {
@@ -122,8 +122,26 @@
 }
 @media only screen and (max-width: 50em) {
 
+    .receipt {
+        min-height: unset;
+    }
+
+    .receipt .main {
+        height: unset;
+        min-height: 0;
+    }
+
+    .receipt .title {
+        padding: 0;
+    }
+
+    .receipt .description > div {
+        padding: 2em;
+    }
+
     .receipt .details {
         width: unset;
         margin: 0 auto;
+        height: min-content;
     }  
 }

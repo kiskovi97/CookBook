@@ -11,7 +11,7 @@
     max-width: 100em;
     margin: 0 auto;
     align-content: center;
-    gap: 2.5em;
+    gap: 3em;
     padding: 2em;
 }
 
@@ -21,9 +21,13 @@
     max-width: 40em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .grid {
         display: grid; 
         grid-template-columns: 1fr;
+    }
+
+    .grid_big {
+        gap: 2em;
     }
 }

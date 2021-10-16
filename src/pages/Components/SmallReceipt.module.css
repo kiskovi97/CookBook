@@ -12,15 +12,15 @@
     max-height: 20em;
     height: 12em;
     overflow: hidden;
-    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.315));
+    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.11));
 }
 
 .receipt:hover {
     cursor: pointer;
+    filter: drop-shadow(0px 0px 10px #ffffff);
 }
-
 .receipt .image {
-    filter: drop-shadow(0px 5px 10px rgba(34, 34, 34, 0.315));
+    filter: drop-shadow(0px 5px 10px rgba(99, 2, 2, 0.199));
 }
 
 .receipt .title {
@@ -44,10 +44,6 @@
     height: 12em;
     object-fit: cover;
     filter: none ;
-}
-
-.receipt:hover > div > img.background {
-    filter: brightness(160%) ;
 }
 
 @media only screen and (max-width: 80em) {

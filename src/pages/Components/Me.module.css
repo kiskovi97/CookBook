@@ -48,6 +48,20 @@ div.description {
     max-width: 30em;
 }
 
+
+
+@media only screen and (max-width: 90em) {
+
+    .title {
+        font-size: 8em;
+    }
+
+    .Me div.description {
+        height: 0;
+        font-size: 0;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .person {
         height: 0;
@@ -76,17 +90,5 @@ div.description {
     .logos {
         width: max-content;
         margin: auto;
-    }
-}
-
-@media only screen and (max-width: 90em) {
-
-    .title {
-        font-size: 8em;
-    }
-
-    .Me div.description {
-        height: 0;
-        font-size: 0;
     }
 }

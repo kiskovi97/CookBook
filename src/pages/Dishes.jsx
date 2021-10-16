@@ -5,10 +5,10 @@ import Receipt from './Components/Receipt'
 import { dishesSorted } from './filters';
 
 var Dishes = () =>
-<div className={styles.page}>
-    <div className={gStyles.grid_big}>
-            {dishesSorted.map((station) => (<Receipt proj={station}/>))}
+    <div className={styles.page}>
+        <div className={gStyles.grid_big}>
+            {dishesSorted.map((station, index) => (<Receipt proj={station} index={index} />))}
+        </div>
     </div>
-</div>
-    
+
 export default Dishes

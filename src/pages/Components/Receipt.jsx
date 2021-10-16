@@ -11,7 +11,7 @@ const Receipt = (prop) => {
         var index = prop.proj.index;
         return (
             <div hidden={prop.hidden}>
-                <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutUp" animateOnce >
+                <ScrollAnimation animateIn={"zoomIn"} animateOnce duration={0.6} offset={0}>
                     <div className={styles.receipt} onClick={() => handleClick("dish/" + index)} >
                         <div className={styles.image} >
                             <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} />

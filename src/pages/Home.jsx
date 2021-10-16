@@ -30,7 +30,7 @@ class Home extends React.Component {
             <div className={styles.page}>
                 <Me />
                 <div className={gStyles.grid_big}>
-                    {receipts.map((station, index) => (<Receipt proj={station} index={'/dessert/' + index} />))}
+                    {receipts.map((station, index) => (<Receipt proj={station} index={index} />))}
                 </div>
             </div>)
     }

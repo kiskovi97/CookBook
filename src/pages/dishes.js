@@ -20,8 +20,11 @@ import image_saltbrownie from '../images/image_saltbrownie.jpg'
 import image_palacsinta from '../images/image_palacsinta.jpg'
 import image_szlovak from '../images/image_szlovak.jpg'
 import image_rizskoch from '../images/image_rizskoch.jpg'
-import comming_soon from '../images/comming_soon.jpg'
+//import comming_soon from '../images/comming_soon.jpg'
 import image_csirke5 from '../images/image_csirke5.jpg'
+import image_sweet from '../images/image_sweet.jpg'
+import image_apple from '../images/image_apple.jpg'
+import image_coconat from '../images/image_coconat.jpg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -879,7 +882,7 @@ export default [
                 "A tojáshoz hozzárakjuk az újhagyma szárát, gyömbért, fokhagymát és (barna) cukrot. Ezeket jól összesütjük.",
                 "Ehhez hozzákeverjük a kifőtt rizset. Meglocsoljuk egy kis olajjal és szójaszósszal és még egy kicsit együtt pároljuk."
             ],
-        image: comming_soon,
+        image: image_sweet,
     },
     {
         index: "024",
@@ -918,5 +921,89 @@ export default [
                 "Amikor már a hagyma összesett, de a sárgarépa még ropogós, leveszem a tűzhelyről, megszórom szezámmaggal és mogyoróval és a rizstésztával tálalom."
             ],
         image: image_csirke5,
+    },
+    {
+        index: "025",
+        main: true,
+        chicken: true,
+        title: "Almás sajtos csirke - Édesburgonyával",
+        details: "Édes és sós csirkemell egyszerűen. Egészséges és finom.",
+        ingredients: [
+            {
+                title: "Csirkemell:",
+                list: [
+                    "500 g csirkemell",
+                    "só, bors, fokhagyma",
+                    "2-3 db alma",
+                    "sajt",
+                ]
+            },
+            {
+                title: "Köret:",
+                list: [
+                    "édesburgonya",
+                    "brokkoli",
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "A csirkét felszeletlejük és egy kiolajozott sütőbe elhelyezzük.",
+                "Az almát és a sajtot felkockázzuk, majd rárakjuk a tepsiben lévő csirkékre.",
+                "Az édesburgonyát feldaraboljuk és egy másik kiolajozott sütőbe rakjuk. Sóval, burgonyafűszerrel ízesíthetjük.",
+                "A csirkés tepsi tetejére alufóliát rakunk, és 45 percre berakjuk a sütőbe. Utána pirulásig sütjük még 15-20 percig.",
+                "Az édes burgonyás tepsit vele együtt (ha légkeveréses a sütő) vagy külön utána megsütjük.",
+                "A brokkolit ha friss felszeleteljük, ha mirelit akkor felolvasztjuk.",
+            ],
+        image: image_apple,
+    },
+    {
+        index: "026",
+        dessert: true,
+        title: "Kókuszos-csokis rakott piskóta",
+        details: "Kókuszos tejszínes rakott süti piskótával.",
+        ingredients: [
+            {
+                title: "A piskótához:",
+                list: [
+                    "6 db tojás",
+                    "6 evőkanál finomliszt",
+                    "1 csomag sütőpor",
+                    "1 csipet só",
+                    "1 csomag vaníliás cukor",
+                    "8 ek cukor (kristály)"
+                ]
+            },
+            {
+                title: "A krémhez:",
+                list: [
+                    "5 db tojás",
+                    "750 g mascarpone",
+                    "3 dl habtejszín (vagy hulala)",
+                    "3 kávéskanál vaníliaaroma",
+                    "1 citromból nyert citromhéj (reszelt)",
+                    "17 dkg porcukor",
+                    "50 ml likőr (kókusz) vagy rumaroma",
+                    "250 g kókuszreszelék"
+                ]
+            },
+            {
+                title: "A csokiöntethez:",
+                list: [
+                    "100g csokoládé",
+                    "50 g vaj",
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "A piskótához a tojásokat szétválasztjuk, a sárgáját kikeverjük a cukorral, a vaníliás cukorral, majd hozzáadjuk a lisztet, a kakaót és a sütőport. A fehérjét a sóval habbá verjük, és beleforgatjuk, majd a tésztát sütőpapírozott tepsibe öntjók, és 200 fokra előmelegített sütőbe tesszük, de rögtönlevesszük 150 fokra, s azon tűpróbáig sütjük.",
+                "A krémhez a tojásokat szétválasztjuk, és a tojásfehérjét kivéve, minden hozzávalót alaposan összedolgozunk (a habtejszínt fel lehet verni, de nem muszáj).",
+                "A tojásfehérjét kemény habbá verjük, és beleforgatjuk a krémbe.",
+                "A csokiszószhoz a csokoládét a vajban felolvasztjuk.",
+                "Ha kihűlt a piskóta, tálcára borítjuk, lehúzzuk a papírt róla, és vízszintesen két részbe vágjuk, majd apró kockákra. Kézzel is szét lehet tépkedni, de az nem olyan szép. :)",
+                "Előveszünk egy nagy, magas falú (üveg)tálat, és belerétegezzük a három részt, míg el nem fogynak, a következő sorrendben: krém, piskóta, csokiöntet.",
+                "A tetejét a krémmel zárjuk. Ha kimarad pár evőkanálnyi csokiszósz, azzal díszítjük, de lehet rá csokit forgácsolni is.",
+                "1 éjszakára hűtőbe tesszük, másnap hidegen tálaljuk."
+            ],
+        image: image_coconat,
     },
 ];

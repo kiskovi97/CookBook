@@ -49,20 +49,31 @@
 @media only screen and (max-width: 80em) {
 
     .receipt {
-        display: block;
-        height: max-content;
-        max-height: 40em;
-        max-width: 15em;
+        height: 10em;
+        width: 22em;
+        font-size: 0.9em;
+    }
+    
+    .receipt > div > img.background {
+        width: 10em;
+        height: 10em;
     }
 
     .receipt .description {
         padding: 0.5em;
         padding-left: 2em;
         padding-right: 2em;
+        position: relative;
     }
 
     .receipt .title {
         padding: 0em;
+        height: min-content;
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
     .receipt .details {
@@ -73,21 +84,7 @@
     }
 
     .receipt > div > img.background {
-        width: 100%;
-        height: 15em;
-    }
-}
-
-@media only screen and (max-width: 60em) {
-
-    .receipt {
-        width: 14em;
-        line-height: 1.5em;
-    }
-    
-    .receipt > div > img.background {
-        width: 100%;
+        width: 10em;
         height: 10em;
     }
-
 }

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.95adc340.chunk.css",
-    "main.js": "/CookBook/static/js/main.1469ef51.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.1469ef51.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.3f14b1be.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.3f14b1be.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.1ae6a030.chunk.js": "/CookBook/static/js/2.1ae6a030.chunk.js",
@@ -13,14 +13,15 @@
     "static/css/main.95adc340.chunk.css.map": "/CookBook/static/css/main.95adc340.chunk.css.map",
     "static/js/2.1ae6a030.chunk.js.LICENSE.txt": "/CookBook/static/js/2.1ae6a030.chunk.js.LICENSE.txt",
     "static/media/index.css": "/CookBook/static/media/OpenSauceOne-Regular.942cf144.woff",
-    "static/media/comming_soon.44e955fd.jpg": "/CookBook/static/media/comming_soon.44e955fd.jpg",
     "static/media/foodTemplate.2814ef0e.png": "/CookBook/static/media/foodTemplate.2814ef0e.png",
     "static/media/github.6ec6aa91.svg": "/CookBook/static/media/github.6ec6aa91.svg",
     "static/media/image_01.dfcb2e12.jpg": "/CookBook/static/media/image_01.dfcb2e12.jpg",
     "static/media/image_02.3cf01244.jpg": "/CookBook/static/media/image_02.3cf01244.jpg",
     "static/media/image_03.eb4d29cf.jpg": "/CookBook/static/media/image_03.eb4d29cf.jpg",
+    "static/media/image_apple.38370a89.jpg": "/CookBook/static/media/image_apple.38370a89.jpg",
     "static/media/image_boci.b70a5efc.jpg": "/CookBook/static/media/image_boci.b70a5efc.jpg",
     "static/media/image_brownie2.f189d2df.jpg": "/CookBook/static/media/image_brownie2.f189d2df.jpg",
+    "static/media/image_coconat.0bdb2c6e.jpg": "/CookBook/static/media/image_coconat.0bdb2c6e.jpg",
     "static/media/image_csaszar.2bc83351.jpg": "/CookBook/static/media/image_csaszar.2bc83351.jpg",
     "static/media/image_csiga2.c4e06fa3.jpg": "/CookBook/static/media/image_csiga2.c4e06fa3.jpg",
     "static/media/image_csiga3.01f32230.jpg": "/CookBook/static/media/image_csiga3.01f32230.jpg",
@@ -37,6 +38,7 @@
     "static/media/image_rakott.9eba9108.jpg": "/CookBook/static/media/image_rakott.9eba9108.jpg",
     "static/media/image_rizskoch.64f86889.jpg": "/CookBook/static/media/image_rizskoch.64f86889.jpg",
     "static/media/image_saltbrownie.03c9a755.jpg": "/CookBook/static/media/image_saltbrownie.03c9a755.jpg",
+    "static/media/image_sweet.82836453.jpg": "/CookBook/static/media/image_sweet.82836453.jpg",
     "static/media/image_szlovak.355d275d.jpg": "/CookBook/static/media/image_szlovak.355d275d.jpg",
     "static/media/image_tortilla.97154ab8.jpg": "/CookBook/static/media/image_tortilla.97154ab8.jpg",
     "static/media/instagram.20d3f9f3.svg": "/CookBook/static/media/instagram.20d3f9f3.svg"
@@ -45,6 +47,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.1ae6a030.chunk.js",
     "static/css/main.95adc340.chunk.css",
-    "static/js/main.1469ef51.chunk.js"
+    "static/js/main.3f14b1be.chunk.js"
   ]
 }

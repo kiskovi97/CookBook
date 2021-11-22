@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CookBook/static/css/main.1db9a7d8.chunk.css",
-    "main.js": "/CookBook/static/js/main.2687e65f.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.2687e65f.chunk.js.map",
+    "main.css": "/CookBook/static/css/main.95adc340.chunk.css",
+    "main.js": "/CookBook/static/js/main.db5c26a0.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.db5c26a0.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.1ae6a030.chunk.js": "/CookBook/static/js/2.1ae6a030.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b4f35f4f.chunk.js": "/CookBook/static/js/3.b4f35f4f.chunk.js",
     "static/js/3.b4f35f4f.chunk.js.map": "/CookBook/static/js/3.b4f35f4f.chunk.js.map",
     "index.html": "/CookBook/index.html",
-    "static/css/main.1db9a7d8.chunk.css.map": "/CookBook/static/css/main.1db9a7d8.chunk.css.map",
+    "static/css/main.95adc340.chunk.css.map": "/CookBook/static/css/main.95adc340.chunk.css.map",
     "static/js/2.1ae6a030.chunk.js.LICENSE.txt": "/CookBook/static/js/2.1ae6a030.chunk.js.LICENSE.txt",
     "static/media/index.css": "/CookBook/static/media/OpenSauceOne-Regular.942cf144.woff",
     "static/media/comming_soon.44e955fd.jpg": "/CookBook/static/media/comming_soon.44e955fd.jpg",
@@ -22,6 +22,7 @@
     "static/media/image_apple.93e4b30e.webp": "/CookBook/static/media/image_apple.93e4b30e.webp",
     "static/media/image_boci.d2134bfd.webp": "/CookBook/static/media/image_boci.d2134bfd.webp",
     "static/media/image_brownie2.dd6c7f29.webp": "/CookBook/static/media/image_brownie2.dd6c7f29.webp",
+    "static/media/image_cake.8336170b.webp": "/CookBook/static/media/image_cake.8336170b.webp",
     "static/media/image_coconat.91f29e3c.webp": "/CookBook/static/media/image_coconat.91f29e3c.webp",
     "static/media/image_csaszar.eda25569.webp": "/CookBook/static/media/image_csaszar.eda25569.webp",
     "static/media/image_csiga2.f1429599.webp": "/CookBook/static/media/image_csiga2.f1429599.webp",
@@ -30,12 +31,17 @@
     "static/media/image_csirke2.f48981c9.webp": "/CookBook/static/media/image_csirke2.f48981c9.webp",
     "static/media/image_csirke4.348753fe.webp": "/CookBook/static/media/image_csirke4.348753fe.webp",
     "static/media/image_csirke5.b50f8a58.webp": "/CookBook/static/media/image_csirke5.b50f8a58.webp",
+    "static/media/image_csirke6.8b932aaf.webp": "/CookBook/static/media/image_csirke6.8b932aaf.webp",
+    "static/media/image_csirke7.8c97fdcf.webp": "/CookBook/static/media/image_csirke7.8c97fdcf.webp",
     "static/media/image_hamburger.7e4dfe9b.webp": "/CookBook/static/media/image_hamburger.7e4dfe9b.webp",
+    "static/media/image_kinderbueno.44e412b6.webp": "/CookBook/static/media/image_kinderbueno.44e412b6.webp",
     "static/media/image_kukorica.36dd4f93.webp": "/CookBook/static/media/image_kukorica.36dd4f93.webp",
     "static/media/image_lasagne.7050a2fe.webp": "/CookBook/static/media/image_lasagne.7050a2fe.webp",
     "static/media/image_mexican2.ad64ef45.webp": "/CookBook/static/media/image_mexican2.ad64ef45.webp",
     "static/media/image_palacsinta.d429321d.webp": "/CookBook/static/media/image_palacsinta.d429321d.webp",
     "static/media/image_pancacke.8d9a6fd0.webp": "/CookBook/static/media/image_pancacke.8d9a6fd0.webp",
+    "static/media/image_picant.9a4c7333.webp": "/CookBook/static/media/image_picant.9a4c7333.webp",
+    "static/media/image_pudingcake.3d0a1286.webp": "/CookBook/static/media/image_pudingcake.3d0a1286.webp",
     "static/media/image_rakott.e3cd49bc.webp": "/CookBook/static/media/image_rakott.e3cd49bc.webp",
     "static/media/image_rizskoch.54db662c.webp": "/CookBook/static/media/image_rizskoch.54db662c.webp",
     "static/media/image_saltbrownie.c3054665.webp": "/CookBook/static/media/image_saltbrownie.c3054665.webp",
@@ -47,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.1ae6a030.chunk.js",
-    "static/css/main.1db9a7d8.chunk.css",
-    "static/js/main.2687e65f.chunk.js"
+    "static/css/main.95adc340.chunk.css",
+    "static/js/main.db5c26a0.chunk.js"
   ]
 }

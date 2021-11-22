@@ -25,6 +25,12 @@ import image_csirke5 from '../images/image_csirke5.webp'
 import image_sweet from '../images/image_sweet.webp'
 import image_apple from '../images/image_apple.webp'
 import image_coconat from '../images/image_coconat.webp'
+import image_cake from '../images/image_cake.webp'
+import image_csirke6 from '../images/image_csirke6.webp'
+import image_csirke7 from '../images/image_csirke7.webp'
+import image_kinderbueno from '../images/image_kinderbueno.webp'
+import image_picant from '../images/image_picant.webp'
+import image_pudingcake from '../images/image_pudingcake.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1191,7 +1197,7 @@ export default [
                 "A langyosra hült sajtortára ráöntjük a szószt, majd ha akarjuk dió vagy mogyoró darabokkal "
                 +"díszíthetjük."
             ],
-        image: comming_soon,
+        image: image_cake,
         original: "https://www.youtube.com/watch?v=gzNB_eqB9oM&ab_channel=Bebepisk%C3%B3ta",
     },
     {
@@ -1226,7 +1232,7 @@ export default [
                 "Öntünk hozzá tejszínt és összefűzzük."
                 +" Ha kicsit összerottyant mehet hozzá a reszelt sajt és tovább főzzük."
             ],
-        image: comming_soon,
+        image: image_picant,
         original: "https://m.facebook.com/watch/?v=469880547736631&_rdr",
     },
     {
@@ -1266,7 +1272,7 @@ export default [
                 +" és szépen elegyengetem.",
                 "2-3 órára hűtőbe teszem."
             ],
-        image: comming_soon,
+        image: image_kinderbueno,
         original:"https://gastrohobbi.hu/2021/06/kinder-bueno-szelet-sutes-nelkul/",
     },
     {
@@ -1310,7 +1316,130 @@ export default [
                 +" és legvégül megforgatom benne az előzőleg kisütött, bundázott húst…megszórom szezámmagal.",
                 "Ízlés szerint párolt rizzsel, rizstésztával kínálom, frissen aprított újhagymával megszórva."
             ],
-        image: comming_soon,
+        image: image_csirke7,
         original:"https://gastrohobbi.hu/2018/04/szezamos-csirke-videoval/",
     },
+    {
+        index: "031",
+        dessert: true,
+        title: "Madártej szelet sütés nélkül",
+        details: "Pudingos kekszes desszert édesszájuaknak",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "20 dkg háztartási keksz",
+                    "4 tojássárgája",
+                    "4 dl tej",
+                    "4 dkg liszt",
+                    "1 tk vaníliás cukor",
+                    "3 dl habtejszín",
+                    "10 dkg cukor",
+                    "100g étcsokoládé",
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "A tej egy részében elkeverem a tojássárgáját, a lisztet, az eritritet (vagy porcukrot),"
+                +" a  vaníliát, amikor csomómentes, hozzáadom a maradék tejet és tűzhelyre téve,"
+                +" folyamatos kevergetés mellett kiforralom.",
+                "A krémet kihűtöm, majd hozzáforgatom a habbá vert tejszínt és alaposan összekeverem."
+                +" Fontos, hogy teljesen kihűljön, mert ha melegen hozzákeverem a tejszínhabot, szétfolyik.",
+                "Egy formába (25 cm x 20 cm) teszek egy sor kekszet, rá a krém egyharmadát,"
+                +" majd étcsokoládét reszelek rá, megint keksz, megint krém, megint csokoládé,"
+                +" keksz, krém és a legtetejére csokoládé.",
+                "Hűtőbe teszem és legalább egy órát hűtöm, de legjobb ha egy éjszakára benn hagyjuk."
+            ],
+        image: image_pudingcake,
+        original:"https://gastrohobbi.hu/2020/05/madartej-szelet-sutes-nelkul/?fbclid=IwAR2IYdRiW6VQ_J_Y4amDkbK24UbIJ9EEzHzlwXDCpf8Xzw8eFdByE5pEku8",
+    },
+    {
+        index: "032",
+        chicken: true,
+        main: true,
+        title: "Töltött csirke sajtos tésztával",
+        details: "Olasz tészta és bacon-be tekert édes csirkemell kombinációja",
+        ingredients: [
+            {
+                title: "Csirkéhez:",
+                list: [
+                    "1 kg csirkemell",
+                    "feta sajt",
+                    "trapista sajt",
+                    "2 db alma",
+                    "1 csomag aszaltszilva",
+                    "bacon",
+                    "bors",
+                    "olaj"
+                ]
+            },
+            {
+                title: "Tésztához:",
+                list: [
+                    "0.5 kg tészta",
+                    "2 csésze tej",
+                    "parmezán (bármilyen kemény sajt)",
+                    "mozzarella",
+                    "5 dkg vaj",
+                    "3 gerezd fokhagyma",
+                    "1 ek bazsalikom",
+                    "1 ek oregánó",
+                    "só, bors",
+                    "1 ek liszt"
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "Az almát, az aszaltszilvát és a sajtokat kis darabokra szeleteljük."
+                +" A trapistából egy kis adagot meghagyunk és lereszeljük.",
+                "A csirkemellett vékony szeletekre vágjuk és beborsózzuk. "
+                +"(Ne sózzuk, mert a bacon és a sajt elég sós lesz)",
+                "A szeletek közepére a feldarabolt töltelékből kicsit rakunk, majd betekerjük. "
+                +" A feltekert csirkét körbetekerjük bacon-el és fogpiszkálóval összefogjuk.",
+                "Olajjal kikent tepsibe helyezzük a csirkéket és alufóliával lefedve fél órára a sütőbe rakjuk.",
+                "Fél óra után levesszük az alufliát és rászórjuk a reszelt sajtot a csirkékre. "
+                +"Visszarakjuk sülni a sütőbe addig, amíg a sajt és a csirkék szépen meg nem barnulnak.",
+                "Tálalás előtt a csirkékből ne felejtsük el kivenni a fogpiszkálókat.",
+                "A tésztát megfőzzük.",
+                "Felolvasztott vajban a fűszerket és a lisztet összekverem és megpirítom. "
+                +"Ezután hozzáöntöm a tejet és a sajtokat és addig keverem amíg a sajot bele nem olvadnak a szószba. "
+                +"Legvégül egy szedőkanálnyi tésztavízet belerakunk. Majd ízlés szerint sóval és borsal ízesítjük.",
+                "Legvégül a kész tésztával összekeverjük és hagyjuk egy kicsit állni, hogy a szószt felszívja a tészta.",
+            ],
+        image: image_csirke6,
+        original:"https://www.tiktok.com/@feeedmi/video/6998512434424057093?source=webapp_messages",
+    },
+    {
+        index: "033",
+        main: true,
+        title: "Szűzpecsenye \"Stromp\" módra",
+        details: "Szűzpecsene tökéletes elkészítésének receptje",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "0.5-1 kg szűzpecsenye",
+                    "1 (nagy) fej hagyma",
+                    "olaj",
+                    "babérlevél",
+                    "1 ek irospaprika",
+                    "só, bors ítlés szerint",
+                    "őrölt kömény",
+                    "1 ek mustár",
+                    "2-3 gerezd fokhagyma",
+                    "kolbász ízlés szerint"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A szűzérmét újnyi szeletekre vágjuk. Majd a hagymát és a fokhagymát felszeleteljük",
+                "Egy serpenyőben olajon megpirítjuk a hagymát."
+                +" Ha megpirult belerakjuk a babérlevelet ,a pirospaprikát és a felszeletelt szűzérmét."
+                +" Fehéredésig sütjük. Sóval, borssal, mustárral és köménnyel ízesítjük.",
+                "Hozzáadjuk a kolbászt, majd felöntjük vízzel úgy, hogy pont ellepje. "
+                +"30 percig főzzük.",
+                "A végén kivesszük a szűzérméket, a kolbászt és a babérleveleket. A szószt összeturmixoljuk és utána visszarakhatjuk a husokat."
+            ],
+        image: comming_soon,
+    }
 ];

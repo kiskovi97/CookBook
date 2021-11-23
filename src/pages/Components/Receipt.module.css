@@ -83,7 +83,7 @@
     
     .image img {
         height: 20em;
-        width: 20em;
+        width: fit-content;
     }
 
     .image {
@@ -99,20 +99,22 @@
     .receipt .description > div:nth-child(even) {
         top: 0em;
     }
-    
-    .image img {
-        height: 0em;
-        width: 0em;
-    }
-
-    .image {
-        width: 0em;
-    }
-
 
     .receipt .main {
         height: fit-content;
         min-height: 15em;
+        grid-template-columns: 1fr;
+    }
+
+    .image {
+        position: relative;
+        height: 15em;
+    }
+
+    .image img {
+        position: relative;
+        bottom: -1em;
+        height: 18em;
     }
 
     .receipt .description > div { 

@@ -1413,7 +1413,7 @@ export default [
         index: "033",
         main: true,
         title: "Szűzpecsenye \"Stromp\" módra",
-        details: "Szűzpecsene tökéletes elkészítésének receptje",
+        details: "Szűzpecsenye tökéletes elkészítésének receptje",
         ingredients: [
             {
                 title: "Hozzávalók:",
@@ -1422,7 +1422,7 @@ export default [
                     "1 (nagy) fej hagyma",
                     "olaj",
                     "babérlevél",
-                    "1 ek irospaprika",
+                    "1 ek pirospaprika",
                     "só, bors ítlés szerint",
                     "őrölt kömény",
                     "1 ek mustár",

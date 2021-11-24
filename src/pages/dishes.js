@@ -31,6 +31,7 @@ import image_csirke7 from '../images/image_csirke7.webp'
 import image_kinderbueno from '../images/image_kinderbueno.webp'
 import image_picant from '../images/image_picant.webp'
 import image_pudingcake from '../images/image_pudingcake.webp'
+import image_szuz from '../images/image_szuz.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1440,6 +1441,6 @@ export default [
                 +"30 percig főzzük.",
                 "A végén kivesszük a szűzérméket, a kolbászt és a babérleveleket. A szószt összeturmixoljuk és utána visszarakhatjuk a husokat."
             ],
-        image: comming_soon,
+        image: image_szuz,
     }
 ];

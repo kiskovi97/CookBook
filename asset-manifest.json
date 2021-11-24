@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.2c001a83.chunk.css",
-    "main.js": "/CookBook/static/js/main.9f8c0a3c.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.9f8c0a3c.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.f4f3096c.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.f4f3096c.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.1ae6a030.chunk.js": "/CookBook/static/js/2.1ae6a030.chunk.js",
@@ -47,6 +47,7 @@
     "static/media/image_saltbrownie.c3054665.webp": "/CookBook/static/media/image_saltbrownie.c3054665.webp",
     "static/media/image_sweet.cbf92734.webp": "/CookBook/static/media/image_sweet.cbf92734.webp",
     "static/media/image_szlovak.46af0e01.webp": "/CookBook/static/media/image_szlovak.46af0e01.webp",
+    "static/media/image_szuz.d527164f.webp": "/CookBook/static/media/image_szuz.d527164f.webp",
     "static/media/image_tortilla.80ea5b3e.webp": "/CookBook/static/media/image_tortilla.80ea5b3e.webp",
     "static/media/instagram.20d3f9f3.svg": "/CookBook/static/media/instagram.20d3f9f3.svg"
   },
@@ -54,6 +55,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.1ae6a030.chunk.js",
     "static/css/main.2c001a83.chunk.css",
-    "static/js/main.9f8c0a3c.chunk.js"
+    "static/js/main.f4f3096c.chunk.js"
   ]
 }

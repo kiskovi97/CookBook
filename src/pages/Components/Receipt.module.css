@@ -84,6 +84,7 @@
     .image img {
         height: 20em;
         width: fit-content;
+        max-width: 20em;
     }
 
     .image {
@@ -115,6 +116,7 @@
         position: relative;
         bottom: -1em;
         height: 18em;
+        max-width: 20em;
     }
 
     .receipt .description > div { 

@@ -1442,5 +1442,33 @@ export default [
                 "A végén kivesszük a szűzérméket, a kolbászt és a babérleveleket. A szószt összeturmixoljuk és utána visszarakhatjuk a husokat."
             ],
         image: image_szuz,
+    },
+    {
+        index: "034",
+        main: true,
+        title: "Pisztáciás pappardelle",
+        details: "Teszínes pisztáciás olasz tészta, karamellizált hagymával",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1-2 fej hagyma",
+                    "vaj és olaj",
+                    "tejszín",
+                    "bazsalikom",
+                    "só és bors",
+                    "pisztácia",
+                    "valamilyen kemény sajt"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A hagymákat vajban és olajban megkaramellizáljuk. (kb 20 perc) " 
+                +"Utána öntünk rá tejszínt, adunk hozzá bazsalikomot, sót, borsot és összefőzzük.",
+                "A tésztát feltesszük főzni, majd miután kifőtt, a főzővízből adjunk hozzá a szószhoz. "
+                +"A pisztáciát feldaranoljuk apróra, reszelünk sajtot és ezeket is hozzáadjuk a szószhoz.",
+                "Legvégül a szószt a tésztával összekeverjük majd a (rozmaringgal fűszerezett hússal tálaljuk."
+            ],
+        image: comming_soon,
     }
 ];

@@ -43,7 +43,7 @@ export default [
         original: "https://www.nosalty.hu/recept/sajtszoszos-baconos-spagetti",
         details: "Egy carbonara szerű tészta és egy édes csirkemell keveréke. "
         +"Jól passzol a kettő egymáshoz és elég gazdag ízélményt hagy maga után. "
-        +"A csirke nélkül is elkészíthető illetve könnyen turbózható étel.",
+        +"Húsmentesen is elkészíthető, illetve könnyen módosítható étel.",
         ingredients: [
             {
                 title: "A spagettihez:",
@@ -53,7 +53,7 @@ export default [
                     "3 dl tej",
                     "1 csapott ek finomliszt",
                     "2 gerezd fokhagyma",
-                    "1 ek olívaolaj",
+                    "1 ek olaj",
                     "2 újhagyma",
                     "só ízlés szerint",
                     "bors ízlés szerint",
@@ -74,28 +74,28 @@ export default [
             },
         ],   
         howToMakeIt: [
-            "Az olívaolajon lepiritjuk a bacont, a fokhagymával átforgatjuk.",
+            "Az olajon lepiritjuk a bacont, a fokhagymával átforgatjuk.",
             "Meghintjük a liszttel, majd a tejszínnel és a tejjel felöntjük."
             +" Hozzáadjuk a felvágott ujhagymát.",
             "Sózzuk, borsozzuk, belekeverjük a reszelt sajtot, a végén szerecsendióval meghintjük.",
-            "Főtt tésztával összekeverjük.",
+            "A főtt tésztával összekeverjük.",
             "Olajban kisütjük a felkockázott csirkemellet. Sóval, borsal és szerecsendióval ízesítjük.",
             "Hozzáadjuk a kis darabokra szeletelt aszaltszilvát, és hozzáöntjük a tejszínt.",
-            "Összefőzzük és tésztával együtt tálaljuk"
+            "Összefőzzük, és a tésztával együtt tálaljuk"
         ],
         image: image_02,
     },
     {
         index: "002",
         main: true,
-        title: "Majonézes kukoricasaláta - Csirkével és krokettel",
+        title: "Majonézes kukoricasaláta - Natúr csirkével és krokettel",
         original: "https://www.nosalty.hu/recept/majonezes-kukoricasalata",
-        details: "Egyszerű kukoricasaláta, hozzá csirkemell és krokett.",
+        details: "Egyszerű kukoricasaláta, hozzá natúr csirkemell és krokett.",
         ingredients: [
             {
                 title: "Kukorica salátához:",
                  list: [
-                    "29 dkg csemegekukorica",
+                    "300 g csemegekukorica",
                     "30 g majonéz",
                     "5 g mustár",
                     "60 g tejföl",
@@ -104,7 +104,7 @@ export default [
             {
                 title: "Egyéb:",
                  list: [
-                    "50 dkg csirkemell",
+                    "500 g csirkemell",
                     "1 csomag fagyasztott krokett",
                     "só, bors és egyéb fűszerek"
                 ]
@@ -113,8 +113,8 @@ export default [
         howToMakeIt: [
             "A kukorica levét leöntjük.",
             "A majonézt kikeverjük a mustárral és a tejföllel, majd az egészet összekeverjük a kukoricával.",
-            "Csirkemellett felszeleteljük, fűszerezzük ízlés szerint és megsütjük kevés olajban",
-            "Krokettet kiolvasztjuk majd megsütjük a sütőben",
+            "Csirkemellett felszeleteljük, fűszerezzük ízlés szerint és megsütjük kevés olajon.",
+            "Krokettet kiolvasztjuk, majd megsütjük a sütőben.",
         ],
         image: image_kukorica,
     },
@@ -128,7 +128,7 @@ export default [
             {
                 title: "Hozzávalók:",
                  list: [
-                    "1 egész csirke vagy 1kg csirkeszárny/comb",
+                    "1 egész csirke vagy 1 kg csirkeszárny/comb",
                     "1.5 kg burgonya",
                     "2 vöröshagyma",
                     "4 gerezd fokhagyma",
@@ -141,12 +141,12 @@ export default [
             },
         ],   
         howToMakeIt: [
-            "A csirkét feldaraboljuk és fűszerezzük",
-            "A hagymát és krumplit megpucoljuk, majd feldaraboljuk és a tepsibe helyezzük,"
-            +" majd héjastúl belerakjuk a fokhagymagerezdeket",
-            "Fűszerezzük majd meglocsoljuk egy kis olajjal és átforgatjuk",
-            "Ráhelyezzük a csirke darabokat és lefedjük fóliával",
-            "Sütőben a hús puhulásáig főliával sütjük, majd levesszük róla a fóliát és pirulásig sütjük.",
+            "A csirkét feldaraboljuk és fűszerezzük.",
+            "A hagymát és a krumplit megpucoljuk, majd feldaraboljuk és a tepsibe helyezzük,"
+            +" majd héjastól belerakjuk a fokhagymagerezdeket.",
+            "Fűszerezzük, majd meglocsoljuk egy kis olajjal és átforgatjuk.",
+            "Ráhelyezzük a csirke darabokat, majd lefedjük fóliával.",
+            "A sütőben a hús puhulásáig fóliával sütjük, majd levesszük róla a fóliát és hagyjuk megpirulni.",
         ],
         image: image_csirke4,
     },
@@ -156,10 +156,10 @@ export default [
         main: true,
         title: "Chicken Tortilla Wrap",
         original: "https://www.instagram.com/p/CTW2-pbjalX/",
-        details: "Tortilla lapokból összerakott rakott csirke",
+        details: "Tortilla lapokból készített rakott csirke",
         ingredients: [
             {
-                title: "Töltelékhez",
+                title: "Töltelékhez:",
                  list: [
                     "0.5 kg csirkemell",
                     "400 ml sűrített paradicsom",
@@ -167,17 +167,15 @@ export default [
                     "1 vöröshagyma",
                     "1 lilahagyma",
                     "2 gerezd fokhagyma",
-                    "só, bors",
-                    "cayenne bors",
-                    "mozarella vagy egyéb sajt"
+                    "só, bors, cayenne bors",
+                    "mozarella, vagy egyéb sajt"
                 ]
             },
             {
                 title: "Szószhoz:",
                  list: [
                     "3 dl tejföl",
-                    "cayenne bors",
-                    "só, bors",
+                    "só, bors, cayanee bors",
                     "citromlé",
                     "3 db koktélparadicsom",
                     "kukorica",
@@ -186,25 +184,25 @@ export default [
             {
                 title: "Egyéb:",
                  list: [
-                    "6-12 db tortilla lap",
+                    "6 - 12 db tortilla lap",
                 ]
             },
         ],   
         howToMakeIt: [
-            "A paprikát, hagymákat és a csirkemellet felvágjuk kis szeletekre,"
-            +" majd belehelyezzük a kis olajjal kikent serpenyőbe.",
+            "A paprikát, a hagymákat és a csirkemellet felvágjuk kis szeletekre,"
+            +" majd belehelyezzük a kevés olajjal kikent serpenyőbe.",
             "A tölteléket fűszerezzük, és rányomjuk vagy szeljük a fokhagymát",
-            "A tölteléket addig sütjük, amíg nem fehéredik ki a csirke. "
-            +"Majd utána a hozzáadott paradicsomlében főzzük tovább.",
+            "A tölteléket a csirke kifehéredéséig sütjük, "
+            +"majd utána a hozzáadott paradicsomlében főzzük tovább.",
             "A kiolajozott tepsibe belehelyezzük a tortilla lapokat."
-            +" Először a sarkokra majd a szélekre helyezünk egy-egy lapot úgy,"
-            +" hogy fele kilógjon a tepsiből. "+
-            "A tespi alján lév lyukakat még pár lappal befedjük, majd megszórjuk az egészet reszelt sajttal.",
-            "Bele kanalazzuk a tölteléket, szépen elterítjük majd a tetejét megszórjuk reszelt sajttal.",
-            "A kilógó tortilla lapokat behajtjuk. Majd a lyukakat befedjük további lapokkal.",
+            +" Először a sarkokra, majd a szélekre helyezünk egy-egy lapot úgy,"
+            +" hogy a fele kilógjon a tepsiből. "+
+            "A tespi alján lévő lyukakat még pár lappal befedjük, majd megszórjuk az egészet reszelt sajttal.",
+            "Belekanalazzuk a tölteléket, szépen elterítjük majd a tetejét megszórjuk reszelt sajttal.",
+            "A kilógó tortilla lapokat behajtjuk, majd a lyukakat befedjük további lapokkal.",
             "A lapok tetejére ráhelyezünk egy másik tepsit,"
-            +" hogy lenyomja és a sütőben 30-45 perc alatt megsütjük.",
-            "A szószhoz a paradicsomokat felvágjuk és a hozzávalókat összekeverjük."
+            +" hogy lenyomja, és a sütőben 30-45 perc alatt megsütjük.",
+            "A szószhoz a paradicsomokat felvágjuk, és a hozzávalókat összekeverjük."
         ],
         image: image_tortilla,
     },
@@ -213,7 +211,7 @@ export default [
         chicken: true,
         main: true,
         title: "Narancsos csirke",
-        details: "Könnyed ebéd csirkéből. Rizzsel tálalva tökéletes.",
+        details: "Könnyed ebéd csirkéből, mely rizzsel tálalva tökéletes.",
         ingredients: [
             {
                 title: "Csirkéhez:",
@@ -234,11 +232,11 @@ export default [
             },
         ],   
         howToMakeIt: [
-            "A csirkét feldaraboljuk megsózzuk, borsózzuk majd bekenjük a zúzott fokhagymával.",
+            "A csirkét feldaraboljuk, megsózzuk, borsózzuk, majd bekenjük a zúzott fokhagymával.",
             "Serpenyőben felolvasztunk egy evőkanál vajat, majd belehelyezzük a csirkét és elkezdjük sütni.",
-            "A maradék vajat felolvasztjuk, belekeverjük a mézek és a naracslevet,"
-            +" majd ha a csirkedarabok már elég puhák, akkor rájuköntjük és tovább sütjük.",
-            "Ha a csirkék puhák és úgyérezzük átsültek rendesen akkor főtt rizzsel tálaljuk"
+            "A maradék vajat felolvasztjuk, belekeverjük a mézet és a naracslevet,"
+            +" majd ha a csirkedarabok már elég puhák, akkor ráöntjük és tovább sütjük.",
+            "Ha a csirkék puhák és megsültek, akkor főtt rizzsel tálaljuk."
         ],
         image: image_csirke1,
     },
@@ -247,15 +245,15 @@ export default [
         chicken: true,
         main: true,
         title: "Ananászos csirkemell",
-        details: "Könnyed ebéd csirkéből. Rizzsel tálalva tökéletes.",
+        details: "Trópusi ízvilág a konyhádban",
         ingredients: [
             {
                 title: "Csirkéhez:",
                  list: [
                     "50 dkg csirkemell",
                     "só, bors",
-                    "1-2 gerezd fokhagyma",
-                    "10-5 dkg vaj",
+                    "1 - 2 gerezd fokhagyma",
+                    "5 - 10 dkg vaj",
                     "1 konzerv ananász (karikázott nem szeletelt)",
                     "sajt"
                 ]
@@ -264,12 +262,12 @@ export default [
         howToMakeIt: [
             "A csirkét lapos szeletekre vágjuk, majd fűszerezzük sóval, borssal és fokhagymával.",
             "Egy tepsit kivajazunk, majd belehelyezzük a csirkemell szeleteket úgy, hogy ne fedjék egymást.",
-            "A tespit behelyezzük az előmelegített sütőbe és egy 10-20 percig sütjük.",
-            "Ha a csirkék már kezdenek fehéredni, akkor kivesszük,"
-            +" megfordítjuk őket és egy-egy karika ananászt és tetejére egy lapka sajtot teszünk,"
-            +" majd visszarakjuk.",
+            "A tespit behelyezzük az előmelegített sütőbe és 10-20 percig sütjük.",
+            "Ha a csirkék már kezdenek fehéredni, akkor kivesszük őket a sütőből,"
+            +" megfordítjuk és egy-egy karika ananászal és lapka sajtal lefedjük,"
+            +" majd visszatesszük őket sülni.",
             "Addig sütjük amíg a sajt rá nem olvad és pirul a csirkékre.",
-            "Készen rízzsel tálaljuk"
+            "Rízzsel tálaljuk."
         ],
         image: image_csirke2,
     },
@@ -277,12 +275,12 @@ export default [
         index: "007",
         main: true,
         title: "Hamburger",
-        details: "Sokszor használt és bevált hamburger recept (hús sütéstől az összeállításig)",
+        details: "Bevált hamburger recept a hús sütéstől az összeállításig",
         ingredients: [
             {
                 title: "Hozzávalók:",
                  list: [
-                    "50 dkg kevert darálthús (disznó és marha 50-50%)",
+                    "50 dkg kevert darálthús (disznó és marha 50 - 50%)",
                     "só, bors és egyéb fűszerek",
                     "hamburger buci, vagy zsemle",
                     "saláta",
@@ -292,7 +290,7 @@ export default [
                 ]
             },
             {
-                title: "Kiegészítők:",
+                title: "Extra feltét:",
                  list: [
                     "vöröshagyma",
                     "paprika",
@@ -301,21 +299,18 @@ export default [
             },
         ],   
         howToMakeIt: [
-            "A húst megfűszerezzük és összegyúrjuk. Majd ezek után szétválasztjuk gombócokra."
-            +" (nagyobbakat mint amekkora húst szeretnénk a buciba, mert össze fog ugrani)",
-            "A szalonnákat olajozatlan serpenyőbe helyezzük és hagyjuk hogy megpiruljanak"
-            +" és eresszenek zsiradékot.",
+            "A húst megfűszerezzük és összegyúrjuk, majd gombócokat gyúrunk belőle"
+            +" (nagyobbakat, mint amekkora húst szeretnénk a buciba, mert össze fog esni).",
+            "A szalonnákat olajozatlan serpenyőbe helyezzük és hagyjuk, hogy megpiruljanak"
+            +" és zsiradékot eresszenek.",
             "A húsgolyókat kilapítjuk egy csésze segítségével (érdemes a csészét és a deszkát beolajozni).",
-            "Kiveszük a kész szalonnát a serpenyőből, majd az elkészített hús korongokat a helyükre rakjuk"
-            +" és 5 percig sütjük. Nem mozgatjuk maximum a hőfokot állítgatjuk rajta.",
-            "5 perc után megforgatjuk és tovább sütjük még 5 percig.",
-            "Kész korongokat egy tányérra helyezzük majd egy-egy lapka sajtot helyezünk rájuk amíg még melegek.",
-            "A zsemlét felszeljük és a hús által eresztett szaftban megpirítjuk a belső oldalát kicsit.",
-            "Zöldségeket felvágjuk, esetleg a hagymát pirítjuk ha szeretnénk.",
-            "Összeállításnál előszőr mustárral az alját, majonézzel a tetejét kenjük a szendvicsnek."
-            +" Erre megy rá a hús, majd ketchup. Aztán pedig a saláta és egyébb zöldségek.",
-            "Amit nem szeretnénk belerakni vagy nem fér bele, azt mellette ízlésesen tudjuk tálalni."
-            +" (Mi paprikát szoktuk mellé helyezni)"
+            "Kiveszük a kész szalonnát a serpenyőből, majd az elkészített hús korongokat a helyükre rakjuk,"
+            +" és 5-5 percig mindkét oldalát megsütjük.",
+            "A kész korongokat egy tányérra helyezzük, majd egy-egy lapka sajtot helyezünk rájuk, amíg még melegek.",
+            "A zsemlét felszeljük és a hús által eresztett zsiradékban a belső oldalát kicsit megpirítjuk.",
+            "A zöldségeket felvágjuk, a hagymát pedig megpirítjuk, ha szeretnénk.",
+            "Előszőr mustárral megkenjük a szendvicsek alját, majd majonézzel a tetejét,"
+            +" erre helyezzük rá a sajtos húskorongokat, amit ketchuppal lekenünk. Végül pedig rátesszük a salátát és az egyébb zöldségeket.",
         ],
         image: image_hamburger,
     },
@@ -323,7 +318,7 @@ export default [
         index: "008",
         main: true,
         title: "Spenótos Lasagne",
-        details: "Egy finom húsmentes alternatíva a lasagne rajongóinak.",
+        details: "Egy finom húsmentes alternatíva a lasagne rajongóknak",
         ingredients: [
             {
                 title: "Hozzávalók:",
@@ -332,29 +327,29 @@ export default [
                     "3 gerezd fokhagyma",
                     "só, bors",
                     "kevés liszt",
-                    "0.5 kg spenót",
+                    "1 kg spenót",
                     "leveskocka",
                     "tejszín",
                     "sajt",
-                    "pest (1 kávéskanálnyi rétegenként)",
-                    "mozzarella"
+                    "pesto (1 tk rétegenként)",
+                    "mozzarella",
+                    "lasagne tészta"
                 ]
             },
         ],   
         howToMakeIt: [
-            "Egy fej vöröshagymát 8 evőkanál olajon üvegesre pirítjuk mehet hozzá 3gerezd fogkagyma,"
-            +" só, bors. Ha szeretnéd hogy sűrűbb legyen még a hagymára tehetsz egy-két kanál lisztet.",
-            "Utánna mehet rá a spenót kb. azt hiszem fél kg de ha több nem rontja el."
-            +" Gyorsfőzőn forralj fel vizet és csinálj belőle egy alap levet leves kockával én csirkéset szoktam. Utánna öntsd rá a spenótra.",
-            "Főjön. Kb 25 percet. És a legvégén még egy doboz tejszín vagy főző tejszín mehet bele."
-            +" Krémesebb lesz tőle. Így még 10 perc és kész. Az alap így meg van.",
-            "Jöhet az össze rakás. Egy üveg edénybe az első tészta alá kell egy bő kanálnyi,"
-            +" hogy ne legyen kemény az alja. Utánna egy sor tészta, spenót, sajt.",
-            "A középső sorra pedig 2 evőkanál olíva olajba keverj el 1kávéskanál zöld pestót"
-            +" ezzel kell meglocsolni a tésztát és vékonyra vágott paradicsom karikákkal megrakni"
-            +" majd meget mozzarella sajt vagy amilyet szeretsz.",
-            "Utánna újra tészta, spenót, sajt még két rétegben és a legfelsőt tészta, spenót,"
-            +" sajttal fejezd be. Jöhet a sütés kb 30 perc de látod hogy a tészta puha akkor készen van."
+            "Egy fej vöröshagymát 8 evőkanál olajon üvegesre pirítunk, majd hozzáteszünk 3 gerezd fogkagymát."
+            +" Sóval, borssal ízesítjük. Ha sűríteni szeretnénk, a hagymára tehetünk 1-2 evőkanál lisztet, "
+            + "majd hozzáadjuk a spenótot.",
+            " Felforralt vízben feloldunk egy leveskockát, melyet hozzáadunk a spenóthoz.",
+            "Összefőzzük, majd hozzáadjuk a tejszínt, és pár percig még tovább forraljuk.",
+            "Két evőkanál olajban elkeverünk 1-2 teáskanál pesto-t.",
+            "Egy tepsi aljába öntünk egy keveset a spenótos szószból, majd ráhelyezünk egy sor lasagne tésztát."
+            +" Erre jön a spenótos szósz, majd a sajt és ismét a lasagne tészta.",
+            "A középső rétegre a spenótos szósz helyett pesto-s keveréket kenünk, és ráhelyezzük az apró szeletekre vágott mozzarella sajtot.",
+            "A rétegzést a korábban említett módon folytatjuk mindaddig, amíg el nem fogy a tészátánk."
+            +" A legtetejét leöntjük a maradék spenótos szósszal és megszórjuk reszelet sajttal.",
+            "A tésztát puhulásáig sütjük (kb 30 perc)."
         ],
         image: image_lasagne,
     },
@@ -363,7 +358,7 @@ export default [
         chicken: true,
         main: true,
         title: "Mexikói rakott tészta",
-        details: "Érdekes mexikói csirkemell recept tésztával.",
+        details: "Pikáns mexikói csirkemell recept",
         ingredients: [
             {
                 title: "Hozzávalók:",
@@ -371,13 +366,12 @@ export default [
                     "1 fej vöröshagyma",
                     "500 g csirkemell",
                     "2 kanál zsiradék",
-                    "só, bors",
+                    "só, bors, cayenne bors",
                     "bab",
                     "kukorica",
                     "sűrített paradicsom",
                     "petrezselyem",
                     "fokhagyma",
-                    "cayenne bors",
                     "őrölt kömény",
                     "tészta",
                     "sajt",
@@ -385,14 +379,11 @@ export default [
             },
         ],   
         howToMakeIt: [
-            "feltesszük főzni a tésztát, majd nekiállunk a csirkemellnek",
-            "A felkockázott és fűszerezett csirkemellett a zsiradékban megsütjük egy keveset,"
-            +" amíg ki nem fehéredik.",
-            "Utána hozzáadjuk a feldarabolt hagymát, babot és kukoricát. Kicsit összefőzzük.",
-            "Hozzáadjuk a sűrített paradicsomot, a cayane bors-ot és a köményt."
-            +" Ha a paradicsom miatt kesernyésebb cukorral még ízesíthetjük.",
-            "Ha rendesen összefőtt és a tészta is késsz a kettőt összekeverjük és"
-            +" tűz fölött még egy kis reszelt sajttal összekeverjük.",
+            "A felkockázott és sóval, borssal, fokhagymával fűszerezett csirkemellett zsiradékban fehéredésig sütjük.",
+            "Hozzáadjuk a babot, a kukoricát és a felszeletelt hagymát.",
+            "Hozzáadjuk a sűrített paradicsomot és fűszerezzük őrölt köménnyel, cayenne borssal és petrezselyemmel."
+            +" Ízlés szerint kevés cukorral vagy ketchuppal ízesíthetjük.",
+            "Hozzáadjuk a főtt tésztát, majd tűz fölött reszelt sajttal összekeverjük.",
         ],
         image: image_mexican2,
     },
@@ -823,7 +814,7 @@ export default [
                 title: "Töltelékhez:",
                 list: [
                     "csipet só",
-                    "1-2 tojás",
+                    "1 - 2 tojás",
                     "5 dkg vaj",
                     "2 kanál porcukor",
                     "citromhéj",
@@ -831,7 +822,7 @@ export default [
                     ]
             },
             {
-                title: "Összekötő:",
+                title: "Öntet:",
                 list: [
                     "tej",
                     "tojás",
@@ -845,22 +836,22 @@ export default [
                 +" Hozzáadjuk a tojást, az olajat, a csipet sót,"
                 +" és alaposan összekeverjük. Használhatunk hozzá robotgépet is.",
                 "Hozzámérjük a lisztet, és sűrű, krémszerű tésztát keverünk belőle.",
-                "Végül hozzáadjuk a szódát, vagy a szénsavas ásványvizet is.",
+                "Végül hozzáadjuk a szódát, vagy a szénsavas ásványvizet.",
                 "Nagyon fontos, hogy csomómentesre keverjük a palacsintatésztát."
                 +" Sütés előtt pihentessük legalább 10-15 percet.",
                 "Az első palacsinta sütése előtt a forró serpenyőbe egy kevés olajat öntünk"
                 +" (a következő palacsintáknál erre már nincs szükség, maximálisan elegendő,"
                 +" ami kisül a tésztából), és kisebb merőkanálnyi adagot öntünk rá a tésztából."
-                +" Hagyjuk, elterülni a serpenyőben.",
+                +" Hagyjuk elterülni a serpenyőben.",
                 "A palacsintákat egyenként kisütjük mindkét oldalukon.",
                 "2 tojás fehérjét összekeverünk egy csipetnyi sóval, majd felverjük habosra.",
                 "5 dkg vajat összekeverünk 2 kanál porcukorral, citromhéjjal,"
-                +" a tojássárgákkal és túróval. A végén a habot óvatosan belekeverjük.",
+                +" az előzőleg felvert tojás fehérjék sárgájával és a túróval. A végén a habot óvatosan belekeverjük.",
                 "A töltelékel megkenjük a palacsintákat, feltekerjük és 3 felé vágjuk."
                 +" Ha kevés a töltelék a maradékot más töltelékkel is"
-                +" ízesíhetjük így gazdagabb ízélményt kapunk.",
+                +" ízesíhetjük, így gazdagabb ízélményt kapunk.",
                 "Elhelyezzük a kivajazott tepsiben úgy, hogy félig fedjék egymást.",
-                "Az összekötőhöz összekeverjük a tejet, a tojást és vaníliás cukrot."
+                "Az öntethez összekeverjük a tejet, a tojást és a vaníliás cukrot."
                 +" Majd ráöntjük a tespibe elhelyezett palacsintákra.",
                 "A sütőbe helyezzük és 20-25 perig sütjük. (amíg meg nem pirul a teteje)",
                 "Ízlés szerint porcukorral, felszelve tároljuk."
@@ -1404,7 +1395,7 @@ export default [
                 "A tésztát megfőzzük.",
                 "Felolvasztott vajban a fűszerket és a lisztet összekverem és megpirítom. "
                 +"Ezután hozzáöntöm a tejet és a sajtokat és addig keverem amíg a sajot bele nem olvadnak a szószba. "
-                +"Legvégül egy szedőkanálnyi tésztavízet belerakunk. Majd ízlés szerint sóval és borsal ízesítjük.",
+                +"Legvégül egy szedőkanálnyi tésztavízet belerakunk, Majd ízlés szerint sóval és borsal ízesítjük.",
                 "Legvégül a kész tésztával összekeverjük és hagyjuk egy kicsit állni, hogy a szószt felszívja a tészta.",
             ],
         image: image_csirke6,
@@ -1433,7 +1424,7 @@ export default [
             }
         ],
         howToMakeIt: [
-                "A szűzérmét újnyi szeletekre vágjuk. Majd a hagymát és a fokhagymát felszeleteljük",
+                "A szűzérmét újnyi szeletekre vágjuk, Majd a hagymát és a fokhagymát felszeleteljük",
                 "Egy serpenyőben olajon megpirítjuk a hagymát."
                 +" Ha megpirult belerakjuk a babérlevelet ,a pirospaprikát és a felszeletelt szűzérmét."
                 +" Fehéredésig sütjük. Sóval, borssal, mustárral és köménnyel ízesítjük.",
@@ -1492,9 +1483,9 @@ export default [
             }
         ],
         howToMakeIt: [
-                "Az almát lereszeljük és a levét kinyomjuk egy serpenyőbe. " 
-                +"Hozáadunk cukrot és tűz felett karamelizáljuk.",
-                "He elég barna már a karamell hozááadjuk a vajat, a tejszínt és a fűszereket."
+                "Az almát lereszeljük, és a levét kinyomjuk egy serpenyőbe. " 
+                +"Hozáadunk cukrot, és tűz felett karamelizáljuk.",
+                "He elég barna már a karamell hozáadjuk a vajat, a tejszínt és a fűszereket."
             ],
         original: "https://www.tiktok.com/@greens_of_daisy/video/7029315419152452869?_d=secCgwIARCbDRjEFSACKAESPgo8%2FIWltw7gZgAlZW44Av6%2FuPIqdHByYdY1gASBubE37Av%2F5tEN2F1HLnMmUBJQTAMpJIxY7W3i3iuzvs7wGgA%3D&language=en&preview_pb=0&sec_user_id=MS4wLjABAAAA79QzG6Q_jOQjmog8tverVY0LXnFfOQluiguqq2fM_0BNUIp3aLaS_dUylHcybgMN&share_app_id=1233&share_item_id=7029315419152452869&share_link_id=15b8a30d-877c-4511-ae76-4223a8984774&source=h5_m&timestamp=1636757993&u_code=dchklci6e9mj5m&user_id=6832513320672822278&utm_campaign=client_share&utm_medium=android&utm_source=copy&_r=1",
         image: comming_soon,
@@ -1515,7 +1506,7 @@ export default [
                     "1 tk vaníliás cukor",
                     "1 dl olaj",
                     "1,5 dl tej",
-                    "10 dkg gm lisztkeverék",
+                    "10 dkg liszt",
                     "1 tojás"
                 ]
             }

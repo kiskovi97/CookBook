@@ -46,9 +46,14 @@
 
 div.description {
     max-width: 30em;
+    text-align: justify;
 }
 
-
+div.description .names {
+    padding: 1em;
+    padding-right: 0;
+    text-align: right;
+}
 
 @media only screen and (max-width: 90em) {
 

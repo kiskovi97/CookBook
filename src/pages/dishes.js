@@ -1470,5 +1470,66 @@ export default [
                 "Legvégül a szószt a tésztával összekeverjük majd a (rozmaringgal fűszerezett hússal tálaljuk."
             ],
         image: comming_soon,
+    },
+    {
+        index: "035",
+        dessert: true,
+        title: "Almás karamell",
+        details: "Alma levéből készült karamell",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "alma",
+                    "cukor",
+                    "tejszín",
+                    "vaj",
+                    "fahéj",
+                    "szegfűszeg",
+                    "szerecsendió",
+                    "gyömbér"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Az almát lereszeljük és a levét kinyomjuk egy serpenyőbe. " 
+                +"Hozáadunk cukrot és tűz felett karamelizáljuk.",
+                "He elég barna már a karamell hozááadjuk a vajat, a tejszínt és a fűszereket."
+            ],
+        original: "https://www.tiktok.com/@greens_of_daisy/video/7029315419152452869?_d=secCgwIARCbDRjEFSACKAESPgo8%2FIWltw7gZgAlZW44Av6%2FuPIqdHByYdY1gASBubE37Av%2F5tEN2F1HLnMmUBJQTAMpJIxY7W3i3iuzvs7wGgA%3D&language=en&preview_pb=0&sec_user_id=MS4wLjABAAAA79QzG6Q_jOQjmog8tverVY0LXnFfOQluiguqq2fM_0BNUIp3aLaS_dUylHcybgMN&share_app_id=1233&share_item_id=7029315419152452869&share_link_id=15b8a30d-877c-4511-ae76-4223a8984774&source=h5_m&timestamp=1636757993&u_code=dchklci6e9mj5m&user_id=6832513320672822278&utm_campaign=client_share&utm_medium=android&utm_source=copy&_r=1",
+        image: comming_soon,
+    },
+    {
+        index: "036",
+        dessert: true,
+        title: "Almás mákos kevert pite",
+        details: "Alma levéből készült karamell",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "3 kissebb vagy 2 nagyobb alma",
+                    "10 dkg darált mák",
+                    "8 dkg barna cukor",
+                    "1 tk sütőpor",
+                    "1 tk vaníliás cukor",
+                    "1 dl olaj",
+                    "1,5 dl tej",
+                    "10 dkg gm lisztkeverék",
+                    "1 tojás"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Az alámát meghámozom, nagy lyukú sajtreszelőn lereszelem – nem csavarom ki – "
+                +"majd rögtön hozzákeverem a mákot, a cukrot, a vaníliás cukrot, a tejet, az olajat,"
+                +" a tojást, végül mehet bele a sütőporral elkevert liszt és egy vajjal kikent,"
+                +" kilisztezett formába öntöm (belső átmérő: 25 cm).",
+                "A sütőt előmlegítem 180 fokra és 35 perc alatt készre sütöm. "
+                +"A sütési idő sütőnként változhat, végezzünk tűpróbát. "
+                +"Mikor kihült vaníliás porcukorral meghintve kínálom."
+            ],
+        original: "https://gastrohobbi.hu/2018/03/almas-makos-kevert-pite/",
+        image: comming_soon,
     }
 ];

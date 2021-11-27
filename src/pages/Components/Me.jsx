@@ -14,10 +14,10 @@ var Me = () =>
             <div className={styles.frontTitle}>
                 <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce offset={20}>
                     <div className={styles.title} hidden={!navigator.language.startsWith("en")}>
-                        Legény fogó
+                        Husband Material
                     </div>
                     <div className={styles.title} hidden={!navigator.language.startsWith("hu")}>
-                        Husband Material
+                        Legényfogó
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation className={styles.logos} animateIn="fadeInLeft" animateOut="fadeOutLeft" offset={180} animateOnce>

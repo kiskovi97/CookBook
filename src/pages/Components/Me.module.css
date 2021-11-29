@@ -34,7 +34,7 @@
     font-size: 7em;
     font-weight: bold;
     color: primarydark;
-    filter: drop-shadow(4px 5px 10px rgba(34, 34, 34, 0.7));
+    filter: drop-shadow(4px 5px 10px rgba(34, 34, 34, 0.877));
     line-height: 1em;
     margin-bottom: 0.5em;
 }

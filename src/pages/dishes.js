@@ -32,6 +32,9 @@ import image_kinderbueno from '../images/image_kinderbueno.webp'
 import image_picant from '../images/image_picant.webp'
 import image_pudingcake from '../images/image_pudingcake.webp'
 import image_szuz from '../images/image_szuz.webp'
+import image_pasta from '../images/image_pasta.webp'
+import image_applesauce from '../images/image_applesauce.webp'
+import image_applecake from '../images/image_applecake.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1460,7 +1463,7 @@ export default [
                 +"A pisztáciát feldaranoljuk apróra, reszelünk sajtot és ezeket is hozzáadjuk a szószhoz.",
                 "Legvégül a szószt a tésztával összekeverjük majd a (rozmaringgal fűszerezett hússal tálaljuk."
             ],
-        image: comming_soon,
+        image: image_pasta,
     },
     {
         index: "035",
@@ -1488,7 +1491,7 @@ export default [
                 "He elég barna már a karamell hozáadjuk a vajat, a tejszínt és a fűszereket."
             ],
         original: "https://www.tiktok.com/@greens_of_daisy/video/7029315419152452869?_d=secCgwIARCbDRjEFSACKAESPgo8%2FIWltw7gZgAlZW44Av6%2FuPIqdHByYdY1gASBubE37Av%2F5tEN2F1HLnMmUBJQTAMpJIxY7W3i3iuzvs7wGgA%3D&language=en&preview_pb=0&sec_user_id=MS4wLjABAAAA79QzG6Q_jOQjmog8tverVY0LXnFfOQluiguqq2fM_0BNUIp3aLaS_dUylHcybgMN&share_app_id=1233&share_item_id=7029315419152452869&share_link_id=15b8a30d-877c-4511-ae76-4223a8984774&source=h5_m&timestamp=1636757993&u_code=dchklci6e9mj5m&user_id=6832513320672822278&utm_campaign=client_share&utm_medium=android&utm_source=copy&_r=1",
-        image: comming_soon,
+        image: image_applesauce,
     },
     {
         index: "036",
@@ -1501,7 +1504,7 @@ export default [
                 list: [
                     "3 kissebb vagy 2 nagyobb alma",
                     "10 dkg darált mák",
-                    "8 dkg barna cukor",
+                    "8 dkg cukor",
                     "1 tk sütőpor",
                     "1 tk vaníliás cukor",
                     "1 dl olaj",
@@ -1518,9 +1521,10 @@ export default [
                 +" kilisztezett formába öntöm (belső átmérő: 25 cm).",
                 "A sütőt előmlegítem 180 fokra és 35 perc alatt készre sütöm. "
                 +"A sütési idő sütőnként változhat, végezzünk tűpróbát. "
-                +"Mikor kihült vaníliás porcukorral meghintve kínálom."
+                +"Mikor kihült karamellel leöntve tálalom."
             ],
         original: "https://gastrohobbi.hu/2018/03/almas-makos-kevert-pite/",
-        image: comming_soon,
+        related: "035",
+        image: image_applecake,
     }
 ];

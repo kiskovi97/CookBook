@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.7c1d051f.chunk.css",
-    "main.js": "/CookBook/static/js/main.e7d271ab.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.e7d271ab.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.38aa3db0.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.38aa3db0.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.86475c04.chunk.js": "/CookBook/static/js/2.86475c04.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/image_boci.d2134bfd.webp": "/CookBook/static/media/image_boci.d2134bfd.webp",
     "static/media/image_brownie2.dd6c7f29.webp": "/CookBook/static/media/image_brownie2.dd6c7f29.webp",
     "static/media/image_cake.8336170b.webp": "/CookBook/static/media/image_cake.8336170b.webp",
+    "static/media/image_chicken_spenot.b4074283.webp": "/CookBook/static/media/image_chicken_spenot.b4074283.webp",
     "static/media/image_coconat.91f29e3c.webp": "/CookBook/static/media/image_coconat.91f29e3c.webp",
     "static/media/image_csaszar.eda25569.webp": "/CookBook/static/media/image_csaszar.eda25569.webp",
     "static/media/image_csiga2.f1429599.webp": "/CookBook/static/media/image_csiga2.f1429599.webp",
@@ -35,6 +36,7 @@
     "static/media/image_csirke5.b50f8a58.webp": "/CookBook/static/media/image_csirke5.b50f8a58.webp",
     "static/media/image_csirke6.8b932aaf.webp": "/CookBook/static/media/image_csirke6.8b932aaf.webp",
     "static/media/image_csirke7.8c97fdcf.webp": "/CookBook/static/media/image_csirke7.8c97fdcf.webp",
+    "static/media/image_flowdnie.4799db9a.webp": "/CookBook/static/media/image_flowdnie.4799db9a.webp",
     "static/media/image_hamburger.7e4dfe9b.webp": "/CookBook/static/media/image_hamburger.7e4dfe9b.webp",
     "static/media/image_kinderbueno.44e412b6.webp": "/CookBook/static/media/image_kinderbueno.44e412b6.webp",
     "static/media/image_kukorica.36dd4f93.webp": "/CookBook/static/media/image_kukorica.36dd4f93.webp",
@@ -58,6 +60,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.86475c04.chunk.js",
     "static/css/main.7c1d051f.chunk.css",
-    "static/js/main.e7d271ab.chunk.js"
+    "static/js/main.38aa3db0.chunk.js"
   ]
 }

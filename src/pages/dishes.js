@@ -35,6 +35,8 @@ import image_szuz from '../images/image_szuz.webp'
 import image_pasta from '../images/image_pasta.webp'
 import image_applesauce from '../images/image_applesauce.webp'
 import image_applecake from '../images/image_applecake.webp'
+import image_chicken_spenot from '../images/image_chicken_spenot.webp'
+import image_flowdnie from '../images/image_flowdnie.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1526,5 +1528,101 @@ export default [
         original: "https://gastrohobbi.hu/2018/03/almas-makos-kevert-pite/",
         related: "035",
         image: image_applecake,
+    },
+    {
+        index: "037",
+        main: true,
+        chicken: true,
+        title: "Spenótos csirke édesburgonyával",
+        details: "Spenótos szószal töltött csirkemell, hozzá köretként édesburgonya répával és hagymával",
+        ingredients: [
+            {
+                title: "Csikréhez:",
+                list: [
+                    "1 kg csirkemell",
+                    "15 dkg friss spenót",
+                    "50 dkg mascarpone",
+                    "4 gerezd fokhagyma",
+                    "20 dkg reszelt sajt",
+                    "só, bors, szerecsendió",
+                    "olaj"
+                ]
+            },
+            
+            {
+                title: "Burgonyához:",
+                list: [
+                    "2 kg édesburgonya",
+                    "3 db hagyma",
+                    "4 db répa",
+                    "olaj",
+                    "só"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A csirkemellett vastagabb szeletkere vágjuk, és az egyik oldalukat késsel megcsíkozzuk. "
+                +" A szeleteket a csíkozott oldalával felfelé belehelyezzük egy olajjal kikent tepsibe.",
+                "A spenótot kevés olajon megpároljuk, hozzáadjuk a felszeletelt vagy préselt fokhagymát,"
+                +" azzal is átpirítjuk és leveszük a tűzhelyről.",
+                "A spenótot a mascarponéval összekeverjük és hozzáadjuk a fűszereket. "
+                +"A spenótos krémet a csirkékre kenjük majd reszelünk még rá sajtot. "
+                +"Ezt sütőben 30 - 45 percig sütjük (amíg a sajt meg nem pirul a tetején).",
+                "Az édesburgonyát, hagymát és a répát megpucoljuk és felszeleteljük. "
+                +"Kiolajozott tepsibe helyezzük és sóval ízesítjük. "
+                +"Sütőben 30 - 45 percig (krumpli puhulásáig) sütjük."
+            ],
+        original: "https://gastrohobbi.hu/2017/02/hasselback-csirkemell-gmlm/",
+        image: image_chicken_spenot,
+    },
+    {
+        index: "038",
+        dessert: true,
+        title: "Flownie",
+        details: "Flódni és Brownie keveréke",
+        ingredients: [
+            {
+                title: "Flódni:",
+                list: [
+                    "1 db alma",
+                    "2 csipet fahéj",
+                    "5 dkg aszalt szilva",
+                    "1 ek darált mák",
+                    "2 ek mogyoró",
+                    "2 tk vanília aroma",
+                    "1 tk őrölt szegfüszeg"
+                ]
+            },
+            {
+                title: "Brownie:",
+                list: [
+                    "15 dkg vaj",
+                    "15 dkg étcsokoládé",
+                    "3 db tojás",
+                    "200 dkg cukor",
+                    "6 dkg liszt",
+                    "1 csipet só",
+                    "1 tk sütőpor",
+                    "6 dkg cukrozatlan kakaópor",
+                    "1 ek vaníliás cukor"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Az almát nagy lyukú reszelőn lereszeljük, "
+                +"majd egy serpenyőben a fahéjjal közepes lángon addig pároljuk, "
+                +"amíg a nedvesség nem távozik. Az aszalt szilvát kis kockákra vágjuk. "
+                +"A mogyorót feldaráljuk, "
+                +"majd ezeket mind egybe keverve szegfűszeggel fűszerezzük.",
+                "A vajat a csokival felolvasztjuk, a tojásokat egy külön tálban összekeverjük, "
+                +"majd ezeket egybekeverjük (miután a csokis massza kicsit kihült).",
+                "A száraz hozzávalókat a browniehoz egy tálban összekeverjük, "
+                +"majd hozzáöntjük a csokis masszát és jól összedolgozzuk.",
+                "A sütőpapírral kibélelt tepsibe beleöntjük a masszát, elegyengetjük, "
+                +" majd rárakjuk a feltétet. "
+                +"Sütőben 30 - 40 percig sütjük, tűpróbával vizsgáljuk hogy elkészült-e."
+            ],
+        original: "https://streetkitchen.hu/fantasztikus-desszertek/cukormentes-flodni-brownie/",
+        image: image_flowdnie,
     }
 ];

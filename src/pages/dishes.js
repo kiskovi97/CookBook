@@ -1624,5 +1624,47 @@ export default [
             ],
         original: "https://streetkitchen.hu/fantasztikus-desszertek/cukormentes-flodni-brownie/",
         image: image_flowdnie,
+    },
+    {
+        index: "039",
+        dessert: true,
+        title: "Crispy Sesame Chicken",
+        details: "Crispy Sesame Chicken",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 ek fokhagyma",
+                    "50 dkg csirkemell",
+                    "2 ek szójaszósz",
+                    "só, bors",
+                    "1 tojás",
+                    "1 ek kukorica keményítő",
+                    "kukorica keményítő",
+                ]
+            },
+            {
+                title: "Szószhoz:",
+                list: [
+                    "olaj",
+                    "2 csészényi csirke alaplé",
+                    "6 ek szójaszósz",
+                    "2 ek cukor",
+                    "3 ek ketchup",
+                    "2 ek szezámolaj",
+                    "2 ek alma ecet",
+                    "chili olaj",
+                    "póréhagyma",
+                    "1 csészényi kukoricakeményítő-víz keverék",
+                    "só",
+                    "szezámmag"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "..."
+            ],
+        original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
+        image: comming_soon,
     }
 ];

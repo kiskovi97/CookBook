@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     border-radius: 2em;
-    max-width: 30em;
+    width: 30em;
     max-height: 20em;
     height: 12em;
     overflow: hidden;

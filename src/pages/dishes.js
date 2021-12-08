@@ -37,6 +37,8 @@ import image_applesauce from '../images/image_applesauce.webp'
 import image_applecake from '../images/image_applecake.webp'
 import image_chicken_spenot from '../images/image_chicken_spenot.webp'
 import image_flowdnie from '../images/image_flowdnie.webp'
+import image_cornflakes from '../images/image_cornflakes_chicken.webp'
+import image_tartar from '../images/image_tartar.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1666,5 +1668,60 @@ export default [
             ],
         original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
         image: comming_soon,
+    },
+    {
+        index: "040",
+        chicken: true,
+        main: true,
+        title: "Csirkemell cornflakes bundában",
+        details: "Sütőben sült cornflakes bundás csirkemell",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "0.5 kg csirkemell filé",
+                    "só, bors, cayenne bors, fokhagyma",
+                    "3 ek tejföl",
+                    "1 tk vegeta",
+                    "cornflakes",
+                    "olaj",
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Felszeleteljük a csirkemellet, majd sóval és borssal fűszerezzük. "
+                +"A tejfölt, vegetát, cayenne borsot és a fokhagymát összekeverjük, majd bepácoljuk vele a csirkemelleket. "
+                +"Ezt ha van időnk tegyük el a hűtőbe pihenni, hogy a hús átvegye a pác ízét igazán.",
+                "Kibélelünk egy tepsit sütőpapírral, és bekenjük egy kevés olajjal a papírt. "
+                +"Egy tálba kiöntjük a cornflakes-t és beleforgatjuk a bepácolt szeleteket, majd elhelyezzük a tepsiben.",
+                "30 - 40 percig sütjük, amíg a cornflakes darabok el nem kezdnek barnulni. "
+                +"Tűpróbával ellenőrízhetjük, hogy a csirkemellek megsültek-e."
+            ],
+        original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
+        image: image_cornflakes,
+    },
+    {
+        index: "041",
+        main: true,
+        title: "Tartármártás",
+        details: "Egyszerű tartármártás recept. Húsokhoz tökéletes.",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 dl tejföl",
+                    "2 dl majonéz",
+                    "1 tk mustár",
+                    "1 tk porcukor",
+                    "1 tk citromlé",
+                    "só, fehérbors",
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A hozzávalókat egy tálban összekeverjük, sóval és fehérborsal fűszerezzük."
+            ],
+        original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
+        image: image_tartar,
     }
 ];

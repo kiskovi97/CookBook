@@ -39,6 +39,8 @@ import image_chicken_spenot from '../images/image_chicken_spenot.webp'
 import image_flowdnie from '../images/image_flowdnie.webp'
 import image_cornflakes from '../images/image_cornflakes_chicken.webp'
 import image_tartar from '../images/image_tartar.webp'
+import image_pearcake from '../images/image_pearcake.webp'
+import image_chicken_pasta from '../images/image_chicken_pasta.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1629,7 +1631,8 @@ export default [
     },
     {
         index: "039",
-        dessert: true,
+        main: true,
+        chicken: true,
         title: "Crispy Sesame Chicken",
         details: "Crispy Sesame Chicken",
         ingredients: [
@@ -1723,5 +1726,106 @@ export default [
             ],
         original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
         image: image_tartar,
+    },
+    {
+        index: "042",
+        dessert: true,
+        title: "Körtetorta sóskaramellel",
+        details: "Körtével ízesített torta sóskaramell krémmel",
+        ingredients: [
+            {
+                title: "Piskótához:",
+                list: [
+                    "300 g vaj",
+                    "200 g cukor",
+                    "3 db tojás",
+                    "150 g liszt",
+                    "120 g mandulaliszt",
+                    "2 db körte",
+                    "fahéj, szegfűszeg",
+                    "1 tk szódabikarbóna",
+                    "vanília aroma"
+                ]
+            },
+            {
+                title: "Karamellhez:",
+                list: [
+                    "15 dkg cukor",
+                    "0.5 dl víz",
+                    "2dl tejszín",
+                    "5 dkg vaj",
+                    "egy csipet só"
+                ]
+            },
+            {
+                title: "Krémhez:",
+                list: [
+                    "600 g mascarpone",
+                    "100 g porcukor"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A tésztához a körtéket megmossuk és kisebb kockákra vágjuk."
+                +" A vajat habosra keverjük a cukorral, majd belekeverjük a tojásokat,"
+                +" a lisztet, a szódabikarbónát, a fűszereket és a fele körtekockákat. "
+                +"Végül mehet bele egy kis vanília aroma is.",
+                "A masszát 1 db 26 cm-es átmérőjű sütőpapírral bélelt tortaformába simítjuk,"
+                +" megszórjuk a tetejét a körtekockákkal és 180 fokra előmelegített sütőben"
+                +" 35 - 40 percre alatt aranybarnára sütjük.",
+                "A karamellhez a cukrot vízzel megkaramellizáljuk,"
+                +" majd hozzáadjuk a tejszínt és a vajat."
+                +" Ezeket ha akarjuk előmelegíthejtük hogy egyenletesebben tudjuk összekeverni a karamellel.",
+                "A krémhez a mascarpone-t és a porcukrot összekeverjük. "
+                +"Ehhez hozzákeverünk egy két kanál sóskaramellát.",
+                "A piskótát kettévágjuk és a lapok közé belekenjük a krém felét."
+                +" A másik felét pedig a tetejére kenjük, majd megcsorgatjuk az egészet sóskaramellával."
+            ],
+        original: "https://streetkitchen.hu/fantasztikus-desszertek/kortetorta-soskaramell-kremmel/",
+        image: image_pearcake,
+    },
+    {
+        index: "043",
+        chicken: true,
+        main: true,
+        pasta: true,
+        title: "Fetasajtos Tagliatelle csirkemellel",
+        details: "Fetasajtos tészta olasz módra",
+        ingredients: [
+            {
+                title: "Szószhoz:",
+                list: [
+                    "1 kg koktélparadicsom",
+                    "500 g feta sajt",
+                    "2 alma",
+                    "2 kaliforniai paprika",
+                    "olaj",
+                    "só, bors",
+                    "oregánó",
+                    "4 gerezd fokhagyma",
+                    "cayane bors"
+                ]
+            },
+            {
+                title: "Továbbiak:",
+                list: [
+                    "500 g taglietelle",
+                    "1 kg csirkemell",
+                    "só, bors",
+                    "kemény sajt"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A szószhoz egy tepsibe belerakjuk a hozzávalókat felszeletelve, "
+                +"leöntjük olajjal és berakjuk a sütőbe 40 - 50 percre.",
+                "A tésztát kifőzzük sós vízben. "
+                +"A csirkéket pedig felszeletelve sóval borsal ízesítve aranybarnára sütjük.",
+                "A tespiben lévő alapanyagokat összeturmixoljuk, "
+                +"a felét a csirkékre a másik felét a tésztára öntjük. "
+                +"Ezeket külön külön kicsit összefőzzük, hozzá  reszelünk egy kis sajtot és tálalhatjuk is."
+            ],
+        original: "https://www.instagram.com/p/CL90QbsHctf/",
+        image: image_chicken_pasta,
     }
 ];

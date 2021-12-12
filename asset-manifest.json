@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.1c395db5.chunk.css",
-    "main.js": "/CookBook/static/js/main.1240dcce.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.1240dcce.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.842adda0.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.842adda0.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.e576b06a.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.e576b06a.js.map",
     "static/js/2.86475c04.chunk.js": "/CookBook/static/js/2.86475c04.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/image_boci.d2134bfd.webp": "/CookBook/static/media/image_boci.d2134bfd.webp",
     "static/media/image_brownie2.dd6c7f29.webp": "/CookBook/static/media/image_brownie2.dd6c7f29.webp",
     "static/media/image_cake.8336170b.webp": "/CookBook/static/media/image_cake.8336170b.webp",
+    "static/media/image_chicken_pasta.bbc340f3.webp": "/CookBook/static/media/image_chicken_pasta.bbc340f3.webp",
     "static/media/image_chicken_spenot.b4074283.webp": "/CookBook/static/media/image_chicken_spenot.b4074283.webp",
     "static/media/image_coconat.91f29e3c.webp": "/CookBook/static/media/image_coconat.91f29e3c.webp",
     "static/media/image_cornflakes_chicken.0cc8e6ad.webp": "/CookBook/static/media/image_cornflakes_chicken.0cc8e6ad.webp",
@@ -46,6 +47,7 @@
     "static/media/image_palacsinta.d429321d.webp": "/CookBook/static/media/image_palacsinta.d429321d.webp",
     "static/media/image_pancacke.8d9a6fd0.webp": "/CookBook/static/media/image_pancacke.8d9a6fd0.webp",
     "static/media/image_pasta.30b4ee30.webp": "/CookBook/static/media/image_pasta.30b4ee30.webp",
+    "static/media/image_pearcake.68df3429.webp": "/CookBook/static/media/image_pearcake.68df3429.webp",
     "static/media/image_picant.9a4c7333.webp": "/CookBook/static/media/image_picant.9a4c7333.webp",
     "static/media/image_pudingcake.3d0a1286.webp": "/CookBook/static/media/image_pudingcake.3d0a1286.webp",
     "static/media/image_rakott.e3cd49bc.webp": "/CookBook/static/media/image_rakott.e3cd49bc.webp",
@@ -62,6 +64,6 @@
     "static/js/runtime-main.e576b06a.js",
     "static/js/2.86475c04.chunk.js",
     "static/css/main.1c395db5.chunk.css",
-    "static/js/main.1240dcce.chunk.js"
+    "static/js/main.842adda0.chunk.js"
   ]
 }

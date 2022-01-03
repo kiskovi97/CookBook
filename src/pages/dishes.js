@@ -41,6 +41,7 @@ import image_cornflakes from '../images/image_cornflakes_chicken.webp'
 import image_tartar from '../images/image_tartar.webp'
 import image_pearcake from '../images/image_pearcake.webp'
 import image_chicken_pasta from '../images/image_chicken_pasta.webp'
+import risotto from '../images/risotto.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1827,5 +1828,33 @@ export default [
             ],
         original: "https://www.instagram.com/p/CL90QbsHctf/",
         image: image_chicken_pasta,
+    },
+    {
+        index: "044",
+        main: true,
+        title: "Risotto",
+        details: "Olasz risotto recept",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "40 dkg rizs",
+                    "10 dkg vaj",
+                    "8 dkg parmezán sajt",
+                    "1 l víz",
+                    "húsleves kocka",
+                    "1 dl fehérbor",
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Felrakunk 1 liter vizet főni, és közben 5 dkg vajon a rizset megpirítjuk.",
+                "A forró vízben feloldjuk a húsleveskockát. "
+                +"Ha a rizs megpirult akkor merőkanalanként hozzáadjuk a vizet a rízshez."
+                +" Mindíg emgvárjuk, hogy a víz elpárolgott, addig nem adunk hozzá újabb adagot. "
+                +"Ha a fél víz elfogyott, akkor az egyik ilyen fázisban bort adjuk hozzá heéyette, majd folytassuk tovább vízzel.",
+                "A legvégén a maradék vajat és a reszelt sajtot hozzáadva összefőzzük a rizottót."
+            ],
+        image: risotto,
     }
 ];

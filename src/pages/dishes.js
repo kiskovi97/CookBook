@@ -1522,11 +1522,11 @@ export default [
             }
         ],
         howToMakeIt: [
-                "Az alámát meghámozom, nagy lyukú sajtreszelőn lereszelem – nem csavarom ki – "
+                "Az almát meghámozom, nagy lyukú sajtreszelőn lereszelem – nem csavarom ki – "
                 +"majd rögtön hozzákeverem a mákot, a cukrot, a vaníliás cukrot, a tejet, az olajat,"
                 +" a tojást, végül mehet bele a sütőporral elkevert liszt és egy vajjal kikent,"
                 +" kilisztezett formába öntöm (belső átmérő: 25 cm).",
-                "A sütőt előmlegítem 180 fokra és 35 perc alatt készre sütöm. "
+                "A sütőt előmelegítem 180 fokra és 35 perc alatt készre sütöm. "
                 +"A sütési idő sütőnként változhat, végezzünk tűpróbát. "
                 +"Mikor kihült karamellel leöntve tálalom."
             ],

@@ -23,7 +23,8 @@ class Home extends React.Component {
     }
 
     render() {
-        let receipts = dishes.filter(this.state.filter);
+        let reverse = [...dishes].sort((item1, item2) => item2.index.localeCompare(item1.index));
+        let receipts = reverse.filter(this.state.filter);
         if (this.state.top)
             receipts = receipts.slice(0, 5);
         return (

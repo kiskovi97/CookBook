@@ -1,6 +1,5 @@
 import image_02 from '../images/image_02.webp'
 import image_kukorica from '../images/image_kukorica.webp'
-import image_csirke4 from '../images/image_csirke4.webp'
 import image_tortilla from '../images/image_tortilla.webp'
 import image_csirke1 from '../images/image_csirke1.webp'
 import image_csirke2 from '../images/image_csirke2.webp'
@@ -27,7 +26,6 @@ import image_apple from '../images/image_apple.webp'
 import image_coconat from '../images/image_coconat.webp'
 import image_cake from '../images/image_cake.webp'
 import image_csirke6 from '../images/image_csirke6.webp'
-import image_csirke7 from '../images/image_csirke7.webp'
 import image_kinderbueno from '../images/image_kinderbueno.webp'
 import image_picant from '../images/image_picant.webp'
 import image_pudingcake from '../images/image_pudingcake.webp'
@@ -42,6 +40,9 @@ import image_tartar from '../images/image_tartar.webp'
 import image_pearcake from '../images/image_pearcake.webp'
 import image_chicken_pasta from '../images/image_chicken_pasta.webp'
 import risotto from '../images/risotto.webp'
+import image_chicken_potatoes from '../images/image_chicken_potatoes.webp'
+import image_coconat2 from '../images/image_coconat2.webp'
+import image_chicken_sesam from '../images/image_chicken_sesam.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -158,7 +159,7 @@ export default [
             "Ráhelyezzük a csirke darabokat, majd lefedjük fóliával.",
             "A sütőben a hús puhulásáig fóliával sütjük, majd levesszük róla a fóliát és hagyjuk megpirulni.",
         ],
-        image: image_csirke4,
+        image: image_chicken_potatoes,
     },
     {
         index: "004",
@@ -1278,50 +1279,6 @@ export default [
         original:"https://gastrohobbi.hu/2021/06/kinder-bueno-szelet-sutes-nelkul/",
     },
     {
-        index: "030",
-        chicken: true,
-        main: true,
-        title: "Szezámmagos csirke",
-        details: "Ázsiai konyha kedvelőinek kicsit macerásabb étele",
-        ingredients: [
-            {
-                title: "Hozzávalók:",
-                list: [
-                    "17 dkg gm lisztkeverék",
-                    "7 dkg gm kukoricakeményítő",
-                    "1 tojás",
-                    "2 ek olaj",
-                    "2 dl víz",
-                    "50 dkg csirkecomb filé",
-                    "Ízlés szerint só és frissen őrölt tarka bors",
-                    "1 mk chili",
-                    "2 tk reszelt gyömbér",
-                    "1 gerezd zúzott fokhagyma",
-                    "2 ek barna cukor",
-                    "1 fél narancs frissen facsart leve",
-                    "4 ek ecet",
-                    "2 ek gm szójaszósz",
-                    "2 tk gm kukoricakeményítő",
-                    "0,5 dl víz",
-                    "2 ek szezámmag",
-                ]
-            },
-        ],
-        howToMakeIt: [
-                "A lisztből, keményítőből a tojással, vízzel és olajjal sürű masszát keverek,"
-                +" sózom, borsozom, majd beleforgatom a csíkokra vágott csirkecombot.",
-                "Egy serpenyőben olajat hevítek és aranysárgára sütöm benne a masszával bevont húst,"
-                +" majd ha megsült, papírtörlőre szedem és amíg lecsepeg, elkészítem a bevonatot.",
-                "Egy kevéske olajon megpirítom a chilit, a gyömbért, a fokhagymát, a barnacukrot,"
-                +" a narancs levét, az ecetet, a szójaszószt, kiforralom,"
-                +" majd mehet bele a vízzel elkevert keményítő, ismét forralok rajta egyet"
-                +" és legvégül megforgatom benne az előzőleg kisütött, bundázott húst…megszórom szezámmagal.",
-                "Ízlés szerint párolt rizzsel, rizstésztával kínálom, frissen aprított újhagymával megszórva."
-            ],
-        image: image_csirke7,
-        original:"https://gastrohobbi.hu/2018/04/szezamos-csirke-videoval/",
-    },
-    {
         index: "031",
         dessert: true,
         title: "Madártej szelet sütés nélkül",
@@ -1634,44 +1591,38 @@ export default [
         index: "039",
         main: true,
         chicken: true,
-        title: "Crispy Sesame Chicken",
-        details: "Crispy Sesame Chicken",
+        title: "Szezámmagos csirke",
+        details: "Ázsiai gyorséttermek alap fogása",
         ingredients: [
             {
                 title: "Hozzávalók:",
                 list: [
-                    "1 ek fokhagyma",
-                    "50 dkg csirkemell",
-                    "2 ek szójaszósz",
-                    "só, bors",
-                    "1 tojás",
-                    "1 ek kukorica keményítő",
-                    "kukorica keményítő",
+                    "1 kg csirke felső combfilé",
+                    "1 csésze liszt",
+                    "1 csésze kukorica keményítő",
+                    "1 tk baking soda",
+                    "1 csésze jéghideg víz",
                 ]
             },
             {
                 title: "Szószhoz:",
                 list: [
-                    "olaj",
-                    "2 csészényi csirke alaplé",
-                    "6 ek szójaszósz",
-                    "2 ek cukor",
-                    "3 ek ketchup",
-                    "2 ek szezámolaj",
-                    "2 ek alma ecet",
-                    "chili olaj",
-                    "póréhagyma",
-                    "1 csészényi kukoricakeményítő-víz keverék",
-                    "só",
+                    "10 dkg vaj",
+                    "4 tk méz",
+                    "4 tk cukor",
+                    "4 tk szója szósz",
+                    "1 tk cayane bors",
                     "szezámmag"
                 ]
             }
         ],
         howToMakeIt: [
-                "..."
+                "A csirkét felvágjuk nagyobb szeletekre, majd hozzáadjuk a hozzávalókat és hagyjuk kicsit állni.",
+                "Bő olajban aranybarnára sütjük a csirkéket figyelve arra hogy ne mozgassuk, mert lejön róluk a bunda.",
+                "Szószhoz összekeverjük a hozzávalókat és kicsit összefőzzük, majd megforgatjuk benne a csirke falatokat."
             ],
         original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
-        image: comming_soon,
+        image: image_chicken_sesam,
     },
     {
         index: "040",
@@ -1856,5 +1807,44 @@ export default [
                 "A legvégén a maradék vajat és a reszelt sajtot hozzáadva összefőzzük a rizottót."
             ],
         image: risotto,
+    },
+    {
+        index: "045",
+        dessert: true,
+        title: "Raffaello Szelet",
+        details: "Egyszerű kókuszos sütemény",
+        ingredients: [
+            {
+                title: "Tésztához:",
+                list: [
+                    "6 tojásfehérje",
+                    "18 dkg porcukor",
+                    "1 tk sütőpor",
+                    "10 dkg finomliszt",
+                    "15 dkg kókuszreszelék",
+                ]
+            },
+            {
+                title: "Krémhez:",
+                list: [
+                    "5 dl tej",
+                    "6 tojássárgája",
+                    "8 dkg cukor",
+                    "1 csomag vaníliás pudingpor",
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A tojásfehérjét a porcukorral felhabosítom, hozzá forgatom a lisztet, a sütőport,"
+                +" a kókuszreszeléket, majd egy kivajazott/lisztezett tepsibe öntöm és 170 fokra előmelegített sütőben,"
+                +" légkeveréses fokozaton kb. 20 perc alatt készre sütöm.",
+               "A sütési idő sütőnként változhat, végezzünk tűpróbát.",
+               "Egy kevés tejjel elkeverem a tojássárgáját, a cukrot, a pudingport,"
+               +" majd felöntöm a maradék tejjel és folyamatos kevergetés mellett kiforralom.",
+               "A krémet a megsült tészta tetejére öntöm, elegyengetem, megszórom kókuszreszelékkel és ízlés szerint mandulával díszíthetjük.",
+               "Néhány órát hűtőbe teszem, majd felszeletelve kínálom.",
+            ],
+        original: "https://gastrohobbi.hu/2019/06/raffaello-szelet/",
+        image: image_coconat2,
     }
 ];

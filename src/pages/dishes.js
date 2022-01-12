@@ -43,6 +43,7 @@ import risotto from '../images/risotto.webp'
 import image_chicken_potatoes from '../images/image_chicken_potatoes.webp'
 import image_coconat2 from '../images/image_coconat2.webp'
 import image_chicken_sesam from '../images/image_chicken_sesam.webp'
+import image_chicken_cheese from '../images/image_chicken_cheese.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1846,5 +1847,40 @@ export default [
             ],
         original: "https://gastrohobbi.hu/2019/06/raffaello-szelet/",
         image: image_coconat2,
+    },
+    {
+        index: "046",
+        chicken: true,
+        main: true,
+        title: "Mustáros sajtos csirkemell",
+        details: "Tepsiben sült csirkemell rizzsel és pirított mandulával",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 kg csirkemell",
+                    "450 g tejföl",
+                    "3 evőkanál mustár",
+                    "2 evőkanál ételízesítő",
+                    "só, bors",
+                    "3 gerezd fokhagyma",
+                    "olaj",
+                    "kemény és lágy sajt",
+                    "rizs",
+                    "szeletelt mandula"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Összekeverjük a mustárt, a tejfölt, az ételízesítőt, a borsot, a reszelt fokhagymát és egy kis olajat.",
+                "A csirkemelleket felszeleteljük és egy olajjal kikent tepsibe helyezzük. "
+                +"Sóval kicsit megszórjuk majd ráöntjük a szószt és a lágy reszelt sajtot."
+                ,"Lefedjük fóliával a tepsit és 30 percig sütjük. "
+                +" Utána levesszük a fóliát, rászórjuk a kemény sajtot és még 20 - 30 percig sütjük, amíg a sajt meg nem pirul.",
+                "A rizset kevés olajon megpirítjuk, majd felöntjük vízzel, hozzáadunk egy kis ételízesítőt és megfőzzük. "
+                +"A szeletelt mandulát egy serpenyőben megpirítjuk és a kész rízshez hozzákeverjük"
+                +" vagy majd csak a tálaláskor szórunk belőle tetejére."
+            ],
+        image: image_chicken_cheese,
     }
 ];

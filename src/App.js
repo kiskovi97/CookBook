@@ -6,8 +6,18 @@ import Navbar from './Navbar';
 import Desserts from './pages/Desserts.jsx';
 import Dishes from './pages/Dishes.jsx';
 import Dish from './pages/Dish.jsx';
+import ReactGa from 'react-ga';
+import { useEffect } from 'react';
+
 
 function App() {
+
+  useEffect(() => {
+    ReactGa.initialize('UA-166027980-1')
+
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  }, [])
+
   return (
     <main className="App">
       <Navbar />

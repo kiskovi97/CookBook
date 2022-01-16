@@ -52,6 +52,11 @@
     margin: 0 auto;
 }
 
+.receipt .details a {
+    color: white;
+    margin-left: 1em;
+}
+
 .receipt .description {
     display: grid;
     column-gap: 2em;

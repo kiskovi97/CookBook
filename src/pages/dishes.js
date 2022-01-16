@@ -53,7 +53,6 @@ export default [
         chicken: true,
         main: true,
         title: "Sajtszószos-baconös spagetti - Aszaltszilvás csirkével",
-        original: "https://www.nosalty.hu/recept/sajtszoszos-baconos-spagetti",
         details: "Egy carbonara szerű tészta és egy édes csirkemell keveréke. "
         +"Jól passzol a kettő egymáshoz és elég gazdag ízélményt hagy maga után. "
         +"Húsmentesen is elkészíthető, illetve könnyen módosítható étel.",
@@ -97,12 +96,14 @@ export default [
             "Összefőzzük, és a tésztával együtt tálaljuk"
         ],
         image: image_02,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/sajtszoszos-baconos-spagetti", name:"Nosalty"}
+        ],
     },
     {
         index: "002",
         main: true,
         title: "Majonézes kukoricasaláta - Natúr csirkével és krokettel",
-        original: "https://www.nosalty.hu/recept/majonezes-kukoricasalata",
         details: "Egyszerű kukoricasaláta, hozzá natúr csirkemell és krokett.",
         ingredients: [
             {
@@ -130,6 +131,9 @@ export default [
             "Krokettet kiolvasztjuk, majd megsütjük a sütőben.",
         ],
         image: image_kukorica,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/majonezes-kukoricasalata", name:"Nosalty"}
+        ],
     },
     {
         index: "003",
@@ -168,7 +172,6 @@ export default [
         chicken: true,
         main: true,
         title: "Chicken Tortilla Wrap",
-        original: "https://www.instagram.com/p/CTW2-pbjalX/",
         details: "Tortilla lapokból készített rakott csirke",
         ingredients: [
             {
@@ -218,6 +221,9 @@ export default [
             "A szószhoz a paradicsomokat felvágjuk, és a hozzávalókat összekeverjük."
         ],
         image: image_tortilla,
+        sources: [
+            {link: "https://www.instagram.com/p/CTW2-pbjalX/", name:"Instagram"}
+        ],
     },
     {
         index: "005",
@@ -441,7 +447,6 @@ export default [
         title: "Tejfölös csodasüti",
         details: "Egy egyszerű süti, de kicsit macerásabb elkészíteni mint egy brownie-t."
         +" A tészta még nem teljesen tökéletes, mert nem lehet gyúrni (bár a recept azt írja). ",
-        original: "https://gastrohobbi.hu/2020/07/tejfolos-csodasuti/",
         ingredients: [
             {
                 title: "A krémhez:",
@@ -480,12 +485,14 @@ export default [
             +" A sütési idő  sütőnként változhat.",
         ],
         image: image_01,
+        sources: [
+            {link: "https://gastrohobbi.hu/2020/07/tejfolos-csodasuti/", name:"Gastro Hobbi"}
+        ],
     },
     {
         index: "012",
         dessert: true,
         title: "Mogyoróvajas süti",
-        original: "https://www.nosalty.hu/recept/mogyorovajas-suti-flora-konyhajabol",
         details: "Egy egyszerűen elkészíthető süti. Végeredményben finom, viszont elég töményre sikeredett.",
         ingredients: [
             {
@@ -507,12 +514,14 @@ export default [
                 "Egy folpackkal bélelt őzgerincformába simítjuk, és hűtőbe tévemegvárjuk, amíg megdermed.",
             ],
         image: image_03,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/mogyorovajas-suti-flora-konyhajabol", name:"Nosalty"}
+        ],
     },
     {
         index: "013",
         dessert: true,
         title: "Boci süti",
-        original: "https://www.nosalty.hu/recept/boci-suti-rhode-konyhajabol",
         details: "Egyszerű és finom süti. Kicsit érdekesebb mint egy brownie de nem bonyolultabb",
         ingredients: [
             {
@@ -546,12 +555,14 @@ export default [
                 +" Langyosan már jól szeletelhető, és akkor a legfinomabb.",
             ],
         image: image_boci,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/boci-suti-rhode-konyhajabol", name:"Nosalty"}
+        ],
     },
     {
         index: "014",
         dessert: true,
         title: "Gyors császármorzsa",
-        original: "https://www.nosalty.hu/recept/gyors-csaszarmorzsa-barna-fruzsinatol",
         details: "Gyorsan elkészíthető finomság. Vacsorára lekvárral tökéletes.",
         ingredients: [
             {
@@ -588,6 +599,9 @@ export default [
                 +" vagy hagyományosan lekvárral és porcukorral tálaljuk.",
             ],
         image: image_csaszar,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/gyors-csaszarmorzsa-barna-fruzsinatol", name:"Nosalty"}
+        ],
     },
     {
         index: "015",
@@ -640,7 +654,6 @@ export default [
         index: "016",
         dessert: true,
         title: "Brownie - Narancsos pudinggal",
-        original: "https://www.mindmegette.hu/csupacsokis-brownie.recept/",
         details: "Csupacsokis brownie, ami egyszerűen elkészíthető."
         +" És hozzá egy narancsos puding ami jól passzol a süti töményebb ízéhez.",
         ingredients: [
@@ -686,12 +699,14 @@ export default [
                 +" Pudinggal tálaljuk",
             ],
         image: image_brownie2,
+        sources: [
+            {link: "https://www.mindmegette.hu/csupacsokis-brownie.recept/", name:"Mindmegette"}
+        ],
     },
     {
         index: "017",
         dessert: true,
         title: "Túrós-Mazsolás Csiga",
-        original: "https://www.mindmegette.hu/turos-mazsolas-csiga.recept/",
         details: "Egyik legfinomabb levelestésztás recept. Garantált kedvenc lesz az édesszályúaknál.",
         ingredients: [
             {
@@ -719,12 +734,14 @@ export default [
                 +" Vaníliás porcukorral enyhén meghintjük.",
             ],
         image: image_csiga2,
+        sources: [
+            {link: "https://www.mindmegette.hu/turos-mazsolas-csiga.recept/", name:"Mindmegette"}
+        ],
     },
     {
         index: "018",
         dessert: true,
         title: "Sós karamellás brownie",
-        original: "https://www.nosalty.hu/recept/sos-karamellas-brownie",
         details: "Kicsit izgalmasabb bornie recept.",
         ingredients: [
             {
@@ -773,12 +790,14 @@ export default [
                 +" A langyosra hűlt sütit már szelhetjük és élvezhetjük, ahogy nyúlik a karamell."
             ],
         image: image_saltbrownie,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/sos-karamellas-brownie", name:"Nosalty"}
+        ],
     },
     {
         index: "019",
         dessert: true,
         title: "Gyors amerikai palacsinta",
-        original: "https://www.nosalty.hu/recept/gyors-amerikai-palacsinta",
         details: "Egy jó kis original amerikai palacsinta.",
         ingredients: [
             {
@@ -805,6 +824,9 @@ export default [
                 +" olvasztott csokival, lekvárral, juharsziruppal.",
             ],
         image: image_pancacke,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/gyors-amerikai-palacsinta", name:"Nosalty"}
+        ],
     },
     {
         index: "020",
@@ -915,7 +937,6 @@ export default [
         index: "022",
         dessert: true,
         title: "Rizskoch",
-        original: "https://gastrohobbi.hu/2018/01/rizskoch-videoval/",
         details: "Egyik legfinomabb levelestésztás recept. Garantált kedvenc lesz az édesszályúaknál.",
         ingredients: [
             {
@@ -946,6 +967,9 @@ export default [
                 "Ízlés szerint, porcukorral meghintve, málnaszörppel, házi dzsemmel, vaníliasodóval kínáljuk."
             ],
         image: image_rizskoch,
+        sources: [
+            {link: "https://gastrohobbi.hu/2018/01/rizskoch-videoval/", name:"Gastro Hobbi"}
+        ],
     },
     {
         index: "023",
@@ -1203,7 +1227,9 @@ export default [
                 +"díszíthetjük."
             ],
         image: image_cake,
-        original: "https://www.youtube.com/watch?v=gzNB_eqB9oM&ab_channel=Bebepisk%C3%B3ta",
+        sources: [
+            {link: "https://www.youtube.com/watch?v=gzNB_eqB9oM&ab_channel=Bebepisk%C3%B3ta", name:"Youtube"}
+        ],
     },
     {
         index: "028",
@@ -1238,7 +1264,9 @@ export default [
                 +" Ha kicsit összerottyant mehet hozzá a reszelt sajt és tovább főzzük."
             ],
         image: image_picant,
-        original: "https://m.facebook.com/watch/?v=469880547736631&_rdr",
+        sources: [
+            {link: "https://m.facebook.com/watch/?v=469880547736631&_rdr", name:"Gastro Hobbi Facebook"}
+        ],
     },
     {
         index: "029",
@@ -1278,7 +1306,9 @@ export default [
                 "2-3 órára hűtőbe teszem."
             ],
         image: image_kinderbueno,
-        original:"https://gastrohobbi.hu/2021/06/kinder-bueno-szelet-sutes-nelkul/",
+        sources: [
+            {link: "https://gastrohobbi.hu/2021/06/kinder-bueno-szelet-sutes-nelkul/", name:"Gastro Hobbi"}
+        ],
     },
     {
         index: "031",
@@ -1312,7 +1342,9 @@ export default [
                 "Hűtőbe teszem és legalább egy órát hűtöm, de legjobb ha egy éjszakára benn hagyjuk."
             ],
         image: image_pudingcake,
-        original:"https://gastrohobbi.hu/2020/05/madartej-szelet-sutes-nelkul/?fbclid=IwAR2IYdRiW6VQ_J_Y4amDkbK24UbIJ9EEzHzlwXDCpf8Xzw8eFdByE5pEku8",
+        sources: [
+            {link: "https://gastrohobbi.hu/2020/05/madartej-szelet-sutes-nelkul/?fbclid=IwAR2IYdRiW6VQ_J_Y4amDkbK24UbIJ9EEzHzlwXDCpf8Xzw8eFdByE5pEku8", name:"Gastro Hobbi"}
+        ],
     },
     {
         index: "032",
@@ -1368,7 +1400,9 @@ export default [
                 "Legvégül a kész tésztával összekeverjük és hagyjuk egy kicsit állni, hogy a szószt felszívja a tészta.",
             ],
         image: image_csirke6,
-        original:"https://www.tiktok.com/@feeedmi/video/6998512434424057093?source=webapp_messages",
+        sources: [
+            {link: "https://www.tiktok.com/@feeedmi/video/6998512434424057093?source=webapp_messages", name:"Tiktok"}
+        ],
     },
     {
         index: "033",
@@ -1456,7 +1490,9 @@ export default [
                 +"Hozáadunk cukrot, és tűz felett karamelizáljuk.",
                 "He elég barna már a karamell hozáadjuk a vajat, a tejszínt és a fűszereket."
             ],
-        original: "https://www.tiktok.com/@greens_of_daisy/video/7029315419152452869?_d=secCgwIARCbDRjEFSACKAESPgo8%2FIWltw7gZgAlZW44Av6%2FuPIqdHByYdY1gASBubE37Av%2F5tEN2F1HLnMmUBJQTAMpJIxY7W3i3iuzvs7wGgA%3D&language=en&preview_pb=0&sec_user_id=MS4wLjABAAAA79QzG6Q_jOQjmog8tverVY0LXnFfOQluiguqq2fM_0BNUIp3aLaS_dUylHcybgMN&share_app_id=1233&share_item_id=7029315419152452869&share_link_id=15b8a30d-877c-4511-ae76-4223a8984774&source=h5_m&timestamp=1636757993&u_code=dchklci6e9mj5m&user_id=6832513320672822278&utm_campaign=client_share&utm_medium=android&utm_source=copy&_r=1",
+        sources: [
+            {link: "https://www.tiktok.com/@greens_of_daisy/video/7029315419152452869?_d=secCgwIARCbDRjEFSACKAESPgo8%2FIWltw7gZgAlZW44Av6%2FuPIqdHByYdY1gASBubE37Av%2F5tEN2F1HLnMmUBJQTAMpJIxY7W3i3iuzvs7wGgA%3D&language=en&preview_pb=0&sec_user_id=MS4wLjABAAAA79QzG6Q_jOQjmog8tverVY0LXnFfOQluiguqq2fM_0BNUIp3aLaS_dUylHcybgMN&share_app_id=1233&share_item_id=7029315419152452869&share_link_id=15b8a30d-877c-4511-ae76-4223a8984774&source=h5_m&timestamp=1636757993&u_code=dchklci6e9mj5m&user_id=6832513320672822278&utm_campaign=client_share&utm_medium=android&utm_source=copy&_r=1", name:"Tiktok"}
+        ],
         image: image_applesauce,
     },
     {
@@ -1489,7 +1525,9 @@ export default [
                 +"A sütési idő sütőnként változhat, végezzünk tűpróbát. "
                 +"Mikor kihült karamellel leöntve tálalom."
             ],
-        original: "https://gastrohobbi.hu/2018/03/almas-makos-kevert-pite/",
+        sources: [
+            {link: "https://gastrohobbi.hu/2018/03/almas-makos-kevert-pite/", name:"Gastro Hobbi"}
+        ],
         related: "035",
         image: image_applecake,
     },
@@ -1536,7 +1574,9 @@ export default [
                 +"Kiolajozott tepsibe helyezzük és sóval ízesítjük. "
                 +"Sütőben 30 - 45 percig (krumpli puhulásáig) sütjük."
             ],
-        original: "https://gastrohobbi.hu/2017/02/hasselback-csirkemell-gmlm/",
+        sources: [
+            {link: "https://gastrohobbi.hu/2017/02/hasselback-csirkemell-gmlm/", name:"Gastro Hobbi"}
+        ],
         image: image_chicken_spenot,
     },
     {
@@ -1586,7 +1626,9 @@ export default [
                 +" majd rárakjuk a feltétet. "
                 +"Sütőben 30 - 40 percig sütjük, tűpróbával vizsgáljuk hogy elkészült-e."
             ],
-        original: "https://streetkitchen.hu/fantasztikus-desszertek/cukormentes-flodni-brownie/",
+        sources: [
+            {link: "https://streetkitchen.hu/fantasztikus-desszertek/cukormentes-flodni-brownie/", name:"Street Kitchen"}
+        ],
         image: image_flowdnie,
     },
     {
@@ -1623,7 +1665,9 @@ export default [
                 "Bő olajban aranybarnára sütjük a csirkéket figyelve arra hogy ne mozgassuk, mert lejön róluk a bunda.",
                 "Szószhoz összekeverjük a hozzávalókat és kicsit összefőzzük, majd megforgatjuk benne a csirke falatokat."
             ],
-        original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
+        sources: [
+            {link: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages", name:"Tiktok"}
+        ],
         image: image_chicken_sesam,
     },
     {
@@ -1654,7 +1698,9 @@ export default [
                 "30 - 40 percig sütjük, amíg a cornflakes darabok el nem kezdnek barnulni. "
                 +"Tűpróbával ellenőrízhetjük, hogy a csirkemellek megsültek-e."
             ],
-        original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
+        sources: [
+            {link: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages", name:"Tiktok"}
+        ],
         image: image_cornflakes,
     },
     {
@@ -1678,7 +1724,9 @@ export default [
         howToMakeIt: [
                 "A hozzávalókat egy tálban összekeverjük, sóval és fehérborsal fűszerezzük."
             ],
-        original: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages",
+        sources: [
+            {link: "https://www.tiktok.com/@spebels/video/7038181496733109530?source=webapp_messages", name:"Tiktok"}
+        ],
         image: image_tartar,
     },
     {
@@ -1735,7 +1783,9 @@ export default [
                 "A piskótát kettévágjuk és a lapok közé belekenjük a krém felét."
                 +" A másik felét pedig a tetejére kenjük, majd megcsorgatjuk az egészet sóskaramellával."
             ],
-        original: "https://streetkitchen.hu/fantasztikus-desszertek/kortetorta-soskaramell-kremmel/",
+        sources: [
+            {link: "https://streetkitchen.hu/fantasztikus-desszertek/kortetorta-soskaramell-kremmel/", name:"Street Kitchen"}
+        ],
         image: image_pearcake,
     },
     {
@@ -1779,7 +1829,9 @@ export default [
                 +"a felét a csirkékre a másik felét a tésztára öntjük. "
                 +"Ezeket külön külön kicsit összefőzzük, hozzá  reszelünk egy kis sajtot és tálalhatjuk is."
             ],
-        original: "https://www.instagram.com/p/CL90QbsHctf/",
+        sources: [
+            {link: "https://www.instagram.com/p/CL90QbsHctf/", name:"Instagram"}
+        ],
         image: image_chicken_pasta,
     },
     {
@@ -1846,7 +1898,9 @@ export default [
                "A krémet a megsült tészta tetejére öntöm, elegyengetem, megszórom kókuszreszelékkel és ízlés szerint mandulával díszíthetjük.",
                "Néhány órát hűtőbe teszem, majd felszeletelve kínálom.",
             ],
-        original: "https://gastrohobbi.hu/2019/06/raffaello-szelet/",
+        sources: [
+            {link: "https://gastrohobbi.hu/2019/06/raffaello-szelet/", name:"Gastro Hobbi"}
+        ],
         image: image_coconat2,
     },
     {
@@ -1907,11 +1961,12 @@ export default [
             {
                 title: "Sajtos tésztáhotz:",
                 list: [
-                    "trapista sajt",
-                    "chedar sajt",
+                    "kemény sajt (grana padano)",
+                    "gauda sajt",
+                    "mozzarella sajt",
                     "500 g tészta",
-                    "1 dl tejszín",
-                    "200 g sajtkrém",
+                    "2 - 3 dl tejszín",
+                    "300 g sajtkrém vagy mascarpone",
                     "só, bors, füstölt paprika",
                     "2 gerezd fokhagyma",
                     "5 dkg vaj",
@@ -1923,19 +1978,24 @@ export default [
                 "A csirkemelleket bevagdossuk úgy hogy meg lehessen tölteni. "
                 +"Utána kicsit megklopfoljuk majd bepácoljuk a fűszerekkel és egy kevés olajjal.",
                 "A lilahagymát és szalonnát felszeleteljük és megpirítjuk. "
-                +"Majd hozzákeverjük a sajtkrémet, a citromlét és ízlés szerint tárkonnyal vagy kaporral ízesíthetjük.",
+                +"Majd hozzákeverjük a sajtkrémet, a citromlét és ízlés szerint tárkonnyal vagy kaporral ízesíthetjük."
+                +" Ezt hagyjuk kihülni.",
                 "A csirkemelleket megtöltjük ezzel a töltelékkel majd fogpiszkálóval összefogjuk"
-                +" és egy olajjal kikent tepsiben 30 - 45 percig sütjük, amíg a csirke megfelelően át nem sül.",
+                +" és egy olajjal kikent tepsibe helyezzük. "
+                +" A kisebb csirkedarabokat lekenhetjük a maradék szósszal és úgy helyezhetjük a tespibe. "
+                +" A sütőben 30 - 45 percig sütjük, amíg a csirke megfelelően át nem sül.",
                 "A tésztát feltesszük főni, közben reszeljük le a sajtot. "
                 +"A tejszínt, sajtkrémet és a fűszereket egy edényben elkezdjük összefőzni.",
                 "Egy másik fazékba a vajat felolvasztjuk és hozzáadjuk a fokhagymát és a 2 evőkanál lisztet. "
                 +" Felöntjük egy kicsit a tészta főzővizével, és hozzáadjuk a tejszínes masszát. "
-                +"Ha túl sűrű lenne öntsünk még hozzá tejszínt.",
+                +"Ha túl sűrű lenne öntsünk még hozzá tejszínt vagy tejet.",
                 "Ezekután adjuk hozzá a reszelt sajtokat és tésztát. "
-                +"Az egészet öntsük bele egy tespibe és 200 fokon süssük pirulásig."
+                +"Az egészet öntsük bele egy tespibe és 200 fokon süssük pirulásig (min 45 perc)."
             ],
-            original: "https://www.tiktok.com/@fozzunkolcson/video/7050496127325588741?lang=en&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6924006893368116741",
-            original2: "https://www.tiktok.com/@szorongokesfozok/video/7050420997798890757?lang=en&is_copy_url=1&is_from_webapp=v1",
+        sources: [
+            {link: "https://www.tiktok.com/@fozzunkolcson/video/7050496127325588741?lang=en&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6924006893368116741/", name:"Tiktok csirke"},
+            {link: "https://www.tiktok.com/@szorongokesfozok/video/7050420997798890757?lang=en&is_copy_url=1&is_from_webapp=v1", name:"Tiktok köret"},
+        ],
         image: comming_soon,
     },
     {
@@ -1971,6 +2031,8 @@ export default [
                 +"Tetejét tálalás előtt szórjuk meg porcukorral."
             ],
         image: image_birdmilk,
-        original: "https://streetkitchen.hu/meguszos-sutik/sult-madartej/",
+        sources: [
+            {link: "https://streetkitchen.hu/meguszos-sutik/sult-madartej/", name:"Street Kitchen"}
+        ],
     }
 ];

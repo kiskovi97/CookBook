@@ -20,6 +20,12 @@ class BigReceipt extends React.Component {
                         <div className={styles.details}>
                             <h1 className={styles.title}>{prop.proj.title}</h1>
                             <div>{prop.proj.details}</div>
+                            {prop.proj.sources ? (<div>Források:</div>):null}
+                            {prop.proj.sources?.map(source => (
+                                <div>
+                                    <a href={source.link} target="_blank" rel="noreferrer">{source.name}</a>
+                                </div>))}
+                            
                         </div>
                         <div className={styles.image}>
                             <img src={prop.proj.image} hidden={!prop.proj.image} alt="" className={styles.background} onClick={() => this.onImageClicked(true)} />

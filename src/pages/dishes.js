@@ -44,6 +44,7 @@ import image_chicken_potatoes from '../images/image_chicken_potatoes.webp'
 import image_coconat2 from '../images/image_coconat2.webp'
 import image_chicken_sesam from '../images/image_chicken_sesam.webp'
 import image_chicken_cheese from '../images/image_chicken_cheese.webp'
+import image_birdmilk from '../images/image_birdmilk.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1882,5 +1883,92 @@ export default [
                 +" vagy majd csak a tálaláskor szórunk belőle tetejére."
             ],
         image: image_chicken_cheese,
+    },
+    {
+        index: "047",
+        chicken: true,
+        main: true,
+        title: "Töltött csirkemell sajtos tésztával",
+        details: "Ha szereted a sajtot tömérdeklen mennyiségben",
+        ingredients: [
+            {
+                title: "Csirkéhez:",
+                list: [
+                    "1 kg csirkemell",
+                    "só, bors, cayane bors, fűszerpaprika",
+                    "olaj",
+                    "10 dkg szalonna",
+                    "1 fej lilahagyma",
+                    "200 g sajtkrém",
+                    "1 ek citromlé",
+                    "1 csipet tárkony/kapor"
+                ]
+            },
+            {
+                title: "Sajtos tésztáhotz:",
+                list: [
+                    "trapista sajt",
+                    "chedar sajt",
+                    "500 g tészta",
+                    "1 dl tejszín",
+                    "200 g sajtkrém",
+                    "só, bors, füstölt paprika",
+                    "2 gerezd fokhagyma",
+                    "5 dkg vaj",
+                    "2 ek liszt"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A csirkemelleket bevagdossuk úgy hogy meg lehessen tölteni. "
+                +"Utána kicsit megklopfoljuk majd bepácoljuk a fűszerekkel és egy kevés olajjal.",
+                "A lilahagymát és szalonnát felszeleteljük és megpirítjuk. "
+                +"Majd hozzákeverjük a sajtkrémet, a citromlét és ízlés szerint tárkonnyal vagy kaporral ízesíthetjük.",
+                "A csirkemelleket megtöltjük ezzel a töltelékkel majd fogpiszkálóval összefogjuk"
+                +" és egy olajjal kikent tepsiben 30 - 45 percig sütjük, amíg a csirke megfelelően át nem sül.",
+                "A tésztát feltesszük főni, közben reszeljük le a sajtot. "
+                +"A tejszínt, sajtkrémet és a fűszereket egy edényben elkezdjük összefőzni.",
+                "Egy másik fazékba a vajat felolvasztjuk és hozzáadjuk a fokhagymát és a 2 evőkanál lisztet. "
+                +" Felöntjük egy kicsit a tészta főzővizével, és hozzáadjuk a tejszínes masszát. "
+                +"Ha túl sűrű lenne öntsünk még hozzá tejszínt.",
+                "Ezekután adjuk hozzá a reszelt sajtokat és tésztát. "
+                +"Az egészet öntsük bele egy tespibe és 200 fokon süssük pirulásig."
+            ],
+            original: "https://www.tiktok.com/@fozzunkolcson/video/7050496127325588741?lang=en&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6924006893368116741",
+            original2: "https://www.tiktok.com/@szorongokesfozok/video/7050420997798890757?lang=en&is_copy_url=1&is_from_webapp=v1",
+        image: comming_soon,
+    },
+    {
+        index: "048",
+        dessert: true,
+        title: "Madártej szelet",
+        details: "A madártej kedvelőinek egy egyszerűen elkészíthető könnyed sütemény",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "10 db tojás",
+                    "150 g cukor",
+                    "20 g vaníliás cukor",
+                    "1 csipet só",
+                    "130 g liszt",
+                    "1 l tej",
+                    "150 g vaj",
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A sült madártej elkészítéséhez a tojásokat kettéválasztjuk."
+                +" A fehérjét kemény habbá verjük a cukor egyik felével. "
+                +"A tojássárgájákat a cukor másik felével kihabosítjuk,"
+                +" majd mehet bele a vaníliás cukor, a só és a liszt."
+                +" A liszttel alaposan elkeverjük a sárgáját,"
+                +" majd fokozatosan hozzáöntjük a tejet, és kevergetjük, hogy ne legyen csomós.",
+                "A vajat megolvasztjuk, és a tojássárgájához locsoljuk, majd beleforgatjuk a fehérjehabot,"
+                +" és egy kb. 20×35 cm-es tepsibe öntjük a tésztát."
+                +" 150 fokos sütőbe toljuk 60 percre, majd hagyjuk teljesen kihűlni, mielőtt felszeleteljük."
+            ],
+        image: image_birdmilk,
+        original: "https://streetkitchen.hu/meguszos-sutik/sult-madartej/",
     }
 ];

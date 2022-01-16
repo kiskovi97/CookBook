@@ -1954,6 +1954,7 @@ export default [
                     "130 g liszt",
                     "1 l tej",
                     "150 g vaj",
+                    "porcukor ízlés szerint"
                 ]
             }
         ],
@@ -1965,8 +1966,9 @@ export default [
                 +" A liszttel alaposan elkeverjük a sárgáját,"
                 +" majd fokozatosan hozzáöntjük a tejet, és kevergetjük, hogy ne legyen csomós.",
                 "A vajat megolvasztjuk, és a tojássárgájához locsoljuk, majd beleforgatjuk a fehérjehabot,"
-                +" és egy kb. 20×35 cm-es tepsibe öntjük a tésztát."
-                +" 150 fokos sütőbe toljuk 60 percre, majd hagyjuk teljesen kihűlni, mielőtt felszeleteljük."
+                +" és egy kb. 20×35 cm-es vajazott vagy sütőpapírral kikent tepsibe öntjük a tésztát."
+                +" 150 fokos sütőbe toljuk 60 percre, majd hagyjuk teljesen kihűlni, mielőtt felszeleteljük. "
+                +"Tetejét tálalás előtt szórjuk meg porcukorral."
             ],
         image: image_birdmilk,
         original: "https://streetkitchen.hu/meguszos-sutik/sult-madartej/",

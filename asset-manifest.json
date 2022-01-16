@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.ebc68d04.chunk.css",
-    "main.js": "/CookBook/static/js/main.29f83cf2.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.29f83cf2.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.b72c2811.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.b72c2811.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.39b034bd.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.39b034bd.js.map",
-    "static/js/2.3e65c67e.chunk.js": "/CookBook/static/js/2.3e65c67e.chunk.js",
-    "static/js/2.3e65c67e.chunk.js.map": "/CookBook/static/js/2.3e65c67e.chunk.js.map",
+    "static/js/2.c6aeb6b0.chunk.js": "/CookBook/static/js/2.c6aeb6b0.chunk.js",
+    "static/js/2.c6aeb6b0.chunk.js.map": "/CookBook/static/js/2.c6aeb6b0.chunk.js.map",
     "static/js/3.64546ea7.chunk.js": "/CookBook/static/js/3.64546ea7.chunk.js",
     "static/js/3.64546ea7.chunk.js.map": "/CookBook/static/js/3.64546ea7.chunk.js.map",
     "index.html": "/CookBook/index.html",
     "static/css/main.ebc68d04.chunk.css.map": "/CookBook/static/css/main.ebc68d04.chunk.css.map",
-    "static/js/2.3e65c67e.chunk.js.LICENSE.txt": "/CookBook/static/js/2.3e65c67e.chunk.js.LICENSE.txt",
+    "static/js/2.c6aeb6b0.chunk.js.LICENSE.txt": "/CookBook/static/js/2.c6aeb6b0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/CookBook/static/media/OpenSauceOne-Regular.942cf144.woff",
     "static/media/comming_soon.44e955fd.jpg": "/CookBook/static/media/comming_soon.44e955fd.jpg",
     "static/media/foodTemplate.ce8eca3c.webp": "/CookBook/static/media/foodTemplate.ce8eca3c.webp",
@@ -46,6 +46,7 @@
     "static/media/image_kinderbueno.44e412b6.webp": "/CookBook/static/media/image_kinderbueno.44e412b6.webp",
     "static/media/image_kukorica.36dd4f93.webp": "/CookBook/static/media/image_kukorica.36dd4f93.webp",
     "static/media/image_lasagne.7050a2fe.webp": "/CookBook/static/media/image_lasagne.7050a2fe.webp",
+    "static/media/image_macandcheese.8d24f79e.webp": "/CookBook/static/media/image_macandcheese.8d24f79e.webp",
     "static/media/image_mexican2.ad64ef45.webp": "/CookBook/static/media/image_mexican2.ad64ef45.webp",
     "static/media/image_palacsinta.d429321d.webp": "/CookBook/static/media/image_palacsinta.d429321d.webp",
     "static/media/image_pancacke.8d9a6fd0.webp": "/CookBook/static/media/image_pancacke.8d9a6fd0.webp",
@@ -66,8 +67,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.39b034bd.js",
-    "static/js/2.3e65c67e.chunk.js",
+    "static/js/2.c6aeb6b0.chunk.js",
     "static/css/main.ebc68d04.chunk.css",
-    "static/js/main.29f83cf2.chunk.js"
+    "static/js/main.b72c2811.chunk.js"
   ]
 }

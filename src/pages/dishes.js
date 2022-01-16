@@ -45,6 +45,7 @@ import image_coconat2 from '../images/image_coconat2.webp'
 import image_chicken_sesam from '../images/image_chicken_sesam.webp'
 import image_chicken_cheese from '../images/image_chicken_cheese.webp'
 import image_birdmilk from '../images/image_birdmilk.webp'
+import image_macandcheese from '../images/image_macandcheese.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1996,7 +1997,7 @@ export default [
             {link: "https://www.tiktok.com/@fozzunkolcson/video/7050496127325588741?lang=en&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6924006893368116741/", name:"Tiktok csirke"},
             {link: "https://www.tiktok.com/@szorongokesfozok/video/7050420997798890757?lang=en&is_copy_url=1&is_from_webapp=v1", name:"Tiktok köret"},
         ],
-        image: comming_soon,
+        image: image_macandcheese,
     },
     {
         index: "048",

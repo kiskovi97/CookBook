@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import Navbar from './Navbar';
@@ -9,15 +9,20 @@ import Dish from './pages/Dish.jsx';
 import ReactGa from 'react-ga';
 import { useEffect } from 'react';
 
+function usePageViews() {
+    let location = useLocation();
+    useEffect(()=> {
+      if (!window.GA_INITIALIZED) {
+        ReactGa.initialize('UA-166027980-1');
+        window.GA_INITIALIZED = true;
+      }
+      ReactGa.set({ page: location.pathname});
+      ReactGa.pageview(location.pathname + location.search);
+    }, [location])
+}
 
 function App() {
-
-  useEffect(() => {
-    ReactGa.initialize('UA-166027980-1')
-
-    ReactGa.pageview(window.location.pathname + window.location.search)
-  }, [])
-
+  usePageViews();
   return (
     <main className="App">
       <Navbar />

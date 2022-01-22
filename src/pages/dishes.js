@@ -1056,7 +1056,7 @@ export default [
             {
                 title: "Tésztához:",
                 list: [
-                    "250 g rizs",
+                    "500 g spagetti",
                     "szója szósz",
                     "2 szál újhagyma",
                 ]

@@ -21,7 +21,7 @@ var Me = () =>
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation className={styles.logos} animateIn="fadeInLeft" animateOut="fadeOutLeft" offset={180} animateOnce>
-                    <a href="https://www.instagram.com/kiskovi9706/" className={pStyles.minilogo}><img src={insta} alt="" /></a>
+                    <a href="https://www.instagram.com/evilexcuse/" className={pStyles.minilogo}><img src={insta} alt="" /></a>
                     <a href="https://github.com/kiskovi97" className={pStyles.minilogo}><img src={github} alt="" /></a>
                 </ScrollAnimation>
             </div>

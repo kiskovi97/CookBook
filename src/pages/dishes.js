@@ -2035,5 +2035,67 @@ export default [
         sources: [
             {link: "https://streetkitchen.hu/meguszos-sutik/sult-madartej/", name:"Street Kitchen"}
         ],
+    },
+    {
+        index: "049",
+        dessert: true,
+        title: "Citromos pite",
+        details: "A madártej kedvelőinek egy egyszerűen elkészíthető könnyed sütemény",
+        ingredients: [
+            {
+                title: "A tésztához:",
+                list: [
+                    "250 g finomliszt",
+                    "125 g vaj",
+                    "100 g porcukor",
+                    "1 citromból nyert citromhéj",
+                    "só ízlés szerint",
+                    "2 db tojássárgája",
+                    "0.5 dl tej",
+                    "1 db tojás (kenéshez)",
+                ]
+            },{
+                title: "A középső réteg:",
+                list: [
+                    "8 db tojás",
+                    "200 g cukor",
+                    "3 citromból nyert citromlé",
+                    "3 lime-ból nyert limelé",
+                    "2 dl habtejszín",
+                ]
+            },
+            {
+                title: "A felső réteg:",
+                list: [
+                    "3 citrom (héja és leve)",
+                    "3 tojás",
+                    "150 g cukor",
+                    "150 g vaj",
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Egy nagy tálba szórjuk a lisztet és a felkockázott, "
+                +"vajat majd jól összedolgozzuk. Ha elértük a morzsás állagot, "
+                +"hozzáöntjük a porcukrot, a reszelt citromhéjat, a sót a tojássárgájákat, "
+                +"a tejet, és gyors, határozott mozdulatokkal tésztává gyúrjuk.",
+                "Fóliába csomagoljuk, és minimum 1 órát pihentetjük a hűtőben.",
+                "Közben elkészítjük a citromos krémet.",
+                "A tésztát két sütőpapír közé tesszük, kinyújtjuk, "
+                +"majd egy kivajazott piteformába igazgatjuk. "
+                +"180 fokos sütőben kb. 10 percig sütjük, majd kivesszük, és pihentetjük egy kicsit.",
+                "A lehűlt tésztánkat megkenjük egy tojással, beleöntjük a krémet, "
+                +"és további 30 percig sütjük. Néhány órát a hűtőben pihentetjük, "
+                +"hogy megdermedjen a krém.",
+                "3 citrom héját lereszeljjük és levüket kifacsarjuk. "
+                +"Hozzáadunk 3 egésztojást és a cukrot, majd összekverjük és vízgőz felett sűrűre főzzük. "
+                +"Végül levesszük a vízgőzről és hozzáadjuk a vajat és olvadásig keverjük. "
+                +"Kicsit hagyjuk hűlni majd ráöntjük a pitére."
+            ],
+        image: comming_soon,
+        sources: [
+            {link: "https://www.nosalty.hu/recept/hazi-citrompite", name:"Nosalty"},
+            {link: "https://www.tiktok.com/@edessemmitteves/video/6949862814097870086?lang=en&is_copy_url=1&is_from_webapp=v1", name:"Tiktok krém"}
+        ],
     }
 ];

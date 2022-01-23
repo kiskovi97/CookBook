@@ -1173,7 +1173,7 @@ export default [
     {
         index: "027",
         dessert: true,
-        title: "Sütőtökös sajtorta",
+        title: "Sütőtökös sajttorta",
         details: "Őszi ízek egy finom tortában",
         ingredients: [
             {
@@ -2040,19 +2040,13 @@ export default [
         index: "049",
         dessert: true,
         title: "Citromos pite",
-        details: "A madártej kedvelőinek egy egyszerűen elkészíthető könnyed sütemény",
+        details: "Citromos sütemény 3 rétegből és 3 receptből összerakva",
         ingredients: [
             {
-                title: "A tésztához:",
+                title: "Az alsó réteghez:",
                 list: [
-                    "250 g finomliszt",
-                    "125 g vaj",
-                    "100 g porcukor",
-                    "1 citromból nyert citromhéj",
-                    "só ízlés szerint",
-                    "2 db tojássárgája",
-                    "0.5 dl tej",
-                    "1 db tojás (kenéshez)",
+                    "25 dkg zabkeksz",
+                    "10 dkg vaj",
                 ]
             },{
                 title: "A középső réteg:",
@@ -2075,17 +2069,17 @@ export default [
             }
         ],
         howToMakeIt: [
-                "Egy nagy tálba szórjuk a lisztet és a felkockázott, "
-                +"vajat majd jól összedolgozzuk. Ha elértük a morzsás állagot, "
-                +"hozzáöntjük a porcukrot, a reszelt citromhéjat, a sót a tojássárgájákat, "
-                +"a tejet, és gyors, határozott mozdulatokkal tésztává gyúrjuk.",
-                "Fóliába csomagoljuk, és minimum 1 órát pihentetjük a hűtőben.",
-                "Közben elkészítjük a citromos krémet.",
-                "A tésztát két sütőpapír közé tesszük, kinyújtjuk, "
-                +"majd egy kivajazott piteformába igazgatjuk. "
-                +"180 fokos sütőben kb. 10 percig sütjük, majd kivesszük, és pihentetjük egy kicsit.",
-                "A lehűlt tésztánkat megkenjük egy tojással, beleöntjük a krémet, "
-                +"és további 30 percig sütjük. Néhány órát a hűtőben pihentetjük, "
+                "A kekszet apróra daráljuk, "
+                +" majd hozzáöntjük a felolvasztott vajat. Alaposan összedolgozzuk.",
+                "Tortaforma aljára és szélére szétegyengetjük a masszát lehetőleg egyenletesen, "
+                +" majd sütőben 15 percre a sütőbe.",
+                "Közben elkészítjük a citromos krémet. "
+                +"A tojásokat egy tálba öntjük, hozzáadjuk a cukrot, "
+                +"és jól kikeverjük. Mehet bele a citrom és a lime leve,"
+                +" a tejszín, és egy robotgép segítségével jól összekeverjük.",
+                "Az elősütött alapba beleöntjük a kész masszát úgy, hogy a nyalóra (spatulára) "
+                +"csorgatjuk először a masszát, amiről folyik tovább az alapra. "
+                +"Ezt további 30 percig sütjük. Néhány órát a hűtőben pihentetjük, "
                 +"hogy megdermedjen a krém.",
                 "3 citrom héját lereszeljjük és levüket kifacsarjuk. "
                 +"Hozzáadunk 3 egésztojást és a cukrot, majd összekverjük és vízgőz felett sűrűre főzzük. "
@@ -2094,8 +2088,9 @@ export default [
             ],
         image: comming_soon,
         sources: [
-            {link: "https://www.nosalty.hu/recept/hazi-citrompite", name:"Nosalty"},
-            {link: "https://www.tiktok.com/@edessemmitteves/video/6949862814097870086?lang=en&is_copy_url=1&is_from_webapp=v1", name:"Tiktok krém"}
+            {link: "https://www.youtube.com/watch?v=gzNB_eqB9oM&ab_channel=Bebepisk%C3%B3ta", name:"Alsó keksz réteg (Youtube)"},
+            {link: "https://www.nosalty.hu/recept/hazi-citrompite", name:"Középső réteg (Nosalty)"},
+            {link: "https://www.tiktok.com/@edessemmitteves/video/6949862814097870086?lang=en&is_copy_url=1&is_from_webapp=v1", name:"Felső réteg (Tiktok)"},
         ],
     }
 ];

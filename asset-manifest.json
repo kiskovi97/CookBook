@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.ebc68d04.chunk.css",
-    "main.js": "/CookBook/static/js/main.ecbf359a.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.ecbf359a.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.05c2a931.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.05c2a931.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.39b034bd.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.39b034bd.js.map",
     "static/js/2.c6aeb6b0.chunk.js": "/CookBook/static/js/2.c6aeb6b0.chunk.js",
@@ -46,6 +46,7 @@
     "static/media/image_kinderbueno.44e412b6.webp": "/CookBook/static/media/image_kinderbueno.44e412b6.webp",
     "static/media/image_kukorica.36dd4f93.webp": "/CookBook/static/media/image_kukorica.36dd4f93.webp",
     "static/media/image_lasagne.7050a2fe.webp": "/CookBook/static/media/image_lasagne.7050a2fe.webp",
+    "static/media/image_lemon.82248f26.webp": "/CookBook/static/media/image_lemon.82248f26.webp",
     "static/media/image_macandcheese.8d24f79e.webp": "/CookBook/static/media/image_macandcheese.8d24f79e.webp",
     "static/media/image_mexican2.ad64ef45.webp": "/CookBook/static/media/image_mexican2.ad64ef45.webp",
     "static/media/image_palacsinta.d429321d.webp": "/CookBook/static/media/image_palacsinta.d429321d.webp",
@@ -69,6 +70,6 @@
     "static/js/runtime-main.39b034bd.js",
     "static/js/2.c6aeb6b0.chunk.js",
     "static/css/main.ebc68d04.chunk.css",
-    "static/js/main.ecbf359a.chunk.js"
+    "static/js/main.05c2a931.chunk.js"
   ]
 }

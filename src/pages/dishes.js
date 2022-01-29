@@ -46,6 +46,7 @@ import image_chicken_sesam from '../images/image_chicken_sesam.webp'
 import image_chicken_cheese from '../images/image_chicken_cheese.webp'
 import image_birdmilk from '../images/image_birdmilk.webp'
 import image_macandcheese from '../images/image_macandcheese.webp'
+import image_lemon from '../images/image_lemon.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2047,14 +2048,15 @@ export default [
                 list: [
                     "25 dkg zabkeksz",
                     "10 dkg vaj",
+                    "10 dkg kókusz"
                 ]
             },{
                 title: "A középső réteg:",
                 list: [
-                    "8 db tojás",
-                    "200 g cukor",
-                    "3 citromból nyert citromlé",
-                    "3 lime-ból nyert limelé",
+                    "12 db tojás",
+                    "300 g cukor",
+                    "9 kanál citromlé",
+                    "9 kanál limelé",
                     "2 dl habtejszín",
                 ]
             },
@@ -2063,7 +2065,7 @@ export default [
                 list: [
                     "3 citrom (héja és leve)",
                     "3 tojás",
-                    "150 g cukor",
+                    "200 g cukor",
                     "150 g vaj",
                 ]
             }
@@ -2086,7 +2088,7 @@ export default [
                 +"Végül levesszük a vízgőzről és hozzáadjuk a vajat és olvadásig keverjük. "
                 +"Kicsit hagyjuk hűlni majd ráöntjük a pitére."
             ],
-        image: comming_soon,
+        image: image_lemon,
         sources: [
             {link: "https://www.youtube.com/watch?v=gzNB_eqB9oM&ab_channel=Bebepisk%C3%B3ta", name:"Alsó keksz réteg (Youtube)"},
             {link: "https://www.nosalty.hu/recept/hazi-citrompite", name:"Középső réteg (Nosalty)"},

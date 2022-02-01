@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import image_02 from '../images/image_02.webp'
 import image_kukorica from '../images/image_kukorica.webp'
 import image_tortilla from '../images/image_tortilla.webp'

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CookBook/static/css/main.ebc68d04.chunk.css",
-    "main.js": "/CookBook/static/js/main.05c2a931.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.05c2a931.chunk.js.map",
+    "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
+    "main.js": "/CookBook/static/js/main.210c47c0.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.210c47c0.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.39b034bd.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.39b034bd.js.map",
     "static/js/2.c6aeb6b0.chunk.js": "/CookBook/static/js/2.c6aeb6b0.chunk.js",
@@ -10,12 +10,12 @@
     "static/js/3.64546ea7.chunk.js": "/CookBook/static/js/3.64546ea7.chunk.js",
     "static/js/3.64546ea7.chunk.js.map": "/CookBook/static/js/3.64546ea7.chunk.js.map",
     "index.html": "/CookBook/index.html",
-    "static/css/main.ebc68d04.chunk.css.map": "/CookBook/static/css/main.ebc68d04.chunk.css.map",
+    "static/css/main.fb8701c4.chunk.css.map": "/CookBook/static/css/main.fb8701c4.chunk.css.map",
     "static/js/2.c6aeb6b0.chunk.js.LICENSE.txt": "/CookBook/static/js/2.c6aeb6b0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/CookBook/static/media/OpenSauceOne-Regular.942cf144.woff",
     "static/media/comming_soon.44e955fd.jpg": "/CookBook/static/media/comming_soon.44e955fd.jpg",
     "static/media/foodTemplate.ce8eca3c.webp": "/CookBook/static/media/foodTemplate.ce8eca3c.webp",
-    "static/media/github.6ec6aa91.svg": "/CookBook/static/media/github.6ec6aa91.svg",
+    "static/media/github.237cbb85.svg": "/CookBook/static/media/github.237cbb85.svg",
     "static/media/image_01.8b1e428f.webp": "/CookBook/static/media/image_01.8b1e428f.webp",
     "static/media/image_02.a26ded35.webp": "/CookBook/static/media/image_02.a26ded35.webp",
     "static/media/image_03.57ffb4fd.webp": "/CookBook/static/media/image_03.57ffb4fd.webp",
@@ -63,13 +63,13 @@
     "static/media/image_szuz.d527164f.webp": "/CookBook/static/media/image_szuz.d527164f.webp",
     "static/media/image_tartar.13a816cc.webp": "/CookBook/static/media/image_tartar.13a816cc.webp",
     "static/media/image_tortilla.80ea5b3e.webp": "/CookBook/static/media/image_tortilla.80ea5b3e.webp",
-    "static/media/instagram.20d3f9f3.svg": "/CookBook/static/media/instagram.20d3f9f3.svg",
+    "static/media/instagram.beada15c.svg": "/CookBook/static/media/instagram.beada15c.svg",
     "static/media/risotto.eb68438c.webp": "/CookBook/static/media/risotto.eb68438c.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.39b034bd.js",
     "static/js/2.c6aeb6b0.chunk.js",
-    "static/css/main.ebc68d04.chunk.css",
-    "static/js/main.05c2a931.chunk.js"
+    "static/css/main.fb8701c4.chunk.css",
+    "static/js/main.210c47c0.chunk.js"
   ]
 }

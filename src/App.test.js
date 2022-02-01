@@ -1,6 +1,10 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
+import {MemoryRouter} from 'react-router-dom'
 import App from './App';
+import ReactGa from 'react-ga';
 
 test('renders learn react link', () => {
-  render(<App />);
+  window.GA_INITIALIZED = true;
+  ReactGa.initialize('UA-166027980-1', {testMode: true});
+  render(<App />, {wrapper: MemoryRouter});
 });

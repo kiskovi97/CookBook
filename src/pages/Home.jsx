@@ -30,8 +30,8 @@ class Home extends React.Component {
         return (
             <div className={styles.page}>
                 <Me />
-                <div className={gStyles.grid_big}>
-                    {receipts.map((station, index) => (<Receipt proj={station} index={index} />))}
+                <div className={gStyles.grid_big} key="top-recepies">
+                    {receipts.map((station, index) => (<Receipt proj={station} index={index} key={index}/>))}
                 </div>
             </div>)
     }

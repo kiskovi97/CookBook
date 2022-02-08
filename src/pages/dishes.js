@@ -48,6 +48,7 @@ import image_chicken_cheese from '../images/image_chicken_cheese.webp'
 import image_birdmilk from '../images/image_birdmilk.webp'
 import image_macandcheese from '../images/image_macandcheese.webp'
 import image_lemon from '../images/image_lemon.webp'
+import image_peach from '../images/image_peach.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2094,6 +2095,45 @@ export default [
             {link: "https://www.youtube.com/watch?v=gzNB_eqB9oM&ab_channel=Bebepisk%C3%B3ta", name:"Alsó keksz réteg (Youtube)"},
             {link: "https://www.nosalty.hu/recept/hazi-citrompite", name:"Középső réteg (Nosalty)"},
             {link: "https://www.tiktok.com/@edessemmitteves/video/6949862814097870086?lang=en&is_copy_url=1&is_from_webapp=v1", name:"Felső réteg (Tiktok)"},
+        ],
+    },
+    {
+        index: "050",
+        main: true,
+        title: "Barackos csirkemell",
+        details: "Sajtal és barackal megrakott csirkemell mandulás rizzsel",
+        ingredients: [
+            {
+                title: "A csirkéhez:",
+                list: [
+                    "1 kg csirkemell",
+                    "1 konzerv őszibarack",
+                    "300 g lapka sajt",
+                    "150 g félkemény sajt",
+                    "só, bors, fahéj",
+                    "olaj"
+                ]
+            },{
+                title: "A körethez:",
+                list: [
+                    "300 g rizs",
+                    "ételizesítő",
+                    "szeletelt mandula"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A csirkemellett felvágjuk szeletekre és klopfolóval kilapítjuk őket. "
+                + "Megfűszerezzük, majd egyesével egy serpenyőben és kevés olajban kisütjük. ",
+                "A kész szeleteket egy sütőpapírral kibélelt tepsibe helyezzük. " 
+                + "A barackokat vízszintesen ujjyni vastag szeletekre vágjuk (felezett barack esetén még egyszer felezzük). "
+                + "A barackokat és a sajtokat a csirkére helyezzük, és a sütőben 30-45 percig (pirulásig) sütjük.",
+                "A rizset kevés olajon megpirítjuk, majd felöntjük vízzel, hozzáadunk egy kis ételízesítőt és megfőzzük. "
+                +"A szeletelt mandulát egy serpenyőben megpirítjuk és a kész rízshez hozzákeverjük"
+                +" vagy majd csak a tálaláskor szórunk belőle tetejére."
+            ],
+        image: image_peach,
+        sources: [
         ],
     }
 ];

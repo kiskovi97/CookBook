@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.b48171e4.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.b48171e4.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.e9c309a8.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.e9c309a8.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.8db8c1dc.chunk.js": "/CookBook/static/js/2.8db8c1dc.chunk.js",
@@ -52,6 +52,7 @@
     "static/media/image_palacsinta.d429321d.webp": "/CookBook/static/media/image_palacsinta.d429321d.webp",
     "static/media/image_pancacke.8d9a6fd0.webp": "/CookBook/static/media/image_pancacke.8d9a6fd0.webp",
     "static/media/image_pasta.30b4ee30.webp": "/CookBook/static/media/image_pasta.30b4ee30.webp",
+    "static/media/image_peach.9e13987b.webp": "/CookBook/static/media/image_peach.9e13987b.webp",
     "static/media/image_pearcake.68df3429.webp": "/CookBook/static/media/image_pearcake.68df3429.webp",
     "static/media/image_picant.9a4c7333.webp": "/CookBook/static/media/image_picant.9a4c7333.webp",
     "static/media/image_pudingcake.3d0a1286.webp": "/CookBook/static/media/image_pudingcake.3d0a1286.webp",
@@ -70,6 +71,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.8db8c1dc.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.b48171e4.chunk.js"
+    "static/js/main.e9c309a8.chunk.js"
   ]
 }

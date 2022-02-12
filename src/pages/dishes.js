@@ -49,6 +49,8 @@ import image_birdmilk from '../images/image_birdmilk.webp'
 import image_macandcheese from '../images/image_macandcheese.webp'
 import image_lemon from '../images/image_lemon.webp'
 import image_peach from '../images/image_peach.webp'
+import image_chicken_potatoes2 from '../images/image_chicken_potatoes2.webp'
+import image_tiramisu from '../images/image_tiramisu.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2134,6 +2136,108 @@ export default [
             ],
         image: image_peach,
         sources: [
+        ],
+    },
+    {
+        index: "051",
+        main: true,
+        title: "Pulykatokány sült krumplival",
+        details: "Tejszínes pulykatokány répával, hozzá tepsiben sült bundás krumpli",
+        ingredients: [
+            {
+                title: "A pulykához:",
+                list: [
+                    "1 kg pulykamell",
+                    "2 fej hagyma",
+                    "4 gerezd fokhagyma",
+                    "2 ek fűszersó",
+                    "só, bors",
+                    "400 ml tejszín",
+                    "100g paradicsompüré",
+                    "répa",
+                    "(cayane bors)"
+                ]
+            },{
+                title: "A körethez:",
+                list: [
+                    "3 - 4 db krumpli",
+                    "2 evőkanál olaj",
+                    "só, bors, pirospaprika",
+                    "2 evőkanál kukorica keményítő"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A krumplit felvágjuk hosszukás szeletekre (héját rajta hagyjuk). "
+                +" 5 - 10 percig főzzük meg a darabokat majd egy tálcán hűtsük és szárítsuk egy kicsit.",
+                "Egy keverőtálban összekeverjük a krumplit az olajjal, a fűszerekkel és a keményítővel. "
+                + "Ezt berakjuk sütni 30 percre a sütőbe. "
+                +"Félidőnél nem árt megforgatni őket hogy egyenletesen megsüljenek.",
+                "A hagymákat egy kevés olajon pirítjuk meg, "
+                +"majd mellé tesszük a felcsíkozott pulykamellet. "
+                +"Közepes lángon fehérre süstjük őket, majd fűszerezzük és hozzáadjuk a felvágott répát.",
+                "Felöntjük a paradicsompürével és tejszínnel, majd összefőzzük. "
+                +"Mi még raktunk bele egy kics csípős fűszert is."
+            ],
+        image: image_chicken_potatoes2,
+        sources: [
+            { link: "https://www.tiktok.com/@patrickzeinali/video/6970092676590931206?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok krumpli" }, 
+            { link: "https://www.instagram.com/p/CVuyNqWMU9e/", name: "Instagram tokány" }
+        ],
+    },
+    {
+        index: "052",
+        main: true,
+        title: "Karamellás tiramisu",
+        details: "Tiramisu sóskaramellával, narancsal és mogyoróval feldobva",
+        ingredients: [
+            {
+                title: "A krémhez:",
+                list: [
+                    "5 dl tej",
+                    "7 dkg vaníliás pudingpor",
+                    "7 dkg cukor",
+                    "400 g mascarpone",
+                    "220 ml habtejszín",
+                    "rum aroma",
+                    "reszelt narancshéj"
+                ]
+            },{
+                title: "A karamellához:",
+                list: [
+                    "375 g cukor",
+                    "6 ek. víz",
+                    "220 ml habtejszín",
+                    "75 g vaj",
+                    "só",
+                ]
+            },{
+                title: "Egyéb hozzávalók:",
+                list: [
+                    "mogyoró",
+                    "piskóta"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Először a karamell öntettel kezdjük, hogy legyen ideje kihűlni. "
+                +"A cukrot a vízzel együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk. "
+                +"Amikor elérte az aranybarna színt lehúzzuk a tűzről és hozzákeverjük a vajat,"
+                +" a meleg tejszínt és a sót. "
+                +"Visszatesszük a tűzhelyre és nagyon alacsony hőfokon egyneműsítjük."
+                +" Teljesen kihűtjük.",
+                "Kb. 2 dl hideg tejben csomómentesre keverem a pudingport és a cukrot,"
+                +" majd hozzáöntöm a maradék tejet és folyamatos kevergetés melett sűrű pudingot főzök,"
+                +" hozzákeverjük a narancsreszeléket és a rumaromát,"
+                +" majd leveszem a tűzhelyről és hagyom kihűlni.",
+                "Egy tepsiben vagy tálban rétegezve elhelyezük először a piskótát, majd a krémet majd a karamellát. "
+                + "Ezt folytatjuk amíg van krém és piskóta. A tetejére krémet kenünk. "
+                +"Karamellával és darabolt mogyoróval díszítjük."
+            ],
+        image: image_tiramisu,
+        sources: [
+            {link: "/CookBook/dish/051", name: "Kinder Bueno sütemény"},
+            {link: "https://dolcefarnientehun.wordpress.com/2019/02/27/karamellas-tiramisu/", name: "Tiramisu és karamella"}
         ],
     }
 ];

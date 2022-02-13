@@ -51,6 +51,7 @@ import image_lemon from '../images/image_lemon.webp'
 import image_peach from '../images/image_peach.webp'
 import image_chicken_potatoes2 from '../images/image_chicken_potatoes2.webp'
 import image_tiramisu from '../images/image_tiramisu.webp'
+import image_spicychicken from '../images/image_spicychicken.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2187,7 +2188,7 @@ export default [
     },
     {
         index: "052",
-        main: true,
+        dessert: true,
         title: "Karamellás tiramisu",
         details: "Tiramisu sóskaramellával, narancsal és mogyoróval feldobva",
         ingredients: [
@@ -2230,6 +2231,8 @@ export default [
                 +" majd hozzáöntöm a maradék tejet és folyamatos kevergetés melett sűrű pudingot főzök,"
                 +" hozzákeverjük a narancsreszeléket és a rumaromát,"
                 +" majd leveszem a tűzhelyről és hagyom kihűlni.",
+                "Ha kihült a puding, akkor felverjük a tejszínt és hozzákeverjük a mascarponét. "
+                + "Ezután összekeverjük a pudinggal és kész is a krém.",
                 "Egy tepsiben vagy tálban rétegezve elhelyezük először a piskótát, majd a krémet majd a karamellát. "
                 + "Ezt folytatjuk amíg van krém és piskóta. A tetejére krémet kenünk. "
                 +"Karamellával és darabolt mogyoróval díszítjük."
@@ -2238,6 +2241,43 @@ export default [
         sources: [
             {link: "/CookBook/dish/051", name: "Kinder Bueno sütemény"},
             {link: "https://dolcefarnientehun.wordpress.com/2019/02/27/karamellas-tiramisu/", name: "Tiramisu és karamella"}
+        ],
+    },
+    {
+        index: "053",
+        main: true,
+        title: "Csípős-mézes csirke",
+        details: "Ázsiai ízesítésű csípős-mézes csirke felsőcomb filé",
+        ingredients: [
+            {
+                title: "A csirkéhez:",
+                list: [
+                    "1 kg csirke felsőcomb filé",
+                    "6 gerezd fokhagyma",
+                    "4 db újhagyma",
+                    "só, bors",
+                    "vaj",
+                    "rozmaring",
+                    "100 g szója szósz",
+                    "100 g csípős szósz (hot sauce)",
+                    "011 g méz"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A csirke felsőcomb filéket megfűszerezzük sóval és brossal, majd vajon megpirítjuk. "
+                + "A kész húsokat vegyük ki a serpenyőből, és a felszeletelt hagymákat pirítsuk kicsit meg.",
+                "A szószhoz keverjük össze a szójaszószt, mézet és a csípős szószt (hot sauce). "
+                + " Ízlés szerint még cayane borssal és rozmaringgal tudjuk ízesíteni.",
+                "A hagymák mellé visszahelyezzük a húst és ráöntjük a szószt. "
+                +"Addig keverjük, amíg a szósz kicsit össze nem esik és a csirkére rá nem tapad jobban.",
+                "Képen illusztrációként risottóval és sültkrumplival tálaltuk."
+            ],
+        image: image_spicychicken,
+        sources: [
+            {link: "https://www.tiktok.com/@gzfoodqood/video/7058601784998153478?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok csirke"},
+            {link: "/CookBook/dish/044", name: "Risotto"},
+            {link: "/CookBook/dish/051", name: "Sült krumpli"}
         ],
     }
 ];

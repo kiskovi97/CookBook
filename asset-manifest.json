@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.3647fa13.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.3647fa13.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.ef8e01ad.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.ef8e01ad.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.8db8c1dc.chunk.js": "/CookBook/static/js/2.8db8c1dc.chunk.js",
@@ -60,11 +60,12 @@
     "static/media/image_rakott.e3cd49bc.webp": "/CookBook/static/media/image_rakott.e3cd49bc.webp",
     "static/media/image_rizskoch.54db662c.webp": "/CookBook/static/media/image_rizskoch.54db662c.webp",
     "static/media/image_saltbrownie.c3054665.webp": "/CookBook/static/media/image_saltbrownie.c3054665.webp",
+    "static/media/image_spicychicken.a2e95cb1.webp": "/CookBook/static/media/image_spicychicken.a2e95cb1.webp",
     "static/media/image_sweet.cbf92734.webp": "/CookBook/static/media/image_sweet.cbf92734.webp",
     "static/media/image_szlovak.46af0e01.webp": "/CookBook/static/media/image_szlovak.46af0e01.webp",
     "static/media/image_szuz.d527164f.webp": "/CookBook/static/media/image_szuz.d527164f.webp",
     "static/media/image_tartar.13a816cc.webp": "/CookBook/static/media/image_tartar.13a816cc.webp",
-    "static/media/image_tiramisu.6c794dcc.webp": "/CookBook/static/media/image_tiramisu.6c794dcc.webp",
+    "static/media/image_tiramisu.3b8b4fcc.webp": "/CookBook/static/media/image_tiramisu.3b8b4fcc.webp",
     "static/media/image_tortilla.80ea5b3e.webp": "/CookBook/static/media/image_tortilla.80ea5b3e.webp",
     "static/media/instagram.beada15c.svg": "/CookBook/static/media/instagram.beada15c.svg",
     "static/media/risotto.eb68438c.webp": "/CookBook/static/media/risotto.eb68438c.webp"
@@ -73,6 +74,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.8db8c1dc.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.3647fa13.chunk.js"
+    "static/js/main.ef8e01ad.chunk.js"
   ]
 }

@@ -52,6 +52,7 @@ import image_peach from '../images/image_peach.webp'
 import image_chicken_potatoes2 from '../images/image_chicken_potatoes2.webp'
 import image_tiramisu from '../images/image_tiramisu.webp'
 import image_spicychicken from '../images/image_spicychicken.webp'
+import image_brokkoli from '../images/image_brokkoli.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2278,6 +2279,42 @@ export default [
             {link: "https://www.tiktok.com/@gzfoodqood/video/7058601784998153478?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok csirke"},
             {link: "/CookBook/dish/044", name: "Risotto"},
             {link: "/CookBook/dish/051", name: "Sült krumpli"}
+        ],
+    },
+    {
+        index: "054",
+        main: true,
+        title: "Brokkolis rakott csirke",
+        details: "Brokkolival és besamell mártással készített sajtos csirkemell",
+        ingredients: [
+            {
+                title: "A csirkéhez:",
+                list: [
+                    "1 kg csirkemell",
+                    "1 kg brokkoli",
+                    "50 dkg vaj",
+                    "1 l tej",
+                    "6 ek liszt",
+                    "só, bors, cayane bors",
+                    "olaj",
+                    "reszelt kemény sajt"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A csirkemellet szeletekre vágjuk, kiklopfoljuk majd megfűszerezzük. "
+                +"A szeleteket serpenyőben vagy sütőben elősütjük.",
+                "A brokkolit kiolvasztjuk, vagy ha friss akkor megfőzzük.",
+                "A vajat megolvasztjuk egy lábasban felolvasztjuk, majd hozzáöntjük a lisztet apránként és elkeverjük."
+                + " A keverkéhez hozzáöntjük kisebb adagokban a tejet és addíg keverjük amíg csomó mentes nem lesz. "
+                +"Hozzáadjuk a reszelt kemény sajtot, majd fűszerezzük és összefőzzük.",
+                "Egy tespit kikenünk olajjal, belehelyezzük a csirkemelleket, rá a brokkolit, a mártást majd berakjuk sülni a sütőbe 15 percre."
+                +" Utána megszórjuk a maradék reszelt sajttal és további 15 percig vagy pirulásig sütjük.",
+                "Kukoricás rizzsel tálaljuk."
+            ],
+        image: image_brokkoli,
+        sources: [
+            {link: "https://www.tiktok.com/@szorongokesfozok/video/7064265206867692806?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok csirke"},
         ],
     }
 ];

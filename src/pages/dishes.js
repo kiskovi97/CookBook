@@ -53,6 +53,8 @@ import image_chicken_potatoes2 from '../images/image_chicken_potatoes2.webp'
 import image_tiramisu from '../images/image_tiramisu.webp'
 import image_spicychicken from '../images/image_spicychicken.webp'
 import image_brokkoli from '../images/image_brokkoli.webp'
+import image_padthai from '../images/image_padthai.webp'
+import image_babka from '../images/image_babka.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2315,6 +2317,119 @@ export default [
         image: image_brokkoli,
         sources: [
             {link: "https://www.tiktok.com/@szorongokesfozok/video/7064265206867692806?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok csirke"},
+        ],
+    },
+    {
+        index: "055",
+        dessert: true,
+        title: "Babka",
+        details: "Édes tészta csokival és fahéjjal töltve",
+        ingredients: [
+            {
+                title: "A tésztához:",
+                list: [
+                    "3 dl tej",
+                    "1 maroknyi cukor",
+                    "fél kocka élesztő (20 g)",
+                    "700 g liszt",
+                    "1 csipet só",
+                    "1 tojás",
+                    "70 g vaj",
+                    "1 narancs reszelt héja"
+                ]
+            },{
+                title: "A csokis töltelékhez:",
+                list: [
+                    "200 g étcsokoládé",
+                    "50 g vaj",
+                    "3 ek cukor",
+                    "egy maréknyi mandula"
+                ]
+            }, {
+                title: "A fahéjas töltelékhez:",
+                list: [
+                    "1 ek fahéj",
+                    "4 ek cukor (esetleg több, ha nem elég édes)",
+                    "100 g vaj"
+                ]
+            },
+            {
+                title: "A mázhoz:",
+                list: [
+                    "100 g cukor",
+                    "100 g víz"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A cukrot az élesztővel addig keverjük amíg folyékony nem lesz. "
+                +"Ehhez hozzáöntjük a kézmeleg tejet és addig keverjük amíg a cukor el nem olvad. ",
+                "Ezután hozzáöntjük a liszt felét, a reszelt narancshéjat, a sót, a vajat és a tojást, majd jól összedolgozzuk. "
+                +"A maradék lisztet apránként hozzáadjuk és addíg gyúrjuk a tésztát, amíg elválik az edény falától. "
+                +"Ezután még egy ideig dolgozzuk, amíg egy kicsit megkeményedik, majd egy kendővel lefedett tálban hagyjuk 1 óráig kellni.",
+                "Az étcsokoládét felolvasztjuk egy edényben a vajjal, majd hozzáöntjük a cukrot és kicsit összefőzzük.",
+                "A fahéjat összekeverjük a cukorral és addig adunk hozzá cukrot, amíg el nem nyomja a fahéj keserűbb ízét.",
+                "Ha letetlt az egy óra, akkor a tésztát egy lisztezett lapra kivesszük és kettészedjük. "
+                +"Az egyikből gyúrunk egy négyszögletű vékony tésztát, majd megkenjük a csokis krémmel. "
+                +"Ezt meggszórjuk mandulával (daráltal, vagy egészben ez ízlés kérdése) és feltekerjük a tésztát. "
+                +"A feltekert tésztát hosszában elkezdjük kettévágni, de a végén meghagyunk egy kis érintkezési pontot. "
+                +"A ponttól fogva elkezdjük befonni a két csíkot ügyelve arra hogy ne essen szét. "
+                +"A kész tésztát elrakjuk még 20 percre kellni.",
+                "A másik tésztát hasonlóan kinyújtjuk, majd megkenjük vastagon vajjal és megszórjuk a fahéjas cukorral. "
+                +"Ezt is az előbbi módon feltekerjük és befonjuk, de figyelni kell, mert ez a töltelék nem tartja annyira össze a tésztát.",
+                "Amelyik babkát akarjuk előbb elkészíteni azt a 20 perc után a sütőbe rakjuk, míg a másikat hűtőben tároljuk addig. "
+                +"A sütőben 25 - 30 percig sütjük. 10 percel a sütés vége előtt a hűtőböl kivehetjük a második adagot is.",
+                "A cukrot vízben felolvasztjuk és a kész babkákat még melegen megkenjük vele."
+            ],
+        image: image_babka,
+        sources: [
+            {link: "https://www.instagram.com/p/CHdVKzWBeuF/", name: "Instagram Babka"},
+        ],
+    },
+    {
+        index: "056",
+        main: true,
+        chicken: true,
+        title: "Pad Thai",
+        details: "Pad thai csirkemell rízstésztával",
+        ingredients: [
+            {
+                title: "Hozzávalók (7 - 8 adaghoz):",
+                list: [
+                    "1 kg csirkemell",
+                    "500 g brokkoli",
+                    "4 darab répa",
+                    "2 fej vöröshagyma",
+                    "4 kicsi vagy 1 nagy póréhagyma",
+                    "só, bors, cayane bors",
+                    "olaj",
+                    "1 konzerv ananász",
+                    "fél zacskó mogyoró",
+                    "2 x 400 g rizstészta",
+                    "pad thai szósz",
+                    "darált gyömbér",
+                    "8 gerezd fokhagyma",
+                    "2 ek cukor"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Érdemes ennyi hozzávalóval 2 részletben elkészíteni ezt az ételt",
+                "A hagymát feldaraboljuk és olajon egy kis cukorral megsütjük. "
+                +"Ehhez megy hozzá a feldarabolt fokhagyma, és pár percre rá a felkockázott csirkemell. "
+                +"Addig sütjük ezt, amíg a csirkemell meg nem fehéredik.",
+                "A répát hosszukás szeletekre vágjuk, a brokkolit is feldaraboljuk kisebb darabokra. "
+                +"Ezeket a csirkéhez rakjuk és összefőzzük.",
+                "Ha összesült kicsit, akkor fűszerezhetjük sóval, borsal, cayane borssal és gyömbérrel. "
+                +"Hozzáöntjük a dap thai szószt és a mogyorót és összefőzzük. "
+                +"Az ananászt kis darabokra vágjuk és a kész csirkéhez keverjük.",
+                "A rizstésztát kifőzzük (lehet más tésztával is készíteni). "
+                +"Amint elkészült összekeverjük vele a csirkét és kicsit összepirítjuk. ",
+                "Karikákra vágott póréhagymával a tetején tálaljuk."
+            ],
+        image: image_padthai,
+        sources: [
+            {link: "https://www.tiktok.com/@fozzunkolcson/video/7058266712835230982?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok pad thai"},
         ],
     }
 ];

@@ -55,6 +55,7 @@ import image_spicychicken from '../images/image_spicychicken.webp'
 import image_brokkoli from '../images/image_brokkoli.webp'
 import image_padthai from '../images/image_padthai.webp'
 import image_babka from '../images/image_babka.webp'
+import image_lemonchicken from '../images/image_lemonchicken.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2430,6 +2431,56 @@ export default [
         image: image_padthai,
         sources: [
             {link: "https://www.tiktok.com/@fozzunkolcson/video/7058266712835230982?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok pad thai"},
+        ],
+    },
+    {
+        index: "057",
+        main: true,
+        chicken: true,
+        title: "Citromos csirkemell rizottóval",
+        details: "Citromos joghurtos pácban készült csirkemell rizottóval",
+        ingredients: [
+            {
+                title: "Csirkéhez:",
+                list: [
+                    "1 kg csirkemell",
+                    "1 citrom leve",
+                    "400 gramm görög joghurt",
+                    "2 ek olaj",
+                    "4 gerezd fokhagyma",
+                    "1 ek mustár",
+                    "1 ek fűszersó",
+                    "paprika"
+                ]
+            },
+            {
+                title: "Rizottóhoz:",
+                list: [
+                    "1 fej vöröshagyma",
+                    "40 dkg rizs",
+                    "10 dkg vaj",
+                    "mozarella sajt",
+                    "1 l víz",
+                    "húsleves kocka",
+                    "1 db citrom",
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A csirkéhez a pácot összekeverjük, és beleszeleteljük a csirkemellett. "
+            +"Ezt berakjuk a hűtőbe minimum 1 órára.",
+            "Felrakunk 1 liter vizet főni, és közben 5 dkg vajon üvegesre pirítjuk a hagymát, majd hozzáöntve a rizset.",
+            "A forró vízben feloldjuk a húsleveskockát. "
+            +"Ha a rizs megpirult akkor hozzáadjuk a citrom reszelt héját, majd merőkanalanként hozzáadjuk a vizet a rízshez."
+            +" Mindíg megvárjuk, hogy a víz elpárolgott, addig nem adunk hozzá újabb adagot. ",
+            "Ha jól megfőtt a rizs a maradék vajat és a reszelt sajtot hozzáadva összefőzzük."
+            +" Majd a citrom levét beleöntve összefőzzük.",
+            "A pácolt csirkemellet sperenyőben vagy sütőben kisütjük hozzáadva a szeletelt paprikát és a maradék mozzarellát."
+            ],
+        image: image_lemonchicken,
+        sources: [
+            {link: "https://sobors.hu/technologia/negy-szuper-es-egyszeru-pac-csirkehez/", name: "Csirkepác"},
+            {link: "https://www.tiktok.com/@delishaas/video/7049158538232384774?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok risotto"}
         ],
     }
 ];

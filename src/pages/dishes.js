@@ -56,6 +56,8 @@ import image_brokkoli from '../images/image_brokkoli.webp'
 import image_padthai from '../images/image_padthai.webp'
 import image_babka from '../images/image_babka.webp'
 import image_lemonchicken from '../images/image_lemonchicken.webp'
+import image_bologna from '../images/image_bologna.webp'
+import image_csiga4 from '../images/image_csiga4.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2482,5 +2484,159 @@ export default [
             {link: "https://sobors.hu/technologia/negy-szuper-es-egyszeru-pac-csirkehez/", name: "Csirkepác"},
             {link: "https://www.tiktok.com/@delishaas/video/7049158538232384774?lang=en&is_copy_url=1&is_from_webapp=v1", name: "Tiktok risotto"}
         ],
-    }
+    },
+    {
+        index: "058",
+        main: true,
+        chicken: true,
+        title: "Bolognai csirkemell spagettivel",
+        details: "Bolognai szószos csirkemell spagettivel",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 kg csirkemell",
+                    "1 nagy fej vöröshagyma",
+                    "só, bors",
+                    "300 g sűrített paradicsom",
+                    "4 gerezd fokhagyma",
+                    "cayanee bors és chili",
+                    "oregánó és bazsalikom",
+                    "cukor",
+                    "ketchup",
+                    "spagetti tészta",
+                    "sajt",
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "Az apró kockára vágott hagymát tetszőleges zsiradékon üvegesre pirítom egy kanál cukorral,"
+            +" majd hozzáadom a vékony csíkokra vágott csirkemellet és együtt pirítom tovább.",
+            "Mikor a csirkemell már szép aranysárgára pirult, hozzáadom a fűszereket, a fokhagymát,"
+            +" egyet-kettőt kavarok rajta majd mehet hozzá a paradicsompüré és a ketchup",
+            "A tésztát kifőzzük és reszelt sajttal tállaljuk"
+            ],
+        image: image_bologna,
+        sources: [
+            {link: "https://gastrohobbi.hu/2020/10/babos-csirkes-tortilla-sajttal-sutve/", name: "Bolognai alap inspiráció"},
+        ],
+    },
+    {
+        index: "059",
+        dessert: true,
+        title: "Édes csiga",
+        details: "Fahéjas mandulás narancsos csiga karamell öntettel",
+        ingredients: [
+            {
+                title: "A tésztához:",
+                list: [
+                    "3 dl tej",
+                    "1 maroknyi cukor",
+                    "fél kocka élesztő (20 g)",
+                    "700 g liszt",
+                    "1 csipet só",
+                    "1 tojás",
+                    "70 g vaj",
+                    "1 narancs reszelt héja"
+                ]
+            },
+            {
+                title: "Töltelékhez:",
+                list: [
+                    "fahéj",
+                    "cukor",
+                    "mazsola",
+                    "aprított mandula",
+                    "narancs leve",
+                    "vaj"
+                ]
+            },{
+                title: "A karamellához:",
+                list: [
+                    "375 g cukor",
+                    "6 ek. víz",
+                    "220 ml habtejszín",
+                    "75 g vaj",
+                    "só",
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A cukrot az élesztővel addig keverjük amíg folyékony nem lesz. "
+                +"Ehhez hozzáöntjük a kézmeleg tejet és addig keverjük amíg a cukor el nem olvad. ",
+                "Ezután hozzáöntjük a liszt felét, a reszelt narancshéjat, a sót, a vajat és a tojást, majd jól összedolgozzuk. "
+                +"A maradék lisztet apránként hozzáadjuk és addíg gyúrjuk a tésztát, amíg elválik az edény falától. "
+                +"Ezután még egy ideig dolgozzuk, amíg egy kicsit megkeményedik, majd egy kendővel lefedett tálban hagyjuk 1 óráig kellni.",
+                "A töltelékhez a narancs levét kicsavarjuk, majd összekeverjük a fahéja, a cukrot, az aprított mandulát és a mazsolát. ",
+                "A kész tésztát kigyúrjuk egy téglalapra, megkenjük vajjal, majd megszórjuk egyenletesen a fahéjas cukoros mixxel. "
+                +"Végül meglocsoljuk a narancslével. Feltekerjük a tésztát és kis csigákra vágjuk. Sütőben 20-25 percig sütjük.",
+                "A karamell öntethez a cukrot a vízzel együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk, "
+                +"majd felöntjük tejszínnel, vajjal és hozzáadunk egy csipet sót. "
+                +"A kész csigákat az öntettel leöntjük és kicsit hagyjuk lehülni."
+            ],
+        image: image_csiga4,
+        sources: [],
+    },
+    {
+        index: "060",
+        main: true,
+        chicken: true,
+        title: "Hagymás Sertéskaraj",
+        details: "Hagymás sertéskaraj édesburgonyával tálalva",
+        ingredients: [
+            {
+                title: "Sertéskarajhoz:",
+                list: [
+                    "350g sertéskaraj",
+                    "150g tejföl",
+                    "50g füstölt sajt",
+                    "1db nagyobb vöröshagyma",
+                    "30g vaj",
+                    "só, bors",
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "A húsokat klopfold ki, majd sózd, és borsozd meg. "
+            +"A hagymát darabold csíkokra, majd a vajon kezdd el megsütni egy serpenyőben.",
+            "A húsokat egy kevés olajon közben tedd egy hőálló tálba." 
+            + " A sütőt melegítsd el 180C-ra, hő légkeveréssel.",
+            "Amikor a hagyma aranybarna lesz, sózd, borsozd, majd add hozzá a tejfölt, és keverd el benne homogénre."
+            + " A kikészített húsokra szedd rá, majd reszelj rájuk sajtot.",
+            "Az előmelegített sütőben 20 perc alatt süsd készre.",
+            ],
+        image: comming_soon,
+        sources: [
+            {link: "https://www.instagram.com/p/CW-qvYgs5wx/", name: "Instagram karaj"},
+        ],
+    },
+    {
+        index: "061",
+        dessert: true,
+        title: "Vaníliás narancsos csiga",
+        details: "Vaníliás narancsos csiga",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 csm vaníliás puddingpor",
+                    "2 dl tej",
+                    "1 nd narancs",
+                    "1 csom levelestészta",
+                    "cukor",
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "Egy kisebb lábasban simára keverjük a pudingport és a tejet, majd kis lángon sűrűre főzzük."
+            +" A tűzről levéve beleforgatjuk a lereszelt narancshéjat és kifacsart narancslevet.",
+            "A narancsos krémet a kitekert leveles tésztára simítjuk, majd óvatosan feltekerjük, azután 12 egyforma darabra vágjuk.",
+            "A csigákat egy sütőpapírral bélelt tepsibe helyezzük és megszórjuk némi barna cukorral."
+            +" Végül aranyszínűre sütjük a sütiket a 200 fokra előmelegített sütőben kb. 20 perc alatt."
+            ],
+        image: comming_soon,
+        sources: [
+            {link: "https://www.mindmegette.hu/vanilias-narancsos-csiga.recept/", name: "Mindmegette"},
+        ],
+    },
 ];

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.377bd490.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.377bd490.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.8b22cf6b.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.8b22cf6b.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.8db8c1dc.chunk.js": "/CookBook/static/js/2.8db8c1dc.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/image_babka.40de2242.webp": "/CookBook/static/media/image_babka.40de2242.webp",
     "static/media/image_birdmilk.51a6f64b.webp": "/CookBook/static/media/image_birdmilk.51a6f64b.webp",
     "static/media/image_boci.d2134bfd.webp": "/CookBook/static/media/image_boci.d2134bfd.webp",
+    "static/media/image_bologna.22b34f51.webp": "/CookBook/static/media/image_bologna.22b34f51.webp",
     "static/media/image_brokkoli.a6ebb825.webp": "/CookBook/static/media/image_brokkoli.a6ebb825.webp",
     "static/media/image_brownie2.dd6c7f29.webp": "/CookBook/static/media/image_brownie2.dd6c7f29.webp",
     "static/media/image_cake.8336170b.webp": "/CookBook/static/media/image_cake.8336170b.webp",
@@ -40,6 +41,7 @@
     "static/media/image_csaszar.eda25569.webp": "/CookBook/static/media/image_csaszar.eda25569.webp",
     "static/media/image_csiga2.f1429599.webp": "/CookBook/static/media/image_csiga2.f1429599.webp",
     "static/media/image_csiga3.2305a882.webp": "/CookBook/static/media/image_csiga3.2305a882.webp",
+    "static/media/image_csiga4.8f695380.webp": "/CookBook/static/media/image_csiga4.8f695380.webp",
     "static/media/image_csirke1.c210143f.webp": "/CookBook/static/media/image_csirke1.c210143f.webp",
     "static/media/image_csirke2.f48981c9.webp": "/CookBook/static/media/image_csirke2.f48981c9.webp",
     "static/media/image_csirke5.b50f8a58.webp": "/CookBook/static/media/image_csirke5.b50f8a58.webp",
@@ -78,6 +80,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.8db8c1dc.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.377bd490.chunk.js"
+    "static/js/main.8b22cf6b.chunk.js"
   ]
 }

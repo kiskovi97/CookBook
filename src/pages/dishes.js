@@ -58,6 +58,8 @@ import image_babka from '../images/image_babka.webp'
 import image_lemonchicken from '../images/image_lemonchicken.webp'
 import image_bologna from '../images/image_bologna.webp'
 import image_csiga4 from '../images/image_csiga4.webp'
+import image_csiga5 from '../images/image_csiga5.webp'
+import image_karaj from '../images/image_karaj.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -1414,6 +1416,7 @@ export default [
             ],
         image: image_csirke6,
         sources: [
+            {link: "https://www.tiktok.com/@kiskovi97/video/7058981265478880518", name: "Tiktok videó (teljes)"},
             {link: "https://www.tiktok.com/@feeedmi/video/6998512434424057093?source=webapp_messages", name:"Tiktok"}
         ],
     },
@@ -2101,6 +2104,7 @@ export default [
             ],
         image: image_lemon,
         sources: [
+            {link: "https://www.tiktok.com/@kiskovi97/video/7057629649282567429", name: "Tiktok videó (teljes)"},
             {link: "https://www.youtube.com/watch?v=gzNB_eqB9oM&ab_channel=Bebepisk%C3%B3ta", name:"Alsó keksz réteg (Youtube)"},
             {link: "https://www.nosalty.hu/recept/hazi-citrompite", name:"Középső réteg (Nosalty)"},
             {link: "https://www.tiktok.com/@edessemmitteves/video/6949862814097870086?lang=en&is_copy_url=1&is_from_webapp=v1", name:"Felső réteg (Tiktok)"},
@@ -2581,31 +2585,34 @@ export default [
         index: "060",
         main: true,
         chicken: true,
-        title: "Hagymás Sertéskaraj",
-        details: "Hagymás sertéskaraj édesburgonyával tálalva",
+        title: "Hagymás sertéskaraj",
+        details: "Hagymás sertéskaraj édesburgonyával és zöldbabbal tálalva",
         ingredients: [
             {
                 title: "Sertéskarajhoz:",
                 list: [
-                    "350g sertéskaraj",
-                    "150g tejföl",
-                    "50g füstölt sajt",
-                    "1db nagyobb vöröshagyma",
-                    "30g vaj",
+                    "800g sertéskaraj",
+                    "300g tejföl",
+                    "100g füstölt sajt",
+                    "1db nagyobb póréhagyma",
+                    "olaj",
                     "só, bors",
+                    "cayannee bors, chili",
+                    "ételizesítő",
+                    "1 ek cukor"
                 ]
             },
         ],
         howToMakeIt: [
             "A húsokat klopfold ki, majd sózd, és borsozd meg. "
-            +"A hagymát darabold csíkokra, majd a vajon kezdd el megsütni egy serpenyőben.",
-            "A húsokat egy kevés olajon közben tedd egy hőálló tálba." 
-            + " A sütőt melegítsd el 180C-ra, hő légkeveréssel.",
-            "Amikor a hagyma aranybarna lesz, sózd, borsozd, majd add hozzá a tejfölt, és keverd el benne homogénre."
+            +"A hagymát darabold csíkokra, majd a olajon egy kanál cukorral kezdd el megsütni egy serpenyőben.",
+            "A sütőt melegítsd el 180C-ra, hő légkeveréssel."
+            +" Olajozd ki a tepsit és helyezd bele a husokat.",
+            "Amikor a hagyma aranybarna lesz, fászerezd, majd add hozzá a tejfölt, és keverd el benne homogénre."
             + " A kikészített húsokra szedd rá, majd reszelj rájuk sajtot.",
             "Az előmelegített sütőben 20 perc alatt süsd készre.",
             ],
-        image: comming_soon,
+        image: image_karaj,
         sources: [
             {link: "https://www.instagram.com/p/CW-qvYgs5wx/", name: "Instagram karaj"},
         ],
@@ -2613,29 +2620,57 @@ export default [
     {
         index: "061",
         dessert: true,
-        title: "Vaníliás narancsos csiga",
-        details: "Vaníliás narancsos csiga",
+        title: "Három ízű csigák",
+        details: "Vaníliás-narancsos, csokis-kakós és almás-karamellás csiga",
         ingredients: [
             {
                 title: "Hozzávalók:",
                 list: [
+                    "3 csom levelestészta",
+                    "5 dkg vaj"
+                ]
+            },
+            {
+                title: "Vaníliás-narancs:",
+                list: [
                     "1 csm vaníliás puddingpor",
                     "2 dl tej",
                     "1 nd narancs",
-                    "1 csom levelestészta",
                     "cukor",
+                    "mazsola"
+                ]
+            },
+            {
+                title: "Csokis-kakaó:",
+                list: [
+                    "0.5 tábla csokoládé",
+                    "1 bögre kakaó",
+                    "1 bökre porcukor",
+                ]
+            },
+            {
+                title: "Almás-karamell:",
+                list: [
+                    "4 db alma",
+                    "375 g cukor",
+                    "6 ek. víz",
+                    "220 ml habtejszín",
+                    "75 g vaj",
                 ]
             },
         ],
         howToMakeIt: [
-            "Egy kisebb lábasban simára keverjük a pudingport és a tejet, majd kis lángon sűrűre főzzük."
-            +" A tűzről levéve beleforgatjuk a lereszelt narancshéjat és kifacsart narancslevet.",
-            "A narancsos krémet a kitekert leveles tésztára simítjuk, majd óvatosan feltekerjük, azután 12 egyforma darabra vágjuk.",
-            "A csigákat egy sütőpapírral bélelt tepsibe helyezzük és megszórjuk némi barna cukorral."
-            +" Végül aranyszínűre sütjük a sütiket a 200 fokra előmelegített sütőben kb. 20 perc alatt."
+            "Vaníliás-narancs: Egy kisebb lábasban simára keverjük a pudingport és a tejet, majd kis lángon sűrűre főzzük."
+            +" A tűzről levéve beleforgatjuk a lereszelt narancshéjat és kifacsart narancslevet. Végül hozzáadjuk a mazsolát.",
+            "Almás-karamell: A karamell öntethez a cukrot a vízzel együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk, "
+            +"majd felöntjük tejszínnel, vajjal és hozzáadunk a meghámozott és apróra vágott almákat. ",
+            "Csokis-kakó: A csokoládét apró darabokra vágjuk és összekeverjük kakóval és porcukorral.",
+            "A levelestésztákat téglalap alakúra gyúrjuk, (kakós esetén megkenjünk vajjal) és megkenjük az adott töltelékkel. "
+            +"Feltekerjük és apró szeletekre vágjuk. Ezeket egy sütőpapírral kibélelt tepsibe helyezzük, majd 20 - 25 percig sütjük."
             ],
-        image: comming_soon,
+        image: image_csiga5,
         sources: [
+            {link: "https://www.tiktok.com/@kiskovi97/video/7076912336430271749", name: "Tiktok videó (teljes)"},
             {link: "https://www.mindmegette.hu/vanilias-narancsos-csiga.recept/", name: "Mindmegette"},
         ],
     },

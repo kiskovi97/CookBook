@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.4e5b95f9.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.4e5b95f9.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.08fe65dd.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.08fe65dd.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.8db8c1dc.chunk.js": "/CookBook/static/js/2.8db8c1dc.chunk.js",
@@ -69,6 +69,7 @@
     "static/media/image_rizskoch.54db662c.webp": "/CookBook/static/media/image_rizskoch.54db662c.webp",
     "static/media/image_saltbrownie.c3054665.webp": "/CookBook/static/media/image_saltbrownie.c3054665.webp",
     "static/media/image_spicychicken.a2e95cb1.webp": "/CookBook/static/media/image_spicychicken.a2e95cb1.webp",
+    "static/media/image_stuffedchicken.c95e6199.webp": "/CookBook/static/media/image_stuffedchicken.c95e6199.webp",
     "static/media/image_sweet.cbf92734.webp": "/CookBook/static/media/image_sweet.cbf92734.webp",
     "static/media/image_szlovak.46af0e01.webp": "/CookBook/static/media/image_szlovak.46af0e01.webp",
     "static/media/image_szuz.d527164f.webp": "/CookBook/static/media/image_szuz.d527164f.webp",
@@ -82,6 +83,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.8db8c1dc.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.4e5b95f9.chunk.js"
+    "static/js/main.08fe65dd.chunk.js"
   ]
 }

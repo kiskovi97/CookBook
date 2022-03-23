@@ -60,6 +60,7 @@ import image_bologna from '../images/image_bologna.webp'
 import image_csiga4 from '../images/image_csiga4.webp'
 import image_csiga5 from '../images/image_csiga5.webp'
 import image_karaj from '../images/image_karaj.webp'
+import image_stuffedchicken from '../images/image_stuffedchicken.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2672,6 +2673,42 @@ export default [
         sources: [
             {link: "https://www.tiktok.com/@kiskovi97/video/7076912336430271749", name: "Tiktok videó (teljes)"},
             {link: "https://www.mindmegette.hu/vanilias-narancsos-csiga.recept/", name: "Mindmegette"},
+        ],
+    },
+    {
+        index: "062",
+        main: true,
+        chicken: true,
+        title: "Csirkemell tekercs",
+        details: "Feta sajttal töltött csirkemell tekercs",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 kg csirkemell",
+                    "só, bors",
+                    "cayannee bors, bazsalikom, tárkony",
+                    "400g  bacon",
+                    "400g feta sajt",
+                    "2 maréknyi koktél paradicsom"
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "A csirkemellet vékony szeletekre szeleteljük és kiklopfoljuk. " +
+            "A paradicsom darabokat apró darabokra vágjuk, majd feldaraboljuk a fetasajtot.",
+            "Egy sütőpapírra egymás mellé elhelyezzük a bacon szeleteket úgy, hogy egy kicsit fedjék egymást. "
+            +"Elkezdjük rápakolni a hús szeleteket úgy, hogy minél jobban befedje a bacon szeleteket. "
+            +"Még egyszer átmegyünk a szeleteken klopfolóval, majd megfűszerezzük a csirkét. ",
+            "A húsokra ráhelyezzük szétterítve a feta sajtot és a paradicsomokat. "
+            +"A sütőpapír segítségével felekerjük az egészet és sütőpapírostúl behelyezzük egy tepsibe.",
+            "Sütőben 45 - 60 percig sütjük. "
+            +"15 perccel a vége előtt érdemes megforgatni a rudat/rudakat hogy mindkét fele megsüljön.",
+            "Végül szeletelve, rizottóval és zöldségekkel tálalhatjuk."
+            ],
+        image: image_stuffedchicken,
+        sources: [
+            {link: "https://www.tiktok.com/@csiky_beatrix/video/7065297318265769222", name: "Tiktok recept"},
         ],
     },
 ];

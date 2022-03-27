@@ -61,6 +61,7 @@ import image_csiga4 from '../images/image_csiga4.webp'
 import image_csiga5 from '../images/image_csiga5.webp'
 import image_karaj from '../images/image_karaj.webp'
 import image_stuffedchicken from '../images/image_stuffedchicken.webp'
+import image_pistachio from '../images/image_pistachio.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2709,6 +2710,97 @@ export default [
         image: image_stuffedchicken,
         sources: [
             {link: "https://www.tiktok.com/@csiky_beatrix/video/7065297318265769222", name: "Tiktok recept"},
+        ],
+    },
+    {
+        index: "063",
+        main: true,
+        chicken: true,
+        title: "Cukkinis tészta csirkével",
+        details: "Cukkinis pisztáciás tészta tejszínes csirkével",
+        ingredients: [
+            {
+                title: "Csirkéhez:",
+                list: [
+                    "1 kg csirke felsőcomb filé",
+                    "só, bors",
+                    "cayannee bors, chili, tárkony, (őrölt) ánizs",
+                    "200 ml tejszín",
+                ]
+            },{
+                title: "Tésztához:",
+                list: [
+                    "500 g tészta",
+                    "só, bors",
+                    "1 db cukkini",
+                    "5 gerezd fokhagyma",
+                    "2 maréknyi pisztácia",
+                    "2 maréknyi mandula",
+                    "olaj",
+                    "bacon darabok"
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "A tésztát kifőzzük, és a vízből 200 ml -t félrerakunk.",
+            "A cukkinit felvágjuk darabokra, majd egy mixerbe helyezzük. "
+            +"Pisztáciát megpucoljuk és a mandulával együtt a mixerbe rakjuk. "
+            +"A fokhagyma gerezdeket is megpuclojuk és a mixerbe rakjuk. "
+            +"Végül megöntjük egy kis olajjal és összeturmixoljuk.",
+            "A bacon daraboakt egy külön tálba ropogósra sütjük és utána kiszedjük egy kis tálba úgy hogy maradjon zsiradék a tálban.",
+            "Egy másik tálban beleöntjük a turmixolt keveréket és a tésztavíz hozzáadással egy kicsit összefőzzük, "
+            +" majd hozzáadjuk a tésztát és elkeverjük.",
+            "A csirkéket apró darabokra szeljük majd belehelyezzük a bacon után maradt zsiradékba. "
+            +"Elkedjük sütni és amikor már kifehéredett fűszerezzük. "
+            +"Legvégül öntünk hozzá tejszínt és összefőzzük.",
+            "Tálalásnál a tésztát megszórjuk a sült bacon darabokkal, a csirkét pedig mellé szedjük."
+            ],
+        image: image_pistachio,
+        sources: [
+            {link: "https://www.tiktok.com/@cookingwithbello/video/7037545043632213254", name: "Tiktok pasta"},
+        ],
+    },
+    {
+        index: "064",
+        dessert: true,
+        title: "Madártejes panna cotta",
+        details: "Panna cotta kicsit feldobva sóskaramellával és madártejjel",
+        ingredients: [
+            {
+                title: "Panna cottához:",
+                list: [
+                    "15 g zselatin",
+                    "700 ml tejszín (30%-os)",
+                    "50 g cukor",
+                    "1 kiskanálnyi vanília aroma",
+                    "1 kiskanálnyi rum aroma",
+                    "300 ml madártejes ital (mizo)"
+                ]
+            },{
+                title: "A sóskaramellához:",
+                list: [
+                    "375 g cukor",
+                    "6 ek. víz",
+                    "220 ml habtejszín",
+                    "75 g vaj",
+                    "só",
+                    "1 maréknyi darabolt mandula"
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "A madártejes panna cotta elkészítéséhez a zselatint elkeverjük kb. 100 ml tejszínben, "
+            +"és félretesszük. A maradék tejszínt egy lábasba öntjük, "
+            +"mehet hozzá a cukor, a vanília aroma, a rum aroma, valamint a madártejes ital.",
+            "Hozzáadjuk a zselatinos tejszínt, és összemelegítjük, hogy felolvadjon a zselatin is."
+            +" Még melegen a poharakba öntjük az alapot, majd berakjuk a hűtőbe legalább 2-3 órára, de a legjobb, ha egy egész éjszakára behűtjük. ",
+            "A karamell öntethez a cukrot a vízzel együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk, "
+            +"majd felöntjük tejszínnel, vajjal és hozzáadunk egy csipet sót és a darabolt mandulát. ",
+            "Ha összeáltak a panna cották, akkor a tetejére a karamellából szedünk egy-egy kanálnyit."
+            ],
+        image: comming_soon,
+        sources: [
+            {link: "https://streetkitchen.hu/fantasztikus-desszertek/sos-karamellas-kaves-panna-cotta/", name: "Street Kitchen"},
         ],
     },
 ];

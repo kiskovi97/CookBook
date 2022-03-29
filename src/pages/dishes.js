@@ -62,6 +62,7 @@ import image_csiga5 from '../images/image_csiga5.webp'
 import image_karaj from '../images/image_karaj.webp'
 import image_stuffedchicken from '../images/image_stuffedchicken.webp'
 import image_pistachio from '../images/image_pistachio.webp'
+import image_panna_cotta from '../images/image_panna_cotta.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2771,7 +2772,7 @@ export default [
                 list: [
                     "15 g zselatin",
                     "700 ml tejszín (30%-os)",
-                    "50 g cukor",
+                    "100 g cukor",
                     "1 kiskanálnyi vanília aroma",
                     "1 kiskanálnyi rum aroma",
                     "300 ml madártejes ital (mizo)"
@@ -2784,6 +2785,7 @@ export default [
                     "220 ml habtejszín",
                     "75 g vaj",
                     "só",
+                    "ízlés szerítn fahéj",
                     "1 maréknyi darabolt mandula"
                 ]
             },
@@ -2794,11 +2796,11 @@ export default [
             +"mehet hozzá a cukor, a vanília aroma, a rum aroma, valamint a madártejes ital.",
             "Hozzáadjuk a zselatinos tejszínt, és összemelegítjük, hogy felolvadjon a zselatin is."
             +" Még melegen a poharakba öntjük az alapot, majd berakjuk a hűtőbe legalább 2-3 órára, de a legjobb, ha egy egész éjszakára behűtjük. ",
-            "A karamell öntethez a cukrot a vízzel együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk, "
+            "A karamell öntethez a cukrot a vízzel és a fahéjjal együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk, "
             +"majd felöntjük tejszínnel, vajjal és hozzáadunk egy csipet sót és a darabolt mandulát. ",
             "Ha összeáltak a panna cották, akkor a tetejére a karamellából szedünk egy-egy kanálnyit."
             ],
-        image: comming_soon,
+        image: image_panna_cotta,
         sources: [
             {link: "https://streetkitchen.hu/fantasztikus-desszertek/sos-karamellas-kaves-panna-cotta/", name: "Street Kitchen"},
         ],

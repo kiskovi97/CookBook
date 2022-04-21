@@ -63,6 +63,7 @@ import image_karaj from '../images/image_karaj.webp'
 import image_stuffedchicken from '../images/image_stuffedchicken.webp'
 import image_pistachio from '../images/image_pistachio.webp'
 import image_panna_cotta from '../images/image_panna_cotta.webp'
+import image_chicken_mustard from '../images/image_chicken_mustard.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2804,5 +2805,35 @@ export default [
         sources: [
             {link: "https://streetkitchen.hu/fantasztikus-desszertek/sos-karamellas-kaves-panna-cotta/", name: "Street Kitchen"},
         ],
+    },
+    {
+        index: "065",
+        main: true,
+        chicken: true,
+        title: "Mustáros csirke",
+        details: "Mustáros tejszínes csirkemell jalapengo-val",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 kg csirkemell",
+                    "250 ml tejszín (30%-os)",
+                    "1 dl tej",
+                    "4 ek mustár",
+                    "gyömbér, bazsalikom, majoranna, oregánó, petrezselyem, só és bors",
+                    "1 kicsi jalapeno",
+                    "sonka"
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "A csirkemellett és a húsvétról megmaradt sonkát apró darabokra vágjuk. "
+            +"Egy serpenyőben fehéredésig sütjük, majd megfűszerezzük.",
+            "A jalapengo-t apró darabokra vágjuk és hozzákeverjük a csirkéhez. "
+            +"Hozzákeverjük a mustárt, a tejszínt és a tejet, majd addig főzzük amíg kicsit össze nem sűrűsödik.",
+            "Rizzsel és zöldségekkel tálaljuk."
+            ],
+        image: image_chicken_mustard,
+        sources: [],
     },
 ];

@@ -64,6 +64,7 @@ import image_stuffedchicken from '../images/image_stuffedchicken.webp'
 import image_pistachio from '../images/image_pistachio.webp'
 import image_panna_cotta from '../images/image_panna_cotta.webp'
 import image_chicken_mustard from '../images/image_chicken_mustard.webp'
+import image_chicken_onion from '../images/image_chicken_onion.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2836,4 +2837,52 @@ export default [
         image: image_chicken_mustard,
         sources: [],
     },
+    {
+        index: "066",
+        main: true,
+        chicken: true,
+        title: "Mogyorós tészta - hagymás csirkével",
+        details: "Mogyórós szószba forgatott tészta, hagymás répás csirkemellel",
+        ingredients: [
+            {
+                title: "Csirkemell:",
+                list: [
+                    "1 kg csirkemell",
+                    "bors",
+                    "3 kis-fej vöröshagyma",
+                    "3 közepes sárgarépa",
+                    "3 szál újhagyma",
+                    "3 dl gm szójaszósz",
+                    "4 ek gm kukoricakeményítő",
+                    "mogyoró"
+                ]
+            },{
+                title: "Tésztához:",
+                list: [
+                    "500 g spagetti",
+                    "4 ek mogyoróvaj",
+                    "3 ek szójaszósz",
+                    "2 ek alma ecet",
+                    "1 ek olivaolaj",
+                    "csipet gyömbér",
+                    "csipet chili",
+                    "2 gerezd fokhagyma"
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "A tésztát megfőzöm, majd leszűrés előtt egy két kanál levet félre rakok."
+                + "A szószhoz való hozzávalókat összekverem (fokhagymát összenyomva) egy edényben és a félretett vízel együtt összefőzöm."
+                +" Ehhez hozzáadom a kifőtt tésztát és összekverem.",
+                "Felforrósítom a húshoz szánt olajat,"
+                +" rádobom az apró csíkokra vágott keményítőben megforgatott csirkemellet és összepirítom.",
+                "Mikor a csirkemell már elkezd pirulni, hozzá adom a vékony csíkokra szeletelt sárgarépát,"
+                +" a felszeletelt vöröshagymát, meglocsolom a szójaszósszal és összepirítom.",
+                "Amikor már a hagyma összesett, de a sárgarépa még ropogós, leveszem a tűzhelyről,"
+                +" megszórom mogyoróval és összekeverem.",
+                "Összeállításnál a tésztával, és frissen szeletelt ujhagymával tálalom."
+            ],
+        image: image_chicken_onion,
+        sources: [],
+    }
 ];

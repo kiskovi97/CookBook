@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.954c08b1.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.954c08b1.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.13b1e342.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.13b1e342.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.8db8c1dc.chunk.js": "/CookBook/static/js/2.8db8c1dc.chunk.js",
@@ -32,6 +32,7 @@
     "static/media/image_chicken_cheese.acc0aa58.webp": "/CookBook/static/media/image_chicken_cheese.acc0aa58.webp",
     "static/media/image_chicken_mustard.9642ea99.webp": "/CookBook/static/media/image_chicken_mustard.9642ea99.webp",
     "static/media/image_chicken_onion.083e0d06.webp": "/CookBook/static/media/image_chicken_onion.083e0d06.webp",
+    "static/media/image_chicken_paprika.441df7f0.webp": "/CookBook/static/media/image_chicken_paprika.441df7f0.webp",
     "static/media/image_chicken_pasta.bbc340f3.webp": "/CookBook/static/media/image_chicken_pasta.bbc340f3.webp",
     "static/media/image_chicken_potatoes.b1ddb387.webp": "/CookBook/static/media/image_chicken_potatoes.b1ddb387.webp",
     "static/media/image_chicken_potatoes2.1a986bb4.webp": "/CookBook/static/media/image_chicken_potatoes2.1a986bb4.webp",
@@ -87,6 +88,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.8db8c1dc.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.954c08b1.chunk.js"
+    "static/js/main.13b1e342.chunk.js"
   ]
 }

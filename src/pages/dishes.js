@@ -65,6 +65,7 @@ import image_pistachio from '../images/image_pistachio.webp'
 import image_panna_cotta from '../images/image_panna_cotta.webp'
 import image_chicken_mustard from '../images/image_chicken_mustard.webp'
 import image_chicken_onion from '../images/image_chicken_onion.webp'
+import image_chicken_paprika from '../images/image_chicken_paprika.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2884,5 +2885,53 @@ export default [
             ],
         image: image_chicken_onion,
         sources: [],
+    },
+    {
+        index: "067",
+        main: true,
+        chicken: true,
+        title: "Szaftos paprikás csirke",
+        details: "Paprikás csirke sok tejföllel és szósszal.",
+        ingredients: [
+            {
+                title: "Csirkemell:",
+                list: [
+                    "1 kg csirkemell",
+                    "olaj",
+                    "1.5 ek fűszerpaprika",
+                    "3 db közepes vöröshagyma",
+                    "2 db közepes paradicsom",
+                    "2 db közepes kaliforniai paprika",
+                    "1 db jalapeno",
+                    "só, bors",
+                    "300 g tejföl",
+                    "2 evőkanál finomliszt"
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "A hagymát nagyon finomra vágjuk. Legjobb, ha aprítóba tesszük.",
+                "A paprikát, a jalapeno-t és a paradicsomot kis kockára vágjuk.",
+                "Egy közepes méretű lábosban kiolvasztjuk a zsírt, "
+                +"rádobjuk a hagymát, és pár percig kevergetjük, "
+                +"míg üveges lesz. Rászórjuk a fűszerpaprikát, levesszük a tűzről, "
+                +"és egy percig kevergetjük, nehogy odakapjon.",
+                "Hozzáadjuk a paprikát, a jalapeno-t és a paradicsomot, elkeverjük. "
+                +"Egyesével rátesszük a csirkedarabokat, felöntjük egy- másfél deci vízzel, sózzuk, borsozzuk, óvatosan átkeverjük.",
+                "Lefedve főzzük kis lángon, míg a hús meg nem puhul. "
+                +"Ha nagyon elfőné a levét, akkor óvatosan, kis mennyiségben öntsünk még alá egy kis vizet, "
+                +"de csak fokozatosan, ha túl sok, akkor ízetlen és leveses lesz.",
+                "Ha kész, vegyük ki a húsdarabokat óvatosan a léből, és tegyük félre. "
+                +"A lisztet és a tejfölt keverjük ki csomómentesre, majd adjunk hozzá egy merőkanálnyi szaftot. "
+                +"Keverjük ki, és öntsük vissza a lábosba. Mehetnek vissza a húsok is, még egyet rottyantunk rajta, és kész is van.",
+                "Mi rizssel és bébi paprikával tálaltuk"
+            ],
+        image: image_chicken_paprika,
+        sources: [
+            {
+                link: "https://www.nosalty.hu/recept/szaftos-paprikas-csirke",
+                name: "Nosalty recept"
+            }
+        ],
     }
 ];

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.13b1e342.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.13b1e342.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.83b95d2f.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.83b95d2f.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.8db8c1dc.chunk.js": "/CookBook/static/js/2.8db8c1dc.chunk.js",
@@ -54,6 +54,7 @@
     "static/media/image_hamburger.7e4dfe9b.webp": "/CookBook/static/media/image_hamburger.7e4dfe9b.webp",
     "static/media/image_karaj.6b69ec0c.webp": "/CookBook/static/media/image_karaj.6b69ec0c.webp",
     "static/media/image_kinderbueno.44e412b6.webp": "/CookBook/static/media/image_kinderbueno.44e412b6.webp",
+    "static/media/image_krater.231a6622.webp": "/CookBook/static/media/image_krater.231a6622.webp",
     "static/media/image_kukorica.36dd4f93.webp": "/CookBook/static/media/image_kukorica.36dd4f93.webp",
     "static/media/image_lasagne.7050a2fe.webp": "/CookBook/static/media/image_lasagne.7050a2fe.webp",
     "static/media/image_lemon.82248f26.webp": "/CookBook/static/media/image_lemon.82248f26.webp",
@@ -88,6 +89,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.8db8c1dc.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.13b1e342.chunk.js"
+    "static/js/main.83b95d2f.chunk.js"
   ]
 }

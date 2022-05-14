@@ -2992,5 +2992,75 @@ export default [
                 name: "Instagram recept"
             }
         ],
+    },
+    {
+        index: "069",
+        dessert: true,
+        title: "Csokis Rugelach",
+        details: "Egyszerű eredeti héber csokis rugelach",
+        ingredients: [
+            {
+                title: "Tésztához:",
+                list: [
+                    "500g liszt",
+                    "20 g élesztő",
+                    "1 csésze meleg víz (230 g)",
+                    "fél csésze cukor (95 g)",
+                    "1 db tojás",
+                    "1/4 pohár tej (35 g)",
+                    "60 g vaj",
+                    "csipetnyi só"
+                ]
+            },
+            {
+                title: "Töltelékhez:",
+                list: [
+                    "150g vaj",
+                    "1 csésze kakaó (100 g)",
+                    "fél csésze barna cukor (100 g)",
+                    "negyed csésze porcukor (30 g)",
+                    "2 ek olvasztott csokoládé (vagy nutella)",
+                    "negyed csésze olaj",
+                ]
+            },
+            {
+                title: "Máz:",
+                list: [
+                    "1 csésze cukor",
+                    "1 pohár víz",
+                ]
+            },
+            {
+                title: "Egyéb hozzávaló:",
+                list: [
+                    "tojás",
+                    "darált mogyoró vagy mandula"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "Az élesztőt, a cukrot és a vizet addig keverjük amíg fel nem oldódik benne teljesen a cukor. "
+                +"A keverkéhez hozzáadjuk a lisztet, a tojást és a tejet, majd összegyúrjuk. "
+                +"Majd adjuk hozzá a vajat és a sót, majd dolgozzuk össze.",
+                "Hagyjuk kelni a tésztát amíg kétszer akkora nem lesz (kb 1 óra)",
+                "A töltelékhez hozzáadjuk a előmelegített vajat, kakaót, cukrot és porcukrot. Majd összekeverjük."
+                +" Adjuk hozzá az olvasztott csokoládét (vagy nutellát) és az olajat, és addig keverjük amíg egységes állagú nem lesz.",
+                "Válasszuk ketté a tésztát. Lisztezzük majd nyújtsuk ki őket téglalap alakúra."
+                +" A felét kenjük le a csokis masszával és hajtsuk rá a másik felét úgy, hogy ne szökjön ki a töltelékből semmi."
+                +" Nyújtsuk ki mégegyszer a tésztát, kenjük, madj hajtsuk félbe. "
+                +"Végül nyújtsuk ki mégegyszer a tésztát úgy hogy a tészta rétegek pihe-puhák legyenek.",
+                "Vágjunk ki belőle háromszögeket. Tekerjük fel őket kiflikbe,"
+                + " majd kenjük le őket tojással és a 180 fokos sütőben 25-35 percig sütjük.",
+                "A cukros mázhoz keverjük össze a cukrot és a vizet és forraljuk fel."
+                +" A még forró kiflikre kenjük rá a szirupot és hagyjuk megszáradni rajta.",
+                "Ízlés szerint darált mogyoróval, vagy mandulával díszíthetjük."
+            ],
+        image: comming_soon,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/CdK0Qdzub99/",
+                name: "Instagram recept"
+            }
+        ],
     }
 ];

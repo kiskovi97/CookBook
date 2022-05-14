@@ -66,6 +66,7 @@ import image_panna_cotta from '../images/image_panna_cotta.webp'
 import image_chicken_mustard from '../images/image_chicken_mustard.webp'
 import image_chicken_onion from '../images/image_chicken_onion.webp'
 import image_chicken_paprika from '../images/image_chicken_paprika.webp'
+import image_krater from '../images/image_krater.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -2931,6 +2932,64 @@ export default [
             {
                 link: "https://www.nosalty.hu/recept/szaftos-paprikas-csirke",
                 name: "Nosalty recept"
+            }
+        ],
+    },
+    {
+        index: "068",
+        dessert: true,
+        title: "Kráter szelet",
+        details: "Pudingos-tejfölös brownie madnulával díszítve",
+        ingredients: [
+            {
+                title: "Pudinghoz:",
+                list: [
+                    "2 csomag tejszínes/vaníliás pudingpor",
+                    "800 g tej",
+                    "3 csomag vaníliás cukor",
+                    "4 ek. cukor",
+                    "reszelt citrom héj"
+                ]
+            },
+            {
+                title: "Tésztához:",
+                list: [
+                    "5 tojás",
+                    "220g cukor",
+                    "100g étolaj",
+                    "240g liszt",
+                    "25 g kakaópor",
+                    "1 csomag sütőpor",
+                    "100g tej"
+                ]
+            },
+            {
+                title: "Máz:",
+                list: [
+                    "300g tejföl",
+                    "80g porcukor",
+                    "1 marék mandula (ízlés szerint)"
+                ]
+            },
+        ],
+        howToMakeIt: [
+                "Először pudingot főzünk, belerakjuk a reszelt citrom héjat, majd teljesen kihűtjük.",
+                "A tésztához a tojásfehérjét a cukor felével kemény habbá verjük, "
+                +"majd egy másik edényben a tojássárgákat a cukor másik felével, "
+                +"a tejjel kikeverjük. ",
+                "Hozzáadjuk az olajat, a kakaóport, a lisztet és a sütőport majd tovább keverjük. "
+                +"A kakaós masszához szépen óvatosan hozzáforgatjuk a tojásfehérjét, "
+                +"addig amíg homogén tésztát nem kapunk. ",
+                "Sütőpapírral bélelt gáztepsibe öntjük a tésztát, "
+                +"majd a kihűlt pudingból halmokat teszünk a massza tetejére. 180 fokon kb. 25 percig sütjük.",
+                "Ha megsült a piskóta, még melegen/ langyosan rákenjük a tejfölös mázat. ( A tejfölt és a porcukrot jól kikeverjük.)"
+                +" Rászórjuk az aprított mandulást, majd jól lehűtjük és már szeletelhetjük is."
+            ],
+        image: image_krater,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/Cc3RHZcIaqz/",
+                name: "Instagram recept"
             }
         ],
     }

@@ -67,6 +67,7 @@ import image_chicken_mustard from '../images/image_chicken_mustard.webp'
 import image_chicken_onion from '../images/image_chicken_onion.webp'
 import image_chicken_paprika from '../images/image_chicken_paprika.webp'
 import image_krater from '../images/image_krater.webp'
+import image_rugelach from '../images/image_rugelach.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -3004,12 +3005,12 @@ export default [
                 list: [
                     "500g liszt",
                     "20 g élesztő",
-                    "1 csésze meleg víz (230 g)",
-                    "fél csésze cukor (95 g)",
+                    "1 púpos marék cukor",
                     "1 db tojás",
                     "1/4 pohár tej (35 g)",
                     "60 g vaj",
-                    "csipetnyi só"
+                    "csipetnyi só",
+                    "reszelt naranschéj"
                 ]
             },
             {
@@ -3017,10 +3018,11 @@ export default [
                 list: [
                     "150g vaj",
                     "1 csésze kakaó (100 g)",
-                    "fél csésze barna cukor (100 g)",
-                    "negyed csésze porcukor (30 g)",
+                    "fél csésze cukor (100 g)",
+                    "fél csésze vaníliás cukor (100 g)",
                     "2 ek olvasztott csokoládé (vagy nutella)",
                     "negyed csésze olaj",
+                    "kókusz reszelék ízlés szerint"
                 ]
             },
             {
@@ -3033,18 +3035,20 @@ export default [
             {
                 title: "Egyéb hozzávaló:",
                 list: [
-                    "tojás",
+                    "1 db tojás",
                     "darált mogyoró vagy mandula"
                 ]
             }
         ],
         howToMakeIt: [
-                "Az élesztőt, a cukrot és a vizet addig keverjük amíg fel nem oldódik benne teljesen a cukor. "
+                "Az élesztőt és a cukrot addig keverjük amíg fel nem oldódik benne teljesen a cukor. "
                 +"A keverkéhez hozzáadjuk a lisztet, a tojást és a tejet, majd összegyúrjuk. "
-                +"Majd adjuk hozzá a vajat és a sót, majd dolgozzuk össze.",
+                +"Majd adjuk hozzá a vajat, a narancshéjat és a sót, majd dolgozzuk össze. "
+                +"Adjuk hozzá még lsiztet hogy megfelelő állagú legyen.",
                 "Hagyjuk kelni a tésztát amíg kétszer akkora nem lesz (kb 1 óra)",
                 "A töltelékhez hozzáadjuk a előmelegített vajat, kakaót, cukrot és porcukrot. Majd összekeverjük."
-                +" Adjuk hozzá az olvasztott csokoládét (vagy nutellát) és az olajat, és addig keverjük amíg egységes állagú nem lesz.",
+                +" Adjuk hozzá az olvasztott csokoládét (vagy nutellát), a kókuszreszeléket és az olajat, "
+                +"és addig keverjük amíg egységes állagú nem lesz.",
                 "Válasszuk ketté a tésztát. Lisztezzük majd nyújtsuk ki őket téglalap alakúra."
                 +" A felét kenjük le a csokis masszával és hajtsuk rá a másik felét úgy, hogy ne szökjön ki a töltelékből semmi."
                 +" Nyújtsuk ki mégegyszer a tésztát, kenjük, madj hajtsuk félbe. "
@@ -3055,7 +3059,7 @@ export default [
                 +" A még forró kiflikre kenjük rá a szirupot és hagyjuk megszáradni rajta.",
                 "Ízlés szerint darált mogyoróval, vagy mandulával díszíthetjük."
             ],
-        image: comming_soon,
+        image: image_rugelach,
         sources: [
             {
                 link: "https://www.instagram.com/p/CdK0Qdzub99/",

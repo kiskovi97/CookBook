@@ -68,6 +68,9 @@ import image_chicken_onion from '../images/image_chicken_onion.webp'
 import image_chicken_paprika from '../images/image_chicken_paprika.webp'
 import image_krater from '../images/image_krater.webp'
 import image_rugelach from '../images/image_rugelach.webp'
+import image_jalapengo_rolls from '../images/image_jalapengo_rolls.webp'
+import image_chicken_vegetables from '../images/image_chicken_vegetables.webp'
+import image_caramel_roll from '../images/image_caramel_roll.webp'
 
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -391,7 +394,9 @@ export default [
             "A középső rétegre a spenótos szósz helyett pesto-s keveréket kenünk, és ráhelyezzük az apró szeletekre vágott mozzarella sajtot.",
             "A rétegzést a korábban említett módon folytatjuk mindaddig, amíg el nem fogy a tészátánk."
             +" A legtetejét leöntjük a maradék spenótos szósszal és megszórjuk reszelet sajttal.",
-            "A tésztát puhulásáig sütjük (kb 30 perc)."
+            "A tésztát puhulásáig sütjük (kb 30 perc).",
+            "Ha fel akarjuk dobni kicsit, akkor egy besamel szószt készíthetünk hozzá és minden rétegbe (plusz az aljára) rakhatunk belőle.",
+            "Ezen kívül zöldségekkel is megtölthetjük pluszban gazdagabb íz érdekében"
         ],
         image: image_lasagne,
     },
@@ -3066,5 +3071,107 @@ export default [
                 name: "Instagram recept"
             }
         ],
+    },
+    {
+        index: "070",
+        main: true,
+        chicken: true,
+        title: "Rakott csirke zöldségesen",
+        details: "Egyszerű rakott csirke tele zöldséggel",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "5 dl tejszín",
+                    "2 dl tej",
+                    "2 ek pesztó",
+                    "só, bors, szerecsendió, chili",
+                    "1 kg csirkemell",
+                    "1 nagy fej brokkoli",
+                    "3 db répa",
+                    "1 padlizsán",
+                    "sajt",
+                    "3 db tojás"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A csirkemellet szeletkre vágjuk, fűszerezzük sóval ér borssal, majd elősütjük",
+                "A zöldségeket megmossuk és feldaraboljuk",
+                "Egy tespi alját kiolajozzuk, amjd rétegezve egy sor csirke, egy sor zöldség egy sor sajt következik. "
+                +"Ezt addig folytatjuk, amíg van hely a tepsiben és van még hozzávaló.",
+                "A tejszínt, tejet, sót, borsot, szerecsendiót és chilit összekeverjük, majd beleütjünk 3 db tojást és egyen állagúra keverjük.",
+                "Leöntjük a tepsiben lévő dolgokat úgy hogy ne fedje el őket teljesen. "
+                +"Ha van még reszelt sajtunk ast szórjk a tetejére, majd takarjuk le fóliával az egészet.",
+                "A sütőben 20 percig süssük, majd fólia nélkül pirulásig (kb +25p)"
+            ],
+        image: image_chicken_vegetables,
+        sources: [],
+    },
+    {
+        index: "071",
+        dessert: true,
+        title: "Jalapengo csiga",
+        details: "Csípős sós pékárú házilag",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "2 csomag levelestészta",
+                    "4 db jalapengo",
+                    "500g mascarpone",
+                    "maroknyi reszelt sajt",
+                    "só, bors, szerecsendió",
+                    "2 db tojás"
+                ]
+            }
+        ],
+        howToMakeIt: [
+                "A mascarponét előmelegítjük kicsit, hogy kenhető legyen. Majd hozzákeverjük a sót, borsot és a szerecsendiót",
+                "A tésztát kinyújtjuk, majd megkenjük ezzel a szószzal. "
+                +"A jalapengo-kat felvágjuk és rárakjuk egyenletesen és nem túl sűrűn a tésztára. Majd az egészet megszórjuk reszelt sajttal",
+                "A tésztát feltekerjük és csigákat vágnk belőle. Ezeket egy sütőpapírral bélelet tepsibe rakjuk, "
+                +"majd megkenjük tojással és megszórjuk reszelt sajttal. "
+                +"Sütőben 20-25 percig (pirulásig) sütjük. Vigyázzunk, hogy az alja ne égjen meg."
+            ],
+        image: image_jalapengo_rolls,
+        sources: [],
+    },
+    {
+        index: "072",
+        dessert: true,
+        title: "Karamellás csiga",
+        details: "Az édesszájúak kedvence",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "500g liszt",
+                    "20 g élesztő",
+                    "1 púpos marék cukor",
+                    "1/4 pohár tej (35 g)",
+                    "60 g vaj",
+                    "csipetnyi só",
+                    "reszelt naranschéj",
+                    "Sóskaramell",
+                    "Reszelt mogyoró",
+                    "3 db tojás"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Az élesztőt és a cukrot addig keverjük amíg fel nem oldódik benne teljesen a cukor. "
+            +"A keverkéhez hozzáadjuk a lisztet, a tojást és a tejet, majd összegyúrjuk. "
+            +"Majd adjuk hozzá a vajat, a narancshéjat és a sót, majd dolgozzuk össze. "
+            +"Adjuk hozzá még lsiztet hogy megfelelő állagú legyen.",
+            "Hagyjuk kelni a tésztát amíg kétszer akkora nem lesz (kb 1 óra)",
+            "A tésztát kinyújtjuk, majd megkenjük vékonyan a karamellel. "
+            +"Feltekerjük, majd berakjuk a mélyhűtőbe egy 20 percre.",
+            "Miután kivettük felszeleteljük csigákra és egy sütőpapírral bélelt tepsibe rakjuk.",
+            "Sütőben 20-25 percig sütjük (pirulásig)",
+            "Töltelékbe mehet fahéjas-almás karamell is"
+            ],
+        image: image_caramel_roll,
+        sources: [],
     }
 ];

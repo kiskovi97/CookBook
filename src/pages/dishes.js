@@ -3173,5 +3173,125 @@ export default [
             ],
         image: image_caramel_roll,
         sources: [],
+    },
+    {
+        index: "073",
+        dessert: true,
+        title: "Karamelles diós fordítotott sütemény",
+        details: "Karamelles diós fordítotott sütemény",
+        ingredients: [
+            {
+                title: "Karamellhez:",
+                list: [
+                    "125 gramm vaj",
+                    "1/4 csésze juhar = 45 gramm",
+                    "2/3 csésze demerara cukor (híg) = 100 gramm",
+                    "Egy pohár natúr pekándió = 100 gramm",
+                ]
+            },
+            {
+                title: "Alaphoz:",
+                list: [
+                    "200 gramm nagyon puha vaj",
+                    "Egy csésze cukor = 250 gramm",
+                    "4 tojás L",
+                    "2 csésze liszt = 300 gramm",
+                    "Másfél teáskanál sütőpor = 6 gramm",
+                    "250 ml 32%-os tejszín",
+                    "Egy teáskanál kiváló minőségű vaníliapüré",
+                    "Csipet só",
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "Kezdjük a pekándió karamellel",
+            "Egy bográcsba vajat, demerara cukrot és juhart teszünk, és feloldjuk a cukrot, és buborékban hozzáadjuk az apróra vágott pekándiót, összekeverjük és levesszük a tűzről.",
+            "Egy nagy, 31 cm-es angol tepsit kivajazunk és sütőpapírral kibélelünk, a tepsi aljára öntjük a pekándiós masszát, kiegyenesítjük és félretesszük.",
+            "Térjünk át a vaníliás tortára...",
+            "Egy tálba tegyünk egy nagyon puha vajat és a cukrot, és jól keverjük össze, hogy könnyű krémet kapjunk, adjuk hozzá a vaníliapürét, sózzuk és keverjük össze.",
+            "A tojásokat fokozatosan, egymás után kavarva hozzáadjuk.",
+            "A tálba sütőport adunk, és ütemben hozzáadjuk a tejszín felét és a liszt fele mennyiséget, és kicsit elkeverjük, ismét hozzáadjuk a maradék tejszínt és a lisztet, és simára, kerámiás masszává keverjük.",
+            "Tegye át a torta tésztáját a pekándiós karamelles tepsibe, enyhén igazítsa el, és tegyük 170 fokra előmelegített sütőbe, 170 fokra alsó felső hőfokon, a sütemény körülbelül egy órát kell lennie a sütőben, vagy amíg egy fogpiszkálót bedugunk, és nedves morzsával kijön.",
+            "Kiveszünk egy pékséget és várunk pár percet, hogy fel ne forrjon, óvatosan tálcára fordítjuk a tortát, és óvatosan kihúzzuk a formát, élvezd!",
+            ],
+        image: comming_soon,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/CdYKwnADz9R/",
+                name: "Instagram cake"
+            }
+        ],
+    },
+    {
+        index: "074",
+        main: true,
+        chicken: true,
+        title: "Szecsuáni csirke tésztával",
+        details: "szecs csirke tésztával",
+        ingredients: [
+            {
+                title: "Tésztához:",
+                list: [
+                    "200 g ázsiai tészta",
+                    "só",
+                    "1/2 db nagy piros chili",
+                    "2 db újhagyma",
+                    "4 gerezd fokhagyma",
+                    "1 tk friss gyömbér",
+                    "1 csokor friss petrezselyem",
+                    "3 - 4 ek szójaszósz",
+                    "1 - 2 tk fehérborecet",
+                    "1 ek pirítatlan szezámmag",
+                    "120 ml olaj",
+                ]
+            },
+            {
+                title: "Csirkéhez:",
+                list: [
+                    "500 g csirkemell",
+                    "olaj",
+                    "só, bors",
+                    "0.25 db kelkáposzta",
+                    "1 szál répa",
+                    "250 g konzerv ananász",
+                    "5 ek méz",
+                    "3 ek szójaszósz",
+                    "1 ek csípőspaprika-krém",
+                    "2 ek szezámmag",
+                    "1 púpozott tk keményítő",
+                ]
+            },
+        ],
+        howToMakeIt: [
+            "A chili oil noodles, a chilis-olajos ázsiai tészta roppant egyszerű étel, "
+            +"és a név ismerős lehet azoknak, akik szeretik az olasz konyhát: a spagetti aglio,"
+            +" olio e peperoncino lényegében ugyanezen a néven fut, a két étel mégsem hasonlít egymásra."
+            +" Főleg, mert az ázsiai verzióba az ott jellemző ízek nem maradhatnak ki egy alapfogásból sem."
+            +" Az étel egyszerűségében rejlik a nagyszerűsége, "
+            +"néhány részletre azonban érdemes odafigyelni. Kezdetnek a tésztát bő, "
+            +"sós vízben megfőzzük, majd leszűrjük. A chilit, az újhagymát, a fokhagymát, "
+            +"a gyömbért és a petrezselymet apróra vágjuk, és egy tálba tesszük. Hozzáadjuk a szójaszószt, az ecetet és a szezámmagot.",
+            "Az olajat egy lábasban forróra, szinte füstölésig hevítjük, "
+            +"ezután leöntjük vele a fűszereket és hagyjuk, hogy egy kicsit megpiruljanak benne."
+            +" Megkeverjük, és beleforgatjuk a tésztát, majd azonnal megesszük.",
+            "A csirkét felkockázzuk, és forró serpenyőben lepirítjuk egy kevés olajon. "
+            +"Hozzátesszük a felcsíkozott kelkáposztát, majd egy perc pirítás után a reszelt"
+            +" répát és a felkockázott ananászt is. 1-2 percig tovább pirítjuk, majd sózzuk, borsozzuk.",
+            "Egy tálban összekeverjük a mézet, a szójaszószt,"
+            +" a csípőspaprika-krémet és a szezámmagot, majd a csirkés raguhoz adjuk,"
+            +" és összeforraljuk. Körülbelül 50 ml vízben elkeverjük a keményítőt, és a ragura öntjük."
+            +" Egy percig még forraljuk, hogy besűrűsödjön a szósz.",
+            ],
+        image: comming_soon,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/CdYKwnADz9R/",
+                name: "Street Kitchen csirke"
+            },
+            {
+                link:"https://streetkitchen.hu/tesztapolc/chili-oil-noodles-chilis-olajos-azsiai-teszta/",
+                name: "Street Kitchen tészta"
+            }
+        ],
     }
 ];

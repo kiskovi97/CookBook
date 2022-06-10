@@ -3326,5 +3326,80 @@ export default [
                 name: "Street Kitchen tarja"
             },
         ],
+    },
+    {
+        index: "076",
+        main: true,
+        chicken: true,
+        title: "Mézes-kókuszos csirkemell",
+        details: "Mézes-kókuszos csirkemell",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1/2 chicken breast.",
+                    "100 flour",
+                    "50 starch",
+                    "1 tablespoon of baking soda",
+                    "100 cold water",
+                    "Salt to taste",
+                    "For the sweet and sour sauce,",
+                    "100 gr butter",
+                    "2 tablespoons honey",
+                    "2 tablespoons sugar",
+                    "2 tablespoons soy sauce",
+                    "kókusreszelék"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Cut the chicken into cubes, dip in the batter and fry in hot oil.",
+            "Then in a pan we put all the ingredients for the sauce and bring it to a boil,"
+            +" add the fried morsels and toss everything, serve with mixed sesame."
+            ],
+        image: comming_soon,
+        sources: [
+            {
+                link: "https://www.instagram.com/tv/CZwXeqJgbS5/",
+                name: "Instagram csirke"
+            },
+        ],
+    },
+    {
+        index: "077",
+        dessert: true,
+        title: "mandulás-barackos kevert",
+        details: "Egyszerű szaftos tarja recept",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "200g cukor",
+                    "200g liszt",
+                    "2 tojás",
+                    "150g tejföl",
+                    "1 csomag sütőpor",
+                    "50g olvasztott vaj",
+                    "sárgabarack",
+                    "szóráshoz: fahéj, cukor, 100g szeletelt mandula"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Az egész tojásokat a cukorral kikeverjük majd hozzáadjuk az olvasztott vajat és tovább keverjük."
+            +" Ezután jöhet bele a tejföl, majd beleszitáljuk a sütőporos lisztet és ismét homogénre keverjük.",
+            "Kibélelünk sütőpapírral egy kis tepsit (20x22 cm) és beleöntjük a tésztát. "
+            +"Ezután a negyedelt barackokat szorosan egymás mellé teszem a tésztára. "
+            +"Minél több a barack annál jobb🤤 Ezután fahéjjal, "
+            +"kristálycukorral és mandulával megszórom a barackos tésztát - a cukor rá fog karamellizálódni a tetejére sütés közben "
+            +"és ahh nagyon fini😍180 fokra előmelegített sütőben aranybarnára sütjük 35 perc alatt.",
+            ],
+        image: comming_soon,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/CefhhgWoxu0/",
+                name: "Instagram süti"
+            },
+        ],
     }
 ];

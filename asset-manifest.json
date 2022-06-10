@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.83cf57a8.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.83cf57a8.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.23d579c3.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.23d579c3.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
-    "static/js/2.8db8c1dc.chunk.js": "/CookBook/static/js/2.8db8c1dc.chunk.js",
-    "static/js/2.8db8c1dc.chunk.js.map": "/CookBook/static/js/2.8db8c1dc.chunk.js.map",
+    "static/js/2.6f4f2a1b.chunk.js": "/CookBook/static/js/2.6f4f2a1b.chunk.js",
+    "static/js/2.6f4f2a1b.chunk.js.map": "/CookBook/static/js/2.6f4f2a1b.chunk.js.map",
     "static/js/3.b2761580.chunk.js": "/CookBook/static/js/3.b2761580.chunk.js",
     "static/js/3.b2761580.chunk.js.map": "/CookBook/static/js/3.b2761580.chunk.js.map",
     "index.html": "/CookBook/index.html",
     "static/css/main.fb8701c4.chunk.css.map": "/CookBook/static/css/main.fb8701c4.chunk.css.map",
-    "static/js/2.8db8c1dc.chunk.js.LICENSE.txt": "/CookBook/static/js/2.8db8c1dc.chunk.js.LICENSE.txt",
+    "static/js/2.6f4f2a1b.chunk.js.LICENSE.txt": "/CookBook/static/js/2.6f4f2a1b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/CookBook/static/media/OpenSauceOne-Regular.942cf144.woff",
     "static/media/comming_soon.44e955fd.jpg": "/CookBook/static/media/comming_soon.44e955fd.jpg",
     "static/media/foodTemplate.ce8eca3c.webp": "/CookBook/static/media/foodTemplate.ce8eca3c.webp",
@@ -39,6 +39,7 @@
     "static/media/image_chicken_potatoes2.1a986bb4.webp": "/CookBook/static/media/image_chicken_potatoes2.1a986bb4.webp",
     "static/media/image_chicken_sesam.ac524772.webp": "/CookBook/static/media/image_chicken_sesam.ac524772.webp",
     "static/media/image_chicken_spenot.b4074283.webp": "/CookBook/static/media/image_chicken_spenot.b4074283.webp",
+    "static/media/image_chicken_szecsuan.b5de0f0a.webp": "/CookBook/static/media/image_chicken_szecsuan.b5de0f0a.webp",
     "static/media/image_chicken_vegetables.02ee59cd.webp": "/CookBook/static/media/image_chicken_vegetables.02ee59cd.webp",
     "static/media/image_coconat.91f29e3c.webp": "/CookBook/static/media/image_coconat.91f29e3c.webp",
     "static/media/image_coconat2.6501dc1e.webp": "/CookBook/static/media/image_coconat2.6501dc1e.webp",
@@ -64,6 +65,7 @@
     "static/media/image_lemonchicken.3c9023e5.webp": "/CookBook/static/media/image_lemonchicken.3c9023e5.webp",
     "static/media/image_macandcheese.8d24f79e.webp": "/CookBook/static/media/image_macandcheese.8d24f79e.webp",
     "static/media/image_mexican2.ad64ef45.webp": "/CookBook/static/media/image_mexican2.ad64ef45.webp",
+    "static/media/image_mustard_meat.8a0010d3.webp": "/CookBook/static/media/image_mustard_meat.8a0010d3.webp",
     "static/media/image_padthai.eb0440e9.webp": "/CookBook/static/media/image_padthai.eb0440e9.webp",
     "static/media/image_palacsinta.d429321d.webp": "/CookBook/static/media/image_palacsinta.d429321d.webp",
     "static/media/image_pancacke.8d9a6fd0.webp": "/CookBook/static/media/image_pancacke.8d9a6fd0.webp",
@@ -86,13 +88,14 @@
     "static/media/image_tartar.13a816cc.webp": "/CookBook/static/media/image_tartar.13a816cc.webp",
     "static/media/image_tiramisu.3b8b4fcc.webp": "/CookBook/static/media/image_tiramisu.3b8b4fcc.webp",
     "static/media/image_tortilla.80ea5b3e.webp": "/CookBook/static/media/image_tortilla.80ea5b3e.webp",
+    "static/media/image_upsidedown.d3b3d509.webp": "/CookBook/static/media/image_upsidedown.d3b3d509.webp",
     "static/media/instagram.beada15c.svg": "/CookBook/static/media/instagram.beada15c.svg",
     "static/media/risotto.eb68438c.webp": "/CookBook/static/media/risotto.eb68438c.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.b14375c0.js",
-    "static/js/2.8db8c1dc.chunk.js",
+    "static/js/2.6f4f2a1b.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.83cf57a8.chunk.js"
+    "static/js/main.23d579c3.chunk.js"
   ]
 }

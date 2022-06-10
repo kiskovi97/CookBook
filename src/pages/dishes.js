@@ -3337,17 +3337,21 @@ export default [
             {
                 title: "Hozzávalók:",
                 list: [
-                    "1/2 chicken breast.",
-                    "100 flour",
-                    "50 starch",
-                    "1 tablespoon of baking soda",
-                    "100 cold water",
+                    "1 kg chicken breast.",
+                    "200 g flour",
+                    "100 g starch",
+                    "2 tablespoon of baking soda",
+                    "200 ml cold water",
                     "Salt to taste",
-                    "For the sweet and sour sauce,",
                     "100 gr butter",
-                    "2 tablespoons honey",
-                    "2 tablespoons sugar",
-                    "2 tablespoons soy sauce",
+                ]
+            },
+            {
+                title: "Szószhoz:",
+                list: [
+                    "4 tablespoons honey",
+                    "4 tablespoons sugar",
+                    "4 tablespoons soy sauce",
                     "kókusreszelék"
                 ]
             }
@@ -3368,8 +3372,8 @@ export default [
     {
         index: "077",
         dessert: true,
-        title: "mandulás-barackos kevert",
-        details: "Egyszerű szaftos tarja recept",
+        title: "Mandulás-barackos kevert",
+        details: "Mandulás-barackos kevert",
         ingredients: [
             {
                 title: "Hozzávalók:",

@@ -5,6 +5,7 @@ import Error from './pages/Error';
 import Navbar from './Navbar';
 import Desserts from './pages/Desserts.jsx';
 import Dishes from './pages/Dishes.jsx';
+import Testing from './pages/Testing.jsx';
 import Dish from './pages/Dish.jsx';
 import ReactGa from 'react-ga';
 import { useEffect } from 'react';
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/desserts" component={Desserts} />
         <Route exact path="/dishes" component={Dishes} />
         <Route exact path="/dish/*" component={Dish} />
+        <Route exact path="/test" component={Testing} />
         <Route component={Error} />
       </Switch>
     </main>

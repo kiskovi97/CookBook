@@ -71,7 +71,9 @@ import image_rugelach from '../images/image_rugelach.webp'
 import image_jalapengo_rolls from '../images/image_jalapengo_rolls.webp'
 import image_chicken_vegetables from '../images/image_chicken_vegetables.webp'
 import image_caramel_roll from '../images/image_caramel_roll.webp'
-
+import image_upsidedown from '../images/image_upsidedown.webp'
+import image_mustard_meat from '../images/image_mustard_meat.webp'
+import image_chicken_szecsuan from '../images/image_chicken_szecsuan.webp'
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3177,44 +3179,46 @@ export default [
     {
         index: "073",
         dessert: true,
-        title: "Karamelles diós fordítotott sütemény",
-        details: "Karamelles diós fordítotott sütemény",
+        title: "Fordítotott sütemény",
+        details: "Karamelles mogyorós fordítotott sütemény",
         ingredients: [
             {
                 title: "Karamellhez:",
                 list: [
                     "125 gramm vaj",
-                    "1/4 csésze juhar = 45 gramm",
-                    "2/3 csésze demerara cukor (híg) = 100 gramm",
-                    "Egy pohár natúr pekándió = 100 gramm",
+                    "2 ek méz",
+                    "2/3 csésze cukor",
+                    "Egy pohár mogyoró, vagy egyéb magféle",
                 ]
             },
             {
                 title: "Alaphoz:",
                 list: [
-                    "200 gramm nagyon puha vaj",
-                    "Egy csésze cukor = 250 gramm",
-                    "4 tojás L",
-                    "2 csésze liszt = 300 gramm",
-                    "Másfél teáskanál sütőpor = 6 gramm",
-                    "250 ml 32%-os tejszín",
-                    "Egy teáskanál kiváló minőségű vaníliapüré",
+                    "200 gramm vaj",
+                    "150 gramm cukor",
+                    "100 gramm vaníliás-cukor",
+                    "4 tojás",
+                    "300 gramm liszt",
+                    "1 csomag sütőpor",
+                    "250 ml tejszín",
+                    "1 ek vanília aroma",
                     "Csipet só",
                 ]
             },
         ],
         howToMakeIt: [
-            "Kezdjük a pekándió karamellel",
-            "Egy bográcsba vajat, demerara cukrot és juhart teszünk, és feloldjuk a cukrot, és buborékban hozzáadjuk az apróra vágott pekándiót, összekeverjük és levesszük a tűzről.",
-            "Egy nagy, 31 cm-es angol tepsit kivajazunk és sütőpapírral kibélelünk, a tepsi aljára öntjük a pekándiós masszát, kiegyenesítjük és félretesszük.",
-            "Térjünk át a vaníliás tortára...",
-            "Egy tálba tegyünk egy nagyon puha vajat és a cukrot, és jól keverjük össze, hogy könnyű krémet kapjunk, adjuk hozzá a vaníliapürét, sózzuk és keverjük össze.",
+            "A cukrot megkaramellizáljuk, majd hozzáadjuk a vajat, a mézet és a magokat "
+            +"(mi mazsolát is kevertünk bele), összekeverjük és levesszük a tűzről.",
+            "Egy tepsit (31 cm-es) kibéleljük sütőpapírral, és az aljára öntjük a pekándiós masszát, kiegyenesítjük és félretesszük.",
+            "A megolvaszott vajat és a cukrokat keverjük össze, adjuk hozzá a vanília aromát, sózzuk és keverjük össze.",
             "A tojásokat fokozatosan, egymás után kavarva hozzáadjuk.",
-            "A tálba sütőport adunk, és ütemben hozzáadjuk a tejszín felét és a liszt fele mennyiséget, és kicsit elkeverjük, ismét hozzáadjuk a maradék tejszínt és a lisztet, és simára, kerámiás masszává keverjük.",
-            "Tegye át a torta tésztáját a pekándiós karamelles tepsibe, enyhén igazítsa el, és tegyük 170 fokra előmelegített sütőbe, 170 fokra alsó felső hőfokon, a sütemény körülbelül egy órát kell lennie a sütőben, vagy amíg egy fogpiszkálót bedugunk, és nedves morzsával kijön.",
-            "Kiveszünk egy pékséget és várunk pár percet, hogy fel ne forrjon, óvatosan tálcára fordítjuk a tortát, és óvatosan kihúzzuk a formát, élvezd!",
+            "Belekeverjük a sütőport, és fokozatosan hozzáadjuk a tejszínt és a lisztet felvátlva. "
+            +"Jól elkeverjük hogy csomómentes masszát kapjunk.",
+            "A tésztát ráöntjük a tepsibe. A tetejét egyenesre kenjük, majd 170 fokon fél óráig sütjük. "
+            +"Tűpróbával vizsgáljuk mikor készült el.",
+            "A kész süteményt hagyjuk kihülni, majd felfordítva egy tálcára szeletelve tálaljuk.",
             ],
-        image: comming_soon,
+        image: image_upsidedown,
         sources: [
             {
                 link: "https://www.instagram.com/p/CdYKwnADz9R/",
@@ -3232,57 +3236,45 @@ export default [
             {
                 title: "Tésztához:",
                 list: [
-                    "200 g ázsiai tészta",
-                    "só",
-                    "1/2 db nagy piros chili",
+                    "500 g tészta",
+                    "só, bors, gyömbér, petrezselyem",
                     "2 db újhagyma",
                     "4 gerezd fokhagyma",
-                    "1 tk friss gyömbér",
-                    "1 csokor friss petrezselyem",
-                    "3 - 4 ek szójaszósz",
-                    "1 - 2 tk fehérborecet",
-                    "1 ek pirítatlan szezámmag",
+                    "4 ek szójaszósz",
+                    "1 tk fehérborecet",
                     "120 ml olaj",
                 ]
             },
             {
                 title: "Csirkéhez:",
                 list: [
-                    "500 g csirkemell",
+                    "1 kg csirkemell",
                     "olaj",
                     "só, bors",
-                    "0.25 db kelkáposzta",
-                    "1 szál répa",
-                    "250 g konzerv ananász",
-                    "5 ek méz",
-                    "3 ek szójaszósz",
-                    "1 ek csípőspaprika-krém",
-                    "2 ek szezámmag",
-                    "1 púpozott tk keményítő",
+                    "1 db kisebb kelkáposzta",
+                    "2 szál répa",
+                    "500 g konzerv ananász",
+                    "10 ek méz",
+                    "6 ek szójaszósz",
+                    "2 ek ketchup",
+                    "2 púpozott tk keményítő",
+                    "2 db jalapengo",
+                    "szezámmag",
                 ]
             },
         ],
         howToMakeIt: [
-            "A chili oil noodles, a chilis-olajos ázsiai tészta roppant egyszerű étel, "
-            +"és a név ismerős lehet azoknak, akik szeretik az olasz konyhát: a spagetti aglio,"
-            +" olio e peperoncino lényegében ugyanezen a néven fut, a két étel mégsem hasonlít egymásra."
-            +" Főleg, mert az ázsiai verzióba az ott jellemző ízek nem maradhatnak ki egy alapfogásból sem."
-            +" Az étel egyszerűségében rejlik a nagyszerűsége, "
-            +"néhány részletre azonban érdemes odafigyelni. Kezdetnek a tésztát bő, "
-            +"sós vízben megfőzzük, majd leszűrjük. A chilit, az újhagymát, a fokhagymát, "
-            +"a gyömbért és a petrezselymet apróra vágjuk, és egy tálba tesszük. Hozzáadjuk a szójaszószt, az ecetet és a szezámmagot.",
-            "Az olajat egy lábasban forróra, szinte füstölésig hevítjük, "
-            +"ezután leöntjük vele a fűszereket és hagyjuk, hogy egy kicsit megpiruljanak benne."
-            +" Megkeverjük, és beleforgatjuk a tésztát, majd azonnal megesszük.",
-            "A csirkét felkockázzuk, és forró serpenyőben lepirítjuk egy kevés olajon. "
-            +"Hozzátesszük a felcsíkozott kelkáposztát, majd egy perc pirítás után a reszelt"
-            +" répát és a felkockázott ananászt is. 1-2 percig tovább pirítjuk, majd sózzuk, borsozzuk.",
+            "A tésztát kifőzzük, majd hagyjuk lecsöpögni. "
+            +" A szószhoz a hozzávalókat összekeverjük és egy lábasban forrásig melegítjük."
+            +"A tésztára ráöntjük és jól összeforgatjuk.",
+            "A csirkét felkockázzuk, és forró serpenyőben lepirítjuk egy kevés olajon, majd sózzuk, borsozzuk. "
+            +"Hozzátesszük a felcsíkozott kelkáposztát, répát és a jalapengo-t majd összesütjük az egészet.",
             "Egy tálban összekeverjük a mézet, a szójaszószt,"
-            +" a csípőspaprika-krémet és a szezámmagot, majd a csirkés raguhoz adjuk,"
-            +" és összeforraljuk. Körülbelül 50 ml vízben elkeverjük a keményítőt, és a ragura öntjük."
-            +" Egy percig még forraljuk, hogy besűrűsödjön a szósz.",
+            +" a ketchup-ot és az (aprított) jalapengo-t, majd a csirkés raguhoz adjuk, és összeforraljuk. "
+            +" Körülbelül 50 ml vízben elkeverjük a keményítőt, és a ragura öntjük."
+            +" Egy percig még forraljuk, hogy besűrűsödjön a szósz, majd hozzáadjuk az ananászt.",
             ],
-        image: comming_soon,
+        image: image_chicken_szecsuan,
         sources: [
             {
                 link: "https://www.instagram.com/p/CdYKwnADz9R/",
@@ -3292,6 +3284,47 @@ export default [
                 link:"https://streetkitchen.hu/tesztapolc/chili-oil-noodles-chilis-olajos-azsiai-teszta/",
                 name: "Street Kitchen tészta"
             }
+        ],
+    },
+    {
+        index: "075",
+        main: true,
+        title: "Mustáros-ketchupos tejszínben sült tarja",
+        details: "Egyszerű szaftos tarja recept",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "8 szelet tarja",
+                    "só, bors",
+                    "600 ml tejszín (kb.)",
+                    "150 ml ketchup",
+                    "50 ml mustár",
+                    "3 gerezd fokhagyma",
+                    "50 g vaj",
+                    "reszelt sajt"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A mustáros tarja elkészítéséhez a hússzeleteket enyhén kiklopfoljuk. "
+            +"Ha nincs klopfolónk, nyugodtan használjuk a tenyerünket. Ezután sózzuk, borsozzuk.",
+            "A tejszínt egy keverőtálba tesszük. Hozzáadjuk a ketchupot, "
+            +"a mustárt és a zúzott fokhagymát, majd alaposan elkeverjük. "
+            +"A tejszínes szószba rétegezzük a húsokat úgy, "
+            +"hogy mindenhol jól ellepje a tejszín, "
+            +"és hagyjuk pácolódni legalább 1-2 órán át.", 
+            "Egy kivajazott sütőtálba tesszük a húst, megszórjuk reszelt sajttal, lefedjük alufóliával, "
+            +"és 180 fokra előmelegített sütőben 30 percig sütjük.",
+            "Ezután levesszük a főliát és a sajt pirulásáig (20-30 perc) tovább sütjük a sütőben.",
+            "Tésztával és zöldségekkel tálaljuk."
+            ],
+        image: image_mustard_meat,
+        sources: [
+            {
+                link: "https://streetkitchen.hu/instant/mustaros-tarja/",
+                name: "Street Kitchen tarja"
+            },
         ],
     }
 ];

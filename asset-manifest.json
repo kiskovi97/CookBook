@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.a553dbb9.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.a553dbb9.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.8e4bb2b0.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.8e4bb2b0.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.6f4f2a1b.chunk.js": "/CookBook/static/js/2.6f4f2a1b.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/image_applecake.6aa8861a.webp": "/CookBook/static/media/image_applecake.6aa8861a.webp",
     "static/media/image_applesauce.0fb915b1.webp": "/CookBook/static/media/image_applesauce.0fb915b1.webp",
     "static/media/image_babka.40de2242.webp": "/CookBook/static/media/image_babka.40de2242.webp",
+    "static/media/image_barack.0900d772.webp": "/CookBook/static/media/image_barack.0900d772.webp",
     "static/media/image_birdmilk.51a6f64b.webp": "/CookBook/static/media/image_birdmilk.51a6f64b.webp",
     "static/media/image_boci.d2134bfd.webp": "/CookBook/static/media/image_boci.d2134bfd.webp",
     "static/media/image_bologna.22b34f51.webp": "/CookBook/static/media/image_bologna.22b34f51.webp",
@@ -43,6 +44,7 @@
     "static/media/image_chicken_vegetables.02ee59cd.webp": "/CookBook/static/media/image_chicken_vegetables.02ee59cd.webp",
     "static/media/image_coconat.91f29e3c.webp": "/CookBook/static/media/image_coconat.91f29e3c.webp",
     "static/media/image_coconat2.6501dc1e.webp": "/CookBook/static/media/image_coconat2.6501dc1e.webp",
+    "static/media/image_coconat_chicken.97898c41.webp": "/CookBook/static/media/image_coconat_chicken.97898c41.webp",
     "static/media/image_cornflakes_chicken.0cc8e6ad.webp": "/CookBook/static/media/image_cornflakes_chicken.0cc8e6ad.webp",
     "static/media/image_csaszar.eda25569.webp": "/CookBook/static/media/image_csaszar.eda25569.webp",
     "static/media/image_csiga2.f1429599.webp": "/CookBook/static/media/image_csiga2.f1429599.webp",
@@ -96,6 +98,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.6f4f2a1b.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.a553dbb9.chunk.js"
+    "static/js/main.8e4bb2b0.chunk.js"
   ]
 }

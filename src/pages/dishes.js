@@ -74,6 +74,8 @@ import image_caramel_roll from '../images/image_caramel_roll.webp'
 import image_upsidedown from '../images/image_upsidedown.webp'
 import image_mustard_meat from '../images/image_mustard_meat.webp'
 import image_chicken_szecsuan from '../images/image_chicken_szecsuan.webp'
+import image_coconat_chicken from '../images/image_coconat_chicken.webp'
+import image_barack from '../images/image_barack.webp'
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3332,36 +3334,40 @@ export default [
         main: true,
         chicken: true,
         title: "Mézes-kókuszos csirkemell",
-        details: "Mézes-kókuszos csirkemell",
+        details: "Ázsiai csirkemell egy kicsit máshogy",
         ingredients: [
             {
                 title: "Hozzávalók:",
                 list: [
-                    "1 kg chicken breast.",
-                    "200 g flour",
-                    "100 g starch",
-                    "2 tablespoon of baking soda",
-                    "200 ml cold water",
-                    "Salt to taste",
-                    "100 gr butter",
+                    "1 kg csirkemell",
+                    "200 g liszt",
+                    "100 g kukorica keményítő",
+                    "2 tk szódabikarbóna",
+                    "300 ml hideg víz",
+                    "só, bors",
+                    "100 g vaj",
                 ]
             },
             {
                 title: "Szószhoz:",
                 list: [
-                    "4 tablespoons honey",
-                    "4 tablespoons sugar",
-                    "4 tablespoons soy sauce",
+                    "8 ek méz",
+                    "8 ek ketchup",
+                    "8 ek szója szósz",
                     "kókusreszelék"
                 ]
             }
         ],
         howToMakeIt: [
-            "Cut the chicken into cubes, dip in the batter and fry in hot oil.",
-            "Then in a pan we put all the ingredients for the sauce and bring it to a boil,"
-            +" add the fried morsels and toss everything, serve with mixed sesame."
+            "A lisztet, keményítőt, szódabikarbonát összekeverjük. Felöntjük vízzel és a vajjal, megfűszerezzük és jól összedolgozzuk.",
+            "A csirkét nagyobb szeletekre vágjuk, és belerakjuk a masszába úgy hogy mindre kerüljön elég tészta.",
+            "Ezután forró bő olajban kisütjük a hús darabokat figyelve arra hogy ne tapadjanak egymáshoz. "
+            +"Ha kell több körben óvatosan süssük ki őket.",
+            "A szószhoz a hozzávalókat összekeverjük egy serpenyőben, felhevítjük, majd a kisült csirke darabokat megforgatjuk benne. "
+            +"Ha elkészült megszórjuk kókuszreszelékkel.",
+            "Risszel és zöldséggel tálaljuk."
             ],
-        image: comming_soon,
+        image: image_coconat_chicken,
         sources: [
             {
                 link: "https://www.instagram.com/tv/CZwXeqJgbS5/",
@@ -3373,7 +3379,7 @@ export default [
         index: "077",
         dessert: true,
         title: "Mandulás-barackos kevert",
-        details: "Mandulás-barackos kevert",
+        details: "Könnyed, édes sütemény a barack kedvenceinek",
         ingredients: [
             {
                 title: "Hozzávalók:",
@@ -3385,20 +3391,19 @@ export default [
                     "1 csomag sütőpor",
                     "50g olvasztott vaj",
                     "sárgabarack",
-                    "szóráshoz: fahéj, cukor, 100g szeletelt mandula"
+                    "(tetejére) fahéj, cukor, szeletelt mandula",
                 ]
             }
         ],
         howToMakeIt: [
             "Az egész tojásokat a cukorral kikeverjük majd hozzáadjuk az olvasztott vajat és tovább keverjük."
-            +" Ezután jöhet bele a tejföl, majd beleszitáljuk a sütőporos lisztet és ismét homogénre keverjük.",
+            +" Ezután jöhet bele a tejföl, majd belerakjuk a sütőporos lisztet és ismét homogénre keverjük.",
             "Kibélelünk sütőpapírral egy kis tepsit (20x22 cm) és beleöntjük a tésztát. "
-            +"Ezután a negyedelt barackokat szorosan egymás mellé teszem a tésztára. "
-            +"Minél több a barack annál jobb🤤 Ezután fahéjjal, "
-            +"kristálycukorral és mandulával megszórom a barackos tésztát - a cukor rá fog karamellizálódni a tetejére sütés közben "
-            +"és ahh nagyon fini😍180 fokra előmelegített sütőben aranybarnára sütjük 35 perc alatt.",
+            +"Ezután a negyedelt barackokat egymás mellé teszem a tészta tetejére. "
+            +"Ezután fahéjjascukorral és mandulával megszórom a barackos tésztát "
+            +"és 180 fokra előmelegített sütőben aranybarnára sütjük 25 perc alatt.",
             ],
-        image: comming_soon,
+        image: image_barack,
         sources: [
             {
                 link: "https://www.instagram.com/p/CefhhgWoxu0/",

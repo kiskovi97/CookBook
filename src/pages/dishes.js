@@ -3387,7 +3387,7 @@ export default [
                     "200g cukor",
                     "200g liszt",
                     "2 tojás",
-                    "150g tejföl",
+                    "300g tejföl",
                     "1 csomag sütőpor",
                     "50g olvasztott vaj",
                     "sárgabarack",

@@ -76,6 +76,7 @@ import image_mustard_meat from '../images/image_mustard_meat.webp'
 import image_chicken_szecsuan from '../images/image_chicken_szecsuan.webp'
 import image_coconat_chicken from '../images/image_coconat_chicken.webp'
 import image_barack from '../images/image_barack.webp'
+import image_gyumolcs from '../images/image_gyumolcs.webp'
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3376,38 +3377,51 @@ export default [
         ],
     },
     {
-        index: "077",
+        index: "078",
         dessert: true,
-        title: "Mandulás-barackos kevert",
-        details: "Könnyed, édes sütemény a barack kedvenceinek",
+        title: "Gyümölcs torta",
+        details: "Gyümölcs torta banánból és ananászból",
         ingredients: [
             {
-                title: "Hozzávalók:",
+                title: "Tésztához:",
                 list: [
-                    "200g cukor",
-                    "200g liszt",
-                    "2 tojás",
-                    "300g tejföl",
-                    "1 csomag sütőpor",
-                    "50g olvasztott vaj",
-                    "sárgabarack",
-                    "(tetejére) fahéj, cukor, szeletelt mandula",
+                    "100g vaj",
+                    "3 tojás",
+                    "40g cukor",
+                    "80g liszt",
+                    "1 csipet só",
+                    "2 tk sütőpor",
+                    "2 banán"
+                ]
+            },
+            {
+                title: "Tetejére:",
+                list: [
+                    "2 csomag vaníliás pudingpor",
+                    "500ml tej",
+                    "2 ek cukor",
+                    "1 ek vanílás cukor",
+                    "1 konzerv ananász",
                 ]
             }
         ],
         howToMakeIt: [
-            "Az egész tojásokat a cukorral kikeverjük majd hozzáadjuk az olvasztott vajat és tovább keverjük."
-            +" Ezután jöhet bele a tejföl, majd belerakjuk a sütőporos lisztet és ismét homogénre keverjük.",
-            "Kibélelünk sütőpapírral egy kis tepsit (20x22 cm) és beleöntjük a tésztát. "
-            +"Ezután a negyedelt barackokat egymás mellé teszem a tészta tetejére. "
-            +"Ezután fahéjjascukorral és mandulával megszórom a barackos tésztát "
-            +"és 180 fokra előmelegített sütőben aranybarnára sütjük 25 perc alatt.",
+            "A vajat olvasszuk fel egy tálban, majd keverjük el benne az egész tojásokat egyesével."
+            +" Ezután a cukrot adjuk hozzá, majd a sót, a banánokat, végül pedig szitáljuk bele a lisztet és a sütőport.",
+            "Az egészből homogén masszát kell keverni. ",
+            +"Ha kicsit sűrűnek találod, akkor kevés tejjel lazíts a masszán. "
+            +"Sütőpapírral felelet tepsibe öntjük, majd 180C-ra előmelegített sütőben 20-22 perc alatt sütjük készre. "
+            +"Tűpróbával ellenőrizd, hogy mindenhol átsült-e.",
+            "Ezt a mennyiséget én egy 27cm-es tortaformában kevertem ki.",
+            "Amíg hűl, a vaníliás pudingot elkészítjük, és még langyos állapotban a piskótára halmozzuk, "
+            +"végül pedig rápakoljuk a megtisztított epret.",
+            "Amikor teljesen kihűl szeletelhetjük.",
             ],
-        image: image_barack,
+        image: image_gyumolcs,
         sources: [
             {
-                link: "https://www.instagram.com/p/CefhhgWoxu0/",
-                name: "Instagram süti"
+                link: "https://www.instagram.com/p/Cc6GnFmrUtI/",
+                name: "Instagram torta alap"
             },
         ],
     }

@@ -14,6 +14,7 @@ var Testing = () =>
                 <h3><a href="bookrclass://?book=2&ssoid=vcloud&token=student-viewrestricted-exit"target="_blank" rel="noreferrer">BookrDeeplink - book = 2 and student-viewrestricted-exit</a></h3>
                 <h3><a href="bookrclass://?book=2&ssoid=vcloud&token=teacher-viewrestricted-exit"target="_blank" rel="noreferrer">BookrDeeplink - book = 2 and teacher-viewrestricted-exit</a></h3>
                 <h3><a href="bookrclass://?book=2"target="_blank" rel="noreferrer">BookrDeeplink - book = 2</a></h3>
+                <h3><a href="bookrclass://?cloubotToken=iscream_cloubot_8bf23a4efe30d6e0e7095821999f302e1c212f65e6db23cdeba663114157d222&oauthUrl=https://home-learn-elibrary-lms.cloubot.com/member/oauthElibraryFromToken"target="_blank" rel="noreferrer">Cloubot test</a></h3>
                 
         </div>
     </div>

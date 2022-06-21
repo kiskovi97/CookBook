@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.5dbe7d9c.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.5dbe7d9c.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.f1272668.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.f1272668.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.6f4f2a1b.chunk.js": "/CookBook/static/js/2.6f4f2a1b.chunk.js",
@@ -56,6 +56,7 @@
     "static/media/image_csirke5.b50f8a58.webp": "/CookBook/static/media/image_csirke5.b50f8a58.webp",
     "static/media/image_csirke6.8b932aaf.webp": "/CookBook/static/media/image_csirke6.8b932aaf.webp",
     "static/media/image_flowdnie.4799db9a.webp": "/CookBook/static/media/image_flowdnie.4799db9a.webp",
+    "static/media/image_gyumolcs.7c97020d.webp": "/CookBook/static/media/image_gyumolcs.7c97020d.webp",
     "static/media/image_hamburger.7e4dfe9b.webp": "/CookBook/static/media/image_hamburger.7e4dfe9b.webp",
     "static/media/image_jalapengo_rolls.26dacb91.webp": "/CookBook/static/media/image_jalapengo_rolls.26dacb91.webp",
     "static/media/image_karaj.6b69ec0c.webp": "/CookBook/static/media/image_karaj.6b69ec0c.webp",
@@ -98,6 +99,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.6f4f2a1b.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.5dbe7d9c.chunk.js"
+    "static/js/main.f1272668.chunk.js"
   ]
 }

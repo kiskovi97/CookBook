@@ -3427,6 +3427,42 @@ export default [
         ],
     },
     {
+        index: "077",
+        dessert: true,
+        title: "Mandulás-barackos kevert",
+        details: "Könnyed, édes sütemény a barack kedvenceinek",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "200g cukor",
+                    "200g liszt",
+                    "2 tojás",
+                    "300g tejföl",
+                    "1 csomag sütőpor",
+                    "50g olvasztott vaj",
+                    "sárgabarack",
+                    "(tetejére) fahéj, cukor, szeletelt mandula",
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Az egész tojásokat a cukorral kikeverjük majd hozzáadjuk az olvasztott vajat és tovább keverjük."
+            +" Ezután jöhet bele a tejföl, majd belerakjuk a sütőporos lisztet és ismét homogénre keverjük.",
+            "Kibélelünk sütőpapírral egy kis tepsit (20x22 cm) és beleöntjük a tésztát. "
+            +"Ezután a negyedelt barackokat egymás mellé teszem a tészta tetejére. "
+            +"Ezután fahéjjascukorral és mandulával megszórom a barackos tésztát "
+            +"és 180 fokra előmelegített sütőben aranybarnára sütjük 25 perc alatt.",
+            ],
+        image: image_barack,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/CefhhgWoxu0/",
+                name: "Instagram süti"
+            },
+        ],
+    },
+    {
         index: "079",
         main: true,
         title: "Vörösboros lasagne",
@@ -3476,44 +3512,54 @@ export default [
             "Apránként hozzáöntjük a szobahőmérsékletű tejet mindaddig, amíg egy nem túl folyós mártást kapunk.",
             "Sózzunk-borsozzunk ízlésünknek megfelelően, és kevés szerecsendiót is reszeljünk az egészre.",
             "Hozzáadjuk a sajtot és összefőzzük, amíg a sajt el nem olvad benne",
-            "Egy akkora tepsit használjunk, amekkora a lasagne tésztánk szélessége."
-            +" Ennek a tepsinek az alját kenjük ki egy kis raguval, plusz locsoljuk meg kevés olívaolajjal.",
+            "A tepsinek az alját kenjük ki egy kis raguval, plusz locsoljuk meg kevés besamellel.",
             "Jöhet az egészre egy réteg tésztalap, amire megint a húsos ragu,"
-            +" amit meglocsolunk a besamellel, és újabb tésztaréteg. Ezt még kétszer eljátsszuk,"
-            +" és az utolsó záróréteg egy tésztalap-sor legyen, amit leöntünk a maradék besamellel, és megszórjuk a sajtokkal.",
+            +" amit meglocsolunk a besamellel, rakunk rá szeletelt mozzarellát, és újabb tésztaréteg. Ezt még addig eljátsszuk, ameddig van hely.",
+            "Az utolsó záróréteg egy tésztalap-sor legyen, amit leöntünk a maradék besamellel és raguval, és megszórjuk a sajtokkal.",
             "Mehet az egész, az előmelegített sütőbe, és 40 perc alatt készre sütjük."
-            +" Akkor van kész, ha szépen megpirult a sajt, és körben kicsit bugyog a ragu oldalt.",
+            +" Akkor van kész, ha szépen megpirult a sajt.",
             
             ],
         image: image_lasagne_meat,
         sources: [
             {
-                link: "https://www.instagram.com/p/Cc6GnFmrUtI/",
-                name: "Instagram torta alap"
+                link: "https://www.nosalty.hu/recept/husos-lasagne",
+                name: "Nosalty recept"
             },
         ],
     },
     {
         index: "080",
         dessert: true,
-        title: "",
-        details: "",
+        title: "Mandulás ricottás szelet",
+        details: "Az olaszok variációja a sajttortára",
         ingredients: [
             {
                 title: "Hozzávalók:",
                 list: [
-                    ""
+                    "120g vaj",
+                    "300g cukor",
+                    "3cs. van.cukor",
+                    "4 tojás",
+                    "500g ricotta",
+                    "120g mandulaliszt",
+                    "100g szeletelt mandula"
                 ]
             }
         ],
         howToMakeIt: [
-            "",
+            "A tojásokat szétválasztjuk, a tojásfehérjét a cukor felével kemény habbá verjük."
+            +" Egy másik edényben a vajat a cukorral kikeverjük, majd hozzáadjuk a tojássárgákat,"
+            +" a mandulalisztet és a ricottát is. Szépen óvatosan összeforgatjuk a tojásfehérjés habbal.",
+            " Egy kivajazott tepsibe(21x23cm) öntjük a tésztát és megszórjuk a szeletelt mandulával."
+            +" 160 fokon 50-60 percig sütjük. ",
+            "Egy pár órát a hűtőbe tesszük, megszórjuk porcukorral, szeleteljük és már fogyaszthatjuk is. Jó étvágyat!",
             ],
         image: comming_soon,
         sources: [
             {
-                link: "https://www.instagram.com/p/Cc6GnFmrUtI/",
-                name: "Instagram torta alap"
+                link: "https://www.instagram.com/p/CdFcsVyo2mW/",
+                name: "Instagram süti"
             },
         ],
     }

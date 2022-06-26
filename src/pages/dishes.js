@@ -77,6 +77,7 @@ import image_chicken_szecsuan from '../images/image_chicken_szecsuan.webp'
 import image_coconat_chicken from '../images/image_coconat_chicken.webp'
 import image_barack from '../images/image_barack.webp'
 import image_gyumolcs from '../images/image_gyumolcs.webp'
+import image_lasagne_meat from "../images/image_lasagne_meat.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3377,7 +3378,7 @@ export default [
         ],
     },
     {
-        index: "078",
+        index: "077",
         dessert: true,
         title: "Gyümölcs torta",
         details: "Gyümölcs torta banánból és ananászból",
@@ -3418,6 +3419,97 @@ export default [
             "Amikor teljesen kihűl szeletelhetjük.",
             ],
         image: image_gyumolcs,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/Cc6GnFmrUtI/",
+                name: "Instagram torta alap"
+            },
+        ],
+    },
+    {
+        index: "079",
+        main: true,
+        title: "Vörösboros lasagne",
+        details: "Vörösboros lasagne",
+        ingredients: [
+            {
+                title: "Bolognase:",
+                list: [
+                    "1 kg darált marhahús",
+                    "4 közepes db sárgarépa",
+                    "2 közepes db vöröshagyma",
+                    "4 gerezd fokhagyma",
+                    "2 dl vörösbor",
+                    "2 konzerv sűrített paradicsom (1kg)",
+                    "2 banán",
+                    "só, bors, cayane bors, oregánó",
+                    "min 3 ek cukor"
+                ]
+            },
+            {
+                title: "Besamel:",
+                list: [
+                    "1 ek vaj",
+                    "2 csapott ek finomliszt",
+                    "5 dl tej",
+                    "szerecsendió , só, bors",
+                    "reszelt sajt",
+                ]
+            },
+            {
+                title: "Egyéb hozzávalók:",
+                list: [
+                    "2 csomag mozzarella",
+                    "reszelt sajt",
+                    "500 g lasagne tészta",
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Olívaolajon az apróra vágott hagymát megpirítjuk, majd hozzáadjuk a sárgarépát is.",
+            "Amikor a zöldségek megpirultak, a darált marhahúst is beletesszük a serpenyőbe, és megpirítjuk só és bors hozzáadásával.",
+            "Miközben pirul a hús, a vékony szeletekre vágott fokhagymát is hozzákeverjük, kevés vörösbor társaságában.",
+            "Majd felöntjük az egészet passzírozott paradicsommal, hozzáadjuk a maradék fűszert,"
+            +" és addig öntjü hozzá a cukrot, amíg megfelelő íze nem lesz."
+            +"Összefőzzük, majd nekikezdünk a besamel mártásnak.",
+            "A vajat megolvasztjuk, és rászórjuk a lisztet, amit gyorsan elkeverünk.",
+            "Apránként hozzáöntjük a szobahőmérsékletű tejet mindaddig, amíg egy nem túl folyós mártást kapunk.",
+            "Sózzunk-borsozzunk ízlésünknek megfelelően, és kevés szerecsendiót is reszeljünk az egészre.",
+            "Hozzáadjuk a sajtot és összefőzzük, amíg a sajt el nem olvad benne",
+            "Egy akkora tepsit használjunk, amekkora a lasagne tésztánk szélessége."
+            +" Ennek a tepsinek az alját kenjük ki egy kis raguval, plusz locsoljuk meg kevés olívaolajjal.",
+            "Jöhet az egészre egy réteg tésztalap, amire megint a húsos ragu,"
+            +" amit meglocsolunk a besamellel, és újabb tésztaréteg. Ezt még kétszer eljátsszuk,"
+            +" és az utolsó záróréteg egy tésztalap-sor legyen, amit leöntünk a maradék besamellel, és megszórjuk a sajtokkal.",
+            "Mehet az egész, az előmelegített sütőbe, és 40 perc alatt készre sütjük."
+            +" Akkor van kész, ha szépen megpirult a sajt, és körben kicsit bugyog a ragu oldalt.",
+            
+            ],
+        image: image_lasagne_meat,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/Cc6GnFmrUtI/",
+                name: "Instagram torta alap"
+            },
+        ],
+    },
+    {
+        index: "080",
+        dessert: true,
+        title: "",
+        details: "",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    ""
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "",
+            ],
+        image: comming_soon,
         sources: [
             {
                 link: "https://www.instagram.com/p/Cc6GnFmrUtI/",

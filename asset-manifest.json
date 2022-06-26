@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.75da1e07.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.75da1e07.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.a9c0956e.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.a9c0956e.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.6f4f2a1b.chunk.js": "/CookBook/static/js/2.6f4f2a1b.chunk.js",
@@ -100,6 +100,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.6f4f2a1b.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.75da1e07.chunk.js"
+    "static/js/main.a9c0956e.chunk.js"
   ]
 }

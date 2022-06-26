@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.d330321e.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.d330321e.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.75da1e07.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.75da1e07.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.6f4f2a1b.chunk.js": "/CookBook/static/js/2.6f4f2a1b.chunk.js",
@@ -64,6 +64,7 @@
     "static/media/image_krater.231a6622.webp": "/CookBook/static/media/image_krater.231a6622.webp",
     "static/media/image_kukorica.36dd4f93.webp": "/CookBook/static/media/image_kukorica.36dd4f93.webp",
     "static/media/image_lasagne.06304155.webp": "/CookBook/static/media/image_lasagne.06304155.webp",
+    "static/media/image_lasagne_meat.4a964105.webp": "/CookBook/static/media/image_lasagne_meat.4a964105.webp",
     "static/media/image_lemon.82248f26.webp": "/CookBook/static/media/image_lemon.82248f26.webp",
     "static/media/image_lemonchicken.3c9023e5.webp": "/CookBook/static/media/image_lemonchicken.3c9023e5.webp",
     "static/media/image_macandcheese.8d24f79e.webp": "/CookBook/static/media/image_macandcheese.8d24f79e.webp",
@@ -99,6 +100,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.6f4f2a1b.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.d330321e.chunk.js"
+    "static/js/main.75da1e07.chunk.js"
   ]
 }

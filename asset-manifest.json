@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.a9c0956e.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.a9c0956e.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.dafb80c6.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.dafb80c6.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.6f4f2a1b.chunk.js": "/CookBook/static/js/2.6f4f2a1b.chunk.js",
@@ -68,6 +68,7 @@
     "static/media/image_lemon.82248f26.webp": "/CookBook/static/media/image_lemon.82248f26.webp",
     "static/media/image_lemonchicken.3c9023e5.webp": "/CookBook/static/media/image_lemonchicken.3c9023e5.webp",
     "static/media/image_macandcheese.8d24f79e.webp": "/CookBook/static/media/image_macandcheese.8d24f79e.webp",
+    "static/media/image_mandula.aecd958e.webp": "/CookBook/static/media/image_mandula.aecd958e.webp",
     "static/media/image_mexican2.ad64ef45.webp": "/CookBook/static/media/image_mexican2.ad64ef45.webp",
     "static/media/image_mustard_meat.8a0010d3.webp": "/CookBook/static/media/image_mustard_meat.8a0010d3.webp",
     "static/media/image_padthai.eb0440e9.webp": "/CookBook/static/media/image_padthai.eb0440e9.webp",
@@ -100,6 +101,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.6f4f2a1b.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.a9c0956e.chunk.js"
+    "static/js/main.dafb80c6.chunk.js"
   ]
 }

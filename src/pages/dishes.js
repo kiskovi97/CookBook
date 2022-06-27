@@ -78,6 +78,7 @@ import image_coconat_chicken from '../images/image_coconat_chicken.webp'
 import image_barack from '../images/image_barack.webp'
 import image_gyumolcs from '../images/image_gyumolcs.webp'
 import image_lasagne_meat from "../images/image_lasagne_meat.webp"
+import image_mandula from "../images/image_mandula.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3539,11 +3540,12 @@ export default [
                 list: [
                     "120g vaj",
                     "300g cukor",
-                    "3cs. van.cukor",
+                    "3 ek fahéjas cukor",
                     "4 tojás",
                     "500g ricotta",
                     "120g mandulaliszt",
-                    "100g szeletelt mandula"
+                    "100g szeletelt mandula",
+                    "csokoládé"
                 ]
             }
         ],
@@ -3551,11 +3553,11 @@ export default [
             "A tojásokat szétválasztjuk, a tojásfehérjét a cukor felével kemény habbá verjük."
             +" Egy másik edényben a vajat a cukorral kikeverjük, majd hozzáadjuk a tojássárgákat,"
             +" a mandulalisztet és a ricottát is. Szépen óvatosan összeforgatjuk a tojásfehérjés habbal.",
-            " Egy kivajazott tepsibe(21x23cm) öntjük a tésztát és megszórjuk a szeletelt mandulával."
+            " Egy kivajazott tepsibe(21x23cm) öntjük a tésztát és megszórjuk a szeletelt mandulával és csokoládéval."
             +" 160 fokon 50-60 percig sütjük. ",
             "Egy pár órát a hűtőbe tesszük, megszórjuk porcukorral, szeleteljük és már fogyaszthatjuk is. Jó étvágyat!",
             ],
-        image: comming_soon,
+        image: image_mandula,
         sources: [
             {
                 link: "https://www.instagram.com/p/CdFcsVyo2mW/",

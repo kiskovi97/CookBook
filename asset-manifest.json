@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.6a0be063.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.6a0be063.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.822e1ec6.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.822e1ec6.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.666c3961.chunk.js": "/CookBook/static/js/2.666c3961.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/image_birdmilk.51a6f64b.webp": "/CookBook/static/media/image_birdmilk.51a6f64b.webp",
     "static/media/image_boci.d2134bfd.webp": "/CookBook/static/media/image_boci.d2134bfd.webp",
     "static/media/image_bologna.22b34f51.webp": "/CookBook/static/media/image_bologna.22b34f51.webp",
+    "static/media/image_brassoi.46838b3c.webp": "/CookBook/static/media/image_brassoi.46838b3c.webp",
     "static/media/image_brokkoli.a6ebb825.webp": "/CookBook/static/media/image_brokkoli.a6ebb825.webp",
     "static/media/image_brownie2.dd6c7f29.webp": "/CookBook/static/media/image_brownie2.dd6c7f29.webp",
     "static/media/image_cake.8336170b.webp": "/CookBook/static/media/image_cake.8336170b.webp",
@@ -83,6 +84,7 @@
     "static/media/image_pistachio.15a75505.webp": "/CookBook/static/media/image_pistachio.15a75505.webp",
     "static/media/image_pudingcake.3d0a1286.webp": "/CookBook/static/media/image_pudingcake.3d0a1286.webp",
     "static/media/image_rakott.e3cd49bc.webp": "/CookBook/static/media/image_rakott.e3cd49bc.webp",
+    "static/media/image_retes.6cbf5b01.webp": "/CookBook/static/media/image_retes.6cbf5b01.webp",
     "static/media/image_rizskoch.54db662c.webp": "/CookBook/static/media/image_rizskoch.54db662c.webp",
     "static/media/image_rugelach.af497d86.webp": "/CookBook/static/media/image_rugelach.af497d86.webp",
     "static/media/image_saltbrownie.c3054665.webp": "/CookBook/static/media/image_saltbrownie.c3054665.webp",
@@ -102,6 +104,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.666c3961.chunk.js",
     "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.6a0be063.chunk.js"
+    "static/js/main.822e1ec6.chunk.js"
   ]
 }

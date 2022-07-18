@@ -81,6 +81,7 @@ import image_lasagne_meat from "../images/image_lasagne_meat.webp"
 import image_mandula from "../images/image_mandula.webp"
 import image_brassoi from "../images/image_brassoi.webp"
 import image_retes from "../images/image_retes.webp"
+import image_chicken_cream from "../images/image_chicken_cream.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3569,7 +3570,40 @@ export default [
     },
     {
         index: "081",
-        dessert: true,
+        main: true,
+        chicken: true,
+        title: "Tejszínes-mustáros csirke",
+        details: "Csirke tejszínes, mustáros és hagymás szósszal",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "7 dkg csirke felsőcombfilé",
+                    "4 ek mustár",
+                    "2 vöröshagyma",
+                    "250g szalonna",
+                    "2 dl tejszín",
+                    "só, bors",
+                    "1 dl fehér bor",
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A csirkéket szeletenként kisütjük olajban, majd megkenjük mustárral és egy kicsit tovább pirítjuk, "
+            +"majd egy tálra kihejezzük",
+            "A már használt olajban a szalonnát elkezdjük pirítani,"
+            +" majd egy idő után a hagymákat is hozzászeleteljük és összesütjük.",
+            "A csirkéket visszahelyezzük a serpenyőbe és összeforgatjuk az egészet.",
+            "Megsózzuk és borsózzuk, majd borral és tejszínnel felöntjük és összefőzzük.",
+            "Kukoricás rizzsel tálaljuk"
+            ],
+        image: image_chicken_cream,
+        sources: []
+    },
+    {
+        index: "082",
+        main: true,
+        chicken: true,
         title: "Brassói csirkemell",
         details: "Brassói csirkemell répával és kukoricával",
         ingredients: [
@@ -3599,7 +3633,7 @@ export default [
         sources: [],
     },
     {
-        index: "082",
+        index: "083",
         dessert: true,
         title: "Réteges Édesség",
         details: "Rétes lapokból készített édes sütemény",

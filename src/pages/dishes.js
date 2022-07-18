@@ -79,6 +79,8 @@ import image_barack from '../images/image_barack.webp'
 import image_gyumolcs from '../images/image_gyumolcs.webp'
 import image_lasagne_meat from "../images/image_lasagne_meat.webp"
 import image_mandula from "../images/image_mandula.webp"
+import image_brassoi from "../images/image_brassoi.webp"
+import image_retes from "../images/image_retes.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3562,6 +3564,80 @@ export default [
             {
                 link: "https://www.instagram.com/p/CdFcsVyo2mW/",
                 name: "Instagram süti"
+            },
+        ],
+    },
+    {
+        index: "081",
+        dessert: true,
+        title: "Brassói csirkemell",
+        details: "Brassói csirkemell répával és kukoricával",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "1 kg csirkemell",
+                    "6 db közepes répa",
+                    "2 db vöröshagyma",
+                    "1 db lilahagyma",
+                    "4 gerezd fokhagyma",
+                    "pirospaprika, só, bors, kömény",
+                    "1 konzerv kukorica",
+                    "1 dl vörösbor",
+                    "2 ek ketchup"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A hagymákat felszeleteljük apróra, majd üvegesre sütjük",
+            "A csirkét és a répát felszeleteljük és megpirítjuk a hagymával",
+            "Hozzáadjuk a fokhagymát (feldarabolva) és a fűszereket és összesütjük",
+            "Hozzáadjuk a kukoricát, a vörödbort és a ketchupot és összefűzzük.",
+            "Rizzsel vagy krumplival tálaljuk."
+            ],
+        image: image_brassoi,
+        sources: [],
+    },
+    {
+        index: "082",
+        dessert: true,
+        title: "Réteges Édesség",
+        details: "Rétes lapokból készített édes sütemény",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "25-30 réteslap",
+                    "2 csésze tej",
+                    "4 db tojás",
+                    "1 csésze cukor",
+                    "0.5 csésze vanílás cukor",
+                    "vanília aroma",
+                    "szerecsendió",
+                    "200g vaj"
+                ]
+            },{
+                title: "Máz:",
+                list: [
+                    "1 csésze cukor",
+                    "1 csésze víz",
+                    "szárított gyümölcs darabok"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Egy tepsit kikenünk vajjal, majd a réteslapokat egyesével (vagy kettesével) megkenjünk vajjal,"
+            +" összehajtogatjuk, majd belehelyezzük egymás mellé a tepsibe.",
+            "A 200 fokra előmelegített sütőben 10 percig sütjük.",
+            "A tejet, tojásokat, cukrot, vanília aromát és a szerecsendiót összekeverjük alaposan, majd leöntjök a réteslapokat vele. "
+            +"A gyümölcsöt rászórjuk, majd a sütőben 150 fokon 20-25 percig sütjük.",
+            "A mázhoz a cukrot a vízben felolvasztjuk, majd a kész süteményre kenjük."
+        ],
+        image: image_retes,
+        sources: [
+            {
+                link: "https://www.tiktok.com/@spicecravings/video/7079473776295054638",
+                name: "Tiktok süti"
             },
         ],
     }

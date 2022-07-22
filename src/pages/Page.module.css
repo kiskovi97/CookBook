@@ -1,6 +1,14 @@
 @value colors: "./colors.css";
 @value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
+.iframe {
+    height: 450px;
+    width: 600px;
+    margin: 0 auto;
+    border-width: 1px;
+    border-style: solid;
+}
+
 .page {
     height: max-content;
     min-height: 90vh;

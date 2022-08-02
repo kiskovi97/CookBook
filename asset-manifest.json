@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CookBook/static/css/main.fb8701c4.chunk.css",
-    "main.js": "/CookBook/static/js/main.822e1ec6.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.822e1ec6.chunk.js.map",
+    "main.css": "/CookBook/static/css/main.8a485083.chunk.css",
+    "main.js": "/CookBook/static/js/main.839a3491.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.839a3491.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.666c3961.chunk.js": "/CookBook/static/js/2.666c3961.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b2761580.chunk.js": "/CookBook/static/js/3.b2761580.chunk.js",
     "static/js/3.b2761580.chunk.js.map": "/CookBook/static/js/3.b2761580.chunk.js.map",
     "index.html": "/CookBook/index.html",
-    "static/css/main.fb8701c4.chunk.css.map": "/CookBook/static/css/main.fb8701c4.chunk.css.map",
+    "static/css/main.8a485083.chunk.css.map": "/CookBook/static/css/main.8a485083.chunk.css.map",
     "static/js/2.666c3961.chunk.js.LICENSE.txt": "/CookBook/static/js/2.666c3961.chunk.js.LICENSE.txt",
     "static/media/index.css": "/CookBook/static/media/OpenSauceOne-Regular.942cf144.woff",
     "static/media/comming_soon.44e955fd.jpg": "/CookBook/static/media/comming_soon.44e955fd.jpg",
@@ -75,6 +75,7 @@
     "static/media/image_mustard_meat.8a0010d3.webp": "/CookBook/static/media/image_mustard_meat.8a0010d3.webp",
     "static/media/image_padthai.eb0440e9.webp": "/CookBook/static/media/image_padthai.eb0440e9.webp",
     "static/media/image_palacsinta.d429321d.webp": "/CookBook/static/media/image_palacsinta.d429321d.webp",
+    "static/media/image_palacsinta_torta.986f9fff.webp": "/CookBook/static/media/image_palacsinta_torta.986f9fff.webp",
     "static/media/image_pancacke.8d9a6fd0.webp": "/CookBook/static/media/image_pancacke.8d9a6fd0.webp",
     "static/media/image_panna_cotta.d0962b54.webp": "/CookBook/static/media/image_panna_cotta.d0962b54.webp",
     "static/media/image_pasta.30b4ee30.webp": "/CookBook/static/media/image_pasta.30b4ee30.webp",
@@ -103,7 +104,7 @@
   "entrypoints": [
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.666c3961.chunk.js",
-    "static/css/main.fb8701c4.chunk.css",
-    "static/js/main.822e1ec6.chunk.js"
+    "static/css/main.8a485083.chunk.css",
+    "static/js/main.839a3491.chunk.js"
   ]
 }

@@ -82,6 +82,7 @@ import image_mandula from "../images/image_mandula.webp"
 import image_brassoi from "../images/image_brassoi.webp"
 import image_retes from "../images/image_retes.webp"
 import image_chicken_cream from "../images/image_chicken_cream.webp"
+import image_palacsinta_torta from "../images/image_palacsinta_torta.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3671,6 +3672,68 @@ export default [
         sources: [
             {
                 link: "https://www.tiktok.com/@spicecravings/video/7079473776295054638",
+                name: "Tiktok süti"
+            },
+        ],
+    },
+    {
+        index: "084",
+        dessert: true,
+        title: "Palacsinta Torta",
+        details: "Csokis - túrós palacsinta torta",
+        ingredients: [
+            {
+                title: "Palacsintához:",
+                list: [
+                    "5 dl tej",
+                    "240 g liszt",
+                    "40 g vaj",
+                    "40 g cukor/vaníliás cukor",
+                    "3 tojás",
+                    "vanília aroma",
+                    "csipet só",
+                    "1 narancs reszelt héja"
+                ]
+            },{
+                title: "Túró - Töltelékhez:",
+                list: [
+                    "250 g túró",
+                    "3 kanál tejföl",
+                    "cukor ízlés szerint",
+                    "1 citrom reszelt héja",
+                    "1 maréknyi mazsola"
+                ]
+            },{
+                title: "Csoki máz:",
+                list: [
+                    "200 g csokoládé",
+                    "200 g habtejszín",
+                ]
+            },{
+                title: "Egyéb:",
+                list: [
+                    "lekvárok",
+                    "mandula dízsítésnek"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A palacsintatésztához a száraz összetevőket összekeverjük, majd adagovla összekeverjük a tejjel is és csomómentesre keverjük."
+            + " A vajat pirítsuk meg, majd öntsük hozzá a keverékhez, majd adjuk hozzá a tojásokat és keverjük az egészet simára."
+            + " Adjuk hozzá végül a narancs reszelt héját és a vanília aromát."
+            + " A tésztát hűtőben minimum 1 óráig hagyjuk pihenni.",
+            "A palacsinta sütőben süssük ki egyesével a palacsintákat. Első sütés előtt egy kis vajjal vagy olajjal kenjük ki a serpenyőt.",
+            "A túrós töltelékhz keverjük össze a hozzávalókat és cukrot addig adagoljuk hozzá, amíg csak szeretnénk.",
+            "A rétegezéshez az első palacsintát kenjük meg lekvárral, majd helyezzük rá a következőt."
+            +" Kenjük meg a következőt túrós masszával, majd jöhet a következő palacsinta rá."
+            +" Folytassuk ezt, amíg van palacsinta. A tetejét ne kenjük meg semmivel.",
+            "A habtejszínt forraljuk fel, majd olvasszuk meg benne a csokoládét. "
+            +"A csokis mázat öntsük rá a tortára, szórjuk meg mandula darabokkal és hagyjuk megdermedni a hűtőben egy éjszaka alatt."
+        ],
+        image: image_palacsinta_torta,
+        sources: [
+            {
+                link: "https://www.tiktok.com/@kianthechef/video/7092153488259714350",
                 name: "Tiktok süti"
             },
         ],

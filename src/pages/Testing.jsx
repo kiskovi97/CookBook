@@ -16,7 +16,7 @@ var Testing = () =>
                 <h3><a href="bookrclass://?cloubotToken=iscream_museham90_c09bba7e3da925dd5f6480c2e623f9c9cc1d84d8edb88d9ad558bc541685a92b&oauthUrl=https://home-learn-elibrary-lms.cloubot.com/member/oauthElibraryFromToken&returnUrl=https%3A%2F%2Fwww.google.hu%2Fsearch%3Fq%3Dkeres%25C3%25A9s&book=2"target="_blank" rel="noreferrer">Cloubot test iscream_93 returnurl google-keresés paraméterrel book 2</a></h3>
         </div>
         <div className={styles.iframe}>
-            <iframe src="https://kiskovi97.github.io/BookrWebappTest/?ssoId=vcloud-mock&token=student&book=2" className={styles.iframe} allow="autoplay" ></iframe>
+            <iframe src="https://kiskovi97.github.io/BookrWebappTest/?ssoId=vcloud-mock&token=student&book=2" className={styles.iframe} allow="autoplay" title='BookrClass Iframe'></iframe>
         </div>
         <h2>Staging2</h2>
         <div className={gStyles.grid_big}>

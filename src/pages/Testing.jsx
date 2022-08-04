@@ -26,6 +26,11 @@ var Testing = () =>
                 <h3><a href="https://api.staging2.v2.bookrclass.com/api/oauth/sso/app/login/plural-mock?code=student" target="_blank" rel="noreferrer">plural-mock student</a></h3>
                 <h3><a href="https://api.staging2.v2.bookrclass.com/api/oauth/sso/app/login/plural-mock?code=teacher"target="_blank" rel="noreferrer">plural-mock student</a></h3>
         </div>
+        <h2>Classera</h2>
+        <div className={gStyles.grid_big}>
+                <h3><a href="https://classera-sso-mock-creatit.herokuapp.com/api/oauth/sso/app/login/classera/?token=student_01"target="_blank" rel="noreferrer">classera student</a></h3>
+                <h3><a href="https://classera-sso-mock-creatit.herokuapp.com/api/oauth/sso/app/login/classera/?token=teacher_01"target="_blank" rel="noreferrer">classera teacher</a></h3>
+        </div>
     </div>
 
 export default Testing

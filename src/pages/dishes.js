@@ -83,6 +83,7 @@ import image_brassoi from "../images/image_brassoi.webp"
 import image_retes from "../images/image_retes.webp"
 import image_chicken_cream from "../images/image_chicken_cream.webp"
 import image_palacsinta_torta from "../images/image_palacsinta_torta.webp"
+import image_chicken_lemon from "../images/image_chicken_lemon.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3735,6 +3736,57 @@ export default [
             {
                 link: "https://www.tiktok.com/@kianthechef/video/7092153488259714350",
                 name: "Tiktok süti"
+            },
+        ],
+    },
+    {
+        index: "085",
+        main: true,
+        chicken: true,
+        title: "Cirtomos csirke",
+        details: "Tejszínes citromos csirkemell",
+        ingredients: [
+            {
+                title: "Csirkéhez:",
+                list: [
+                    "1kg csirkemell",
+                    "só, bors, bazsalikom, oregánó",
+                    "4 kanál liszt",
+                    "5 dkg vaj",
+                    "olaj"
+                ]
+            },{
+                title: "Szószhoz:",
+                list: [
+                    "10 dkg vaj",
+                    "6 fokhagyma",
+                    "2 ek liszt",
+                    "500 ml tejszín",
+                    "5 dl tej",
+                    "300 g sajt",
+                    "só, bors,  bazsalikom, oregánó, szerecsendió",
+                    "6 ek citromlé",
+                    "2 ek cukor (vagy ízlés szerint)"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A csirkét vékony csíkokra vágjuk, fűszerezzük, majd a lisztel beborítjuk.",
+            "A vajat felolvasztjuk és olajjal felöntve felhevítjük."
+            +" Ebben megsütjük a csíkok mindkét oldalát úgy, hogy szép barna kérge legyen.",
+            "A maradék zsiradékhoz még hozzáadjuk a szószhoz félretett vajat és felolvasztjuk. "
+            + "Hozzáadjuk a fokhagymát és megpirítjuk kicsit. Majd hozzáadjuk a lisztet és csomómentesre keverjük. "
+            + "A tejszínt apránként hozzáadjuk és elkeverjük rendesen, amíg fel nem forr.",
+            "Fűszerezzük, majd hozzáadjuk a citromlét és a reszelt sajtot. "
+            +"Összeolvasztjuk és tejjel addig öntjük amíg megfelelő állagú nem lesz.",
+            "Végül hozzáadjuk a cukrot ízlés szerint.",
+            "A csirkéket apróbb szeletekre végjuk, majd tésztával a szósszal leöntve tálaljuk"
+        ],
+        image: image_chicken_lemon,
+        sources: [
+            {
+                link: "https://www.tiktok.com/@hasnamany/video/7099668629158956314",
+                name: "Tiktok csirke"
             },
         ],
     }

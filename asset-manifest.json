@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.8a485083.chunk.css",
-    "main.js": "/CookBook/static/js/main.4fd330ba.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.4fd330ba.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.53bd6095.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.53bd6095.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.b14375c0.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.b14375c0.js.map",
     "static/js/2.666c3961.chunk.js": "/CookBook/static/js/2.666c3961.chunk.js",
@@ -34,6 +34,7 @@
     "static/media/image_caramel_roll.ab451c67.webp": "/CookBook/static/media/image_caramel_roll.ab451c67.webp",
     "static/media/image_chicken_cheese.acc0aa58.webp": "/CookBook/static/media/image_chicken_cheese.acc0aa58.webp",
     "static/media/image_chicken_cream.7ab3d87e.webp": "/CookBook/static/media/image_chicken_cream.7ab3d87e.webp",
+    "static/media/image_chicken_lemon.61b9b776.webp": "/CookBook/static/media/image_chicken_lemon.61b9b776.webp",
     "static/media/image_chicken_mustard.9642ea99.webp": "/CookBook/static/media/image_chicken_mustard.9642ea99.webp",
     "static/media/image_chicken_onion.083e0d06.webp": "/CookBook/static/media/image_chicken_onion.083e0d06.webp",
     "static/media/image_chicken_paprika.441df7f0.webp": "/CookBook/static/media/image_chicken_paprika.441df7f0.webp",
@@ -105,6 +106,6 @@
     "static/js/runtime-main.b14375c0.js",
     "static/js/2.666c3961.chunk.js",
     "static/css/main.8a485083.chunk.css",
-    "static/js/main.4fd330ba.chunk.js"
+    "static/js/main.53bd6095.chunk.js"
   ]
 }

@@ -3789,5 +3789,56 @@ export default [
                 name: "Tiktok csirke"
             },
         ],
+    },
+    {
+        index: "086",
+        dessert: true,
+        title: "Cirtomos sütemény",
+        details: "Citromos aprósütemény",
+        ingredients: [
+            {
+                title: "Az alapja:",
+                list: [
+                    "155g liszt",
+                    "50g cukor",
+                    "25g vaníliás cukor",
+                    "1 ek citromhéj",
+                    "csipet só",
+                    "142 g vaj"
+                ]
+            },{
+                title: "Citromos krémhez:",
+                list: [
+                    "4-6 db citrom",
+                    "300 g cukor",
+                    "5 tojás",
+                    "1 ek kukorica keményítő",
+                    "csipet só",
+                    "57 g vaj",
+                    "60 ml olaj",
+                    "porcukor díszítésnek"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "160 fokra melegítsd elő a sütőt, 22x22cm-es tepsit béleld ki sütőpapírral",
+            "Az alaphoz a hozzávalókat keverd össze, dolgozd jól össze, "
+            + "majd a tepsibe helyezve nyomogasd szét hogy egyenletes legyen."
+            + " A sütőben 30-35 percig süsd (amíg aranybarna nem lesz)",
+            "A krém keverd össze tűz fölött a citromelvet, cukrot, tojásokat,"
+            +" kukoricakeményítőt és a sót egy edényben. "
+            + "Addig melegítsd amíg fel nem forr és össze nem sűrüsödik."
+            +" Maximum 1 percig forrhat csak, utána a vajat és az olivaolajat keverjük bele, "
+            +"és addig keverjük amíg egyenletes nem lesz.",
+            "A kész krémet öntsd a sütőben sült tésztára, és rakd vissza a sütőbe 10-15 percre.",
+            "A kész sütit hűsd le szobahőmérsékletre, mielőtt felvágnád."
+        ],
+        image: comming_soon,
+        sources: [
+            {
+                link: "https://cooking.nytimes.com/recipes/1017141-lemon-bars-with-olive-oil-and-sea-salt",
+                name: "NewYorkTimes recept"
+            },
+        ],
     }
 ];

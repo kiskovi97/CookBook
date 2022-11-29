@@ -84,6 +84,11 @@ import image_retes from "../images/image_retes.webp"
 import image_chicken_cream from "../images/image_chicken_cream.webp"
 import image_palacsinta_torta from "../images/image_palacsinta_torta.webp"
 import image_chicken_lemon from "../images/image_chicken_lemon.webp"
+import image_pasta_pumpkin from "../images/image_pasta_pumpkin.webp"
+import image_kifli from "../images/image_kifli.webp"
+import image_kifli2 from "../images/image_kifli2.webp"
+import image_brownieSutotok from "../images/image_brownieSutotok.webp"
+import image_applecake2 from "../images/image_applecake2.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -3792,53 +3797,235 @@ export default [
     },
     {
         index: "086",
-        dessert: true,
-        title: "Cirtomos sütemény",
-        details: "Citromos aprósütemény",
+        main: true,
+        title: "Sütőtökös tészta fasírt golyókkal",
+        details: "Spagetti sütőtökkös szósszal - fasírt golyókkal",
         ingredients: [
             {
-                title: "Az alapja:",
+                title: "A tésztához:",
                 list: [
-                    "155g liszt",
-                    "50g cukor",
-                    "25g vaníliás cukor",
-                    "1 ek citromhéj",
-                    "csipet só",
-                    "142 g vaj"
+                    "fél sütőtök",
+                    "1 egész fokhagyma",
+                    "tészta",
+                    "só, bors, cayane bors, paprika",
+                    "citrom lé",
                 ]
             },{
-                title: "Citromos krémhez:",
+                title: "Fasírt golyókhoz",
                 list: [
-                    "4-6 db citrom",
-                    "300 g cukor",
-                    "5 tojás",
-                    "1 ek kukorica keményítő",
-                    "csipet só",
-                    "57 g vaj",
-                    "60 ml olaj",
-                    "porcukor díszítésnek"
+                    "1 kg darált hús",
+                    "2 db tojás",
+                    "prézli",
+                    "reszelt sajt",
+                    "só, bors"
                 ]
             }
         ],
         howToMakeIt: [
-            "160 fokra melegítsd elő a sütőt, 22x22cm-es tepsit béleld ki sütőpapírral",
-            "Az alaphoz a hozzávalókat keverd össze, dolgozd jól össze, "
-            + "majd a tepsibe helyezve nyomogasd szét hogy egyenletes legyen."
-            + " A sütőben 30-35 percig süsd (amíg aranybarna nem lesz)",
-            "A krém keverd össze tűz fölött a citromelvet, cukrot, tojásokat,"
-            +" kukoricakeményítőt és a sót egy edényben. "
-            + "Addig melegítsd amíg fel nem forr és össze nem sűrüsödik."
-            +" Maximum 1 percig forrhat csak, utána a vajat és az olivaolajat keverjük bele, "
-            +"és addig keverjük amíg egyenletes nem lesz.",
-            "A kész krémet öntsd a sütőben sült tésztára, és rakd vissza a sütőbe 10-15 percre.",
-            "A kész sütit hűsd le szobahőmérsékletre, mielőtt felvágnád."
+            "A sütőtököt (ketté vágva, kimagozva) és a fokhagymát (tetjét levágva, egyben) sütőben 30 perc alatt elősütjük 180 fokon",
+            "A sütőtök és a fokhagyma húsát összeturmixoljuk és ízlés szerint fűszerezzük.",
+            "A tésztát kifőzzük és a főző vízből két-három kanállal hozzáadunk a szószhoz.",
+            "Hozzáadjuk a citromlevet és a tésztát és jól összekeverjük",
+            "A húst a hozzávalókkal összekeverjük. Kis golyókat formázunk belőle, majd prézlibe beleforgatés után olajban kisütjük."
         ],
-        image: comming_soon,
+        image: image_pasta_pumpkin,
         sources: [
             {
-                link: "https://cooking.nytimes.com/recipes/1017141-lemon-bars-with-olive-oil-and-sea-salt",
-                name: "NewYorkTimes recept"
+                link: "https://www.tiktok.com/@fitgreenmind/video/7163735765153877253",
+                name: "Tiktok recept"
             },
+        ],
+    },
+    {
+        index: "087",
+        dessert: true,
+        title: "Szilvás kifli",
+        details: "Keltésztás szilvás kifli",
+        ingredients: [
+            {
+                title: "A tésztához:",
+                list: [
+                    "fél csomag élesztő",
+                    "fél maréknyi cukor",
+                    "1 kg liszt",
+                    "1 tojás",
+                    "100 g vaj",
+                    "2 dl tej",
+                    "csipetnyi só",
+                    "reszelt narancs héja",
+                    "olaj",
+                    "1 kanál tejföl"
+                ]
+            },{
+                title: "Töltelékhez és mázhoz",
+                list: [
+                    "szilva lekvár",
+                    "cukor",
+                    "1 tojás"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Az tésztához az élesztőt és a cukrot elkeverjük, majd miután folyékony lett mehet bele a langyos tej.",
+            "Ezután a fél lisztet beleöntjük és összekeverjük. Majd hozzáadjuk a vajat, a tojást, a csipet sót, a tejfölt és a narancshéjat.",
+            "Ezután a maradék liszttel is összekeverjük majd olajos kézzel olajos felületen kicsit összegyúrjuk.",
+            "Hűtőben min 2 órát keltjük.",
+            "A tésztát kigyúrjuk és lekenjük szilvalekvárral amit ha kell cukorral még édesíthetünk előtte.",
+            "Kis háromszögeket vágunk amiket kifliként tekerünk fel. Ezeket a kifliket lekenjük tojással, "
+            + " majd 180 fokra előmelegített sütőben max 20 percig aranybarnára sütjük.",
+            "A narancs levét és cukrot felforralunk és a kész kiflikre öntjük."
+        ],
+        image: image_kifli,
+        sources: [],
+    },
+    {
+        index: "088",
+        dessert: true,
+        title: "Fahéjas kifli",
+        details: "Keltésztás fahéjas kifli",
+        ingredients: [
+            {
+                title: "A tésztához:",
+                list: [
+                    "fél csomag élesztő",
+                    "fél maréknyi cukor",
+                    "1 kg liszt",
+                    "1 tojás",
+                    "100 g vaj",
+                    "2 dl tej",
+                    "csipetnyi só",
+                    "reszelt narancs héja",
+                    "olaj",
+                    "25 g liszt",
+                    "125 g víz"
+                ]
+            },{
+                title: "Töltelékhez",
+                list: [
+                    "2 tojás fehérje",
+                    "50 g liszt",
+                    "170 g cukor",
+                    "160 g tej",
+                    "20 g vaj",
+                    "30 g fahéj",
+                    "1 narancs héja"
+                ]
+            },{
+                title: "Mázhoz",
+                list: [
+                    "1 narancs leve",
+                    "cukor"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "125 g lisztet és 25 g vizet elkeverjük, tűzhelyen 65fokra melegítjük."+
+            "Zselé szerű anyagot kapunk, ezt fóliázzuk, és félretesszük hűlni.",
+            "Töltelékhez kicsit felfőzzük a csomómentesre kevert tejet, vajat, fahéjat, "
+            +"narancs héjat majd hozzáadjuk az előzőleg összevekert fehérjés-lisztes-cukros keveréket. "
+            +"Megfőzzük, fóliára öntjük, téglalappá formázva becsomagoljuk és kihűtjük.",
+            "Az tésztához az élesztőt és a cukrot elkeverjük, majd miután folyékony lett mehet bele a langyos tej.",
+            "Ezután a fél lisztet beleöntjük és összekeverjük. Majd hozzáadjuk a vajat, a tojást, a csipet sót és a narancshéjat.",
+            "Ezután a maradék liszttel is összekeverjük majd olajos kézzel olajos felületen kicsit összegyúrjuk.",
+            "Hűtőben min 2 órát keltjük.",
+            "Amikor minden alapanyag jó, újragyúrjuk a tésztát, kinyújtjuk, ráhelyezzük a tölteléket és becsomagoljuk. "
+            +"Nyújtjuk, majd szimpla hajtást végzünk rajta. Ezt is nyújtjuk, és felvágjuk háromszögekre vagy sávokra.",
+            "Feltekerjük, tepsibe helyezzük és 20 percet kelesztjük. Ezeket a kifliket lekenjük tojással, "
+            + " majd 180 fokra előmelegített sütőben max 20 percig aranybarnára sütjük.",
+            "A narancs levét és cukrot felforralunk és a kész kiflikre öntjük."
+        ],
+        image: image_kifli2,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/CjaXQDuIeqL/",
+                name: "Instagram recept"
+            }
+        ],
+    },
+    {
+        index: "089",
+        dessert: true,
+        title: "Almás torta",
+        details: "Almás torta",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "3 db alma",
+                    "3 db tojás",
+                    "csipet só",
+                    "12 kanál cukor",
+                    "12 kanál olaj",
+                    "12 kanál tej",
+                    "12 kanál liszt",
+                    "1 kanál sütőpor",
+                    "1 kanál citromlé"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Az alma kivételéve összekeverjük egyenállagúra a hozzávalókat",
+            "2 almát kis kockákra vágunk. És belekverjük a tésztába",
+            "1 sütőpapírral kibélelt tepsibe beleüntjük a tésztát és a 3. alma szeleteivel díszítjük.",
+            "45 percig sütjük 175 fokon a sütőben."
+        ],
+        image: image_applecake2,
+        sources: [
+            {
+                link: "https://www.tiktok.com/@cookingwithbello/video/7141425945587502342",
+                name: "Tiktok recept"
+            }
+        ],
+    },
+    {
+        index: "090",
+        dessert: true,
+        title: "Sütőtökös brownie",
+        details: "Sütőtökös brownie",
+        ingredients: [
+            {
+                title: "Sütőtökös részhez:",
+                list: [
+                    "600 g sütőtök",
+                    "szerecsendió és fahéj",
+                    "2 kanál liszt",
+                ]
+            },
+            {
+                title: "Az alaptésztához:",
+                list: [
+                    "130 g olvasztott vaj",
+                    "200 g cukor",
+                    "3 db tojás",
+                    "100 g liszt",
+                    "2 csipet sütőpor"
+                ]
+            },
+            {
+                title: "Az alaptésztához:",
+                list: [
+                    "30 g kakaópor",
+                    "150 g csokipasztilla vagy apróra tördelt csoki"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Az elősütött tököt a fűszerekkel egy aprítógépben vagy botmixerrel lezúzzuk.",
+            "Az alaptésztához a vajat összekeverjük a cukorral, kihabosítjuk a tojásokkal,"
+            +" majd csomómentesre keverjük a liszttel és a sütőporral. "
+            +"A tészta egyik felébe beleöntjük a tök pürét, a maradék tésztába belekeverjük a kakaóport és az apróra darált csokit.",
+            "A sütőtökös részhez még adjunk hozzá 2 kanál lisztet, hogy jobban összeálljon",
+            "A sütőpapírral bélelt tepsi aljára rakjuk a csokis keverék ¾-ét, "
+            +"elsimítjuk, majd erre jöhet a sütőtökös rész. "
+            +"A maradék csokis tésztát nagyobb pöttyökben rárakjuk és egy kis késsel belehúzgálunk, "
+            +"hogy mintás legyen a teteje. 180 fokra előmelegített sütőben 30 perc alatt megsütjük."
+        ],
+        image: image_brownieSutotok,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/Ci747tEoiGC/",
+                name: "Instagram recept"
+            }
         ],
     }
 ];

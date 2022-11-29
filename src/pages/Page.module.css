@@ -2,8 +2,8 @@
 @value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
 .iframe {
-    height: 450px;
-    width: 600px;
+    height: 500px;
+    width: 400px;
     margin: 0 auto;
     border-width: 1px;
     border-style: solid;

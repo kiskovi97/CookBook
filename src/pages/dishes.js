@@ -3438,42 +3438,6 @@ export default [
         ],
     },
     {
-        index: "077",
-        dessert: true,
-        title: "Mandulás-barackos kevert",
-        details: "Könnyed, édes sütemény a barack kedvenceinek",
-        ingredients: [
-            {
-                title: "Hozzávalók:",
-                list: [
-                    "200g cukor",
-                    "200g liszt",
-                    "2 tojás",
-                    "300g tejföl",
-                    "1 csomag sütőpor",
-                    "50g olvasztott vaj",
-                    "sárgabarack",
-                    "(tetejére) fahéj, cukor, szeletelt mandula",
-                ]
-            }
-        ],
-        howToMakeIt: [
-            "Az egész tojásokat a cukorral kikeverjük majd hozzáadjuk az olvasztott vajat és tovább keverjük."
-            +" Ezután jöhet bele a tejföl, majd belerakjuk a sütőporos lisztet és ismét homogénre keverjük.",
-            "Kibélelünk sütőpapírral egy kis tepsit (20x22 cm) és beleöntjük a tésztát. "
-            +"Ezután a negyedelt barackokat egymás mellé teszem a tészta tetejére. "
-            +"Ezután fahéjjascukorral és mandulával megszórom a barackos tésztát "
-            +"és 180 fokra előmelegített sütőben aranybarnára sütjük 25 perc alatt.",
-            ],
-        image: image_barack,
-        sources: [
-            {
-                link: "https://www.instagram.com/p/CefhhgWoxu0/",
-                name: "Instagram süti"
-            },
-        ],
-    },
-    {
         index: "079",
         main: true,
         title: "Vörösboros lasagne",
@@ -4027,5 +3991,41 @@ export default [
                 name: "Instagram recept"
             }
         ],
-    }
+    },
+    {
+        index: "091",
+        dessert: true,
+        title: "Mandulás-barackos kevert",
+        details: "Könnyed, édes sütemény a barack kedvenceinek",
+        ingredients: [
+            {
+                title: "Hozzávalók:",
+                list: [
+                    "200g cukor",
+                    "200g liszt",
+                    "2 tojás",
+                    "300g tejföl",
+                    "1 csomag sütőpor",
+                    "50g olvasztott vaj",
+                    "sárgabarack",
+                    "(tetejére) fahéj, cukor, szeletelt mandula",
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "Az egész tojásokat a cukorral kikeverjük majd hozzáadjuk az olvasztott vajat és tovább keverjük."
+            +" Ezután jöhet bele a tejföl, majd belerakjuk a sütőporos lisztet és ismét homogénre keverjük.",
+            "Kibélelünk sütőpapírral egy kis tepsit (20x22 cm) és beleöntjük a tésztát. "
+            +"Ezután a negyedelt barackokat egymás mellé teszem a tészta tetejére. "
+            +"Ezután fahéjjascukorral és mandulával megszórom a barackos tésztát "
+            +"és 180 fokra előmelegített sütőben aranybarnára sütjük 25 perc alatt.",
+            ],
+        image: image_barack,
+        sources: [
+            {
+                link: "https://www.instagram.com/p/CefhhgWoxu0/",
+                name: "Instagram süti"
+            },
+        ],
+    },
 ];

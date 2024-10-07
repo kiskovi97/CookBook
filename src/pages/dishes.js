@@ -4028,4 +4028,83 @@ export default [
             },
         ],
     },
+    {
+        index: "092",
+        dessert: true,
+        title: "Karamellás brownie",
+        details: "",
+        ingredients: [
+            {
+                title: "A karamellöntethez:",
+                list: [
+                    "150 g cukor",
+                    "150 ml tejszín",
+                ]
+            },{
+                title: "A browniehoz:",
+                list: [
+                    "250 g étcsokolád",
+                    "250 g vaj",
+                    "270 g cukor",
+                    "4 db tojás",
+                    "1 csipet só",
+                    "1 csipet fahéj",
+                    "180 g liszt",
+                    "30 g holland kakaópor",
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A karamellás browniehoz először a karamellaöntetet készítjük el."
+            +" A cukrot karamellizáljuk egy edényben, hozzáöntjük folyamatos keverés mellett a tejszínt,"
+            +"megvárjuk amíg újra felolvad majd félre húzzuk."
+            +"A brownie alapjához a csokit a vajjal és cukorral együtt összeolvasztjuk vízgőz fölött."
+            +" Mikor összeolvadt,  hozzákeverjük a tojásokat, sót, fahéjat, kakaóport és a lisztet."
+            +" A masszát a tepsibe simítjuk, rálocsoljuk a karamellöntetet, villával márványozzuk és 170 fokos sütőben 25 percig sütjük."
+            +" Mikor kihűlt, szeleteljük.",
+            ],
+        image: image_02,
+        sources: [
+            {
+                link: "https://streetkitchen.hu/fantasztikus-desszertek/karamellas-brownie/",
+                name: "Street Kitchen"
+            },
+        ],
+    },
+    {
+        index: "093",
+        dessert: true,
+        title: "Palacsinta",
+        details: "",
+        ingredients: [
+            {
+                title: "A palacsintatésztához",
+                list: [
+                    "½ kg liszt",
+                    "2 ek porcukor",
+                    "4 db tojás",
+                    "1 csipet só",
+                    "2 mk sütőpor",
+                    "1 l tej részletekben adagolva",
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A hozzávalókat beletesszük egy tálba és elkeverjük."
+            +" A tejet mindenképpen részletekben adagoljátok: egy kis tej, egy kis keverés"
+            +" – ha nem így csináljátok, akkor csomós lesz, és a fejetekre kenhetitek az egészet."
+            +" Ha szabályosan jártok el, akkor kellemes, homogén állagú löttyöt kaptok végeredményül."
+            +" Ezt egy vékonyan beolajozott (profiknak javasoljuk a videóban is látható szilikonecset beszerzését!),"
+            +" közepesen felhevített serpenyőbe öntjük,"
+            +" majd még azzal a mozdulattal igyekszünk a tésztát egyenletesen eloszlatni a minél szebb végeredmény érdekében."
+            +" 1-2 perc alatt megsütjük a palit.",
+            ],
+        image: image_02,
+        sources: [
+            {
+                link: "https://streetkitchen.hu/fantasztikus-desszertek/karamellas-brownie/",
+                name: "Street Kitchen"
+            },
+        ],
+    },
 ];

@@ -4063,7 +4063,7 @@ export default [
             +" A masszát a tepsibe simítjuk, rálocsoljuk a karamellöntetet, villával márványozzuk és 170 fokos sütőben 25 percig sütjük."
             +" Mikor kihűlt, szeleteljük.",
             ],
-        image: image_02,
+        image: comming_soon,
         sources: [
             {
                 link: "https://streetkitchen.hu/fantasztikus-desszertek/karamellas-brownie/",
@@ -4099,7 +4099,7 @@ export default [
             +" majd még azzal a mozdulattal igyekszünk a tésztát egyenletesen eloszlatni a minél szebb végeredmény érdekében."
             +" 1-2 perc alatt megsütjük a palit.",
             ],
-        image: image_02,
+        image: comming_soon,
         sources: [
             {
                 link: "https://streetkitchen.hu/street-kitchen/klasszikus-turos-palacsinta/",
@@ -4114,7 +4114,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/tesztapolc/haromsajtos-lasagne/", name: "Street Kitchen" }, ],
     },{
         index: "095",
@@ -4123,7 +4123,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/hust-hussal/sutotokos-sertesszelet/", name: "Street Kitchen" }, ],
     },{
         index: "096",
@@ -4132,7 +4132,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/instant/tesztak/kamu-pad-thai/", name: "Street Kitchen" }, ],
     },{
         index: "097",
@@ -4141,7 +4141,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/hust-hussal/vorosboros-szarvasporkolt-krumplifankkal/", name: "Street Kitchen" }, ],
     },{
         index: "098",
@@ -4150,7 +4150,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/salata/mediterran-csicseriborso-salata/", name: "Street Kitchen" }, ],
     },{
         index: "099",
@@ -4159,7 +4159,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/tesztapolc/tavaszi-extra-zold-teszta/", name: "Street Kitchen" }, ],
     },{
         index: "100",
@@ -4168,7 +4168,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/instant/konzervek-befottek/tonhalas-quesadilla/", name: "Street Kitchen" }, ],
     },{
         index: "101",
@@ -4177,7 +4177,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/street-kitchen/sajtos-tejfolos-rakott-csirkemell/", name: "Street Kitchen" }, ],
     },{
         index: "102",
@@ -4186,7 +4186,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/street-kitchen/karalabes-rizotto-recept/", name: "Street Kitchen" }, ],
     },{
         index: "103",
@@ -4195,7 +4195,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/street-kitchen/sajtos-repafasirt/", name: "Street Kitchen" }, ],
     },{
         index: "104",
@@ -4204,7 +4204,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/fantasztikus-desszertek/sargadinnyes-turos-suti/", name: "Street Kitchen" }, ],
     },{
         index: "105",
@@ -4213,7 +4213,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/street-kitchen/azsiai-brokkolis-csirkemell/", name: "Street Kitchen" }, ],
     },{
         index: "106",
@@ -4222,7 +4222,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/fitt/azsiai-tonhalas-repasalata/", name: "Street Kitchen" }, ],
     },{
         index: "107",
@@ -4231,7 +4231,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/receptek/gorog-salata-tokeletes-csirkecombbal-o/", name: "Street Kitchen" }, ],
     },{
         index: "108",
@@ -4240,7 +4240,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/halak/thai-garnelas-curry/", name: "Street Kitchen" }, ],
     },{
         index: "109",
@@ -4249,7 +4249,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/fitt/csirkemell-receptek/mangos-csirke/", name: "Street Kitchen" }, ],
     },{
         index: "110",
@@ -4258,7 +4258,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/halak/grillezett-lazac-tejszines-spenotos-bulgurral/", name: "Street Kitchen" }, ],
     },{
         index: "111",
@@ -4267,7 +4267,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/szendvicsek-es-burgerek/bbq-pulled-csirkemell-edesburgonya-hasabbal/", name: "Street Kitchen" }, ],
     },{
         index: "112",
@@ -4276,7 +4276,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/hust-hussal/nyari-bulgursalata-csirkemellel/", name: "Street Kitchen" }, ],
     },{
         index: "113",
@@ -4285,7 +4285,7 @@ export default [
         details: "",
         ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
         howToMakeIt: [ "...", ],
-        image: image_02,
+        image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/fitt/csirkemell-receptek/szojas-mezes-csirke/", name: "Street Kitchen" }, ],
     },
 ];

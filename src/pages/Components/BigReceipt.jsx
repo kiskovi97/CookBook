@@ -1,6 +1,7 @@
 import styles from './Receipt.module.css'
 import ScrollAnimation from 'react-animate-on-scroll'
 import React, { useEffect, useState } from 'react';
+import fetchRecipe from './fetchRecipe';
 
 
 function BigReceipt({ proj }) {
@@ -10,30 +11,7 @@ function BigReceipt({ proj }) {
     useEffect(() => {
         async function extractRecipe(url) {
             try {
-                console.log(url);
-                const response = await fetch(url);
-                const html = await response.text();
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-
-                // Extracting recipe title, ingredients, and steps using class names
-                const title = doc.querySelector('.entry-title').textContent.trim();
-                const ingredients = Array.from(doc.querySelectorAll('.ingredients-content dd'))
-                    .map(ing => ing.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
-                const steps = Array.from(doc.querySelectorAll('.the-content-div p'))
-                    .map(step => step.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
-                const imageMeta = doc.querySelector('meta[property="og:image"]');
-                const imageUrl = imageMeta ? imageMeta.getAttribute('content') : null;
-
-                // Creating JSON formatted recipe
-                const data = {
-                    title,
-                    ingredients,
-                    steps,
-                    imageUrl
-                };
-
-                console.log(JSON.stringify(data, null, 2));
+                var data = await fetchRecipe(url);
                 setRecipe(data);
             } catch {
 
@@ -52,7 +30,7 @@ function BigReceipt({ proj }) {
                 <div className={styles.main}>
                     <div className={styles.details}>
                         <h1 className={styles.title}>{recipe.title}</h1>
-                        <div>{proj.details}</div>
+                        <div>{recipe.details}</div>
                         {proj.sources && proj.sources.length > 0 ? (<div>Források:</div>) : null}
                         {proj.sources?.map(source => (
                             <div>

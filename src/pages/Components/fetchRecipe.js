@@ -7,7 +7,7 @@ async function extractRecipe(url) {
         const doc = parser.parseFromString(html, 'text/html');
 
         // Extracting recipe title, ingredients, and steps using class names
-        const title = doc.querySelector('.entry-title').textContent.trim();
+        const title = doc.querySelector('.main .entry-title').textContent.trim();
         const details = doc.querySelector('.entry-content .entry-lead').textContent.trim();
         const ingredients = Array.from(doc.querySelectorAll('.ingredients-content dd'))
             .map(ing => ing.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());

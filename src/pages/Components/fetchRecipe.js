@@ -1,6 +1,15 @@
 async function extractRecipe(url) {
     try {
         console.log(url);
+        if (url.includes("streetkitchen"))
+            return await extractRecipeStreetKitchen(url);
+    } catch {
+
+    }
+}
+async function extractRecipeStreetKitchen(url) {
+    try {
+        console.log(url);
         const response = await fetch(url);
         const html = await response.text();
         const parser = new DOMParser();
@@ -31,5 +40,4 @@ async function extractRecipe(url) {
 
     }
 }
-
 export default extractRecipe;

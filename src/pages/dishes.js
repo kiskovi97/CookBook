@@ -4287,5 +4287,23 @@ export default [
         howToMakeIt: [ "...", ],
         image: comming_soon,
         sources: [ { link: "https://streetkitchen.hu/fitt/csirkemell-receptek/szojas-mezes-csirke/", name: "Street Kitchen" }, ],
-    },
+    },{
+        index: "114",
+        dessert: false,
+        title: "Sertés Waldorf Burger",
+        details: "",
+        ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
+        howToMakeIt: [ "...", ],
+        image: comming_soon,
+        sources: [ {link: "https://streetkitchen.hu/szendvicsek-es-burgerek/sertes-waldorf-burger/", name: "Street Kitchen"}]
+    },{
+        index: "115",
+        dessert: false,
+        title: "Sárgarépa Főzelék",
+        details: "",
+        ingredients: [ { title: "Hozzavalok", list: [ "...", ] } ],
+        howToMakeIt: [ "...", ],
+        image: comming_soon,
+        sources: [ {link: "https://streetkitchen.hu/levesek-es-fozelekek/narancsos-chilis-sargarepa-fozelek/", name: "Street Kitchen"}]
+    }
 ];

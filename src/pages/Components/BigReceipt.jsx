@@ -18,8 +18,8 @@ function BigReceipt({ proj }) {
             }
         }
 
-        if (proj.sources && proj.sources.length > 0) {
-            extractRecipe(proj.sources[0].link);
+        if (proj.link) {
+            extractRecipe(proj.link);
         }
 
     }, [proj, setRecipe])
@@ -59,7 +59,19 @@ function BigReceipt({ proj }) {
                 </div>
             </div>)
     }
+
     if (proj) {
+    
+        if (proj.link)
+            return (<div className={styles.receipt}>
+                <div  className={styles.main}>
+
+                </div>
+                <div  className={styles.description}>
+
+                </div>
+            </div>);
+
         return (
             <div className={styles.receipt}>
                 <div className={styles.main}>

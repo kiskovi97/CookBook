@@ -20,8 +20,8 @@ const Receipt = ({proj, hidden}) => {
             }
         }
 
-        if (proj.sources && proj.sources.length > 0) {
-            extractRecipe(proj.sources[0].link);
+        if (proj.link) {
+            extractRecipe(proj.link);
         }
 
     }, [proj, setRecipe])
@@ -47,6 +47,19 @@ const Receipt = ({proj, hidden}) => {
     }
 
     if (proj) {
+    
+        if (proj.link)
+            return (<div hidden={hidden}>
+                <ScrollAnimation animateIn={"fadeIn"} animateOnce duration={0.6} offset={0}>
+                    <div className={styles.receipt}>
+                        <div className={styles.image} >
+                        </div>
+                        <div className={styles.description} >
+                        </div>
+                    </div>
+                </ScrollAnimation>
+            </div>);
+
         return (
             <div hidden={hidden}>
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce duration={0.6} offset={0}>

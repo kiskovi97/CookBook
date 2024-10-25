@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.b68ca827.chunk.css",
-    "main.js": "/CookBook/static/js/main.3b7fe29b.chunk.js",
-    "main.js.map": "/CookBook/static/js/main.3b7fe29b.chunk.js.map",
+    "main.js": "/CookBook/static/js/main.05143a89.chunk.js",
+    "main.js.map": "/CookBook/static/js/main.05143a89.chunk.js.map",
     "runtime-main.js": "/CookBook/static/js/runtime-main.dad1147d.js",
     "runtime-main.js.map": "/CookBook/static/js/runtime-main.dad1147d.js.map",
-    "static/js/2.1ff79186.chunk.js": "/CookBook/static/js/2.1ff79186.chunk.js",
-    "static/js/2.1ff79186.chunk.js.map": "/CookBook/static/js/2.1ff79186.chunk.js.map",
+    "static/js/2.48ad750c.chunk.js": "/CookBook/static/js/2.48ad750c.chunk.js",
+    "static/js/2.48ad750c.chunk.js.map": "/CookBook/static/js/2.48ad750c.chunk.js.map",
     "static/js/3.f180c691.chunk.js": "/CookBook/static/js/3.f180c691.chunk.js",
     "static/js/3.f180c691.chunk.js.map": "/CookBook/static/js/3.f180c691.chunk.js.map",
     "index.html": "/CookBook/index.html",
     "static/css/main.b68ca827.chunk.css.map": "/CookBook/static/css/main.b68ca827.chunk.css.map",
-    "static/js/2.1ff79186.chunk.js.LICENSE.txt": "/CookBook/static/js/2.1ff79186.chunk.js.LICENSE.txt",
+    "static/js/2.48ad750c.chunk.js.LICENSE.txt": "/CookBook/static/js/2.48ad750c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/CookBook/static/media/OpenSauceOne-Regular.942cf144.woff",
     "static/media/comming_soon.44e955fd.jpg": "/CookBook/static/media/comming_soon.44e955fd.jpg",
     "static/media/foodTemplate.ce8eca3c.webp": "/CookBook/static/media/foodTemplate.ce8eca3c.webp",
@@ -109,8 +109,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dad1147d.js",
-    "static/js/2.1ff79186.chunk.js",
+    "static/js/2.48ad750c.chunk.js",
     "static/css/main.b68ca827.chunk.css",
-    "static/js/main.3b7fe29b.chunk.js"
+    "static/js/main.05143a89.chunk.js"
   ]
 }

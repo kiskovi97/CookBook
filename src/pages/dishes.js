@@ -4196,5 +4196,12 @@ export default [
         index: "115",
         title: "Narancsos Chilis Sárgarépa Főzelék",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/narancsos-chilis-sargarepa-fozelek/",
+    },{
+        index: "116",
+title: "Gofri",
+
+link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio/"
+
     }
+
 ];

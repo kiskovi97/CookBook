@@ -4110,98 +4110,131 @@ export default [
     {
         index: "094",
         title: "Haromsajtos Lasagne",
-        link: "https://streetkitchen.hu/tesztapolc/haromsajtos-lasagne/",
+        link: "https://streetkitchen.hu/tesztapolc/haromsajtos-lasagne/", 
+        dessert: false, 
     },{
         index: "095",
         title: "Sütőtökös sertésszelet",
         link: "https://streetkitchen.hu/hust-hussal/sutotokos-sertesszelet/",
+        dessert: false, 
     },{
         index: "096",
         title: "Földimogyorós-csirkés kamu pad thai",
         link: "https://streetkitchen.hu/instant/tesztak/kamu-pad-thai/",
+        dessert: false, 
     },{
         index: "097",
         title: "Vörösboros szarvaspörkölt krumplifánkkal",
         link: "https://streetkitchen.hu/hust-hussal/vorosboros-szarvasporkolt-krumplifankkal/",
+        dessert: false, 
     },{
         index: "098",
         title: "Mediterrán csicseriborsó-saláta",
         link: "https://streetkitchen.hu/salata/mediterran-csicseriborso-salata/",
+        dessert: false, 
     },{
         index: "099",
         title: "Tavaszi extra zöld tészta",
         link: "https://streetkitchen.hu/tesztapolc/tavaszi-extra-zold-teszta/",
+        dessert: false, 
     },{
         index: "100",
         title: "Tonhalas quesadilla",
         link: "https://streetkitchen.hu/instant/konzervek-befottek/tonhalas-quesadilla/",
+        dessert: false, 
     },{
         index: "101",
         title: "Sajtos-tejfölös rakott csirkemell",
         link: "https://streetkitchen.hu/street-kitchen/sajtos-tejfolos-rakott-csirkemell/",
+        dessert: false, 
     },{
         index: "102",
         title: "Karalábés rizottó",
         link: "https://streetkitchen.hu/street-kitchen/karalabes-rizotto-recept/",
+        dessert: false, 
     },{
         index: "103",
         title: "Sajtos répafasírt",
         link: "https://streetkitchen.hu/street-kitchen/sajtos-repafasirt/",
+        dessert: false, 
     },{
         index: "104",
         title: "Sárgadinnyés-túrós süti",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/sargadinnyes-turos-suti/",
+        dessert: true, 
     },{
         index: "105",
         title: "Ázsiai brokkolis csirkemell",
         link: "https://streetkitchen.hu/street-kitchen/azsiai-brokkolis-csirkemell/",
+        dessert: false, 
     },{
         index: "106",
         title: "Ázsiai tonhalas répasaláta",
         link: "https://streetkitchen.hu/fitt/azsiai-tonhalas-repasalata/",
+        dessert: false, 
     },{
         index: "107",
         title: "Görög saláta tökéletes csirkecombbal",
         link: "https://streetkitchen.hu/receptek/gorog-salata-tokeletes-csirkecombbal-o/",
+        dessert: false, 
     },{
         index: "108",
         title: "Thai garnélás curry",
         link: "https://streetkitchen.hu/halak/thai-garnelas-curry/",
+        dessert: false, 
     },{
         index: "109",
         dessert: false,
         title: "Mangós csirke",
         link: "https://streetkitchen.hu/fitt/csirkemell-receptek/mangos-csirke/",
+        dessert: false, 
     },{
         index: "110",
         title: "Grillezett lazac tejszínes-spenótos bulgurral",
         link: "https://streetkitchen.hu/halak/grillezett-lazac-tejszines-spenotos-bulgurral/",
+        dessert: false, 
     },{
         index: "111",
         title: "Tépett csirkés szendvics sajtos káposztasalátával",
         link: "https://streetkitchen.hu/szendvicsek-es-burgerek/bbq-pulled-csirkemell-edesburgonya-hasabbal/",
+        dessert:false, 
     },{
         index: "112",
         title: "Nyári bulgursaláta csirkemellel",
         link: "https://streetkitchen.hu/hust-hussal/nyari-bulgursalata-csirkemellel/",
+        dessert: false, 
     },{
         index: "113",
         title: "Szójás-mézes csirke sültkarfiol-pürével és zöld almás salátával",
         link: "https://streetkitchen.hu/fitt/csirkemell-receptek/szojas-mezes-csirke/",
+        dessert: false, 
     },{
         index: "114",
         title: "Sertés Waldorf Burger",
         link: "https://streetkitchen.hu/szendvicsek-es-burgerek/sertes-waldorf-burger/",
+        dessert: false, 
     },{
         index: "115",
         title: "Narancsos Chilis Sárgarépa Főzelék",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/narancsos-chilis-sargarepa-fozelek/",
+        dessert: false, 
     },{
         index: "116",
 title: "Gofri",
 
-link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio/"
+link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio/", 
+        dessert: true, 
 
-    }
+    },{
+        index: "117",
+        title: "Gyümölcsös tejpite",
+        link: "https://streetkitchen.hu/meguszos-sutik/gyumolcsos-tejpite/",
+        dessert: true, 
+    },{
+        index: "118",
+        title: "Áfonyás tejpite",
+        link: "https://streetkitchen.hu/fantasztikus-desszertek/afonyas-tejpite-avagy-clafoutis/",
+        dessert: true, 
+    } 
 
 ];

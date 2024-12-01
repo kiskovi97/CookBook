@@ -4187,7 +4187,6 @@ export default [
         dessert: false,
         title: "Mangós csirke",
         link: "https://streetkitchen.hu/fitt/csirkemell-receptek/mangos-csirke/",
-        dessert: false, 
     },{
         index: "110",
         title: "Grillezett lazac tejszínes-spenótos bulgurral",

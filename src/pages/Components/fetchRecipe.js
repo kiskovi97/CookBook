@@ -18,7 +18,7 @@ async function extractRecipeStreetKitchen(url) {
         // Extracting recipe title, ingredients, and steps using class names
         const title = doc.querySelector('.main .entry-title').textContent.trim();
         const details = doc.querySelector('.entry-content .entry-lead').textContent.trim();
-        const ingredients = Array.from(doc.querySelectorAll('.ingredients-content dd'))
+        const ingredients = Array.from(doc.querySelectorAll('.ingredients-main .ingredients-content dd'))
             .map(ing => ing.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
         const steps = Array.from(doc.querySelectorAll('.the-content-div p'))
             .map(step => step.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());

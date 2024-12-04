@@ -4257,6 +4257,11 @@ link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio
         title: "Áfonyás tejpite",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/afonyas-tejpite-avagy-clafoutis/",
         dessert: true, 
-    } 
+    },{
+        index: "119",
+        title: "Sajtos göngyölt karaj",
+        link: "https://streetkitchen.hu/hust-hussal/sajtos-gongyolt-karaj/",
+        main: true,
+    }
 
 ];

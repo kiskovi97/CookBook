@@ -1,6 +1,10 @@
 @value colors: "../colors.css";
 @value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
+.tag {
+    padding: 1em;
+}
+
 .receipt {
     padding: 0;
     padding-top: 0;

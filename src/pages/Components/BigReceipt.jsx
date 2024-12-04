@@ -35,6 +35,10 @@ function BigReceipt({ proj }) {
                         <div>
                             <a href={proj.link} target="_blank" rel="noreferrer">Link to the original website</a>
                         </div>
+                        {recipe.tags?.map(source => (
+                            <span className={styles.tag}>
+                                {source}
+                            </span>))}
 
                     </div>
                     <div className={styles.image}>

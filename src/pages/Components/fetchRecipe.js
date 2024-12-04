@@ -22,6 +22,8 @@ async function extractRecipeStreetKitchen(url) {
             .map(ing => ing.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
         const steps = Array.from(doc.querySelectorAll('.the-content-div p'))
             .map(step => step.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
+        const tags = Array.from(doc.querySelectorAll('.tags-list a'))
+                .map(step => step.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
         const imageMeta = doc.querySelector('meta[property="og:image"]');
         const imageUrl = imageMeta ? imageMeta.getAttribute('content') : null;
 
@@ -31,7 +33,8 @@ async function extractRecipeStreetKitchen(url) {
             ingredients,
             steps,
             imageUrl,
-            details
+            details,
+            tags
         };
 
         console.log(JSON.stringify(data, null, 2));

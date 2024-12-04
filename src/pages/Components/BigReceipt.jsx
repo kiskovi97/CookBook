@@ -31,11 +31,10 @@ function BigReceipt({ proj }) {
                     <div className={styles.details}>
                         <h1 className={styles.title}>{recipe.title}</h1>
                         <div>{recipe.details}</div>
-                        {proj.sources && proj.sources.length > 0 ? (<div>Források:</div>) : null}
-                        {proj.sources?.map(source => (
-                            <div>
-                                <a href={source.link} target="_blank" rel="noreferrer">{source.name}</a>
-                            </div>))}
+                        <div>Forrás:</div>
+                        <div>
+                            <a href={proj.link} target="_blank" rel="noreferrer">Link to the original website</a>
+                        </div>
 
                     </div>
                     <div className={styles.image}>

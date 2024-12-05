@@ -4262,6 +4262,21 @@ link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio
         title: "Sajtos göngyölt karaj",
         link: "https://streetkitchen.hu/hust-hussal/sajtos-gongyolt-karaj/",
         main: true,
+    },{
+        index: "120",
+        title: "Napóleon-szelet",
+        link: "https://streetkitchen.hu/fantasztikus-desszertek/napoleon-szelet/",
+        dessert: true,
+    },{
+        index: "121",
+        title: "Tejszínes-spenótos krumpli besütve",
+        link: "https://streetkitchen.hu/green-kitchen/szezon/krumplis-etelek/tejszines-spenotos-krumpli-besutve/",
+        dessert: true,
+    },{
+        index: "122",
+        title: "Karamellizált hagymaleves",
+        link: "https://streetkitchen.hu/levesek-es-fozelekek/karamellizalt-hagymaleves/",
+        dessert: true,
     }
 
 ];

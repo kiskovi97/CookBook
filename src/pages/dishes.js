@@ -4276,6 +4276,11 @@ link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio
         index: "122",
         title: "Karamellizált hagymaleves",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/karamellizalt-hagymaleves/",
+        main: true,
+    },{
+        index: "123",
+        title: "Mákos-mazsolás csiga",
+        link: "https://streetkitchen.hu/instant/gyors-reggelik/makos-mazsolas-csiga-recept/",
         dessert: true,
     }
 

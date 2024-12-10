@@ -4282,6 +4282,16 @@ link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio
         title: "Mákos-mazsolás csiga",
         link: "https://streetkitchen.hu/instant/gyors-reggelik/makos-mazsolas-csiga-recept/",
         dessert: true,
+    }, {
+        index: "124",
+        title: "Fokhagymás sült burgonya",
+        link: "https://streetkitchen.hu/street-kitchen/fokhagymas-sult-burgonya/",
+        main: true,
+    },{
+        index: "125",
+        title: "Parmezános krumpli",
+        link: "https://streetkitchen.hu/street-kitchen/parmezanos-krumpli/",
+        main: true,
     }
 
 ];

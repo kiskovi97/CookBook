@@ -4292,6 +4292,16 @@ link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio
         title: "Parmezános krumpli",
         link: "https://streetkitchen.hu/street-kitchen/parmezanos-krumpli/",
         main: true,
+    },{
+        index: "126",
+        title: "Földimogyorós-csirkés kamu pad thai",
+        link: "https://streetkitchen.hu/instant/tesztak/kamu-pad-thai/",
+        main: true,
+    },{
+        index: "127",
+        title: "Mézeskalácsos csiga",
+        link: "https://streetkitchen.hu/fantasztikus-desszertek/mezeskalacsos-csiga/",
+        dessert: true,
     }
 
 ];

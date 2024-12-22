@@ -90,9 +90,8 @@ import image_kifli2 from "../images/image_kifli2.webp"
 import image_brownieSutotok from "../images/image_brownieSutotok.webp"
 import image_applecake2 from "../images/image_applecake2.webp"
 //eslint-disable-next-line import/no-anonymous-default-export
-export default [
+var dishOriginal = [
     {
-        index: "001",
         chicken: true,
         main: true,
         title: "Sajtszószos-baconös spagetti - Aszaltszilvás csirkével",
@@ -144,7 +143,6 @@ export default [
         ],
     },
     {
-        index: "002",
         main: true,
         title: "Majonézes kukoricasaláta - Natúr csirkével és krokettel",
         details: "Egyszerű kukoricasaláta, hozzá natúr csirkemell és krokett.",
@@ -179,7 +177,6 @@ export default [
         ],
     },
     {
-        index: "003",
         chicken: true,
         main: true,
         title: "Fűszeres csirke krumplival",
@@ -211,7 +208,6 @@ export default [
         image: image_chicken_potatoes,
     },
     {
-        index: "004",
         chicken: true,
         main: true,
         title: "Chicken Tortilla Wrap",
@@ -269,7 +265,6 @@ export default [
         ],
     },
     {
-        index: "005",
         chicken: true,
         main: true,
         title: "Narancsos csirke",
@@ -303,7 +298,6 @@ export default [
         image: image_csirke1,
     },
     {
-        index: "006",
         chicken: true,
         main: true,
         title: "Ananászos csirkemell",
@@ -334,7 +328,6 @@ export default [
         image: image_csirke2,
     },
     {
-        index: "007",
         main: true,
         title: "Hamburger",
         details: "Bevált hamburger recept a hús sütéstől az összeállításig",
@@ -377,7 +370,6 @@ export default [
         image: image_hamburger,
     },
     {
-        index: "008",
         main: true,
         title: "Spenótos Lasagne",
         details: "Egy finom húsmentes alternatíva a lasagne rajongóknak",
@@ -418,7 +410,6 @@ export default [
         image: image_lasagne,
     },
     {
-        index: "009",
         chicken: true,
         main: true,
         title: "Mexikói rakott tészta",
@@ -452,7 +443,6 @@ export default [
         image: image_mexican2,
     },
     {
-        index: "010",
         main: true,
         title: "Tonhalas rakott tészta",
         details: "Tonhalas rakott tészta ha nem csirkével ennéd a tésztát.",
@@ -487,7 +477,6 @@ export default [
         image: image_rakott,
     },
     {
-        index: "011",
         dessert: true,
         title: "Tejfölös csodasüti",
         details: "Egy egyszerű süti, de kicsit macerásabb elkészíteni mint egy brownie-t."
@@ -535,7 +524,6 @@ export default [
         ],
     },
     {
-        index: "012",
         dessert: true,
         title: "Mogyoróvajas süti",
         details: "Egy egyszerűen elkészíthető süti. Végeredményben finom, viszont elég töményre sikeredett.",
@@ -564,7 +552,6 @@ export default [
         ],
     },
     {
-        index: "013",
         dessert: true,
         title: "Boci süti",
         details: "Egyszerű és finom süti. Kicsit érdekesebb mint egy brownie de nem bonyolultabb",
@@ -605,7 +592,6 @@ export default [
         ],
     },
     {
-        index: "014",
         dessert: true,
         title: "Gyors császármorzsa",
         details: "Gyorsan elkészíthető finomság. Vacsorára lekvárral tökéletes.",
@@ -649,7 +635,6 @@ export default [
         ],
     },
     {
-        index: "015",
         dessert: true,
         title: "Csupacsokis csiga",
         details: "Egy töltelékben gazdag csiga. Kelt tésztával. 23x35 tepsinyi",
@@ -696,7 +681,6 @@ export default [
         image: image_csiga3,
     },
     {
-        index: "016",
         dessert: true,
         title: "Brownie - Narancsos pudinggal",
         details: "Csupacsokis brownie, ami egyszerűen elkészíthető."
@@ -749,7 +733,6 @@ export default [
         ],
     },
     {
-        index: "017",
         dessert: true,
         title: "Túrós-Mazsolás Csiga",
         details: "Egyik legfinomabb levelestésztás recept. Garantált kedvenc lesz az édesszályúaknál.",
@@ -784,7 +767,6 @@ export default [
         ],
     },
     {
-        index: "018",
         dessert: true,
         title: "Sós karamellás brownie",
         details: "Kicsit izgalmasabb bornie recept.",
@@ -840,7 +822,6 @@ export default [
         ],
     },
     {
-        index: "019",
         dessert: true,
         title: "Gyors amerikai palacsinta",
         details: "Egy jó kis original amerikai palacsinta.",
@@ -874,7 +855,6 @@ export default [
         ],
     },
     {
-        index: "020",
         dessert: true,
         title: "Bécsi túrós palacsinta",
         details: "Egyszerű palacsinta kétszer sütve.",
@@ -939,7 +919,6 @@ export default [
         image: image_palacsinta,
     },
     {
-        index: "021",
         dessert: true,
         title: "Žemlovka",
         details: "Egy eredeti szlovák recept. Rakott édes desszert.",
@@ -979,7 +958,6 @@ export default [
         image: image_szlovak,
     },
     {
-        index: "022",
         dessert: true,
         title: "Rizskoch",
         details: "Egyik legfinomabb levelestésztás recept. Garantált kedvenc lesz az édesszályúaknál.",
@@ -1017,7 +995,6 @@ export default [
         ],
     },
     {
-        index: "023",
         main: true,
         chicken: true,
         title: "Édes-savanyú csirkemell - tojásos rízzsel",
@@ -1077,7 +1054,6 @@ export default [
         image: image_sweet,
     },
     {
-        index: "024",
         main: true,
         chicken: true,
         title: "Hagymás csirke - Pirított tésztával",
@@ -1119,7 +1095,6 @@ export default [
         image: image_csirke5,
     },
     {
-        index: "025",
         main: true,
         chicken: true,
         title: "Almás sajtos csirke - Édesburgonyával",
@@ -1155,7 +1130,6 @@ export default [
         image: image_apple,
     },
     {
-        index: "026",
         dessert: true,
         title: "Kókuszos-csokis rakott piskóta",
         details: "Kókuszos tejszínes rakott süti piskótával.",
@@ -1215,7 +1189,6 @@ export default [
         image: image_coconat,
     },
     {
-        index: "027",
         dessert: true,
         title: "Sütőtökös sajttorta",
         details: "Őszi ízek egy finom tortában",
@@ -1277,7 +1250,6 @@ export default [
         ],
     },
     {
-        index: "028",
         chicken: true,
         main: true,
         title: "Pikáns sajtos csirkés tészta",
@@ -1314,7 +1286,6 @@ export default [
         ],
     },
     {
-        index: "029",
         dessert: true,
         title: "Kinder Bueno szelet",
         details: "Édesszájúak sütés nélküli sütije",
@@ -1356,7 +1327,6 @@ export default [
         ],
     },
     {
-        index: "031",
         dessert: true,
         title: "Madártej szelet sütés nélkül",
         details: "Pudingos kekszes desszert édesszájuaknak",
@@ -1392,7 +1362,6 @@ export default [
         ],
     },
     {
-        index: "032",
         chicken: true,
         main: true,
         title: "Töltött csirke sajtos tésztával",
@@ -1451,7 +1420,6 @@ export default [
         ],
     },
     {
-        index: "033",
         main: true,
         title: "Szűzpecsenye \"Stromp\" módra",
         details: "Szűzpecsenye tökéletes elkészítésének receptje",
@@ -1484,7 +1452,6 @@ export default [
         image: image_szuz,
     },
     {
-        index: "034",
         main: true,
         title: "Pisztáciás pappardelle",
         details: "Teszínes pisztáciás olasz tészta, karamellizált hagymával",
@@ -1512,7 +1479,6 @@ export default [
         image: image_pasta,
     },
     {
-        index: "035",
         dessert: true,
         title: "Almás karamell",
         details: "Alma levéből készült karamell",
@@ -1542,7 +1508,6 @@ export default [
         image: image_applesauce,
     },
     {
-        index: "036",
         dessert: true,
         title: "Almás mákos kevert pite",
         details: "Alma levéből készült karamell",
@@ -1578,7 +1543,6 @@ export default [
         image: image_applecake,
     },
     {
-        index: "037",
         main: true,
         chicken: true,
         title: "Spenótos csirke édesburgonyával",
@@ -1626,7 +1590,6 @@ export default [
         image: image_chicken_spenot,
     },
     {
-        index: "038",
         dessert: true,
         title: "Flownie",
         details: "Flódni és Brownie keveréke",
@@ -1678,7 +1641,6 @@ export default [
         image: image_flowdnie,
     },
     {
-        index: "039",
         main: true,
         chicken: true,
         title: "Szezámmagos csirke",
@@ -1717,7 +1679,6 @@ export default [
         image: image_chicken_sesam,
     },
     {
-        index: "040",
         chicken: true,
         main: true,
         title: "Csirkemell cornflakes bundában",
@@ -1750,7 +1711,6 @@ export default [
         image: image_cornflakes,
     },
     {
-        index: "041",
         main: true,
         title: "Tartármártás",
         details: "Egyszerű tartármártás recept. Húsokhoz tökéletes.",
@@ -1776,7 +1736,6 @@ export default [
         image: image_tartar,
     },
     {
-        index: "042",
         dessert: true,
         title: "Körtetorta sóskaramellel",
         details: "Körtével ízesített torta sóskaramell krémmel",
@@ -1835,7 +1794,6 @@ export default [
         image: image_pearcake,
     },
     {
-        index: "043",
         chicken: true,
         main: true,
         pasta: true,
@@ -1881,7 +1839,6 @@ export default [
         image: image_chicken_pasta,
     },
     {
-        index: "044",
         main: true,
         title: "Risotto",
         details: "Olasz risotto recept",
@@ -1909,7 +1866,6 @@ export default [
         image: risotto,
     },
     {
-        index: "045",
         dessert: true,
         title: "Raffaello Szelet",
         details: "Egyszerű kókuszos sütemény",
@@ -1950,7 +1906,6 @@ export default [
         image: image_coconat2,
     },
     {
-        index: "046",
         chicken: true,
         main: true,
         title: "Mustáros sajtos csirkemell",
@@ -1985,7 +1940,6 @@ export default [
         image: image_chicken_cheese,
     },
     {
-        index: "047",
         chicken: true,
         main: true,
         title: "Töltött csirkemell sajtos tésztával",
@@ -2045,7 +1999,6 @@ export default [
         image: image_macandcheese,
     },
     {
-        index: "048",
         dessert: true,
         title: "Madártej szelet",
         details: "A madártej kedvelőinek egy egyszerűen elkészíthető könnyed sütemény",
@@ -2082,7 +2035,6 @@ export default [
         ],
     },
     {
-        index: "049",
         dessert: true,
         title: "Citromos pite",
         details: "Citromos sütemény 3 rétegből és 3 receptből összerakva",
@@ -2141,7 +2093,6 @@ export default [
         ],
     },
     {
-        index: "050",
         main: true,
         title: "Barackos csirkemell",
         details: "Sajtal és barackal megrakott csirkemell mandulás rizzsel",
@@ -2180,7 +2131,6 @@ export default [
         ],
     },
     {
-        index: "051",
         main: true,
         title: "Pulykatokány sült krumplival",
         details: "Tejszínes pulykatokány répával, hozzá tepsiben sült bundás krumpli",
@@ -2227,7 +2177,6 @@ export default [
         ],
     },
     {
-        index: "052",
         dessert: true,
         title: "Karamellás tiramisu",
         details: "Tiramisu sóskaramellával, narancsal és mogyoróval feldobva",
@@ -2284,7 +2233,6 @@ export default [
         ],
     },
     {
-        index: "053",
         main: true,
         title: "Csípős-mézes csirke",
         details: "Ázsiai ízesítésű csípős-mézes csirke felsőcomb filé",
@@ -2321,7 +2269,6 @@ export default [
         ],
     },
     {
-        index: "054",
         main: true,
         title: "Brokkolis rakott csirke",
         details: "Brokkolival és besamell mártással készített sajtos csirkemell",
@@ -2357,7 +2304,6 @@ export default [
         ],
     },
     {
-        index: "055",
         dessert: true,
         title: "Babka",
         details: "Édes tészta csokival és fahéjjal töltve",
@@ -2424,7 +2370,6 @@ export default [
         ],
     },
     {
-        index: "056",
         main: true,
         chicken: true,
         title: "Pad Thai",
@@ -2470,7 +2415,6 @@ export default [
         ],
     },
     {
-        index: "057",
         main: true,
         chicken: true,
         title: "Citromos csirkemell rizottóval",
@@ -2520,7 +2464,6 @@ export default [
         ],
     },
     {
-        index: "058",
         main: true,
         chicken: true,
         title: "Bolognai csirkemell spagettivel",
@@ -2556,7 +2499,6 @@ export default [
         ],
     },
     {
-        index: "059",
         dessert: true,
         title: "Édes csiga",
         details: "Fahéjas mandulás narancsos csiga karamell öntettel",
@@ -2612,7 +2554,6 @@ export default [
         sources: [],
     },
     {
-        index: "060",
         main: true,
         chicken: true,
         title: "Hagymás sertéskaraj",
@@ -2648,7 +2589,6 @@ export default [
         ],
     },
     {
-        index: "061",
         dessert: true,
         title: "Három ízű csigák",
         details: "Vaníliás-narancsos, csokis-kakós és almás-karamellás csiga",
@@ -2705,7 +2645,6 @@ export default [
         ],
     },
     {
-        index: "062",
         main: true,
         chicken: true,
         title: "Csirkemell tekercs",
@@ -2741,7 +2680,6 @@ export default [
         ],
     },
     {
-        index: "063",
         main: true,
         chicken: true,
         title: "Cukkinis tészta csirkével",
@@ -2789,7 +2727,6 @@ export default [
         ],
     },
     {
-        index: "064",
         dessert: true,
         title: "Madártejes panna cotta",
         details: "Panna cotta kicsit feldobva sóskaramellával és madártejjel",
@@ -2833,7 +2770,6 @@ export default [
         ],
     },
     {
-        index: "065",
         main: true,
         chicken: true,
         title: "Mustáros csirke",
@@ -2863,7 +2799,6 @@ export default [
         sources: [],
     },
     {
-        index: "066",
         main: true,
         chicken: true,
         title: "Mogyorós tészta - hagymás csirkével",
@@ -2911,7 +2846,6 @@ export default [
         sources: [],
     },
     {
-        index: "067",
         main: true,
         chicken: true,
         title: "Szaftos paprikás csirke",
@@ -2959,7 +2893,6 @@ export default [
         ],
     },
     {
-        index: "068",
         dessert: true,
         title: "Kráter szelet",
         details: "Pudingos-tejfölös brownie madnulával díszítve",
@@ -3017,7 +2950,6 @@ export default [
         ],
     },
     {
-        index: "069",
         dessert: true,
         title: "Csokis Rugelach",
         details: "Egyszerű eredeti héber csokis rugelach",
@@ -3090,7 +3022,6 @@ export default [
         ],
     },
     {
-        index: "070",
         main: true,
         chicken: true,
         title: "Rakott csirke zöldségesen",
@@ -3126,7 +3057,6 @@ export default [
         sources: [],
     },
     {
-        index: "071",
         dessert: true,
         title: "Jalapengo csiga",
         details: "Csípős sós pékárú házilag",
@@ -3155,7 +3085,6 @@ export default [
         sources: [],
     },
     {
-        index: "072",
         dessert: true,
         title: "Karamellás csiga",
         details: "Az édesszájúak kedvence",
@@ -3192,7 +3121,6 @@ export default [
         sources: [],
     },
     {
-        index: "073",
         dessert: true,
         title: "Fordítotott sütemény",
         details: "Karamelles mogyorós fordítotott sütemény",
@@ -3242,7 +3170,6 @@ export default [
         ],
     },
     {
-        index: "074",
         main: true,
         chicken: true,
         title: "Szecsuáni csirke tésztával",
@@ -3302,7 +3229,6 @@ export default [
         ],
     },
     {
-        index: "075",
         main: true,
         title: "Mustáros-ketchupos tejszínben sült tarja",
         details: "Egyszerű szaftos tarja recept",
@@ -3343,7 +3269,6 @@ export default [
         ],
     },
     {
-        index: "076",
         main: true,
         chicken: true,
         title: "Mézes-kókuszos csirkemell",
@@ -3389,7 +3314,6 @@ export default [
         ],
     },
     {
-        index: "077",
         dessert: true,
         title: "Gyümölcs torta",
         details: "Gyümölcs torta banánból és ananászból",
@@ -3438,7 +3362,6 @@ export default [
         ],
     },
     {
-        index: "079",
         main: true,
         title: "Vörösboros lasagne",
         details: "Vörösboros lasagne",
@@ -3504,7 +3427,6 @@ export default [
         ],
     },
     {
-        index: "080",
         dessert: true,
         title: "Mandulás ricottás szelet",
         details: "Az olaszok variációja a sajttortára",
@@ -3540,7 +3462,6 @@ export default [
         ],
     },
     {
-        index: "081",
         main: true,
         chicken: true,
         title: "Tejszínes-mustáros csirke",
@@ -3572,7 +3493,6 @@ export default [
         sources: []
     },
     {
-        index: "082",
         main: true,
         chicken: true,
         title: "Brassói csirkemell",
@@ -3604,7 +3524,6 @@ export default [
         sources: [],
     },
     {
-        index: "083",
         dessert: true,
         title: "Réteges Édesség",
         details: "Rétes lapokból készített édes sütemény",
@@ -3647,7 +3566,6 @@ export default [
         ],
     },
     {
-        index: "084",
         dessert: true,
         title: "Palacsinta Torta",
         details: "Csokis - túrós palacsinta torta",
@@ -3709,7 +3627,6 @@ export default [
         ],
     },
     {
-        index: "085",
         main: true,
         chicken: true,
         title: "Cirtomos csirke",
@@ -3760,7 +3677,6 @@ export default [
         ],
     },
     {
-        index: "086",
         main: true,
         title: "Sütőtökös tészta fasírt golyókkal",
         details: "Spagetti sütőtökkös szósszal - fasírt golyókkal",
@@ -3801,7 +3717,6 @@ export default [
         ],
     },
     {
-        index: "087",
         dessert: true,
         title: "Szilvás kifli",
         details: "Keltésztás szilvás kifli",
@@ -3843,7 +3758,6 @@ export default [
         sources: [],
     },
     {
-        index: "088",
         dessert: true,
         title: "Fahéjas kifli",
         details: "Keltésztás fahéjas kifli",
@@ -3907,7 +3821,6 @@ export default [
         ],
     },
     {
-        index: "089",
         dessert: true,
         title: "Almás torta",
         details: "Almás torta",
@@ -3942,7 +3855,6 @@ export default [
         ],
     },
     {
-        index: "090",
         dessert: true,
         title: "Sütőtökös brownie",
         details: "Sütőtökös brownie",
@@ -3993,7 +3905,6 @@ export default [
         ],
     },
     {
-        index: "091",
         dessert: true,
         title: "Mandulás-barackos kevert",
         details: "Könnyed, édes sütemény a barack kedvenceinek",
@@ -4029,7 +3940,6 @@ export default [
         ],
     },
     {
-        index: "092",
         dessert: true,
         title: "Karamellás brownie",
         details: "",
@@ -4072,7 +3982,6 @@ export default [
         ],
     },
     {
-        index: "093",
         dessert: true,
         title: "Palacsinta",
         details: "",
@@ -4108,198 +4017,167 @@ export default [
         ],
     },
     {
-        index: "094",
         title: "Haromsajtos Lasagne",
         link: "https://streetkitchen.hu/tesztapolc/haromsajtos-lasagne/", 
         dessert: false, 
         main: true, 
     },{
-        index: "095",
         title: "Sütőtökös sertésszelet",
         link: "https://streetkitchen.hu/hust-hussal/sutotokos-sertesszelet/",
         dessert: false,  
         main: true, 
     },{
-        index: "096",
         title: "Földimogyorós-csirkés kamu pad thai",
         link: "https://streetkitchen.hu/instant/tesztak/kamu-pad-thai/",
         dessert: false,  
         main: true, 
     },{
-        index: "097",
         title: "Vörösboros szarvaspörkölt krumplifánkkal",
         link: "https://streetkitchen.hu/hust-hussal/vorosboros-szarvasporkolt-krumplifankkal/",
         dessert: false, 
         main: true,  
     },{
-        index: "098",
         title: "Mediterrán csicseriborsó-saláta",
         link: "https://streetkitchen.hu/salata/mediterran-csicseriborso-salata/",
         dessert: false, 
         main: true,  
     },{
-        index: "099",
         title: "Tavaszi extra zöld tészta",
         link: "https://streetkitchen.hu/tesztapolc/tavaszi-extra-zold-teszta/",
         dessert: false,  
         main: true, 
     },{
-        index: "100",
         title: "Tonhalas quesadilla",
         link: "https://streetkitchen.hu/instant/konzervek-befottek/tonhalas-quesadilla/",
         dessert: false,  
         main: true, 
     },{
-        index: "101",
         title: "Sajtos-tejfölös rakott csirkemell",
         link: "https://streetkitchen.hu/street-kitchen/sajtos-tejfolos-rakott-csirkemell/",
         dessert: false,  
         main: true, 
     },{
-        index: "102",
         title: "Karalábés rizottó",
         link: "https://streetkitchen.hu/street-kitchen/karalabes-rizotto-recept/",
         dessert: false,  
         main: true, 
     },{
-        index: "103",
         title: "Sajtos répafasírt",
         link: "https://streetkitchen.hu/street-kitchen/sajtos-repafasirt/",
         dessert: false,  
         main: true, 
     },{
-        index: "104",
         title: "Sárgadinnyés-túrós süti",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/sargadinnyes-turos-suti/",
         dessert: true,  
         main: true, 
     },{
-        index: "105",
         title: "Ázsiai brokkolis csirkemell",
         link: "https://streetkitchen.hu/street-kitchen/azsiai-brokkolis-csirkemell/",
         dessert: false,  
         main: true, 
     },{
-        index: "106",
         title: "Ázsiai tonhalas répasaláta",
         link: "https://streetkitchen.hu/fitt/azsiai-tonhalas-repasalata/",
         dessert: false,  
         main: true, 
     },{
-        index: "107",
         title: "Görög saláta tökéletes csirkecombbal",
         link: "https://streetkitchen.hu/receptek/gorog-salata-tokeletes-csirkecombbal-o/",
         dessert: false,  
         main: true, 
     },{
-        index: "108",
         title: "Thai garnélás curry",
         link: "https://streetkitchen.hu/halak/thai-garnelas-curry/",
         dessert: false,  
         main: true, 
     },{
-        index: "109",
         dessert: false,
         title: "Mangós csirke",
         link: "https://streetkitchen.hu/fitt/csirkemell-receptek/mangos-csirke/", 
         main: true, 
     },{
-        index: "110",
         title: "Grillezett lazac tejszínes-spenótos bulgurral",
         link: "https://streetkitchen.hu/halak/grillezett-lazac-tejszines-spenotos-bulgurral/",
         dessert: false, 
         main: true,  
     },{
-        index: "111",
         title: "Tépett csirkés szendvics sajtos káposztasalátával",
         link: "https://streetkitchen.hu/szendvicsek-es-burgerek/bbq-pulled-csirkemell-edesburgonya-hasabbal/",
         dessert:false,  
         main: true, 
     },{
-        index: "112",
         title: "Nyári bulgursaláta csirkemellel",
         link: "https://streetkitchen.hu/hust-hussal/nyari-bulgursalata-csirkemellel/",
         dessert: false,  
         main: true, 
     },{
-        index: "113",
         title: "Szójás-mézes csirke sültkarfiol-pürével és zöld almás salátával",
         link: "https://streetkitchen.hu/fitt/csirkemell-receptek/szojas-mezes-csirke/",
         dessert: false,  
         main: true, 
     },{
-        index: "114",
         title: "Sertés Waldorf Burger",
         link: "https://streetkitchen.hu/szendvicsek-es-burgerek/sertes-waldorf-burger/",
         dessert: false,  
         main: true, 
     },{
-        index: "115",
         title: "Narancsos Chilis Sárgarépa Főzelék",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/narancsos-chilis-sargarepa-fozelek/",
         dessert: false,  
         main: true, 
     },{
-        index: "116",
         title: "Gofri",
         link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio/", 
         dessert: true,
-
     },{
-        index: "117",
         title: "Gyümölcsös tejpite",
         link: "https://streetkitchen.hu/meguszos-sutik/gyumolcsos-tejpite/",
         dessert: true, 
     },{
-        index: "118",
         title: "Áfonyás tejpite",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/afonyas-tejpite-avagy-clafoutis/",
         dessert: true, 
     },{
-        index: "119",
         title: "Sajtos göngyölt karaj",
         link: "https://streetkitchen.hu/hust-hussal/sajtos-gongyolt-karaj/",
         main: true,
     },{
-        index: "120",
         title: "Napóleon-szelet",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/napoleon-szelet/",
         dessert: true,
     },{
-        index: "121",
         title: "Tejszínes-spenótos krumpli besütve",
         link: "https://streetkitchen.hu/green-kitchen/szezon/krumplis-etelek/tejszines-spenotos-krumpli-besutve/",
         main: true,
     },{
-        index: "122",
         title: "Karamellizált hagymaleves",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/karamellizalt-hagymaleves/",
         main: true,
     },{
-        index: "123",
         title: "Mákos-mazsolás csiga",
         link: "https://streetkitchen.hu/instant/gyors-reggelik/makos-mazsolas-csiga-recept/",
         dessert: true,
     }, {
-        index: "124",
         title: "Fokhagymás sült burgonya",
         link: "https://streetkitchen.hu/street-kitchen/fokhagymas-sult-burgonya/",
         main: true,
     },{
-        index: "125",
         title: "Parmezános krumpli",
         link: "https://streetkitchen.hu/street-kitchen/parmezanos-krumpli/",
         main: true,
     },{
-        index: "126",
         title: "Mézeskalácsos csiga",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/mezeskalacsos-csiga/",
         dessert: true,
     },{
-        index: "127",
         title: "Négysajtos Gnocci",
         link: "https://streetkitchen.hu/instant/tesztak/negysajtos-gnocchi/",
         main: true,
     }
 
 ];
+
+dishOriginal.forEach((item, index) => item.index = index);
+
+export default dishOriginal;

@@ -4241,11 +4241,9 @@ export default [
         main: true, 
     },{
         index: "116",
-title: "Gofri",
-
-link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio/", 
-        dessert: true,  
-        main: true, 
+        title: "Gofri",
+        link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio/", 
+        dessert: true,
 
     },{
         index: "117",
@@ -4271,7 +4269,7 @@ link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio
         index: "121",
         title: "Tejszínes-spenótos krumpli besütve",
         link: "https://streetkitchen.hu/green-kitchen/szezon/krumplis-etelek/tejszines-spenotos-krumpli-besutve/",
-        dessert: true,
+        main: true,
     },{
         index: "122",
         title: "Karamellizált hagymaleves",
@@ -4294,14 +4292,14 @@ link: "https://streetkitchen.hu/a-legjobb-reggelik/hazi-gofri-edes-es-sos-verzio
         main: true,
     },{
         index: "126",
-        title: "Földimogyorós-csirkés kamu pad thai",
-        link: "https://streetkitchen.hu/instant/tesztak/kamu-pad-thai/",
-        main: true,
-    },{
-        index: "127",
         title: "Mézeskalácsos csiga",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/mezeskalacsos-csiga/",
         dessert: true,
+    },{
+        index: "127",
+        title: "Négysajtos Gnocci",
+        link: "https://streetkitchen.hu/instant/tesztak/negysajtos-gnocchi/",
+        main: true,
     }
 
 ];

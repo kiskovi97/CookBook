@@ -4174,8 +4174,27 @@ var dishOriginal = [
         title: "Négysajtos Gnocci",
         link: "https://streetkitchen.hu/instant/tesztak/negysajtos-gnocchi/",
         main: true,
+    },{
+        title: "Kamu Pad Thai",
+        link: "https://streetkitchen.hu/instant/tesztak/kamu-pad-thai/",
+        main: true,
+    },{
+        title: "Mézes Narancsos Csirkemell",
+        link: "https://streetkitchen.hu/hust-hussal/mezes-narancsos-csirkemell/",
+        main: true,
+    },{
+        title: "Tejszínes Spenótos Krumpli besütve",
+        link: "https://streetkitchen.hu/green-kitchen/szezon/krumplis-etelek/tejszines-spenotos-krumpli-besutve/",
+        main: true,
+    },{
+        title: "Forralt Boros Gyümölcslevels",
+        link: "https://streetkitchen.hu/levesek-es-fozelekek/forralt-boros-gyumolcsleves/",
+        main: true,
+    },{
+        title: "Szaftos mustáros karaj",
+        link: "https://streetkitchen.hu/hust-hussal/szaftos-mustaros-karaj/",
+        main: true,
     }
-
 ];
 
 dishOriginal.forEach((item, index) => item.index = index);

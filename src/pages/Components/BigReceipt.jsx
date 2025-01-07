@@ -56,6 +56,7 @@ function BigReceipt({ proj }) {
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
                         <div>
+                            {proj.comment ? (<li>COMMENT: {proj.comment}</li>) : null}
                             {recipe.steps?.map(station => (<li>{station}</li>))}
                         </div>
                     </ScrollAnimation>
@@ -104,6 +105,7 @@ function BigReceipt({ proj }) {
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
                         <div>
+                            {proj.comment ? (<li>{proj.comment}</li>) : null}
                             {proj.howToMakeIt?.map(station => (<li>{station}</li>))}
                         </div>
                     </ScrollAnimation>

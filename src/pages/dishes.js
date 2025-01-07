@@ -4146,10 +4146,7 @@ var dishOriginal = [
         title: "Napóleon-szelet",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/napoleon-szelet/",
         dessert: true,
-    },{
-        title: "Tejszínes-spenótos krumpli besütve",
-        link: "https://streetkitchen.hu/green-kitchen/szezon/krumplis-etelek/tejszines-spenotos-krumpli-besutve/",
-        main: true,
+        comment: "Több puding közeje, hogy puha legyen"
     },{
         title: "Karamellizált hagymaleves",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/karamellizalt-hagymaleves/",
@@ -4186,6 +4183,7 @@ var dishOriginal = [
         title: "Tejszínes Spenótos Krumpli besütve",
         link: "https://streetkitchen.hu/green-kitchen/szezon/krumplis-etelek/tejszines-spenotos-krumpli-besutve/",
         main: true,
+        comment: "Több kemenyito kell bele"
     },{
         title: "Forralt Boros Gyümölcslevels",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/forralt-boros-gyumolcsleves/",

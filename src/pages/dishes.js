@@ -4027,11 +4027,6 @@ var dishOriginal = [
         dessert: false,  
         main: true, 
     },{
-        title: "Földimogyorós-csirkés kamu pad thai",
-        link: "https://streetkitchen.hu/instant/tesztak/kamu-pad-thai/",
-        dessert: false,  
-        main: true, 
-    },{
         title: "Vörösboros szarvaspörkölt krumplifánkkal",
         link: "https://streetkitchen.hu/hust-hussal/vorosboros-szarvasporkolt-krumplifankkal/",
         dessert: false, 
@@ -4191,6 +4186,14 @@ var dishOriginal = [
     },{
         title: "Szaftos mustáros karaj",
         link: "https://streetkitchen.hu/hust-hussal/szaftos-mustaros-karaj/",
+        main: true,
+    },{
+        title: "Vaníliapudingod tejberizs",
+        link: "https://streetkitchen.hu/street-kitchen/vaniliapudingos-tejberizs/",
+        dessert: true
+    },{
+        title: "Brokkolikrémleves",
+        link: "https://streetkitchen.hu/levesek-es-fozelekek/brokkolikremleves-ahogy-mi-esszuk/",
         main: true,
     }
 ];

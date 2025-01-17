@@ -4199,6 +4199,10 @@ var dishOriginal = [
         title: "Sajtmártásos Sült Csirkecomb Karfiollal",
         link: "https://streetkitchen.hu/hust-hussal/sajtmartasban-sult-csirkecomb-karfiollal",
         main: true,
+    },{
+        title: "Paradicsom leves",
+        link: "https://streetkitchen.hu/levesek-es-fozelekek/kremes-paradicsomleves/",
+        main: true,
     }
 ];
 

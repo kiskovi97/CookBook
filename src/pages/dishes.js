@@ -4195,6 +4195,10 @@ var dishOriginal = [
         title: "Brokkolikrémleves",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/brokkolikremleves-ahogy-mi-esszuk/",
         main: true,
+    },{
+        title: "Sajtmártásos Sült Csirkecomb Karfiollal",
+        link: "https://streetkitchen.hu/hust-hussal/sajtmartasban-sult-csirkecomb-karfiollal",
+        main: true,
     }
 ];
 

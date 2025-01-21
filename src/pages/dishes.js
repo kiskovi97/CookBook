@@ -4203,6 +4203,10 @@ var dishOriginal = [
         title: "Paradicsom leves",
         link: "https://streetkitchen.hu/levesek-es-fozelekek/kremes-paradicsomleves/",
         main: true,
+    },{
+        title: "Tökéletes Karfiolpüré",
+        link: "https://streetkitchen.hu/koretek/tokeletes-karfiolpure/",
+        main: true
     }
 ];
 

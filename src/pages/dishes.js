@@ -4207,6 +4207,10 @@ var dishOriginal = [
         title: "Tökéletes Karfiolpüré",
         link: "https://streetkitchen.hu/koretek/tokeletes-karfiolpure/",
         main: true
+    },{
+        title: "Eper leves",
+        link: "https://streetkitchen.hu/street-kitchen/laktozmentes-eperkremleves/",
+        main: true
     }
 ];
 

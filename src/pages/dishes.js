@@ -4211,6 +4211,22 @@ var dishOriginal = [
         title: "Eper leves",
         link: "https://streetkitchen.hu/street-kitchen/laktozmentes-eperkremleves/",
         main: true
+    },{
+        title: "Csirkes Shawarma",
+        link: "https://streetkitchen.hu/junk/csirkes-shawarma/",
+        main: true
+    },{
+        title: "Sütőtökös tészta",
+        link: "https://streetkitchen.hu/tesztapolc/legfinomabb-sutotokos-teszta/",
+        main: true,
+    },{
+        title: "Citromos-krémtúrós tészta",
+        link: "https://streetkitchen.hu/street-kitchen/citromos-kremturos-teszta-kapribogyoval/",
+        main: true,
+    },{
+        title: "Barackos-sajtos csirkemell",
+        link: "https://streetkitchen.hu/fitt/csirkemell-receptek/barackos-sajtos-csirkemell/",
+        main: true,
     }
 ];
 

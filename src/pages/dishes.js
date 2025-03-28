@@ -4227,6 +4227,57 @@ var dishOriginal = [
         title: "Barackos-sajtos csirkemell",
         link: "https://streetkitchen.hu/fitt/csirkemell-receptek/barackos-sajtos-csirkemell/",
         main: true,
+    },
+    {
+        main: true,
+        title: "Hortobágyi palacsinta darálthúsos",
+        details: "Hortobágyi palacsinta darálthúsos",
+        ingredients: [
+            {
+                title: "Palacsinta tészta:",
+                list: [
+                    "½ kg liszt",
+                    "2 ek cukor",
+                    "4 db tojás",
+                    "1 csipet só",
+                    "2 mk sütőpor",
+                    "1 l tej részletekben adagolva",
+                    "1 dl viz",
+                    "2 ek olaj"
+                ]
+            },{
+                title: "Töltelék:",
+                list: [
+                    "1 kg darálthús",
+                    "1.5 dl olaj",
+                    "2 fej vöröshagyma ",
+                    "4 gerezd fokhagyma",
+                    "2 paprika",
+                    "2 paradicsom",
+                    "2 ek házi pirospaprika",
+                    "1/2 kanál só",
+                    "1/2 vegeta",
+                    "Bors és csípős ízlés szerint"
+                ]
+            },{
+                title: "",
+                list: [
+                    "330 gramm tejföl",
+                    "2 ek liszt",
+                    "100 ml tejszín",
+                    "100 gramm bacon"
+                ]
+            }
+        ],
+        howToMakeIt: [
+        ],
+        image: image_chicken_lemon,
+        sources: [
+            {
+                link: "https://www.youtube.com/watch?v=G2_unxGPjEI",
+                name: "Youtube"
+            },
+        ],
     }
 ];
 

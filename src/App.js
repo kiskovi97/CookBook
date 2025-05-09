@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import Navbar from './Navbar';
@@ -27,14 +27,14 @@ function App() {
   return (
     <main className="App">
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home}  />
-        <Route exact path="/desserts" component={Desserts} />
-        <Route exact path="/dishes" component={Dishes} />
-        <Route exact path="/dish/*" component={Dish} />
-        <Route exact path="/test" component={Testing} />
+      <Routes>
+        <Route exact path="/" element={<Home/>}  />
+        <Route exact path="/desserts" element={<Desserts/>} />
+        <Route exact path="/dishes" element={<Dishes/>} />
+        <Route exact path="/dish/*" element={<Dish/>} />
+        <Route exact path="/test" element={<Testing/>} />
         <Route component={Error} />
-      </Switch>
+      </Routes>
     </main>
   );
 }

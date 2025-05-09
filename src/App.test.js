@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import {MemoryRouter} from 'react-router-dom'
+import {MemoryRouter} from 'react-router'
 import App from './App';
 import ReactGa from 'react-ga';
 

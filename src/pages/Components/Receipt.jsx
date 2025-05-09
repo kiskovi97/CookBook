@@ -1,12 +1,12 @@
 import React, { useEffect, useState} from 'react'
 import styles from './SmallReceipt.module.css'
 import ScrollAnimation from 'react-animate-on-scroll'
-import { useHistory } from 'react-router-dom';
+import { useNavigate  } from 'react-router';
 import fetchRecipe from './fetchRecipe';
 
 const Receipt = ({proj, hidden}) => {
-    const history = useHistory();
-    const handleClick = (index) => history.push(index);
+    const navigate = useNavigate();
+    const handleClick = (index) => navigate("/" + index);
 
     const [recipe, setRecipe] = useState(null);
 

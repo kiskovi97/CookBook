@@ -4278,6 +4278,105 @@ var dishOriginal = [
                 name: "Youtube"
             },
         ],
+    },
+    {
+        title:"Lisztmentes Máktorta",
+        link: "https://streetkitchen.hu/green-kitchen/glutenmentes/lisztmentes-maktorta/",
+        dessert: true,
+    },{
+        title:"Kínai hagymás csirke",
+        link: "https://streetkitchen.hu/azsiai-etelek/kinai-hagymas-csirke/",
+        main: true,
+    },{
+        title: "Túrós rízsfelfujt",
+        link: "https://streetkitchen.hu/fantasztikus-desszertek/turos-rizsfelfujt-recept-vanilias-tejfol-meggyragu/",
+        dessert: true,
+    },{
+        title: "Tejszínes-Spenótos krummpli besütve",
+        link: "https://streetkitchen.hu/green-kitchen/szezon/krumplis-etelek/tejszines-spenotos-krumpli-besutve/",
+        main: true,
+    },{
+        title: "Baconfonatban sült sertésszűz",
+        link: "https://streetkitchen.hu/street-kitchen/ujevi-lencsefozelek-baconfonatban-sult-sertesszuzzel/",
+        main: true,
+    },{
+        title: "Almás túrós süti",
+        link: "https://streetkitchen.hu/green-kitchen/szezon/almas-sutik/almas-turos-suti/",
+        dessert: true,
+    },{
+        title: "Őszibarack krémleves",
+        link: "https://streetkitchen.hu/levesek-es-fozelekek/oszibarack-kremleves-fozes-nelkul/",
+        main: true,
+    },{
+        title: "Sárgabarack-krémleves",
+        link: "https://streetkitchen.hu/instant/egyszeru-levesek/vaniliapudingos-sargabarack-kremleves/",
+        main: true,
+    },{
+        title: "Kakós-kókuszos süti",
+        link: "https://streetkitchen.hu/meguszos-sutik/kakaos-kokuszos-bogres-suti/",
+        dessert: true,
+    },{
+        title: "Rákóczi Túrós Babka",
+        details: "túrós babka baracklekvárral",
+        ingredients: [
+            {
+                title: "Kalácshoz:",
+                list: [
+                    "350 g liszt",
+                    "100 ml meleg tej",
+                    "2 tk instant élesztő",
+                    "2 ek barnacukor",
+                    "1 db egész tojás",
+                    "1 db tojássárgája",
+                    "1 csipet só",
+                    "100 g puha vaj",
+                ]
+            },{
+                title: "Töltelék:",
+                list: [
+                    "1 ek barnacukor",
+                    "250 g túró",
+                    "1 csomag vaníliás cukor",
+                    "1 db kisebb citrom reszelt héja",
+                    "ízlés szerint Kb. fél üveg keményebb baracklekvár"
+                ]
+            }
+        ],
+        howToMakeIt: [
+            "A tejet felmelegítjük kb. 1 tk cukorral, majd elkeverjük benne az élesztőt, és hagyjuk felfutni.",
+            "Ez idő alatt a lisztet a sóval, maradék cukorral elkeverjük, hozzáadjuk a tojásokat, majd az élesztős keveréket is, és jól összekeverjük. Ezután a vajat apránként hozzáadva robotgépben a tésztát alaposan összedolgozzuk. Ha kész, letakarjuk, és meleg helyen a duplájára kelesztjük.",
+            "Míg kel, a túrót a cukorral, vaníliás cukorral és reszelt citromhéjjal összekeverjük, és felhaszálásig a hűtőben állni hagyjuk.",
+            "Amint a tészta megkelt, lisztezett munkalapra borítjuk, finoman átgyúrjuk és kb. 30x40 cm-es téglalappá nyújtjuk.",
+            "Rákanalazzuk a lekvárt és a túrót, majd a végeit kissé visszahajtva szorosan feltekerjük.",
+            "Az így keletkezett tekercset egy éles késsel hosszában kettévágjuk és a vágott felükkel felfelé fordítjuk. Ezután keresztezzük a tészta két felét és összefonjuk, majd egy sütőpapírral bélelt kenyérformába helyezzük. Ezt követően lefedve még 20-30 percig pihentetjük.",
+            "180 C fokra előmelegített sütőben kb. 40 perc alatt készre sütjük. Ha nagyon barnulna, érdemes lefedni alufóliával, hogy belül is megsüljön és a teteje se égjen meg.",
+            "Tipp: ha nem érezzük elég édesnek vagy szaftosnak, készíthetünk sűrű cukorszirupot és azzal nyakon öntve fogyaszthatjuk."
+        ],
+        image: null,
+        sources: [
+            {
+                link: "https://cookpad.com/hu/receptek/15726793-rakoczi-turos-babka",
+                name: "Cookpad"
+            },
+        ],
+    },
+    {
+        title: "Pudingos Almaleves",
+        link: "https://streetkitchen.hu/instant/egyszeru-levesek/pudingos-almaleves-recept/",
+        main: true,
+    },{
+        title: "Pesztós csirkemell",
+        link: "https://streetkitchen.hu/hust-hussal/zold-pesztos-csirke/",
+        main: true,
+    },
+    {
+        title: "Vaníliás grizpuding",
+        link:"https://streetkitchen.hu/bespajzolva/vanilias-grizpuding/",
+        dessert: true,
+    },{
+        title: "Epres tejberízs",
+        link: "https://streetkitchen.hu/a-legjobb-reggelik/epres-tejberizs-recept/",
+        dessert: true,
     }
 ];
 

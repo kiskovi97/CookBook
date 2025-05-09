@@ -4064,8 +4064,7 @@ var dishOriginal = [
     },{
         title: "Sárgadinnyés-túrós süti",
         link: "https://streetkitchen.hu/fantasztikus-desszertek/sargadinnyes-turos-suti/",
-        dessert: true,  
-        main: true, 
+        dessert: true,
     },{
         title: "Ázsiai brokkolis csirkemell",
         link: "https://streetkitchen.hu/street-kitchen/azsiai-brokkolis-csirkemell/",

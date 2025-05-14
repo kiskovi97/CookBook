@@ -26,6 +26,7 @@ jobs:
 
     - name: Install dependencies and Build
       run: |
+        echo "Building with env: $REACT_APP_AWS_ACCESS_KEY_ID"
         npm install
         npm run build
       env:

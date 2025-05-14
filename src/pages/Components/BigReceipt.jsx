@@ -1,6 +1,6 @@
 import styles from './Receipt.module.css'
 import ScrollAnimation from 'react-animate-on-scroll'
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import fetchRecipe from './fetchRecipe';
 
 
@@ -42,15 +42,20 @@ function BigReceipt({ proj }) {
 
                     </div>
                     <div className={styles.image}>
-                        <img src={recipe.imageUrl} hidden={!recipe.imageUrl} alt="" className={styles.background} />
+                        <img src={recipe.image} hidden={!recipe.image} alt="" className={styles.background} />
                     </div>
                 </div>
                 <div className={styles.description}>
                     <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
                         <div>
-                            <h3>Ingredients</h3>
                             <div>
-                                {recipe.ingredients?.map(element => (<li>{element}</li>))}
+                                {recipe.ingredients?.map(station => (
+                                <div>
+                                    <h3>{station.title}</h3>
+                                    <div>
+                                        {station.list?.map(element => (<li>{element}</li>))}
+                                    </div>
+                                </div>))}
                             </div>
                         </div>
                     </ScrollAnimation>

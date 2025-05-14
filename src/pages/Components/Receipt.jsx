@@ -33,7 +33,7 @@ const Receipt = ({proj, hidden}) => {
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce duration={0.6} offset={0}>
                     <div className={styles.receipt} onClick={() => handleClick("dish/" + index)} >
                         <div className={styles.image} >
-                            <img src={recipe.imageUrl} hidden={!recipe.imageUrl} alt="" className={styles.background} />
+                            <img src={recipe.image} hidden={!recipe.image} alt="" className={styles.background} />
                         </div>
                         <div className={styles.description} >
                             <div className={styles.title}>{recipe.title}</div>

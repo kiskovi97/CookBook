@@ -25,14 +25,17 @@ async function extractRecipeStreetKitchen(url) {
         const tags = Array.from(doc.querySelectorAll('.tags-list a'))
                 .map(step => step.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
         const imageMeta = doc.querySelector('meta[property="og:image"]');
-        const imageUrl = imageMeta ? imageMeta.getAttribute('content') : null;
+        const image = imageMeta ? imageMeta.getAttribute('content') : null;
 
         // Creating JSON formatted recipe
         const data = {
             title,
-            ingredients,
+            ingredients: [{
+                title: "Ingredients",
+                list: ingredients
+            }],
             instructions,
-            imageUrl,
+            image,
             details,
             tags
         };

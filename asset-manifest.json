@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CookBook/static/css/main.446b8e50.css",
-    "main.js": "/CookBook/static/js/main.e90afc03.js",
+    "main.js": "/CookBook/static/js/main.b3f80f22.js",
     "static/js/488.fa73cdf6.chunk.js": "/CookBook/static/js/488.fa73cdf6.chunk.js",
     "static/media/image_szuz.webp": "/CookBook/static/media/image_szuz.d527164f456f289e7634.webp",
     "static/media/image_babka.webp": "/CookBook/static/media/image_babka.40de2242ef3c096b6aa6.webp",
@@ -99,11 +99,11 @@
     "static/media/github.svg": "/CookBook/static/media/github.237cbb85b0ab3f1af1fc131e57429d91.svg",
     "index.html": "/CookBook/index.html",
     "main.446b8e50.css.map": "/CookBook/static/css/main.446b8e50.css.map",
-    "main.e90afc03.js.map": "/CookBook/static/js/main.e90afc03.js.map",
+    "main.b3f80f22.js.map": "/CookBook/static/js/main.b3f80f22.js.map",
     "488.fa73cdf6.chunk.js.map": "/CookBook/static/js/488.fa73cdf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.446b8e50.css",
-    "static/js/main.e90afc03.js"
+    "static/js/main.b3f80f22.js"
   ]
 }

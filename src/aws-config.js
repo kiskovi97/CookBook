@@ -1,12 +1,11 @@
 import AWS from "aws-sdk";
 
 AWS.config.update({
-    region: "us-east-1",
-    accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.REACT_APP_AWS_ACCESS_KEY_SECRET,
+  region: 'us-east-1',
+  credentials: new AWS.CognitoIdentityCredentials({
+    IdentityPoolId: 'us-east-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+  }),
 });
-
-console.warn("access key: " +  process.env.REACT_APP_AWS_ACCESS_KEY_ID);
 
 export const initAWS = () =>
   new Promise((resolve, reject) => {

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CookBook/static/css/main.0eaba70d.css",
-    "main.js": "/CookBook/static/js/main.89a0fe3a.js",
-    "static/js/488.a3fa98fe.chunk.js": "/CookBook/static/js/488.a3fa98fe.chunk.js",
+    "main.css": "/CookBook/static/css/main.446b8e50.css",
+    "main.js": "/CookBook/static/js/main.b078d2bb.js",
+    "static/js/488.d43c2bea.chunk.js": "/CookBook/static/js/488.d43c2bea.chunk.js",
     "static/media/image_szuz.webp": "/CookBook/static/media/image_szuz.d527164f456f289e7634.webp",
     "static/media/image_babka.webp": "/CookBook/static/media/image_babka.40de2242ef3c096b6aa6.webp",
     "static/media/image_pudingcake.webp": "/CookBook/static/media/image_pudingcake.3d0a128686e595e88b51.webp",
@@ -98,12 +98,12 @@
     "static/media/instagram.svg": "/CookBook/static/media/instagram.beada15c52d0726d1c9edad44bd629a0.svg",
     "static/media/github.svg": "/CookBook/static/media/github.237cbb85b0ab3f1af1fc131e57429d91.svg",
     "index.html": "/CookBook/index.html",
-    "main.0eaba70d.css.map": "/CookBook/static/css/main.0eaba70d.css.map",
-    "main.89a0fe3a.js.map": "/CookBook/static/js/main.89a0fe3a.js.map",
-    "488.a3fa98fe.chunk.js.map": "/CookBook/static/js/488.a3fa98fe.chunk.js.map"
+    "main.446b8e50.css.map": "/CookBook/static/css/main.446b8e50.css.map",
+    "main.b078d2bb.js.map": "/CookBook/static/js/main.b078d2bb.js.map",
+    "488.d43c2bea.chunk.js.map": "/CookBook/static/js/488.d43c2bea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eaba70d.css",
-    "static/js/main.89a0fe3a.js"
+    "static/css/main.446b8e50.css",
+    "static/js/main.b078d2bb.js"
   ]
 }

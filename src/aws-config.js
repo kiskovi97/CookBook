@@ -8,6 +8,17 @@ AWS.config.update({
 
 console.warn("access key: " +  process.env.REACT_APP_AWS_ACCESS_KEY_ID);
 
-const dynamodb = new AWS.DynamoDB.DocumentClient();
+export const initAWS = () =>
+  new Promise((resolve, reject) => {
+    AWS.config.credentials.get((err) => {
+      if (err) {
+        console.error('Error retrieving AWS credentials:', err);
+        reject(err);
+      } else {
+        console.log('AWS credentials loaded:', AWS.config.credentials);
+        resolve();
+      }
+    });
+  });
 
-export default dynamodb;
+export const dynamodb = new AWS.DynamoDB.DocumentClient();

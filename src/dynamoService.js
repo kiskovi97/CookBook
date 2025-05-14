@@ -1,7 +1,9 @@
-import dynamodb from "./aws-config.js";
+import { dynamodb, initAWS } from "./aws-config.js";
 
 export const fetchData = async () =>
 {
+    await initAWS();
+    
     const params = {
         TableName: "Dishes",
     }

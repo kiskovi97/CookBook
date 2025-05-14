@@ -6,6 +6,8 @@ AWS.config.update({
     secretAccessKey: process.env.REACT_APP_AWS_ACCESS_KEY_SECRET,
 });
 
+console.warn("access key: " +  process.env.REACT_APP_AWS_ACCESS_KEY_ID);
+
 const dynamodb = new AWS.DynamoDB.DocumentClient();
 
 export default dynamodb;

@@ -12,6 +12,7 @@ var DBDishes = () =>
     const fetchAndSetData = async () => {
         const result = await fetchData();
         if (result.success) {
+            console.log(result.data);
             setDBData(result.data);
         } else {
             alert("Error Fetching Data: " + result.message);

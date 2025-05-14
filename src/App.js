@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Desserts from './pages/Desserts.jsx';
 import Dishes from './pages/Dishes.jsx';
 import DBDishes from './pages/DBDishes.jsx';
+import DBDish from './pages/DBDish.jsx';
 import Testing from './pages/Testing.jsx';
 import Dish from './pages/Dish.jsx';
 import ReactGa from 'react-ga';
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="/desserts" element={<Desserts/>} />
         <Route exact path="/dishes" element={<Dishes/>} />
         <Route exact path="/dbdishes" element={<DBDishes/>} />
+        <Route exact path="/dbdish/*" element={<DBDish/>} />
         <Route exact path="/dish/*" element={<Dish/>} />
         <Route exact path="/test" element={<Testing/>} />
         <Route component={Error} />

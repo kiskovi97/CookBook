@@ -14,7 +14,6 @@ export const initAWS = () =>
         console.error('Error retrieving AWS credentials:', err);
         reject(err);
       } else {
-        console.log('AWS credentials loaded:', AWS.config.credentials);
         resolve();
       }
     });

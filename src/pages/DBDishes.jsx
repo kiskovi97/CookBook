@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
-import Receipt from './Components/Receipt'
+import DBReceipt from './Components/DBReceipt'
 import { useState } from 'react';
 import { fetchData } from '../dynamoService';
 
@@ -25,7 +25,7 @@ var DBDishes = () =>
     
     return(<div className={styles.page}>
         <div className={gStyles.grid_big}>
-            {dbData.map((station, index) => (<Receipt proj={station} index={index} />))}
+            {dbData.map((item) => (<DBReceipt proj={item} />))}
         </div>
     </div>)
 }

@@ -15,12 +15,12 @@ async function extractRecipeStreetKitchen(url) {
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
 
-        // Extracting recipe title, ingredients, and steps using class names
+        // Extracting recipe title, ingredients, and instructions using class names
         const title = doc.querySelector('.main .entry-title').textContent.trim();
         const details = doc.querySelector('.entry-content .entry-lead').textContent.trim();
         const ingredients = Array.from(doc.querySelectorAll('.ingredients-main .ingredients-content dd'))
             .map(ing => ing.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
-        const steps = Array.from(doc.querySelectorAll('.the-content-div p'))
+        const instructions = Array.from(doc.querySelectorAll('.the-content-div p'))
             .map(step => step.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
         const tags = Array.from(doc.querySelectorAll('.tags-list a'))
                 .map(step => step.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim());
@@ -31,7 +31,7 @@ async function extractRecipeStreetKitchen(url) {
         const data = {
             title,
             ingredients,
-            steps,
+            instructions,
             imageUrl,
             details,
             tags

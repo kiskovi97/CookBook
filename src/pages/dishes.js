@@ -127,7 +127,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "Az olajon lepiritjuk a bacont, a fokhagymával átforgatjuk.",
             "Meghintjük a liszttel, majd a tejszínnel és a tejjel felöntjük."
             +" Hozzáadjuk a felvágott ujhagymát.",
@@ -165,7 +165,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A kukorica levét leöntjük.",
             "A majonézt kikeverjük a mustárral és a tejföllel, majd az egészet összekeverjük a kukoricával.",
             "Csirkemellett felszeleteljük, fűszerezzük ízlés szerint és megsütjük kevés olajon.",
@@ -197,7 +197,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A csirkét feldaraboljuk és fűszerezzük.",
             "A hagymát és a krumplit megpucoljuk, majd feldaraboljuk és a tepsibe helyezzük,"
             +" majd héjastól belerakjuk a fokhagymagerezdeket.",
@@ -243,7 +243,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A paprikát, a hagymákat és a csirkemellet felvágjuk kis szeletekre,"
             +" majd belehelyezzük a kevés olajjal kikent serpenyőbe.",
             "A tölteléket fűszerezzük, és rányomjuk vagy szeljük a fokhagymát",
@@ -288,7 +288,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A csirkét feldaraboljuk, megsózzuk, borsózzuk, majd bekenjük a zúzott fokhagymával.",
             "Serpenyőben felolvasztunk egy evőkanál vajat, majd belehelyezzük a csirkét és elkezdjük sütni.",
             "A maradék vajat felolvasztjuk, belekeverjük a mézet és a naracslevet,"
@@ -315,7 +315,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A csirkét lapos szeletekre vágjuk, majd fűszerezzük sóval, borssal és fokhagymával.",
             "Egy tepsit kivajazunk, majd belehelyezzük a csirkemell szeleteket úgy, hogy ne fedjék egymást.",
             "A tespit behelyezzük az előmelegített sütőbe és 10-20 percig sütjük.",
@@ -353,7 +353,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A húst megfűszerezzük és összegyúrjuk, majd gombócokat gyúrunk belőle"
             +" (nagyobbakat, mint amekkora húst szeretnénk a buciba, mert össze fog esni).",
             "A szalonnákat olajozatlan serpenyőbe helyezzük és hagyjuk, hogy megpiruljanak"
@@ -391,7 +391,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "Egy fej vöröshagymát 8 evőkanál olajon üvegesre pirítunk, majd hozzáteszünk 3 gerezd fogkagymát."
             +" Sóval, borssal ízesítjük. Ha sűríteni szeretnénk, a hagymára tehetünk 1-2 evőkanál lisztet, "
             + "majd hozzáadjuk a spenótot.",
@@ -433,7 +433,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A felkockázott és sóval, borssal, fokhagymával fűszerezett csirkemellett zsiradékban fehéredésig sütjük.",
             "Hozzáadjuk a babot, a kukoricát és a felszeletelt hagymát.",
             "Hozzáadjuk a sűrített paradicsomot és fűszerezzük őrölt köménnyel, cayenne borssal és petrezselyemmel."
@@ -464,7 +464,7 @@ var dishOriginal = [
                 ]
             },
         ],   
-        howToMakeIt: [
+        instructions: [
             "A tésztát kifőzzük.",
             "A vöröshagymát apóra vágjuk, megdinszteljük.",
             "Hozzáadjuk a tonhalkonzervet (olaj nélkül).",
@@ -505,7 +505,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A tojássárgákhoz adom a porcukrot, a lisztet, a vaníliát, kb."
             +" 2 dl tejet és csomómentesre keverem. Mikor ezzel megvagyok, felöntöm a maradék tejjel,"
             +" tűzhelyre teszem és folyamatos kevergetés mellett kiforralom.",
@@ -538,7 +538,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A háztartási kekszet apró darabokra törjük.",
                 "A cukrot karamellizáljuk.",
                 "Amikor felolvadt, beleöntjük a tejszínt, és addig kevergetve főzzük,"
@@ -574,7 +574,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "Bekapcsoljuk a sütőt, egy közepes nagyságú tepsit sütőpapírral kibélelünk, vagy kikenjük.",
                 "Az 5 dkg vajat mikróban megpuhítjuk, bele a 25 dkg cukrot, 1 tojást, 1 cs."
                 +" sütőport és a citromlét, amit a sütőporra locsolunk, attól felpezseg."
@@ -613,7 +613,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A tejet felmelegítjük.",
                 "A mazsola és a tojás kivételével minden alapanyagot összekeverünk egy tálban.",
                 "A tojásokat szétválasztjuk. A fehérjét külön tálban habbá verjük."
@@ -661,7 +661,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A cukrot összekeverjük az élesztővel addig, amíg folyós nem lesz.",
                 "A kézmeleg tejet hozzáöntjük és addig keverjük, amíg az összes cukor fel nem oldódik.",
                 "Fél kiló lisztet hozzáöntünk és addig gyúrjuk amíg kemény nem lesz.",
@@ -708,7 +708,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "Fémtálban, gőzfürdő fölött, folyamatosan kevergetve megolvasztjuk"
                 +" a vajat és a csokit, amíg szép fényes krémet kapunk.",
                 "A tálat levesszük a gőzről, majd egymás után hozzákeverjük a száraz anyagokat:"
@@ -752,7 +752,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A leveles tésztát a papírról lehúzzuk, majd lisztezett munkalapra terítjük."
                 +" A pudingport a tejjel és a cukrokkal felfőzzük, majd kihűtjük.",
                 "A val, a mazsolával, a narancs reszelt héjával majd levével ízesítettem."
@@ -794,7 +794,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "Karamell készítése: a 4 ek vajat felolvasztjuk, félretesszük.",
                 "Egy teflonos edényt a tűzre teszünk, beleöntjük a kristálycukrot és karamellizáljuk."
                 +" Ahogy olvadni kezd a cukor, mérsékeljük kissé a hőfokot"
@@ -840,7 +840,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "Az összes hozzávalót beletesszük a turmixba, és alaposan összemixeljük."
                 +" Érdemes 2 részletben hozzáadni a tejet és a lisztet, így egyszerűbb, hatékonyabb.",
                 "Felforrósítunk és beolajozunk egy teflon serpenyőt."
@@ -891,7 +891,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A palacsintatészta elkészítéséhez keverőtálba töltjük a tejet."
                 +" Hozzáadjuk a tojást, az olajat, a csipet sót,"
                 +" és alaposan összekeverjük. Használhatunk hozzá robotgépet is.",
@@ -940,7 +940,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "Öntsön tejet egy tálba, adjon hozzá vaníliás cukrot,"
                 +" 2 tojássárgáját és habverővel keverje össze."
                 +" Vágja a tekercseket negyedekre és áztassa tejbe."
@@ -978,7 +978,7 @@ var dishOriginal = [
                     ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A rizst, a tejjel, a vízzel, a csipet sóval,"
                 +" a vaníliával gyakori kevergetés mellet puhára főzöm."
                 +" Tejberizs állagúra, majd a tűzhelyről levéve hozzákeverem a cukrot,"
@@ -1037,7 +1037,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A szószhoz minden hozzávalót összekeverünk és félrerakjuk.",
                 "A csirkéket felszeleteljük, fűszerezzük,"
                 +" bevonjuk keményítővel majd a felvert tojásokkal összekeverjük.",
@@ -1082,7 +1082,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A tésztát megfőzöm. Egy wokban felhevítem az olajat, majd a megfőtt tésztát hozzáadom."
                 +" Ehhez hozzáöntöm a szójaszószt, a felaprított újhagymát és összepirítom.",
                 "Mikor a tészta elkészült kiszedem, felforrósítom a húshoz szánt olajat,"
@@ -1117,7 +1117,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkét felszeletlejük és egy kiolajozott sütőbe elhelyezzük.",
                 "Az almát és a sajtot felkockázzuk, majd rárakjuk a tepsiben lévő csirkékre.",
                 "Az édesburgonyát feldaraboljuk és egy másik kiolajozott sütőbe rakjuk. Sóval,"
@@ -1166,7 +1166,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A piskótához a tojásokat szétválasztjuk, a sárgáját kikeverjük a cukorral,"
                 +" a vaníliás cukorral, majd hozzáadjuk a lisztet, a kakaót és a sütőport."
                 +" A fehérjét a sóval habbá verjük, és beleforgatjuk,"
@@ -1225,7 +1225,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A kekszet a dióval és mogyoróval apróra daráljuk, "
                 +" majd hozzáöntjük a felolvasztott vajat. Alaposan összedolgozzuk.",
                 "Tortaforma aljára és szélére szétegyengetjük a masszát lehetőleg egyenletesen, "
@@ -1273,7 +1273,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkemellett apró darabokra vágjuk, fűszerezzük, majd olajban aranybarnára sütjük",
                 "Hozzáadjuk a felkarikázott újhagymát és a reszelt fokhagymát, és tovább pirítjuk",
                 "A tésztát kifőzzük, majd összekevrjük a csirkével és a hagymákkal.",
@@ -1306,7 +1306,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "kb. 2 dl hideg tejben csomómentesre keverem a pudingport és a cukrot,"
                 +" majd hozzáöntöm a maradék tejet és folyamatos kevergetés melett sűrű pudingot főzök,"
                 +" majd leveszem a tűzhelyről és hagyom kihűlni.",
@@ -1345,7 +1345,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A tej egy részében elkeverem a tojássárgáját, a lisztet, az eritritet (vagy porcukrot),"
                 +" a  vaníliát, amikor csomómentes, hozzáadom a maradék tejet és tűzhelyre téve,"
                 +" folyamatos kevergetés mellett kiforralom.",
@@ -1396,7 +1396,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "Az almát, az aszaltszilvát és a sajtokat kis darabokra szeleteljük."
                 +" A trapistából egy kis adagot meghagyunk és lereszeljük.",
                 "A csirkemellett vékony szeletekre vágjuk és beborsózzuk. "
@@ -1440,7 +1440,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A szűzérmét újnyi szeletekre vágjuk, Majd a hagymát és a fokhagymát felszeleteljük",
                 "Egy serpenyőben olajon megpirítjuk a hagymát."
                 +" Ha megpirult belerakjuk a babérlevelet ,a pirospaprikát és a felszeletelt szűzérmét."
@@ -1469,7 +1469,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A hagymákat vajban és olajban megkaramellizáljuk. (kb 20 perc) " 
                 +"Utána öntünk rá tejszínt, adunk hozzá bazsalikomot, sót, borsot és összefőzzük.",
                 "A tésztát feltesszük főzni, majd miután kifőtt, a főzővízből adjunk hozzá a szószhoz. "
@@ -1497,7 +1497,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Az almát lereszeljük, és a levét kinyomjuk egy serpenyőbe. " 
                 +"Hozáadunk cukrot, és tűz felett karamelizáljuk.",
                 "He elég barna már a karamell hozáadjuk a vajat, a tejszínt és a fűszereket."
@@ -1527,7 +1527,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Az almát meghámozom, nagy lyukú sajtreszelőn lereszelem – nem csavarom ki – "
                 +"majd rögtön hozzákeverem a mákot, a cukrot, a vaníliás cukrot, a tejet, az olajat,"
                 +" a tojást, végül mehet bele a sütőporral elkevert liszt és egy vajjal kikent,"
@@ -1572,7 +1572,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkemellett vastagabb szeletkere vágjuk, és az egyik oldalukat késsel megcsíkozzuk. "
                 +" A szeleteket a csíkozott oldalával felfelé belehelyezzük egy olajjal kikent tepsibe.",
                 "A spenótot kevés olajon megpároljuk, hozzáadjuk a felszeletelt vagy préselt fokhagymát,"
@@ -1621,7 +1621,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Az almát nagy lyukú reszelőn lereszeljük, "
                 +"majd egy serpenyőben a fahéjjal közepes lángon addig pároljuk, "
                 +"amíg a nedvesség nem távozik. Az aszalt szilvát kis kockákra vágjuk. "
@@ -1668,7 +1668,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkét felvágjuk nagyobb szeletekre, majd hozzáadjuk a hozzávalókat és hagyjuk kicsit állni.",
                 "Bő olajban aranybarnára sütjük a csirkéket figyelve arra hogy ne mozgassuk, mert lejön róluk a bunda.",
                 "Szószhoz összekeverjük a hozzávalókat és kicsit összefőzzük, majd megforgatjuk benne a csirke falatokat."
@@ -1696,7 +1696,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Felszeleteljük a csirkemellet, majd sóval és borssal fűszerezzük. "
                 +"A tejfölt, vegetát, cayenne borsot és a fokhagymát összekeverjük, majd bepácoljuk vele a csirkemelleket. "
                 +"Ezt ha van időnk tegyük el a hűtőbe pihenni, hogy a hús átvegye a pác ízét igazán.",
@@ -1727,7 +1727,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A hozzávalókat egy tálban összekeverjük, sóval és fehérborsal fűszerezzük."
             ],
         sources: [
@@ -1772,7 +1772,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A tésztához a körtéket megmossuk és kisebb kockákra vágjuk."
                 +" A vajat habosra keverjük a cukorral, majd belekeverjük a tojásokat,"
                 +" a lisztet, a szódabikarbónát, a fűszereket és a fele körtekockákat. "
@@ -1824,7 +1824,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A szószhoz egy tepsibe belerakjuk a hozzávalókat felszeletelve, "
                 +"leöntjük olajjal és berakjuk a sütőbe 40 - 50 percre.",
                 "A tésztát kifőzzük sós vízben. "
@@ -1855,7 +1855,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Felrakunk 1 liter vizet főni, és közben 5 dkg vajon a rizset megpirítjuk.",
                 "A forró vízben feloldjuk a húsleveskockát. "
                 +"Ha a rizs megpirult akkor merőkanalanként hozzáadjuk a vizet a rízshez."
@@ -1890,7 +1890,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A tojásfehérjét a porcukorral felhabosítom, hozzá forgatom a lisztet, a sütőport,"
                 +" a kókuszreszeléket, majd egy kivajazott/lisztezett tepsibe öntöm és 170 fokra előmelegített sütőben,"
                 +" légkeveréses fokozaton kb. 20 perc alatt készre sütöm.",
@@ -1927,7 +1927,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Összekeverjük a mustárt, a tejfölt, az ételízesítőt, a borsot, a reszelt fokhagymát és egy kis olajat.",
                 "A csirkemelleket felszeleteljük és egy olajjal kikent tepsibe helyezzük. "
                 +"Sóval kicsit megszórjuk majd ráöntjük a szószt és a lágy reszelt sajtot."
@@ -1974,7 +1974,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkemelleket bevagdossuk úgy hogy meg lehessen tölteni. "
                 +"Utána kicsit megklopfoljuk majd bepácoljuk a fűszerekkel és egy kevés olajjal.",
                 "A lilahagymát és szalonnát felszeleteljük és megpirítjuk. "
@@ -2017,7 +2017,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A sült madártej elkészítéséhez a tojásokat kettéválasztjuk."
                 +" A fehérjét kemény habbá verjük a cukor egyik felével. "
                 +"A tojássárgájákat a cukor másik felével kihabosítjuk,"
@@ -2066,7 +2066,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A kekszet apróra daráljuk, "
                 +" majd hozzáöntjük a felolvasztott vajat. Alaposan összedolgozzuk.",
                 "Tortaforma aljára és szélére szétegyengetjük a masszát lehetőleg egyenletesen, "
@@ -2116,7 +2116,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkemellett felvágjuk szeletekre és klopfolóval kilapítjuk őket. "
                 + "Megfűszerezzük, majd egyesével egy serpenyőben és kevés olajban kisütjük. ",
                 "A kész szeleteket egy sütőpapírral kibélelt tepsibe helyezzük. " 
@@ -2158,7 +2158,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A krumplit felvágjuk hosszukás szeletekre (héját rajta hagyjuk). "
                 +" 5 - 10 percig főzzük meg a darabokat majd egy tálcán hűtsük és szárítsuk egy kicsit.",
                 "Egy keverőtálban összekeverjük a krumplit az olajjal, a fűszerekkel és a keményítővel. "
@@ -2209,7 +2209,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Először a karamell öntettel kezdjük, hogy legyen ideje kihűlni. "
                 +"A cukrot a vízzel együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk. "
                 +"Amikor elérte az aranybarna színt lehúzzuk a tűzről és hozzákeverjük a vajat,"
@@ -2252,7 +2252,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirke felsőcomb filéket megfűszerezzük sóval és brossal, majd vajon megpirítjuk. "
                 + "A kész húsokat vegyük ki a serpenyőből, és a felszeletelt hagymákat pirítsuk kicsit meg.",
                 "A szószhoz keverjük össze a szójaszószt, mézet és a csípős szószt (hot sauce). "
@@ -2287,7 +2287,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkemellet szeletekre vágjuk, kiklopfoljuk majd megfűszerezzük. "
                 +"A szeleteket serpenyőben vagy sütőben elősütjük.",
                 "A brokkolit kiolvasztjuk, vagy ha friss akkor megfőzzük.",
@@ -2344,7 +2344,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A cukrot az élesztővel addig keverjük amíg folyékony nem lesz. "
                 +"Ehhez hozzáöntjük a kézmeleg tejet és addig keverjük amíg a cukor el nem olvad. ",
                 "Ezután hozzáöntjük a liszt felét, a reszelt narancshéjat, a sót, a vajat és a tojást, majd jól összedolgozzuk. "
@@ -2395,7 +2395,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Érdemes ennyi hozzávalóval 2 részletben elkészíteni ezt az ételt",
                 "A hagymát feldaraboljuk és olajon egy kis cukorral megsütjük. "
                 +"Ehhez megy hozzá a feldarabolt fokhagyma, és pár percre rá a felkockázott csirkemell. "
@@ -2446,7 +2446,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A csirkéhez a pácot összekeverjük, és beleszeleteljük a csirkemellett. "
             +"Ezt berakjuk a hűtőbe minimum 1 órára.",
             "Felrakunk 1 liter vizet főni, és közben 5 dkg vajon üvegesre pirítjuk a hagymát, majd hozzáöntve a rizset.",
@@ -2486,7 +2486,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "Az apró kockára vágott hagymát tetszőleges zsiradékon üvegesre pirítom egy kanál cukorral,"
             +" majd hozzáadom a vékony csíkokra vágott csirkemellet és együtt pirítom tovább.",
             "Mikor a csirkemell már szép aranysárgára pirult, hozzáadom a fűszereket, a fokhagymát,"
@@ -2537,7 +2537,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A cukrot az élesztővel addig keverjük amíg folyékony nem lesz. "
                 +"Ehhez hozzáöntjük a kézmeleg tejet és addig keverjük amíg a cukor el nem olvad. ",
                 "Ezután hozzáöntjük a liszt felét, a reszelt narancshéjat, a sót, a vajat és a tojást, majd jól összedolgozzuk. "
@@ -2574,7 +2574,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A húsokat klopfold ki, majd sózd, és borsozd meg. "
             +"A hagymát darabold csíkokra, majd a olajon egy kanál cukorral kezdd el megsütni egy serpenyőben.",
             "A sütőt melegítsd el 180C-ra, hő légkeveréssel."
@@ -2629,7 +2629,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "Vaníliás-narancs: Egy kisebb lábasban simára keverjük a pudingport és a tejet, majd kis lángon sűrűre főzzük."
             +" A tűzről levéve beleforgatjuk a lereszelt narancshéjat és kifacsart narancslevet. Végül hozzáadjuk a mazsolát.",
             "Almás-karamell: A karamell öntethez a cukrot a vízzel együtt egy nagyobb edénybe tesszük és közepes lángon karamellizájuk, "
@@ -2662,7 +2662,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A csirkemellet vékony szeletekre szeleteljük és kiklopfoljuk. " +
             "A paradicsom darabokat apró darabokra vágjuk, majd feldaraboljuk a fetasajtot.",
             "Egy sütőpapírra egymás mellé elhelyezzük a bacon szeleteket úgy, hogy egy kicsit fedjék egymást. "
@@ -2707,7 +2707,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A tésztát kifőzzük, és a vízből 200 ml -t félrerakunk.",
             "A cukkinit felvágjuk darabokra, majd egy mixerbe helyezzük. "
             +"Pisztáciát megpucoljuk és a mandulával együtt a mixerbe rakjuk. "
@@ -2754,7 +2754,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A madártejes panna cotta elkészítéséhez a zselatint elkeverjük kb. 100 ml tejszínben, "
             +"és félretesszük. A maradék tejszínt egy lábasba öntjük, "
             +"mehet hozzá a cukor, a vanília aroma, a rum aroma, valamint a madártejes ital.",
@@ -2788,7 +2788,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A csirkemellett és a húsvétról megmaradt sonkát apró darabokra vágjuk. "
             +"Egy serpenyőben fehéredésig sütjük, majd megfűszerezzük.",
             "A jalapengo-t apró darabokra vágjuk és hozzákeverjük a csirkéhez. "
@@ -2830,7 +2830,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A tésztát megfőzöm, majd leszűrés előtt egy két kanál levet félre rakok."
                 + "A szószhoz való hozzávalókat összekverem (fokhagymát összenyomva) egy edényben és a félretett vízel együtt összefőzöm."
                 +" Ehhez hozzáadom a kifőtt tésztát és összekverem.",
@@ -2867,7 +2867,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "A hagymát nagyon finomra vágjuk. Legjobb, ha aprítóba tesszük.",
                 "A paprikát, a jalapeno-t és a paradicsomot kis kockára vágjuk.",
                 "Egy közepes méretű lábosban kiolvasztjuk a zsírt, "
@@ -2928,7 +2928,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
                 "Először pudingot főzünk, belerakjuk a reszelt citrom héjat, majd teljesen kihűtjük.",
                 "A tésztához a tojásfehérjét a cukor felével kemény habbá verjük, "
                 +"majd egy másik edényben a tojássárgákat a cukor másik felével, "
@@ -2994,7 +2994,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "Az élesztőt és a cukrot addig keverjük amíg fel nem oldódik benne teljesen a cukor. "
                 +"A keverkéhez hozzáadjuk a lisztet, a tojást és a tejet, majd összegyúrjuk. "
                 +"Majd adjuk hozzá a vajat, a narancshéjat és a sót, majd dolgozzuk össze. "
@@ -3043,7 +3043,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A csirkemellet szeletkre vágjuk, fűszerezzük sóval ér borssal, majd elősütjük",
                 "A zöldségeket megmossuk és feldaraboljuk",
                 "Egy tespi alját kiolajozzuk, amjd rétegezve egy sor csirke, egy sor zöldség egy sor sajt következik. "
@@ -3073,7 +3073,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
                 "A mascarponét előmelegítjük kicsit, hogy kenhető legyen. Majd hozzákeverjük a sót, borsot és a szerecsendiót",
                 "A tésztát kinyújtjuk, majd megkenjük ezzel a szószzal. "
                 +"A jalapengo-kat felvágjuk és rárakjuk egyenletesen és nem túl sűrűn a tésztára. Majd az egészet megszórjuk reszelt sajttal",
@@ -3105,7 +3105,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "Az élesztőt és a cukrot addig keverjük amíg fel nem oldódik benne teljesen a cukor. "
             +"A keverkéhez hozzáadjuk a lisztet, a tojást és a tejet, majd összegyúrjuk. "
             +"Majd adjuk hozzá a vajat, a narancshéjat és a sót, majd dolgozzuk össze. "
@@ -3149,7 +3149,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A cukrot megkaramellizáljuk, majd hozzáadjuk a vajat, a mézet és a magokat "
             +"(mi mazsolát is kevertünk bele), összekeverjük és levesszük a tűzről.",
             "Egy tepsit (31 cm-es) kibéleljük sütőpapírral, és az aljára öntjük a pekándiós masszát, kiegyenesítjük és félretesszük.",
@@ -3205,7 +3205,7 @@ var dishOriginal = [
                 ]
             },
         ],
-        howToMakeIt: [
+        instructions: [
             "A tésztát kifőzzük, majd hagyjuk lecsöpögni. "
             +" A szószhoz a hozzávalókat összekeverjük és egy lábasban forrásig melegítjük."
             +"A tésztára ráöntjük és jól összeforgatjuk.",
@@ -3247,7 +3247,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A mustáros tarja elkészítéséhez a hússzeleteket enyhén kiklopfoljuk. "
             +"Ha nincs klopfolónk, nyugodtan használjuk a tenyerünket. Ezután sózzuk, borsozzuk.",
             "A tejszínt egy keverőtálba tesszük. Hozzáadjuk a ketchupot, "
@@ -3296,7 +3296,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A lisztet, keményítőt, szódabikarbonát összekeverjük. Felöntjük vízzel és a vajjal, megfűszerezzük és jól összedolgozzuk.",
             "A csirkét nagyobb szeletekre vágjuk, és belerakjuk a masszába úgy hogy mindre kerüljön elég tészta.",
             "Ezután forró bő olajban kisütjük a hús darabokat figyelve arra hogy ne tapadjanak egymáshoz. "
@@ -3341,7 +3341,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A vajat olvasszuk fel egy tálban, majd keverjük el benne az egész tojásokat egyesével."
             +" Ezután a cukrot adjuk hozzá, majd a sót, a banánokat, végül pedig szitáljuk bele a lisztet és a sütőport.",
             "Az egészből homogén masszát kell keverni. ",
@@ -3399,7 +3399,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "Olívaolajon az apróra vágott hagymát megpirítjuk, majd hozzáadjuk a sárgarépát is.",
             "Amikor a zöldségek megpirultak, a darált marhahúst is beletesszük a serpenyőbe, és megpirítjuk só és bors hozzáadásával.",
             "Miközben pirul a hús, a vékony szeletekre vágott fokhagymát is hozzákeverjük, kevés vörösbor társaságában.",
@@ -3445,7 +3445,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A tojásokat szétválasztjuk, a tojásfehérjét a cukor felével kemény habbá verjük."
             +" Egy másik edényben a vajat a cukorral kikeverjük, majd hozzáadjuk a tojássárgákat,"
             +" a mandulalisztet és a ricottát is. Szépen óvatosan összeforgatjuk a tojásfehérjés habbal.",
@@ -3480,7 +3480,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A csirkéket szeletenként kisütjük olajban, majd megkenjük mustárral és egy kicsit tovább pirítjuk, "
             +"majd egy tálra kihejezzük",
             "A már használt olajban a szalonnát elkezdjük pirítani,"
@@ -3513,7 +3513,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A hagymákat felszeleteljük apróra, majd üvegesre sütjük",
             "A csirkét és a répát felszeleteljük és megpirítjuk a hagymával",
             "Hozzáadjuk a fokhagymát (feldarabolva) és a fűszereket és összesütjük",
@@ -3549,7 +3549,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "Egy tepsit kikenünk vajjal, majd a réteslapokat egyesével (vagy kettesével) megkenjünk vajjal,"
             +" összehajtogatjuk, majd belehelyezzük egymás mellé a tepsibe.",
             "A 200 fokra előmelegített sütőben 10 percig sütjük.",
@@ -3605,7 +3605,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A palacsintatésztához a száraz összetevőket összekeverjük, majd adagovla összekeverjük a tejjel is és csomómentesre keverjük."
             + " A vajat pirítsuk meg, majd öntsük hozzá a keverékhez, majd adjuk hozzá a tojásokat és keverjük az egészet simára."
             + " Adjuk hozzá végül a narancs reszelt héját és a vanília aromát."
@@ -3656,7 +3656,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A csirkét vékony csíkokra vágjuk, fűszerezzük, majd a lisztel beborítjuk.",
             "A vajat felolvasztjuk és olajjal felöntve felhevítjük."
             +" Ebben megsütjük a csíkok mindkét oldalát úgy, hogy szép barna kérge legyen.",
@@ -3701,7 +3701,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A sütőtököt (ketté vágva, kimagozva) és a fokhagymát (tetjét levágva, egyben) sütőben 30 perc alatt elősütjük 180 fokon",
             "A sütőtök és a fokhagyma húsát összeturmixoljuk és ízlés szerint fűszerezzük.",
             "A tésztát kifőzzük és a főző vízből két-három kanállal hozzáadunk a szószhoz.",
@@ -3744,7 +3744,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "Az tésztához az élesztőt és a cukrot elkeverjük, majd miután folyékony lett mehet bele a langyos tej.",
             "Ezután a fél lisztet beleöntjük és összekeverjük. Majd hozzáadjuk a vajat, a tojást, a csipet sót, a tejfölt és a narancshéjat.",
             "Ezután a maradék liszttel is összekeverjük majd olajos kézzel olajos felületen kicsit összegyúrjuk.",
@@ -3796,7 +3796,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "125 g lisztet és 25 g vizet elkeverjük, tűzhelyen 65fokra melegítjük."+
             "Zselé szerű anyagot kapunk, ezt fóliázzuk, és félretesszük hűlni.",
             "Töltelékhez kicsit felfőzzük a csomómentesre kevert tejet, vajat, fahéjat, "
@@ -3840,7 +3840,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "Az alma kivételéve összekeverjük egyenállagúra a hozzávalókat",
             "2 almát kis kockákra vágunk. És belekverjük a tésztába",
             "1 sütőpapírral kibélelt tepsibe beleüntjük a tésztát és a 3. alma szeleteivel díszítjük.",
@@ -3885,7 +3885,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "Az elősütött tököt a fűszerekkel egy aprítógépben vagy botmixerrel lezúzzuk.",
             "Az alaptésztához a vajat összekeverjük a cukorral, kihabosítjuk a tojásokkal,"
             +" majd csomómentesre keverjük a liszttel és a sütőporral. "
@@ -3923,7 +3923,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "Az egész tojásokat a cukorral kikeverjük majd hozzáadjuk az olvasztott vajat és tovább keverjük."
             +" Ezután jöhet bele a tejföl, majd belerakjuk a sütőporos lisztet és ismét homogénre keverjük.",
             "Kibélelünk sütőpapírral egy kis tepsit (20x22 cm) és beleöntjük a tésztát. "
@@ -3964,7 +3964,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A karamellás browniehoz először a karamellaöntetet készítjük el."
             +" A cukrot karamellizáljuk egy edényben, hozzáöntjük folyamatos keverés mellett a tejszínt,"
             +"megvárjuk amíg újra felolvad majd félre húzzuk."
@@ -3998,7 +3998,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A hozzávalókat beletesszük egy tálba és elkeverjük."
             +" A tejet mindenképpen részletekben adagoljátok: egy kis tej, egy kis keverés"
             +" – ha nem így csináljátok, akkor csomós lesz, és a fejetekre kenhetitek az egészet."
@@ -4268,7 +4268,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
         ],
         image: image_chicken_lemon,
         sources: [
@@ -4341,7 +4341,7 @@ var dishOriginal = [
                 ]
             }
         ],
-        howToMakeIt: [
+        instructions: [
             "A tejet felmelegítjük kb. 1 tk cukorral, majd elkeverjük benne az élesztőt, és hagyjuk felfutni.",
             "Ez idő alatt a lisztet a sóval, maradék cukorral elkeverjük, hozzáadjuk a tojásokat, majd az élesztős keveréket is, és jól összekeverjük. Ezután a vajat apránként hozzáadva robotgépben a tésztát alaposan összedolgozzuk. Ha kész, letakarjuk, és meleg helyen a duplájára kelesztjük.",
             "Míg kel, a túrót a cukorral, vaníliás cukorral és reszelt citromhéjjal összekeverjük, és felhaszálásig a hűtőben állni hagyjuk.",

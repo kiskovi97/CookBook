@@ -1,45 +1,33 @@
-import React from 'react'
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
 import Me from './Components/Me'
-import Receipt from './Components/Receipt'
-import dishes from './dishes.js';
+import { useState, useEffect } from 'react';
+import { fetchLastXData } from '../dynamoService';
+import DBReceipt from './Components/DBReceipt.jsx'
 
-class Home extends React.Component {
-    state = {
-        filter: (item) => true,
-        top: true,
-        all: false,
+const Home = () => {
+    const [dbData, setDBData] = useState([]);
+
+    const fetchAndSetData = async () => {
+        const result = await fetchLastXData(5);
+        if (result.success) {
+            console.log(result.data);
+            setDBData(result.data);
+        } else {
+            alert("Error Fetching Data: " + result.message);
+        }
     }
-
-    onAllClicked = () => {
-        var filterFunc = (item) => true;
-        this.setState({ filter: filterFunc, all: true, top: false });
-    }
-
-    onTopClicked = () => {
-        var filterFunc = (item) => true;
-        this.setState({ filter: filterFunc, all: false, top: true });
-    }
-
-    render() {
-        let reverse = [...dishes].reverse();
-        let receipts = reverse.filter(this.state.filter);
-        if (this.state.top)
-            receipts = receipts.slice(0, 5);
-        return (
-            <div className={styles.page}>
-                <Me />
-                <div className={gStyles.grid_big} key="top-recepies">
-                    {receipts.map((station, index) => (<Receipt proj={station} index={index} key={index}/>))}
-                </div>
-            </div>)
-    }
-}
-
-/*<div className={styles.filters}>
-                    <button type="button" onClick={this.onAllClicked} className={this.state.all ? styles.selected:""}>All</button>
-                    <button type="button" onClick={this.onTopClicked} className={this.state.top ? styles.selected:""}>Top 5</button>
-                </div>*/
+    
+     useEffect(() => {
+        fetchAndSetData();
+    }, []);
+    return (
+        <div className={styles.page}>
+            <Me />
+            <div className={gStyles.grid_big} key="top-recepies">
+                {dbData.map((station, index) => (<DBReceipt proj={station}/>))}
+            </div>
+        </div>)
+};
 
 export default Home

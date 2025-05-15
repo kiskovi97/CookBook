@@ -1,14 +1,33 @@
-import React from 'react'
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
-import Receipt from './Components/Receipt'
-import { dishesSorted } from './filters';
+import DBReceipt from './Components/DBReceipt'
+import { useState, useEffect } from 'react';
+import { fetchDataByTag } from '../dynamoService';
 
-var Dishes = () =>
+var Dishes = ({tag}) =>
+{
+    const [dbData, setDBData] = useState([]);
+
+    const fetchAndSetData = async (tag) => {
+        const result = await fetchDataByTag(tag);
+        if (result.success) {
+            console.log(result.data);
+            setDBData([...result.data].sort((first, second) => first.title.localeCompare(second.title)));
+        } else {
+            alert("Error Fetching Data: " + result.message);
+        }
+    }
+    
+     useEffect(() => {
+        fetchAndSetData(tag);
+    }, [tag]);
+
+    return (
     <div className={styles.page}>
         <div className={gStyles.grid_big}>
-            {dishesSorted.map((station, index) => (<Receipt proj={station} index={index} />))}
+            {dbData.map((station) => (<DBReceipt proj={station} index={station.id} />))}
         </div>
-    </div>
+    </div>);
+}
 
 export default Dishes

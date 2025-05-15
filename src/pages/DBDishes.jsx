@@ -5,6 +5,7 @@ import DBReceipt from './Components/DBReceipt'
 import { useState } from 'react';
 import { fetchData } from '../dynamoService';
 import AddDishButton from "./Components/AddDishButton.jsx";
+import AddAllDishButton from './Components/AddAllDishButton.jsx';
 
 var DBDishes = () =>
 {
@@ -30,6 +31,7 @@ var DBDishes = () =>
     }, [changed]);
     
     return(<div className={styles.page}>
+        <AddAllDishButton onClickedAndChanged={() => setChanged(true)}/>
         <AddDishButton onClickedAndChanged={() => setChanged(true)}/>
         <div className={gStyles.grid_big}>
             {dbData.map((item) => (<DBReceipt proj={item} />))}

@@ -6,11 +6,11 @@ const DBReceipt = ({proj, hidden}) => {
     const navigate = useNavigate();
     const handleClick = (index) => navigate("/" + index);
 
-    var dishId = proj.dishId;
+    var id = proj.id;
     return (
         <div hidden={hidden}>
             <ScrollAnimation animateIn={"fadeIn"} animateOnce duration={0.6} offset={0}>
-                <div className={styles.receipt} onClick={() => handleClick("dbdish/" + dishId)} >
+                <div className={styles.receipt} onClick={() => handleClick("dbdish/" + id)} >
                     <div className={styles.image} >
                         <img src={proj.image} hidden={!proj.image} alt="" className={styles.background} />
                     </div>

@@ -1,7 +1,7 @@
 import styles from './Page.module.css'
 import BigDBReceipt from './Components/BigDBReceipt'
 
-import { fetchDataNyId } from "../dynamoService.js";
+import { fetchDataById } from "../dynamoService.js";
 import { useEffect, useState } from 'react';
 
 var DBDish = () => {
@@ -10,7 +10,7 @@ var DBDish = () => {
     const [dbData, setDBData] = useState([]);
 
     const fetchAndSetData = async (id) => {
-        const result = await fetchDataNyId(id);
+        const result = await fetchDataById(id);
         if (result.success) {
             console.log(result.data);
             setDBData(result.data);

@@ -29,9 +29,6 @@ jobs:
         echo "Building with env: $REACT_APP_AWS_ACCESS_KEY_ID"
         npm install
         npm run build
-      env:
-        REACT_APP_AWS_ACCESS_KEY_ID: ${{ secrets.REACT_APP_AWS_ACCESS_KEY_ID }}
-        REACT_APP_AWS_ACCESS_KEY_SECRET: ${{ secrets.REACT_APP_AWS_ACCESS_KEY_SECRET }}
 
     - name: Deploy
       run: |

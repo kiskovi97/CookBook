@@ -3,6 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 function BigDBReceipt({ proj }) {
 
+    var imageLink = proj?.image?.replace("static/media", "images");
         return (
             <div className={styles.receipt}>
                 <div className={styles.main}>
@@ -17,7 +18,7 @@ function BigDBReceipt({ proj }) {
 
                     </div>
                     <div className={styles.image}>
-                        <img src={proj.image} hidden={!proj.image} alt="" className={styles.background} />
+                        <img src={imageLink} hidden={!proj.image} alt="" className={styles.background} />
                     </div>
                 </div>
                 <div className={styles.description}>

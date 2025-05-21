@@ -1,11 +1,9 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
 import DBReceipt from './Components/DBReceipt'
 import { useState } from 'react';
 import { fetchData } from '../dynamoService';
-import AddDishButton from "./Components/AddDishButton.jsx";
-import AddAllDishButton from './Components/AddAllDishButton.jsx';
 
 var DBDishes = () =>
 {

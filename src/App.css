@@ -9,6 +9,29 @@
   pointer-events: none;
 }
 
+input {
+    padding: 0.5rem;
+    border:none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0);
+    color: inherit;
+    font-size: inherit;
+}
+
+textarea {
+    color: inherit;
+    font-size: inherit;
+    resize: none;
+    padding: 0.5rem;
+    border:none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0);
+    field-sizing: content;
+    width: 100%;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

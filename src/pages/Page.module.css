@@ -49,6 +49,12 @@ img.minilogo, .minilogo img{
     justify-content: center;
 }
 
+
+.filters input 
+{
+    width: 100%;
+}
+
 .filters button {
     margin-right: 1em;
     border: 0;

@@ -1,6 +1,6 @@
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
-import DBReceipt from './Components/DBReceipt'
+import SmallReceipt from './Components/SmallReceipt'
 import { useState, useEffect } from 'react';
 import { fetchDataByTag } from '../dynamoService';
 
@@ -67,7 +67,7 @@ var Dishes = ({tag}) =>
             onChange={(e) => setFilter(e.target.value)} />
         </div>
         <div className={gStyles.grid_big}>
-            {filtered.map((station) => (<DBReceipt proj={station} index={station.id} />))}
+            {filtered.map((station) => (<SmallReceipt proj={station} index={station.id} />))}
         </div>
     </div>);
 }

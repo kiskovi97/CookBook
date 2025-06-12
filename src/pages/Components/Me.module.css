@@ -61,7 +61,7 @@ div.description .names {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 60em) {
     .person {
         height: 0;
         width: 0;

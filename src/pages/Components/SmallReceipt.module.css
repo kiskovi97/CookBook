@@ -4,13 +4,9 @@
 .receipt {
     margin: 0 auto;
     position: relative;
-    background-color: lightColor;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    border-radius: 2em;
-    width: 30em;
-    max-height: 20em;
-    height: 12em;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
     overflow: hidden;
     filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.11));
 }
@@ -19,19 +15,38 @@
     cursor: pointer;
     filter: drop-shadow(0px 0px 10px #ffffff);
 }
+
 .receipt .image {
+    width: 15em;
+    height: 12em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    overflow: hidden;
     filter: drop-shadow(0px 5px 10px rgba(99, 2, 2, 0.199));
+}
+
+.receipt > div > img.background {
+    width: 15em;
+    height: 12em;
+    object-fit: cover;
+    filter: none ;
 }
 
 .receipt .title {
     font-weight: 700;
     margin-bottom: 0.5em;
-    color: mainColor;
 }
 
 .receipt .description {
     padding: 1em;
-    filter: grayscale(1);
+}
+
+.receipt .description .details {
+    font-size: small;
+    line-height: 20px;
+    max-height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .receipt:hover .description {
@@ -39,52 +54,50 @@
     filter: grayscale(0);
 }
 
-.receipt > div > img.background {
-    width: 12em;
-    height: 12em;
-    object-fit: cover;
-    filter: none ;
-}
-
 @media only screen and (max-width: 80em) {
 
     .receipt {
-        height: 10em;
-        width: 22em;
         font-size: 0.9em;
-    }
-    
-    .receipt > div > img.background {
-        width: 10em;
-        height: 10em;
-    }
-
-    .receipt .description {
-        padding: 0.5em;
-        padding-left: 2em;
-        padding-right: 2em;
-        position: relative;
-    }
-
-    .receipt .title {
-        padding: 0em;
-        height: min-content;
-        margin: 0;
-        position: absolute;
-        top: 45%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
     }
 
     .receipt .details {
         font-size: 0;
         padding: 0;
         margin: 0;
-        height: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 60em) {
+
+    .receipt {
+        display: grid;
+        grid-template-columns: 8rem 1fr;
+        width: 100%;
+    }
+
+    .receipt .image {
+        width: 8em;
+        height: 8em;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        overflow: hidden;
+        filter: drop-shadow(0px 5px 10px rgba(99, 2, 2, 0.199));
+    }
+
+    
+    .receipt .details {
+        font-size: 1rem;
+        max-width: 15rem;
     }
 
     .receipt > div > img.background {
-        width: 10em;
-        height: 10em;
+        width: 8em;
+        height: 8em;
+        object-fit: cover;
+        filter: none ;
     }
 }

@@ -1,5 +1,4 @@
 import styles from './Me.module.css'
-import image from '../../images/foodTemplate.webp'
 import gStyles from '../Grid.module.css'
 import pStyles from '../Page.module.css'
 

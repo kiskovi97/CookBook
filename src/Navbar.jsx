@@ -5,10 +5,9 @@ var Navbar = () =>
 (
     <div className={styles.main}>
         <div className={styles.title}>
-            Husband Material
+            <div> <Link to="/">Husband Material</Link></div>
         </div>
         <div className={styles.tabs}>
-            <div> <Link to="/">Home</Link></div>
             <div> <Link to="/desserts" >Desserts</Link></div>
             <div> <Link to="/dishes" >Main dishes</Link></div>
         </div>

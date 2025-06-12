@@ -2,7 +2,7 @@ import styles from './SmallReceipt.module.css'
 import ScrollAnimation from 'react-animate-on-scroll'
 import { useNavigate  } from 'react-router';
 
-const DBReceipt = ({proj, hidden}) => {
+const SmallReceipt = ({proj, hidden}) => {
     const navigate = useNavigate();
     const handleClick = (index) => navigate("/" + index);
 
@@ -25,4 +25,4 @@ const DBReceipt = ({proj, hidden}) => {
         )
 };
 
-export default DBReceipt
+export default SmallReceipt

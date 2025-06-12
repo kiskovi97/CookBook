@@ -1,11 +1,12 @@
 .grid {
-    display: grid; 
+    display: flex; 
     grid-template-columns: 1fr 1fr;
     padding: 2em;
 }
 
 .grid_big {
     display: flex; 
+    position: relative;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 100em;
@@ -21,13 +22,20 @@
     max-width: 40em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 60em) {
     .grid {
-        display: grid; 
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
         grid-template-columns: 1fr;
     }
 
     .grid_big {
         gap: 2em;
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
     }
 }

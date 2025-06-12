@@ -14,11 +14,7 @@
 }
 
 .receipt .main {
-    background-color: mainColor;
-    color: white;
-    background: linear-gradient(-90deg, mainColor 0%, darkestColor 100%);
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-radius: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2em;
@@ -46,7 +42,7 @@
 }
 
 .title {
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     font-weight: 700;
     text-align: start;
 }
@@ -54,10 +50,13 @@
 .receipt .details {
     width: 30em;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .receipt .details a {
-    color: white;
+    color: darkestColor;
     margin-left: 1em;
 }
 
@@ -87,6 +86,15 @@
 .receipt .description > div:nth-child(even) {
     position: relative;
     top: 7em;
+}
+
+.tag {
+    padding: 0.5rem;
+    display: inline;
+    background-color: mainColor;
+    color: white;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 @media only screen and (max-width: 70em) {

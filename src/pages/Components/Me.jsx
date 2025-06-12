@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Me.module.css'
 import image from '../../images/foodTemplate.webp'
 import gStyles from '../Grid.module.css'
@@ -25,9 +24,6 @@ var Me = () =>
                     <a href="https://github.com/kiskovi97" className={pStyles.minilogo}><img src={github} alt="" /></a>
                 </ScrollAnimation>
             </div>
-            <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutDown" className={styles.person} animateOnce>
-                <img src={image} alt="" />
-            </ScrollAnimation>
         </div>
         <div className={styles.description}>
             <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce>

@@ -1,22 +1,13 @@
 @value colors: "./colors.css";
 @value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
 
-.iframe {
-    height: 500px;
-    width: 400px;
-    margin: 0 auto;
-    border-width: 1px;
-    border-style: solid;
-}
-
 .page {
     height: max-content;
     min-height: 90vh;
-    margin: 0;
+    max-width: 90rem;
+    margin: 0 auto;
     text-align: left;
-    background-color: backgroundColor;
     color: darkestColor;
-    background: linear-gradient(90deg, backgroundColor 0%, lightdarkColor 100%);
 }
 
 img.minilogo, .minilogo img{
@@ -25,7 +16,7 @@ img.minilogo, .minilogo img{
     margin: 10pt;
     object-fit: scale-down;
     animation: unset;
-    filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.315));
+    filter: brightness(0%);
 }
 
 .minilogo svg {
@@ -77,6 +68,9 @@ img.minilogo, .minilogo img{
 
 @media only screen and (max-width: 800px) {
 
+    .page {
+        max-width: 90%;
+    }
     .logo, .logo img, .logo svg {
         height: 10em;
         width: 10em;

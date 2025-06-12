@@ -1,40 +1,67 @@
 @value colors: "./pages/colors.css";
 @value backgroundColor, darkestColor, mainColor, lightdarkColor from colors;
 
-.Header {
-    padding-top: 1em;
-    color: white;
-    background-color: mainColor;
-    background: linear-gradient(-90deg, mainColor 0%, darkestColor 100%);
-    margin: 0;
+.main
+{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
 
-.Header.Home {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: darkestColor;
+    overflow: hidden;
 }
 
-.Header ul {
-    padding-left: 0;
-    padding-right: 0;
-    display:table;
-    width: max-content;
-    height: max-content;
-    margin: auto;
+.search {
+    overflow: hidden;
 }
 
-.Header ul a {
-    color: white;
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.tabs a
+{
+    color: darkestColor;
     text-decoration: none;
-    padding: 1em;
-    display:table-cell;
 }
 
-.Header ul li {
-    display:table-cell;
+.tabs a:hover
+{
+    color: mainColor;
 }
 
-.Header ul a:hover {
-    color: white;
-    background-color: darkestColor;
+
+@media only screen and (max-width: 800px) {
+    .tabs {
+        justify-content: space-around;
+    }
+    .main
+    {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .title {
+        width: 0px;
+    }
+
+    .search {
+        width: 0px;
+    }
 }

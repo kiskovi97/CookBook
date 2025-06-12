@@ -10,7 +10,7 @@ body {
   font-family: 'MyFont';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(-90deg, mainColor 0%, darkestColor 100%);
+  background: linear-gradient(-90deg, #F7F0F0 0%, #eec2d6a0 100%);
   line-height: 2em;
   font-size: 18px;
 }

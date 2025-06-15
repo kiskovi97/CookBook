@@ -39,6 +39,10 @@
 
 .receipt .description {
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
 }
 
 .receipt .description .details {
@@ -47,11 +51,6 @@
     max-height: 4rem;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.receipt:hover .description {
-    padding: 1em;
-    filter: grayscale(0);
 }
 
 @media only screen and (max-width: 80em) {
@@ -88,10 +87,19 @@
         filter: drop-shadow(0px 5px 10px rgba(99, 2, 2, 0.199));
     }
 
-    
-    .receipt .details {
-        font-size: 1rem;
+    .receipt .description{
+        padding: 0;
+    }
+
+    .receipt .description .details {
+        font-size: 0.7rem;
         max-width: 15rem;
+        line-height: 0.8rem;
+    }
+
+    .receipt .title {
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 
     .receipt > div > img.background {

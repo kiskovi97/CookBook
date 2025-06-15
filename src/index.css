@@ -15,7 +15,7 @@ body {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 60em) {
   body {
     font-size: 14px;
   }

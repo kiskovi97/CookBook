@@ -9,7 +9,7 @@ const SmallReceipt = ({proj, hidden}) => {
     return (
         <div hidden={hidden}>
             <ScrollAnimation animateIn={"fadeIn"} animateOnce duration={0.6} offset={0}>
-                <Link className={styles.receipt} to={"dbdish/" + id} >
+                <Link className={styles.receipt} to={"/dbdish/" + id} >
                     <div className={styles.image} >
                         <img src={imageLink} hidden={!proj.image} alt="" className={styles.background} />
                     </div>

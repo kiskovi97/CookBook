@@ -1,6 +1,3 @@
-@value colors: "./pages/colors.css";
-@value backgroundColor, darkestColor, mainColor, lightdarkColor from colors;
-
 .main
 {
     margin-left: 2rem;
@@ -18,7 +15,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    color: darkestColor;
+    color: var(--darkestColor);
     overflow: hidden;
 }
 
@@ -38,13 +35,13 @@
 
 .main a
 {
-    color: darkestColor;
+    color: var(--darkestColor);
     text-decoration: none;
 }
 
 .main a:hover
 {
-    color: mainColor;
+    color: var(--mainColor);
 }
 
 

@@ -1,13 +1,10 @@
-@value colors: "./colors.css";
-@value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
-
 .page {
     height: max-content;
     min-height: 90vh;
     max-width: 90rem;
     margin: 0 auto;
     text-align: left;
-    color: darkestColor;
+    color: var(--darkestColor);
 }
 
 img.minilogo, .minilogo img{
@@ -57,11 +54,11 @@ img.minilogo, .minilogo img{
 }
 
 .filters button:hover {
-    background-color: lightColor;
+    background-color: var(--lightColor);
 }
 
 .filters button.selected {
-    background-color: lightdarkColor;
+    background-color: var(--lightdarkColor);
     color: white;
 }
 
@@ -75,8 +72,5 @@ img.minilogo, .minilogo img{
         height: 10em;
         width: 10em;
         object-fit: scale-down;
-    }
-
-    h1, h2, h3 {
     }
 }

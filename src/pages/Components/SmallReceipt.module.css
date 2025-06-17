@@ -1,6 +1,3 @@
-@value colors: "../colors.css";
-@value backgroundColor, darkestColor, mainColor, lightdarkColor, lightColor  from colors;
-
 .receipt {
     margin: 0 auto;
     position: relative;

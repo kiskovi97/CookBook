@@ -1,3 +1,11 @@
+:root {
+  --mainColor: #952547;
+  --darkestColor: #550527;
+  --lightColor: #F7F0F0;
+  --backgroundColor: #F3DE8AA0;
+  --lightdarkColor: #D387ABA0;
+}
+
 @font-face {
   font-family: 'MyFont';
   src: local('MyFont'), url("./fonts/OpenSauceOne-Regular.woff") format('woff');

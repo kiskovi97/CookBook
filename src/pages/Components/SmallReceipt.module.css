@@ -6,6 +6,8 @@
     width: 15em;
     overflow: hidden;
     filter: drop-shadow(0px 5px 5px rgba(34, 34, 34, 0.11));
+    text-decoration: none;
+    color: var(--darkestColor);
 }
 
 .receipt:hover {

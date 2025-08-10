@@ -31,16 +31,21 @@ img.minilogo, .minilogo img{
     object-fit: scale-down;
 }
 
-.filters {
-    padding: 1em;
-    display: flex;
+.sorting {
     justify-content: center;
 }
 
+.filters {
+    position: relative;
+    padding: 1em;
+    justify-content: center;
+}
 
 .filters input 
 {
+    display: block;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .filters button {

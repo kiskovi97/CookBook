@@ -25,11 +25,20 @@ function App() {
   usePageViews();
   return (
     <main className="App">
-      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Navbar search/>}  />
+        <Route exact path="/desserts" element={<Navbar/>} />
+        <Route exact path="/dishes" element={<Navbar/>} />
+        <Route exact path="/all" element={<Navbar/>} />
+        <Route exact path="/dbdish/*" element={<Navbar/>} />
+        <Route exact path="/test" element={<Navbar/>} />
+        <Route element={<Navbar/>} />
+      </Routes>
       <Routes>
         <Route exact path="/" element={<Home/>}  />
         <Route exact path="/desserts" element={<Dishes tag="dessert"/>} />
         <Route exact path="/dishes" element={<Dishes tag="main"/>} />
+        <Route exact path="/all" element={<Dishes tag=""/>} />
         <Route exact path="/dbdish/*" element={<DBDish/>} />
         <Route exact path="/test" element={<Testing/>} />
         <Route element={<Error/>} />

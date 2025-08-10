@@ -19,6 +19,10 @@ export const fetchData = async () =>
 }
 export const fetchDataByTag = async (tag) =>
 {
+    if (!tag)
+    {
+        return await fetchData();
+    }
     await initAWS();
 
     const params = {

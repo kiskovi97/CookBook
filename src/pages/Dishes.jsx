@@ -3,18 +3,27 @@ import gStyles from './Grid.module.css'
 import SmallReceipt from './Components/SmallReceipt'
 import { useState, useEffect } from 'react';
 import { fetchDataByTag } from '../dynamoService';
+import { useLocation } from 'react-router';
 
 var Dishes = ({tag}) =>
 {
     const [dbData, setDBData] = useState([]);
     const [filtered, setFiltered] = useState([]);
     const [filter, setFilter] = useState("");
+    const [orderBy, setOrderBy] = useState("name");
+    const location = useLocation();
 
-    const fetchAndSetData = async (tag) => {
+    const fetchAndSetData = async (tag, orderBy) => {
         const result = await fetchDataByTag(tag);
         if (result.success) {
             console.log(result.data);
-            setDBData([...result.data].sort((first, second) => first.title.localeCompare(second.title)));
+            if (orderBy === "date") {
+                setDBData([...result.data].sort((first, second) => new Date(first.CreationDate) - new Date(second.CreationDate)));
+            } else if (orderBy === "date-desc") {
+                setDBData([...result.data].sort((first, second) => new Date(second.CreationDate) - new Date(first.CreationDate)));
+            } else {
+                setDBData([...result.data].sort((first, second) => first.title.localeCompare(second.title)));
+            }
         } else {
             alert("Error Fetching Data: " + result.message);
         }
@@ -49,22 +58,51 @@ var Dishes = ({tag}) =>
     }
     
      useEffect(() => {
-        fetchAndSetData(tag);
-    }, [tag]);
+        fetchAndSetData(tag, orderBy);
+    }, [tag, orderBy]);
 
     
     useEffect(() => {
         setFiltered(dbData.filter((item) => recipeMatchesFilter(filter, item)));
     }, [dbData, filter]);
 
+    
+    useEffect(() => {
+        if (location && location.search)
+        {
+            const queryString = location.search; // Returns:'?q=123'
+            const params = new URLSearchParams(queryString);
+            if (params)
+            {
+                setFilter(params.get("filter"));
+                return;
+            }
+        }
+        setFilter("");
+    }, [location]);
+
     return (
     <div className={styles.page}>
         <div className={styles.filters}>
-            <input 
-            type="text"
-            placeholder="Search..."
-            value={filter}
-            onChange={(e) => setFilter(e.target.value)} />
+            <div>
+                <input 
+                type="text"
+                id="search"
+                name='search'
+                placeholder="Search..."
+                value={filter}            
+                onChange={(e) => setFilter(e.target.value)} />
+            </div>
+            <div className={styles.sorting}>
+                Order By
+                <select name="orderBy" id="orderBy" onChange={(e) => {
+                    setOrderBy(e.target.value);
+                }}>
+                    <option value="name">Name</option>
+                    <option value="date">Oldest</option>
+                    <option value="date-desc">Newest</option>
+                </select>
+            </div>
         </div>
         <div className={gStyles.grid_big}>
             {filtered.map((station) => (<SmallReceipt proj={station} index={station.id} />))}

@@ -9,7 +9,7 @@ function BigDBReceipt({ proj }) {
                 <div className={styles.main}>
                     <div className={styles.details}>
                         <h1 className={styles.title}>{proj.title}</h1>
-                        <div>
+                        <div className={styles.tags}>
                             {proj.tags?.map(tag => (
                                 <div className={styles.tag}>{tag}</div>))}
                         </div>

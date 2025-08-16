@@ -85,13 +85,20 @@
     top: 7em;
 }
 
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
 .tag {
-    padding: 0.5rem;
+    padding: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: inline;
     background-color: var(--mainColor);
     color: white;
     border-radius: 0.5rem;
-    margin-right: 0.5rem;
 }
 
 @media only screen and (max-width: 70em) {

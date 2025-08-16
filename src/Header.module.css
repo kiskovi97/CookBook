@@ -47,15 +47,20 @@
 
 @media only screen and (max-width: 60em) {
     .tabs {
-        gap: 1rem;
-        justify-content: space-evenly;
+        gap: 0.5rem;
+        justify-content: space-between;
         flex-grow: unset;
+    }
+    .title
+    {
+        max-width: 6rem;
     }
     .main
     {
         margin-left: 0rem;
         margin-right: 0rem;
         justify-content: start;
+        gap: 1rem;
     }
 
     .search {

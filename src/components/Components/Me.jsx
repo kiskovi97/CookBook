@@ -4,32 +4,57 @@ import pStyles from '../Page.module.css'
 
 import insta from '../../logos/instagram.svg'
 import github from '../../logos/github.svg'
-import ScrollAnimation from 'react-animate-on-scroll'
+import { motion } from "framer-motion";
+import Image from 'next/image'
 
 var Me = () =>
     <div className={gStyles.grid + " " + styles.Me}>
         <div className={styles.titleBlock}>
             <div className={styles.frontTitle}>
-                <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce offset={20}>
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    viewport={{ once: true }}
+                    >
                     <div className={styles.title} hidden={!navigator.language.startsWith("en")}>
                         Husband Material
                     </div>
                     <div className={styles.title} hidden={!navigator.language.startsWith("hu")}>
                         Legényfogó
                     </div>
-                </ScrollAnimation>
-                <ScrollAnimation className={styles.logos} animateIn="fadeInLeft" animateOut="fadeOutLeft" offset={180} animateOnce>
-                    <a href="https://www.instagram.com/evilexcuse/" className={pStyles.minilogo}><img src={insta} alt="" /></a>
-                    <a href="https://github.com/kiskovi97" className={pStyles.minilogo}><img src={github} alt="" /></a>
-                </ScrollAnimation>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    viewport={{ once: true }}
+                    >
+                    <a href="https://www.instagram.com/evilexcuse/" className={pStyles.minilogo}>
+                        <Image src={insta.src} alt=""  width={24} height={24}/>
+                    </a>
+                    <a href="https://github.com/kiskovi97" className={pStyles.minilogo}>
+                        <Image src={github.src} alt="" width={24} height={24} />
+                    </a>
+                </motion.div>
             </div>
         </div>
         <div className={styles.description}>
-            <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce>
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                >
                 <h1 hidden={!navigator.language.startsWith("hu")}>"Most már férjhez mehetsz"</h1>
                 <h1 hidden={!navigator.language.startsWith("en")}>"You can get married now"</h1>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" offset={180} animateOnce>
+            </motion.div>
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+            >
                 <div hidden={!navigator.language.startsWith("hu")}>
                     Van egy olyan mondás miszerint, ha egy étel igazán jól sikerül, akkor azt szokás mondani "most már férjhez mehetsz".
                     Mivel mi is megkaptuk ezt már egy párszor, úgy gondoltuk megosztjuk veletek azokat a recepteket,
@@ -43,7 +68,7 @@ var Me = () =>
                 <div className={styles.names}>
                     Gergő & Mark
                 </div>
-            </ScrollAnimation>
+            </motion.div>
         </div>
     </div>
 

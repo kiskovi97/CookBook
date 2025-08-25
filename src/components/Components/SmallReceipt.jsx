@@ -1,15 +1,22 @@
 import styles from './SmallReceipt.module.css'
-import ScrollAnimation from 'react-animate-on-scroll'
-import { Link } from 'react-router'
+
+import { motion } from "framer-motion";
+
+import Link from "next/link";
 
 const SmallReceipt = ({proj, hidden}) => {
 
-    var imageLink = proj?.image?.replace("static/media", "images");
+    var imageLink = proj?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
     var id = proj.id;
     return (
         <div hidden={hidden}>
-            <ScrollAnimation animateIn={"fadeIn"} animateOnce duration={0.6} offset={0}>
-                <Link className={styles.receipt} to={"/dbdish/" + id} >
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                >
+                <Link className={styles.receipt} href={"/dbdish/" + id} >
                     <div className={styles.image} >
                         <img src={imageLink} hidden={!proj.image} alt="" className={styles.background} />
                     </div>
@@ -18,7 +25,7 @@ const SmallReceipt = ({proj, hidden}) => {
                         <div className={styles.details}>{proj.details}</div>
                     </div>
                 </Link>
-            </ScrollAnimation>
+            </motion.div>
         </div>
         )
 };

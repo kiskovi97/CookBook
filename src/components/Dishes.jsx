@@ -1,17 +1,21 @@
+'use client'
+
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
 import SmallReceipt from './Components/SmallReceipt'
 import { useState, useEffect } from 'react';
 import { fetchDataByTag } from '../dynamoService';
-import { useLocation } from 'react-router';
+import { useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 var Dishes = ({tag}) =>
 {
+    const searchParams = useSearchParams();
     const [dbData, setDBData] = useState([]);
     const [filtered, setFiltered] = useState([]);
     const [filter, setFilter] = useState("");
     const [orderBy, setOrderBy] = useState("name");
-    const location = useLocation();
+    const location = useRouter();
 
     const fetchAndSetData = async (tag, orderBy) => {
         const result = await fetchDataByTag(tag);
@@ -68,13 +72,12 @@ var Dishes = ({tag}) =>
 
     
     useEffect(() => {
-        if (location && location.search)
+        if (searchParams)
         {
-            const queryString = location.search; // Returns:'?q=123'
-            const params = new URLSearchParams(queryString);
-            if (params)
+            const filter = searchParams.get("filter") ?? "";
+            if (filter)
             {
-                setFilter(params.get("filter"));
+                setFilter(filter);
                 return;
             }
         }
@@ -105,7 +108,7 @@ var Dishes = ({tag}) =>
             </div>
         </div>
         <div className={gStyles.grid_big}>
-            {filtered.map((station) => (<SmallReceipt proj={station} index={station.id} />))}
+            {filtered.map((station) => (<SmallReceipt key={station.id} proj={station} index={station.id} />))}
         </div>
     </div>);
 }

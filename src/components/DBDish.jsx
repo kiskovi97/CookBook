@@ -1,12 +1,12 @@
+'use client'
+
 import styles from './Page.module.css'
 import BigDBReceipt from './Components/BigDBReceipt'
 
 import { fetchDataById } from "../dynamoService.js";
 import { useEffect, useState } from 'react';
 
-var DBDish = () => {
-    var query = window.location.href.split('/');
-    var id = query[query.length - 1];
+var DBDish = ({id}) => {
     const [dbData, setDBData] = useState([]);
 
     const fetchAndSetData = async (id) => {

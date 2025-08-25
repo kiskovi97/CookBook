@@ -1,9 +1,11 @@
+'use client'
+
 import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
-import Me from './Components/Me'
+import Me from '../components/Components/Me.jsx'
 import { useState, useEffect } from 'react';
-import { fetchLastXData } from '../dynamoService';
-import SmallReceipt from './Components/SmallReceipt.jsx'
+import { fetchLastXData } from '../dynamoService.js';
+import SmallReceipt from '../components/Components/SmallReceipt.jsx'
 
 const Home = () => {
     const [dbData, setDBData] = useState([]);
@@ -25,7 +27,7 @@ const Home = () => {
         <div className={styles.page}>
             <Me />
             <div className={gStyles.grid_big} key="top-recepies">
-                {dbData.map((station, index) => (<SmallReceipt proj={station}/>))}
+                {dbData.map((station, index) => (<SmallReceipt key={index} proj={station}/>))}
             </div>
         </div>)
 };

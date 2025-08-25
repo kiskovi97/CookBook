@@ -1,9 +1,9 @@
 import styles from './Receipt.module.css'
-import ScrollAnimation from 'react-animate-on-scroll'
+import { motion } from "framer-motion";
 
 function BigDBReceipt({ proj }) {
 
-    var imageLink = proj?.image?.replace("static/media", "images");
+    var imageLink = proj?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
         return (
             <div className={styles.receipt}>
                 <div className={styles.main}>
@@ -11,12 +11,12 @@ function BigDBReceipt({ proj }) {
                         <h1 className={styles.title}>{proj.title}</h1>
                         <div className={styles.tags}>
                             {proj.tags?.map(tag => (
-                                <div className={styles.tag}>{tag}</div>))}
+                                <div className={styles.tag} key={tag}>{tag}</div>))}
                         </div>
                         <div>{proj.details}</div>
                         {proj.sources && proj.sources.length > 0 ? (<div>Források:</div>) : null}
                         {proj.sources?.map(source => (
-                            <div>
+                            <div key={source.link}>
                                 <a href={source.link} target="_blank" rel="noreferrer">{source.name}</a>
                             </div>))}
 
@@ -26,21 +26,31 @@ function BigDBReceipt({ proj }) {
                     </div>
                 </div>
                 <div className={styles.description}>
-                    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" animateOnce >
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once: true }}
+                        >
                         {proj.ingredients?.map(station => (
-                            <div>
+                            <div key={station.title}>
                                 <h3>{station.title}</h3>
                                 <div>
-                                    {station.list?.map(element => (<li>{element}</li>))}
+                                    {station.list?.map(element => (<li key={element}>{element}</li>))}
                                 </div>
                             </div>))}
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutRight" animateOnce >
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once: true }}
+                    >
                         <div>
                             {proj.comment ? (<li>{proj.comment}</li>) : null}
-                            {proj.instructions?.map(station => (<li>{station}</li>))}
+                            {proj.instructions?.map(station => (<li  key={station}>{station}</li>))}
                         </div>
-                    </ScrollAnimation>
+                    </motion.div>
                 </div>
             </div>)
 

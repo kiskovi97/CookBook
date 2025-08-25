@@ -17,14 +17,10 @@
     "web-vitals": "^5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev --turbopack",
-    "start": "npx serve@latest ./build",
     "build": "next build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "export": "next export"
+    "start": "next start",
+    "lint": "next lint"
   },
   "eslintConfig": {
     "extends": [

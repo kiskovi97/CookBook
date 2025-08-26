@@ -10,7 +10,7 @@ interface DishListProps {
   tag?: string;
   maxCount?: number;
   filter?: string;
-  orderBy?: 'date' | 'date-desc' | 'title';
+  orderBy?: string;
 }
 
 var DishList: React.FC<DishListProps> = ({tag, maxCount, filter, orderBy}) =>

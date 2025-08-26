@@ -4,7 +4,7 @@ import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
 import Me from '../components/Components/Me.jsx'
 import { useState, useEffect } from 'react';
-import { fetchLastXData } from '../dynamoService.js';
+import { fetchLastXData } from '../lib/dynamoService';
 import SmallReceipt from '../components/Components/SmallReceipt.jsx'
 
 const Home = () => {

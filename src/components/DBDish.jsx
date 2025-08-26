@@ -3,7 +3,7 @@
 import styles from './Page.module.css'
 import BigDBReceipt from './Components/BigDBReceipt'
 
-import { fetchDataById } from "../dynamoService.js";
+import { fetchDataById } from "../lib/dynamoService";
 import { useEffect, useState } from 'react';
 
 var DBDish = ({id}) => {

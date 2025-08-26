@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import '../index.css'
+import './index.css'
 import "./App.css"
 import Analytics from "./analytics";
 

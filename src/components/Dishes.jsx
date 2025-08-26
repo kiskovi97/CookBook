@@ -4,7 +4,7 @@ import styles from './Page.module.css'
 import gStyles from './Grid.module.css'
 import SmallReceipt from './Components/SmallReceipt'
 import { useState, useEffect } from 'react';
-import { fetchDataByTag } from '../dynamoService';
+import { fetchDataByTag } from '../lib/dynamoService';
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 

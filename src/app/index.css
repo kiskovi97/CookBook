@@ -1,0 +1,35 @@
+:root {
+  --mainColor: #952547;
+  --darkestColor: #550527;
+  --lightColor: #F7F0F0;
+  --backgroundColor: #F3DE8AA0;
+  --lightdarkColor: #D387ABA0;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url("../fonts/OpenSauceOne-Regular.woff") format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+body {
+  margin: 0;
+  font-family: 'MyFont';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(-90deg, #F7F0F0 0%, #eec2d6a0 100%);
+  line-height: 2em;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 60em) {
+  body {
+    font-size: 14px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

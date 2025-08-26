@@ -1,9 +1,9 @@
-import Error from '../components/Error';
 import Navbar from '../components/Navbar';
+import styles from '../components/Page.module.css'
 
 export default function Page() {
   return <>
     <Navbar search/>
-    <Error />
+    <div className={styles.page}> 404 Not found </div>
   </>;
 }

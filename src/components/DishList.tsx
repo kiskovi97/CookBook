@@ -1,7 +1,7 @@
 'use client'
 
 import gStyles from './Grid.module.css'
-import SmallReceipt from './Components/SmallReceipt'
+import SmallReceipt from './SmallReceipt'
 import { useState, useEffect } from 'react';
 import { fetchDataByTag } from '../lib/dynamoService';
 import { Recipe } from "../types/recipe";

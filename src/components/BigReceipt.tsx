@@ -1,7 +1,11 @@
-import styles from './Receipt.module.css'
+import styles from './BigReceipt.module.css'
 import { motion } from "framer-motion";
+import { Recipe } from "../types/recipe";
 
-function BigDBReceipt({ proj }) {
+interface BigReceiptProps {
+  proj: Recipe;
+}
+const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
 
     var imageLink = proj?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
         return (
@@ -47,7 +51,6 @@ function BigDBReceipt({ proj }) {
                         viewport={{ once: true }}
                     >
                         <div>
-                            {proj.comment ? (<li>{proj.comment}</li>) : null}
                             {proj.instructions?.map(station => (<li  key={station}>{station}</li>))}
                         </div>
                     </motion.div>
@@ -56,4 +59,4 @@ function BigDBReceipt({ proj }) {
 
 }
 
-export default BigDBReceipt
+export default BigReceipt

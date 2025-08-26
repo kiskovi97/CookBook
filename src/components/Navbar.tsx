@@ -4,7 +4,11 @@ import styles from './Header.module.css';
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-var Navbar = ({search}) =>
+interface NavbarProps {
+  search?: boolean;
+}
+
+var Navbar: React.FC<NavbarProps> = ({search}) =>
 {
     const router = useRouter();
 

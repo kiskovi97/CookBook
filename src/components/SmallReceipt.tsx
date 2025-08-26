@@ -2,9 +2,16 @@ import styles from './SmallReceipt.module.css'
 
 import { motion } from "framer-motion";
 
+import { Recipe } from "../types/recipe";
+
 import Link from "next/link";
 
-const SmallReceipt = ({proj, hidden}) => {
+interface SmallReceiptProps {
+  hidden: boolean;
+  proj: Recipe;
+}
+
+const SmallReceipt: React.FC<SmallReceiptProps> = ({proj, hidden}) => {
 
     var imageLink = proj?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
     var id = proj.id;

@@ -62,6 +62,7 @@ export const uploadData = async (data: Partial<Recipe>): Promise<void> => {
     id: uuidv4(),
     CreationDate: new Date().toISOString(),
     CreationDatePK: "dish",
+    title: data.title ?? "",
     ...data,
   };
 

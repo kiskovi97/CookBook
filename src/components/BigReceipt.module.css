@@ -52,8 +52,13 @@
     gap: 1rem;
 }
 
-.receipt .details a {
-    color: darkestColor;
+.receipt .tag a {
+    color: white;
+    text-decoration: none;
+}
+
+.receipt .link a {
+    color: var(--darkestColor);
     margin-left: 1em;
 }
 
@@ -63,7 +68,6 @@
     grid-template-columns: 1fr 1fr;
     padding-left: 1em;
     padding-right: 1em;
-    text-align: justify;
 }
 
 .description li, .description ol  {

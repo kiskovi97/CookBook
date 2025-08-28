@@ -4,12 +4,22 @@ import SearchBar from '../../components/SearchBar';
 import DishList from '../../components/DishList';
 import Navbar from '../../components/Navbar';
 import styles from "../../components/Page.module.css";
-import { useState } from 'react';
+import { useSearchParams } from "next/navigation";
+import { useState, useEffect } from 'react';
 import { Suspense } from "react";
 
 export default function Page() {
+
+  const searchParams = useSearchParams();
+
   const [filter, setFilter] = useState("");
   const [orderBy, setOrderBy] = useState("name");
+
+  useEffect(() => {
+    const filterSearch = searchParams.get("filter") ?? "";
+    if (filterSearch)
+      setFilter(filterSearch)
+  }, [searchParams])
   
   return <>
     <Navbar search={false} />

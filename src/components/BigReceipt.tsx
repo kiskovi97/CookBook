@@ -1,6 +1,7 @@
 import styles from './BigReceipt.module.css'
 import { motion } from "framer-motion";
 import { Recipe } from "../types/recipe";
+import Link from "next/link";
 
 interface BigReceiptProps {
   proj: Recipe;
@@ -15,7 +16,11 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
                         <h1 className={styles.title}>{proj.title}</h1>
                         <div className={styles.tags}>
                             {proj.tags?.map(tag => (
-                                <div className={styles.tag} key={tag}>{tag}</div>))}
+                                <div className={styles.tag} key={tag}>
+                                    <Link href={"/all?filter=" + tag} >
+                                        {tag}
+                                    </Link>
+                                </div>))}
                         </div>
                         <div>{proj.details}</div>
                         {proj.sources && proj.sources.length > 0 ? (<div>Források:</div>) : null}
@@ -40,7 +45,7 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
                             <div key={station.title}>
                                 <h3>{station.title}</h3>
                                 <div>
-                                    {station.list?.map(element => (<li key={element}>{element}</li>))}
+                                    {station.list?.map((element, index) => (<li key={index}>{element}</li>))}
                                 </div>
                             </div>))}
                     </motion.div>
@@ -51,7 +56,7 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
                         viewport={{ once: true }}
                     >
                         <div>
-                            {proj.instructions?.map(station => (<li  key={station}>{station}</li>))}
+                            {proj.instructions?.map((station, index) => (<li  key={index}>{station}</li>))}
                         </div>
                     </motion.div>
                 </div>

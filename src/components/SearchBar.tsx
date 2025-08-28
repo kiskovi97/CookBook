@@ -1,6 +1,8 @@
 'use client'
 
 import styles from "./Page.module.css";
+import { useSearchParams } from "next/navigation";
+import { useEffect } from 'react';
 
 interface SearchProps {
   filter: string;
@@ -10,6 +12,15 @@ interface SearchProps {
 }
 
 var SearchBar: React.FC<SearchProps> = ({filter, orderBy, setFilter, setOrderBy}) =>{
+    
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const filterSearch = searchParams.get("filter") ?? "";
+    if (filterSearch)
+      setFilter(filterSearch)
+  }, [searchParams])
+
   return <div className={styles.filters}>
                 <div>
                     <input 

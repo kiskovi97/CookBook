@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Recipe } from "../types/recipe";
 
 import Link from "next/link";
+import Image from 'next/image';
 
 interface SmallReceiptProps {
   hidden: boolean;
@@ -25,7 +26,7 @@ const SmallReceipt: React.FC<SmallReceiptProps> = ({proj, hidden}) => {
                 >
                 <Link className={styles.receipt} href={"/dbdish/" + id} >
                     <div className={styles.image} >
-                        <img src={imageLink} hidden={!proj.image} alt="" className={styles.background} />
+                        <Image src={imageLink ?? ""} hidden={!proj.image} alt={""} className={styles.background} width={256} height={256} />
                     </div>
                     <div className={styles.description} >
                         <div className={styles.title}>{proj.title}</div>

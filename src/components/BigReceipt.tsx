@@ -1,6 +1,7 @@
 import styles from './BigReceipt.module.css'
 import { motion } from "framer-motion";
 import { Recipe } from "../types/recipe";
+import Image from 'next/image';
 import Link from "next/link";
 
 interface BigReceiptProps {
@@ -31,7 +32,7 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
 
                     </div>
                     <div className={styles.image}>
-                        <img src={imageLink} hidden={!proj.image} alt="" className={styles.background} />
+                        <Image src={imageLink ?? ""} alt={proj.title} className={styles.background} width={526} height={526} />
                     </div>
                 </div>
                 <div className={styles.description}>

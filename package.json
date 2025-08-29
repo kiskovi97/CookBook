@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aws-sdk": "^2.1692.0",
+    "@aws-sdk/credential-providers": "^3.876.0",
+    "@aws-sdk/lib-dynamodb": "^3.878.0",
     "framer-motion": "^12.23.12",
     "next": "^15.5.0",
     "react": "^18.0.0",
-    "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^18.0.0",
     "react-ga": "^3.3.1",
     "react-router": "^7.6.0",

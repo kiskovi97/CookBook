@@ -1,7 +1,7 @@
 // src/lib/dynamoService.ts
-import { dynamodb, initAWS } from "./aws-config";
+import { dynamodb } from "./aws-config";
 import { v4 as uuidv4 } from "uuid";
-import AWS from "aws-sdk";
+import { GetCommandInput, PutCommandInput, QueryCommandInput, ScanCommandInput } from "@aws-sdk/lib-dynamodb";
 import { Recipe } from "../types/recipe";
 
 // Generic service response type
@@ -13,16 +13,17 @@ export interface ServiceResponse<T> {
 
 // ------------------ FETCH ALL ------------------
 export const fetchData = async (): Promise<ServiceResponse<Recipe[]>> => {
-  await initAWS();
-
-  const params: AWS.DynamoDB.DocumentClient.ScanInput = {
+  
+  const params: ScanCommandInput = {
     TableName: "Recepies",
   };
 
   try {
-    const data = await dynamodb.scan(params).promise();
+    const data = await dynamodb.scan(params);
+    console.log(data);
     return { success: true, data: (data.Items as Recipe[]) || [] };
   } catch (error: any) {
+    console.log(error);
     return { success: false, message: error.message };
   }
 };
@@ -32,10 +33,8 @@ export const fetchDataByTag = async (
   tag?: string
 ): Promise<ServiceResponse<Recipe[]>> => {
   if (!tag) return await fetchData();
-
-  await initAWS();
-
-  const params: AWS.DynamoDB.DocumentClient.ScanInput = {
+  
+  const params: ScanCommandInput = {
     TableName: "Recepies",
     FilterExpression: "contains (#tags, :tag)",
     ExpressionAttributeNames: {
@@ -47,7 +46,7 @@ export const fetchDataByTag = async (
   };
 
   try {
-    const data = await dynamodb.scan(params).promise();
+    const data = await dynamodb.scan(params);
     return { success: true, data: (data.Items as Recipe[]) || [] };
   } catch (error: any) {
     return { success: false, message: error.message };
@@ -56,8 +55,6 @@ export const fetchDataByTag = async (
 
 // ------------------ UPLOAD ------------------
 export const uploadData = async (data: Partial<Recipe>): Promise<void> => {
-  await initAWS();
-
   const item: Recipe = {
     id: uuidv4(),
     CreationDate: new Date().toISOString(),
@@ -66,13 +63,13 @@ export const uploadData = async (data: Partial<Recipe>): Promise<void> => {
     ...data,
   };
 
-  const params: AWS.DynamoDB.DocumentClient.PutItemInput = {
+  const params: PutCommandInput = {
     TableName: "Recepies",
     Item: item,
   };
 
   try {
-    await dynamodb.put(params).promise();
+    await dynamodb.put(params);
     console.log("Recipe uploaded successfully:", item);
   } catch (error) {
     console.error("Error uploading dish:", item);
@@ -84,9 +81,7 @@ export const uploadData = async (data: Partial<Recipe>): Promise<void> => {
 export const fetchLastXData = async (
   count: number
 ): Promise<ServiceResponse<Recipe[]>> => {
-  await initAWS();
-
-  const params: AWS.DynamoDB.DocumentClient.QueryInput = {
+  const params: QueryCommandInput = {
     TableName: "Recepies",
     IndexName: "CreationDatePKIndex",
     KeyConditionExpression: "CreationDatePK = :type",
@@ -98,7 +93,7 @@ export const fetchLastXData = async (
   };
 
   try {
-    const result = await dynamodb.query(params).promise();
+    const result = await dynamodb.query(params);
     return { success: true, data: (result.Items as Recipe[]) || [] };
   } catch (error: any) {
     return { success: false, message: error.message };
@@ -109,15 +104,13 @@ export const fetchLastXData = async (
 export const fetchDataById = async (
   id: string
 ): Promise<ServiceResponse<Recipe>> => {
-  await initAWS();
-
-  const params: AWS.DynamoDB.DocumentClient.GetItemInput = {
+  const params: GetCommandInput = {
     TableName: "Recepies",
     Key: { id },
   };
 
   try {
-    const data = await dynamodb.get(params).promise();
+    const data = await dynamodb.get(params);
     return { success: true, data: data.Item as Recipe };
   } catch (error: any) {
     return { success: false, message: error.message };

@@ -66,7 +66,6 @@ const InputList = ({ onChanged, name, defaultState } :
                 <li className={inputStyles.section} key={index}>
                     <textarea className={inputStyles.textarea} rows={8} cols={80}
                         name={index.toString()}
-                        value={value}
                         defaultValue={value}
                         onChange={handleChange}
                     />

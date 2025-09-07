@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './index.css'
 import "./App.css"
 import Analytics from "./analytics";
+import { AuthProvider } from '../components/AuthContext';
 
 export const metadata: Metadata = {
   title: 'Husband Material',
@@ -19,7 +20,9 @@ export default function RootLayout({
         <body>
             <main className="App">
               <Analytics />
+              <AuthProvider>
                 {children}
+              </AuthProvider>
             </main>
         </body>
       </html>

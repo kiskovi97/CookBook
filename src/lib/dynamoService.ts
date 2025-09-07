@@ -77,6 +77,26 @@ export const uploadData = async (data: Partial<Recipe>): Promise<void> => {
   }
 };
 
+// ------------------ UPLOAD NEW ------------------
+export const uploadNewData = async (data : Recipe) => {
+  data.id = uuidv4();
+  data.CreationDate = new Date().toISOString();
+  data.CreationDatePK = "dish";
+
+  const params = {
+    TableName: 'Recepies',
+    Item: data,
+  };
+
+  try {
+    await dynamodb.put(params);
+    console.log('Recepie uploaded successfully:', data);
+  } catch (error) {
+    console.error('Error uploading dish:', data);
+    throw error;
+  }
+};
+
 // ------------------ FETCH LAST X ------------------
 export const fetchLastXData = async (
   count: number

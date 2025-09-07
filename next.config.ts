@@ -11,7 +11,10 @@ const nextConfig: NextConfig = {
       "img-global.cpcdn.com", 
       "azureskproductionfs.blob.core.windows.net",
       "static.vecteezy.com",
-      "p16-pu-sign-no.tiktokcdn-eu.com"
+      "p16-pu-sign-no.tiktokcdn-eu.com",
+      "p16-common-sign-no.tiktokcdn-us.com",
+      "lh3.googleusercontent.com",
+      "firebasestorage.googleapis.com"
     ],
   },
 }

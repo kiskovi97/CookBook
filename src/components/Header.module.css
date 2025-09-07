@@ -33,6 +33,25 @@
     font-size: 14px;
 }
 
+.tabs_hamburger {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    gap: 2rem;
+    font-size: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    z-index: 1000;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
 .main a
 {
     color: var(--darkestColor);
@@ -42,6 +61,12 @@
 .main a:hover
 {
     color: var(--mainColor);
+}
+
+.hamburger {
+    width: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 
@@ -63,7 +88,26 @@
         gap: 1rem;
     }
 
+    .profile {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
     .search {
         width: 0px;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .tabs {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    .hamburger {
+        width: 24px;
+        height: 24px;
+        overflow: visible;
     }
 }

@@ -6,6 +6,7 @@
   "dependencies": {
     "@aws-sdk/credential-providers": "^3.876.0",
     "@aws-sdk/lib-dynamodb": "^3.878.0",
+    "firebase": "^12.2.1",
     "framer-motion": "^12.23.12",
     "next": "^15.5.0",
     "react": "^18.0.0",

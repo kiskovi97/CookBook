@@ -1,11 +1,11 @@
 'use client'
 
-import Navbar from '../../../components/Navbar';
-import styles from '../../../components/Page.module.css'
-import BigReceipt from '../../../components/BigReceipt'
+import Navbar from '../../../../components/Navbar';
+import styles from '../../../../components/Page.module.css'
+import BigReceiptEdit from '../../../../components/BigReceiptEdit'
 import { useEffect, useState } from 'react';
-import { Recipe } from "../../../types/recipe";
-import { fetchDataById } from "../../../lib/dynamoService";
+import { Recipe } from "../../../../types/recipe";
+import { fetchDataById } from "../../../../lib/dynamoService";
 import { Suspense } from "react";
 
 type PageProps = {
@@ -47,7 +47,7 @@ export default function Page({ params }: PageProps) {
       <Suspense fallback={<div>Loading...</div>}>
         {dbData 
           ? (<div className={styles.page}>
-              <BigReceipt proj={dbData}/>
+                <BigReceiptEdit proj={dbData}/>
             </div>)
           : (<div className={styles.page}>Loading...</div>)
         }

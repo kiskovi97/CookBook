@@ -9,10 +9,12 @@ import AddDishButton from '../../components/AddDishButton';
 import { Recipe } from '../../types/recipe';
 import BigReceipt from '../../components/BigReceipt';
 import { uploadNewData } from '../../lib/dynamoService';
+import { useAuth } from '../../components/AuthContext';
 
 export default function Page() {
 
     const [ data, setData ] = useState<Recipe | null>(null);
+    const { user } = useAuth();
 
     const uploadRecepie = async () => {
         if (!data) return;
@@ -23,6 +25,7 @@ export default function Page() {
         setData(null);
     }
 
+  if (!user) return <div>Please log in to upload a recipe.</div>;
   return <>
     <Navbar search={false} />
     <Suspense fallback={<div>Loading...</div>}>

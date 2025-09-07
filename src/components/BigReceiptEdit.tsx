@@ -1,17 +1,35 @@
 import styles from './BigReceipt.module.css'
+import inputStyles from './Input.module.css'
 import { motion } from "framer-motion";
 import { Recipe } from "../types/recipe";
 import Image from 'next/image';
 import Link from "next/link";
-import edit_icon from "../logos/edit-icon.png"
-import { useAuth } from './AuthContext';
+import InputList, { EventType } from './InputList';
+import { useEffect, useState } from 'react';
+import { uploadData } from '../lib/dynamoService';
+import { useRouter } from "next/navigation";
 
-interface BigReceiptProps {
+interface BigReceiptEditProps {
   proj: Recipe;
 }
-const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
+const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
+    const router = useRouter(); // Add this line
+    const [allValues, setAllValues] = useState(proj);
+    const handleChange = (e: EventType) => {
+        setAllValues({ ...allValues, [e.target.name]: e.target.value });
+    }; 
+    
+    const upload = async () => {
+        await uploadData(allValues);
+        alert("Uploaded");
+        router.push("/dbdish/" + proj.id); // Navigate after upload
+    };
 
-    const { user } = useAuth();
+    useEffect(() => {
+        if(proj) {
+            setAllValues({ ...proj })
+        }
+    }, [proj])
 
     var imageLink = proj?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
         return (
@@ -20,12 +38,10 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
                     <div className={styles.details}>
                         <h1 className={styles.title}>{proj.title}</h1>
                         <div className={styles.tags}>
-                            {proj.tags?.map(tag => (
-                                <div className={styles.tag} key={tag}>
-                                    <Link href={"/all?filter=" + tag} >
-                                        {tag}
-                                    </Link>
-                                </div>))}
+                            <div>
+                                <h3>Tags</h3>
+                                <InputList name="tags" onChanged={handleChange} defaultState={proj.tags || []}/>
+                            </div>
                         </div>
                         <div>{proj.details}</div>
                         {proj.sources && proj.sources.length > 0 ? (<div>Források:</div>) : null}
@@ -38,13 +54,6 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
                     <div className={styles.image}>
                         <Image src={imageLink ?? ""} alt={proj.title} className={styles.background} width={526} height={526} />
                     </div>
-                    {user ? 
-                    (<div className={styles.edit_icon}>
-                        <Link href={`/dbdish/${proj.id}/edit`} >
-                            <Image src={edit_icon.src} alt={"Edit"} className={styles.minilogo} width={32} height={32} />
-                        </Link>
-                    </div>) 
-                    : null}
                 </div>
                 <div className={styles.description}>
                     <motion.div
@@ -72,8 +81,13 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
                         </div>
                     </motion.div>
                 </div>
+                <div  className={styles.description}>
+                    <div>
+                        <button className={inputStyles.button} onClick={upload}>Upload</button>
+                    </div>
+                </div>
             </div>)
 
 }
 
-export default BigReceipt
+export default BigReceiptEdit

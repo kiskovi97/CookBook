@@ -10,6 +10,12 @@
     padding-bottom: 20em;
 }
 
+.edit_icon {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
 .receipt .main {
     border-radius: 1em;
     display: grid;

@@ -64,7 +64,6 @@ const InputList = ({ onChanged, name, defaultState } :
         <div className={inputStyles.section}>
             {list?.map((value, index) => (
                 <li className={inputStyles.section} key={index}>
-                    <img src={checkIcon.src} alt="check" className={inputStyles.icon}/>
                     <textarea className={inputStyles.textarea} rows={8} cols={80}
                         name={index.toString()}
                         value={value}
@@ -75,7 +74,6 @@ const InputList = ({ onChanged, name, defaultState } :
                 </li>
                 ))}
                 <li  className={inputStyles.section}>
-                    <img src={checkIcon.src} alt="check" className={inputStyles.icon}/>
                     <button className={inputStyles.button} onClick={addInstruction}>Add New</button>
                 </li>
         </div>)

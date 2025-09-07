@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import { Recipe } from "../../../../types/recipe";
 import { fetchDataById } from "../../../../lib/dynamoService";
 import { Suspense } from "react";
+import { useAuth } from '../../../../components/AuthContext';
 
 type PageProps = {
   params: Promise<{ id: string }>; // 👈 Next.js infers this as a Promise in your case
@@ -16,6 +17,7 @@ export default function Page({ params }: PageProps) {
 
   const [dbData, setDBData] = useState<Recipe>();
   const [id, setId] = useState<string>("");
+  const { user } = useAuth();
   
   const fetchAndSetData = async (id: string) => {
       const result = await fetchDataById(id);
@@ -40,6 +42,8 @@ export default function Page({ params }: PageProps) {
   useEffect(() => {
     fetchId(params);
   }, [params])
+
+  if (!user) return <div>Please log in to upload a recipe.</div>;
 
   return (
     <>

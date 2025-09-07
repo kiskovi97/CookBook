@@ -38,10 +38,8 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
                     <div className={styles.details}>
                         <h1 className={styles.title}>{proj.title}</h1>
                         <div className={styles.tags}>
-                            <div>
-                                <h3>Tags</h3>
-                                <InputList name="tags" onChanged={handleChange} defaultState={proj.tags || []}/>
-                            </div>
+                            <h3>Tags</h3>
+                            <InputList name="tags" onChanged={handleChange} defaultState={proj.tags || []}/>
                         </div>
                         <div>{proj.details}</div>
                         {proj.sources && proj.sources.length > 0 ? (<div>Források:</div>) : null}
@@ -77,7 +75,7 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
                         viewport={{ once: true }}
                     >
                         <div>
-                            {proj.instructions?.map((station, index) => (<li  key={index}>{station}</li>))}
+                            <InputList name="instructions" onChanged={handleChange} defaultState={proj.instructions || []}/>
                         </div>
                     </motion.div>
                 </div>

@@ -61,6 +61,7 @@ var Navbar: React.FC<NavbarProps> = ({search}) =>
                         user && (
                             <>
                                 <div> <Link href="/upload" >Upload</Link></div>
+                                <div> <Link href="/inspection" >Inspection</Link></div>
                             </>
                         )
                     }
@@ -78,6 +79,7 @@ var Navbar: React.FC<NavbarProps> = ({search}) =>
                 user && (
                     <>
                         <div> <Link href="/upload" >Upload</Link></div>
+                        <div> <Link href="/inspection" >Inspection</Link></div>
                     </>
                 )
             }

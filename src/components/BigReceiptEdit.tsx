@@ -11,6 +11,9 @@ import { useEffect, useState } from 'react';
 import { uploadData } from '@/lib/dynamoService';
 import { useRouter } from "next/navigation";
 import { useAuth } from './AuthContext';
+import RecipeInspection from './RecipeInspection';
+import AddDishButton from './ExtractRecipeButton';
+import UpdateImageButton from './ExtractImageButton';
 
 interface BigReceiptEditProps {
   proj: Recipe;
@@ -18,6 +21,7 @@ interface BigReceiptEditProps {
 const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
     const router = useRouter(); // Add this line
     const [allValues, setAllValues] = useState(proj);
+    const [imageLink, setImageLink] = useState("");
     const user = useAuth();
     if (!user) return <div>Please log in to upload a recipe.</div>;
 
@@ -31,6 +35,17 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
     const handleIngredientsChange = (e: IngredientGroup[]) => {
         setAllValues({ ...allValues, ingredients: e });
     }
+    const handleExtract = (e: Recipe) => {
+        allValues.title = e.title;
+        allValues.image = e.image;
+        allValues.ingredients = e.ingredients;
+        allValues.instructions = e.instructions;
+        setAllValues({ ...allValues });
+    }; 
+    const handleUpdateImage = (e: string) => {
+        allValues.image = e;
+        setAllValues({ ...allValues });
+    }; 
 
     const upload = async () => {
         await uploadData(allValues);
@@ -42,11 +57,17 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
         if(proj) {
             setAllValues({ ...proj })
         }
-    }, [proj])
-
-    var imageLink = proj?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
+    }, [proj]);
+    useEffect(() => {
+        if(allValues.image) {
+            setImageLink(allValues.image.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images") || "");
+        }
+    }, [allValues.image]);
         return (
             <div className={styles.receipt}>
+                <RecipeInspection recipe={proj} />
+                <AddDishButton onClickedAndChanged={(recipe) => handleExtract(recipe)} />
+                <UpdateImageButton onClickedAndChanged={(image) => handleUpdateImage(image)} />
                 <div className={styles.description}>
                     <div>
                         <input className={inputStyles.text}
@@ -68,8 +89,8 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
                         </div>
                     </div>
                     <div>
-                        <Image src={imageLink ?? ""} alt={proj.title}
-                            width={256} height={256} style={{ objectFit: "cover" }}/>
+                        {imageLink ? <Image src={imageLink} alt={proj.title}
+                            width={256} height={256} style={{ objectFit: "cover" }}/> : null}
                         <textarea className={inputStyles.textarea}
                                 name='image'
                                 placeholder="Paste image URL here"

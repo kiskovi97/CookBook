@@ -38,7 +38,8 @@ const BigReceipt: React.FC<BigReceiptProps> = ({ proj }) => {
 
                     </div>
                     <div className={styles.image}>
-                        <Image src={imageLink ?? ""} alt={proj.title} className={styles.background} width={526} height={526} />
+                        <Image src={imageLink ?? ""} alt={proj.title} className={styles.background} 
+                        width={526} height={526}/>
                     </div>
                     {user ? 
                     (<div className={styles.edit_icon}>

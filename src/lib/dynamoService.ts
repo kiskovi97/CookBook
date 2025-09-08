@@ -56,8 +56,8 @@ export const fetchDataByTag = async (
 // ------------------ UPLOAD ------------------
 export const uploadData = async (data: Partial<Recipe>): Promise<void> => {
   const item: Recipe = {
-    id: uuidv4(),
-    CreationDate: new Date().toISOString(),
+    id: data.id || uuidv4(),
+    CreationDate: data.CreationDate ||new Date().toISOString(),
     CreationDatePK: "dish",
     title: data.title ?? "",
     ...data,

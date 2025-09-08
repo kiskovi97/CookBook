@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import fetchRecipe from "@/lib/fetchRecipe"; // Make sure this is correctly implemented
+import { extractRecipe } from "@/lib/fetchRecipe"; // Make sure this is correctly implemented
 import { Recipe } from '@/types/recipe';
+import styles from "./Input.module.css"
 
 const AddDishButton = ({ onClickedAndChanged }: { onClickedAndChanged: (recipe: Recipe) => void }) => {
   const [url, setUrl] = useState('');
@@ -10,7 +11,7 @@ const AddDishButton = ({ onClickedAndChanged }: { onClickedAndChanged: (recipe: 
     setLoading(true);
     try {
       console.log('Extracting recipe from URL:', url);
-      const recipe = await fetchRecipe(url);
+      const recipe = await extractRecipe(url);
 
       if (!recipe) {
         alert('No recipe found or recipe is invalid.');
@@ -23,26 +24,23 @@ const AddDishButton = ({ onClickedAndChanged }: { onClickedAndChanged: (recipe: 
       setUrl('');
     } catch (error) {
       console.error('Error:', error);
-      alert('Failed to extract or upload the dish.');
+      alert('Failed to extract the dish.');
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div>
-      <div style={{ padding: '1rem' }}>
-      <input
-        type="text"
+    <div className={styles.section}>
+      <textarea
         placeholder="Paste recipe URL here"
         value={url}
         onChange={(e) => setUrl(e.target.value)}
-        style={{ padding: '0.5rem', width: '60%' }}
+        className={styles.textarea}
       />
-      <button onClick={handleExtractAndUpload} disabled={loading || !url.trim()} style={{ marginLeft: '0.5rem' }}>
-        {loading ? 'Uploading...' : 'Upload Recipe'}
+      <button onClick={handleExtractAndUpload} disabled={loading || !url.trim()} className={styles.button}>
+        {loading ? 'Extracting...' : 'Extract Recipe'}
       </button>
-    </div>
     </div>
   );
 };

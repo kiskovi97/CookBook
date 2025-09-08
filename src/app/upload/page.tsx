@@ -5,7 +5,7 @@ import styles from "@/components/Page.module.css";
 import inputStyles from "@/components/Input.module.css";
 import { useState } from 'react';
 import { Suspense } from "react";
-import AddDishButton from '@/components/AddDishButton';
+import AddDishButton from '@/components/ExtractRecipeButton';
 import { Recipe } from '@/types/recipe';
 import BigReceipt from '@/components/BigReceipt';
 import { uploadNewData } from '@/lib/dynamoService';

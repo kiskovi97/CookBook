@@ -42,7 +42,7 @@ export async function extractRecipe(url: string) : Promise<Recipe | null> {
 }
 
 export async function extractImage(url: string) : Promise<string | null> {
-    const response = await fetch('https://cookbookparser.onrender.com/parse_recipe', {
+    const response = await fetch('https://cookbookparser.onrender.com/parse_image', {
         method: 'POST',
         headers: {
                 'Content-Type': 'application/json'

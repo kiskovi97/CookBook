@@ -65,7 +65,7 @@ const InputList = ({ onChanged, name, defaultState } :
                 <li className={inputStyles.section} key={index}>
                     <textarea className={inputStyles.textarea} rows={8} cols={80}
                         name={index.toString()}
-                        defaultValue={value}
+                        value={value}
                         onChange={handleChange}
                     />
                     <img src={deleteIcon.src} alt="remove" className={inputStyles.icon} onClick={() => removeInstruction(index)}/>

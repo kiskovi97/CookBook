@@ -54,7 +54,7 @@ const EditableIngredients = ({ onChanged, defaultState } :
                         <input className={inputStyles.text}
                             type="text"
                             name={index.toString()}
-                            defaultValue={value.title}
+                            value={value.title}
                             onChange={handleTitleChange}
                         />
                     </div>

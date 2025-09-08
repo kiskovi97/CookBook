@@ -75,13 +75,13 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
                                 type="text"
                                 name='title'
                                 placeholder="Paste recipe URL here"
-                                defaultValue={allValues.title}
+                                value={allValues.title}
                                 onChange={handleInputChange}
                         />
                         <textarea className={inputStyles.textarea}
                                 name='details'
                                 placeholder="Paste recipe URL here"
-                                defaultValue={allValues.details}
+                                value={allValues.details}
                                 onChange={handleInputChange}
                         />
                         <div className={styles.tags}>
@@ -95,7 +95,7 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
                         <textarea className={inputStyles.textarea}
                                 name='image'
                                 placeholder="Paste image URL here"
-                                defaultValue={allValues.image}
+                                value={allValues.image}
                                 onChange={handleInputChange}
                         />
                     </div>

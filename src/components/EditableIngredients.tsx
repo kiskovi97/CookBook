@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import InputList, { EventType } from './InputList';
 import inputStyles from './Input.module.css'
-import deleteIcon from '../logos/bin.png';
-import { IngredientGroup } from '../types/recipe';
+import deleteIcon from '@/logos/bin.png';
+import { IngredientGroup } from '@/types/recipe';
 
 
 const EditableIngredients = ({ onChanged, defaultState } : 

@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import inputStyles from './Input.module.css'
-import deleteIcon from '../logos/bin.png';
-import checkIcon from '../logos/degree.png';
+import deleteIcon from '@/logos/bin.png';
 
 export interface EventType
 {

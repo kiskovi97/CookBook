@@ -1,8 +1,8 @@
-import Navbar from '../../../components/Navbar';
-import styles from '../../../components/Page.module.css'
-import BigReceipt from '../../../components/BigReceipt'
-import { Recipe } from "../../../types/recipe";
-import { fetchDataById } from "../../../lib/dynamoService";
+import Navbar from '@/components/Navbar';
+import styles from '@/components/Page.module.css'
+import BigReceipt from '@/components/BigReceipt'
+import { Recipe } from "@/types/recipe";
+import { fetchDataById } from "@/lib/dynamoService";
 import type { Metadata } from 'next'
 
 type PageProps = {

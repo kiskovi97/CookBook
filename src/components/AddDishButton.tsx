@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import fetchRecipe from "../lib/fetchRecipe"; // Make sure this is correctly implemented
-import { Recipe } from '../types/recipe';
+import fetchRecipe from "@/lib/fetchRecipe"; // Make sure this is correctly implemented
+import { Recipe } from '@/types/recipe';
 
 const AddDishButton = ({ onClickedAndChanged }: { onClickedAndChanged: (recipe: Recipe) => void }) => {
   const [url, setUrl] = useState('');

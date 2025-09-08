@@ -5,11 +5,11 @@ import Link from "next/link";
 import Image from 'next/image';
 import { useRouter } from "next/navigation";
 
-import burger from '../logos/menu-burger.svg'
-import profile from '../logos/profile-user.png'
+import burger from '@/logos/menu-burger.svg'
+import profile from '@/logos/profile-user.png'
 import { useState } from 'react';
 import { signOut, signInWithPopup } from "firebase/auth";
-import { auth, googleProvider } from "../lib/firebase";
+import { auth, googleProvider } from "@/lib/firebase";
 import { useAuth } from "./AuthContext";
 
 interface NavbarProps {

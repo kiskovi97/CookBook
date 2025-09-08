@@ -3,12 +3,12 @@
 import styles from './BigReceipt.module.css'
 import inputStyles from './Input.module.css'
 import { motion } from "framer-motion";
-import { IngredientGroup, Recipe } from "../types/recipe";
+import { IngredientGroup, Recipe } from "@/types/recipe";
 import Image from 'next/image';
 import InputList, { EventType } from './InputList';
 import EditableIngredients from './EditableIngredients';
 import { useEffect, useState } from 'react';
-import { uploadData } from '../lib/dynamoService';
+import { uploadData } from '@/lib/dynamoService';
 import { useRouter } from "next/navigation";
 import { useAuth } from './AuthContext';
 

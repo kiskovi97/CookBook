@@ -4,8 +4,8 @@ import styles from './Me.module.css'
 import gStyles from './Grid.module.css'
 import pStyles from './Page.module.css'
 
-import insta from '../logos/instagram.svg'
-import github from '../logos/github.svg'
+import insta from '@/logos/instagram.svg'
+import github from '@/logos/github.svg'
 import { motion } from "framer-motion";
 import Image from 'next/image'
 

@@ -1,15 +1,15 @@
 'use client'
 
-import Navbar from '../../components/Navbar';
-import styles from "../../components/Page.module.css";
-import inputStyles from "../../components/Input.module.css";
+import Navbar from '@/components/Navbar';
+import styles from "@/components/Page.module.css";
+import inputStyles from "@/components/Input.module.css";
 import { useState } from 'react';
 import { Suspense } from "react";
-import AddDishButton from '../../components/AddDishButton';
-import { Recipe } from '../../types/recipe';
-import BigReceipt from '../../components/BigReceipt';
-import { uploadNewData } from '../../lib/dynamoService';
-import { useAuth } from '../../components/AuthContext';
+import AddDishButton from '@/components/AddDishButton';
+import { Recipe } from '@/types/recipe';
+import BigReceipt from '@/components/BigReceipt';
+import { uploadNewData } from '@/lib/dynamoService';
+import { useAuth } from '@/components/AuthContext';
 
 export default function Page() {
 

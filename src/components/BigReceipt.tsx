@@ -2,10 +2,10 @@
 
 import styles from './BigReceipt.module.css'
 import { motion } from "framer-motion";
-import { Recipe } from "../types/recipe";
+import { Recipe } from "@/types/recipe";
 import Image from 'next/image';
 import Link from "next/link";
-import edit_icon from "../logos/edit-icon.png"
+import edit_icon from "@/logos/edit-icon.png"
 import { useAuth } from './AuthContext';
 
 interface BigReceiptProps {

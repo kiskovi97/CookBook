@@ -1,9 +1,9 @@
 'use client'
 
-import SearchBar from '../../components/SearchBar';
-import DishList from '../../components/DishList';
-import Navbar from '../../components/Navbar';
-import styles from "../../components/Page.module.css";
+import SearchBar from '@/components/SearchBar';
+import DishList from '@/components/DishList';
+import Navbar from '@/components/Navbar';
+import styles from "@/components/Page.module.css";
 import { useState } from 'react';
 import { Suspense } from "react";
 

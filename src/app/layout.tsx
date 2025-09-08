@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './index.css'
 import "./App.css"
 import Analytics from "./analytics";
-import { AuthProvider } from '../components/AuthContext';
+import { AuthProvider } from '@/components/AuthContext';
 
 export const metadata: Metadata = {
   title: 'Husband Material',
@@ -19,8 +19,6 @@ export default function RootLayout({
       <html lang="en">
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Husband Material" />
-        <meta property="fb:app_id" content="1234567890" />
-
         <body>
             <main className="App">
               <Analytics />

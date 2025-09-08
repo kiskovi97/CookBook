@@ -2,7 +2,7 @@ import styles from './SmallReceipt.module.css'
 
 import { motion } from "framer-motion";
 
-import { Recipe } from "../types/recipe";
+import { Recipe } from "@/types/recipe";
 
 import Link from "next/link";
 import Image from 'next/image';

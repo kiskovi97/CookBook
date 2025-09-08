@@ -1,5 +1,5 @@
-import Navbar from '../components/Navbar';
-import styles from '../components/Page.module.css'
+import Navbar from '@/components/Navbar';
+import styles from '@/components/Page.module.css'
 
 export default function Page() {
   return <>

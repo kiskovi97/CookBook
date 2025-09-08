@@ -17,6 +17,10 @@ export default function RootLayout({
 
     return (
       <html lang="en">
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Husband Material" />
+        <meta property="fb:app_id" content="1234567890" />
+
         <body>
             <main className="App">
               <Analytics />

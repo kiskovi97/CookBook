@@ -40,7 +40,7 @@ export function checkImageClient(url: string): Promise<boolean> {
         const img = new window.Image();
         img.onload = () => resolve(true);
         img.onerror = () => resolve(false);
-        img.src = url;
+        img.src = `${url}?_=${Date.now()}`; // 👈 cache buster
     });
 }
 

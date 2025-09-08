@@ -38,9 +38,9 @@ export async function checkImage(url: string, timeoutMs = 5000): Promise<boolean
 export function checkImageClient(url: string): Promise<boolean> {
     return new Promise((resolve) => {
         const img = new window.Image();
-        img.src = url;
         img.onload = () => resolve(true);
         img.onerror = () => resolve(false);
+        img.src = url;
     });
 }
 

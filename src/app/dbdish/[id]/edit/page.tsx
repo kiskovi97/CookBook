@@ -1,61 +1,72 @@
-'use client'
-
-import Navbar from '../../../../components/Navbar';
-import styles from '../../../../components/Page.module.css'
-import BigReceiptEdit from '../../../../components/BigReceiptEdit'
-import { useEffect, useState } from 'react';
-import { Recipe } from "../../../../types/recipe";
-import { fetchDataById } from "../../../../lib/dynamoService";
-import { Suspense } from "react";
-import { useAuth } from '../../../../components/AuthContext';
+import BigReceiptEdit from '@/components/BigReceiptEdit';
+import Navbar from '@/components/Navbar';
+import styles from '@/components/Page.module.css'
+import { fetchDataById } from "@/lib/dynamoService";
+import { Recipe } from "@/types/recipe";
+import type { Metadata } from 'next'
 
 type PageProps = {
   params: Promise<{ id: string }>; // 👈 Next.js infers this as a Promise in your case
 };
 
-export default function Page({ params }: PageProps) {
+export async function generateMetadata({ params } : PageProps): Promise<Metadata> {
+  const { id } = await params;
+  const data = await fetchDataById(id);
 
-  const [dbData, setDBData] = useState<Recipe>();
-  const [id, setId] = useState<string>("");
-  const { user } = useAuth();
-  
-  const fetchAndSetData = async (id: string) => {
-      const result = await fetchDataById(id);
-      if (result.success) {
-          console.log(result.data);
-          setDBData(result.data);
-      } else {
-          alert("Error Fetching Data: " + result.message);
-      }
+  if (!data.success || !data.data) {
+    return {
+      title: "Recipe Not Found",
+      description: "The requested recipe could not be found.",
+    };
   }
-  
-  const fetchId = async (params: Promise<{ id: string }>) => {
-    const { id } = await params;
-    setId(id);
+  const recipe = data.data;
+  var imageLink = recipe?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
+  return {
+    title: recipe.title,
+    description: recipe.details,
+    openGraph: {
+      title: recipe.title,
+      description: recipe.details,
+      url: `https://cook-book-virid.vercel.app/dbdish/${recipe.id}`,
+      images: [
+        {
+          url: imageLink || "", // e.g. Supabase/Cloudinary URL
+          width: 1200,
+          height: 630,
+          alt: recipe.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: recipe.title,
+      description: recipe.details,
+      images: [imageLink || ""],
+    },
+  };
+}
+
+export default async function Page({ params }: PageProps) {
+  const { id } = await params;
+  const result = await fetchDataById(id);
+
+  if (!result.success) {
+    return (
+      <>
+        <Navbar search />
+        <div className={styles.page}>Error: {result.message}</div>
+      </>
+    );
   }
-  
-  useEffect(() => {
-    if (id)
-      fetchAndSetData(id);
-  }, [id]);
 
-  useEffect(() => {
-    fetchId(params);
-  }, [params])
-
-  if (!user) return <div>Please log in to upload a recipe.</div>;
+  const dbData = result.data;
 
   return (
     <>
       <Navbar search />
-      <Suspense fallback={<div>Loading...</div>}>
-        {dbData 
-          ? (<div className={styles.page}>
-                <BigReceiptEdit proj={dbData}/>
-            </div>)
-          : (<div className={styles.page}>Loading...</div>)
-        }
-      </Suspense>
+      <div className={styles.page}>
+        <BigReceiptEdit proj={dbData as Recipe} />
+      </div>
     </>
   );
 }

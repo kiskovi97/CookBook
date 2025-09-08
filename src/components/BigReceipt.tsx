@@ -1,3 +1,5 @@
+'use client'
+
 import styles from './BigReceipt.module.css'
 import { motion } from "framer-motion";
 import { Recipe } from "../types/recipe";

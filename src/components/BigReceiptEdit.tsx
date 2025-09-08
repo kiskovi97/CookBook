@@ -1,3 +1,5 @@
+'use client'
+
 import styles from './BigReceipt.module.css'
 import inputStyles from './Input.module.css'
 import { motion } from "framer-motion";
@@ -8,6 +10,7 @@ import EditableIngredients from './EditableIngredients';
 import { useEffect, useState } from 'react';
 import { uploadData } from '../lib/dynamoService';
 import { useRouter } from "next/navigation";
+import { useAuth } from './AuthContext';
 
 interface BigReceiptEditProps {
   proj: Recipe;
@@ -15,6 +18,8 @@ interface BigReceiptEditProps {
 const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
     const router = useRouter(); // Add this line
     const [allValues, setAllValues] = useState(proj);
+    const user = useAuth();
+    if (!user) return <div>Please log in to upload a recipe.</div>;
 
     const handleChange = (e: EventType) => {
         setAllValues({ ...allValues, [e.target.name]: e.target.value });

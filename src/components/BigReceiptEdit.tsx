@@ -43,6 +43,7 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
         setAllValues({ ...allValues });
     }; 
     const handleUpdateImage = (e: string) => {
+        console.log("image was updated to: ", e);
         allValues.image = e;
         setAllValues({ ...allValues });
     }; 
@@ -62,7 +63,7 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
         if(allValues.image) {
             setImageLink(allValues.image.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images") || "");
         }
-    }, [allValues.image]);
+    }, [allValues]);
         return (
             <div className={styles.receipt}>
                 <RecipeInspection recipe={proj} />

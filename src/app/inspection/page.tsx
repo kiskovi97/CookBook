@@ -4,6 +4,7 @@ import { fetchData } from "@/lib/dynamoService";
 import { Recipe } from "@/types/recipe";
 import RecipeInspection from "@/components/RecipeInspection";
 
+export const dynamic = "force-dynamic";
 
 export default async function InspectionPage() {
 

@@ -26,7 +26,7 @@ export async function extractRecipe(url: string) : Promise<Recipe | null> {
             instructions: data.instructions || [],
             image: data.image || "",
             tags: data.tags,
-            details: data.desc,
+            details: data.desc || "",
             sources: [
                 {
                     name: "Link",

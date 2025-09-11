@@ -4,6 +4,7 @@ export enum ProblemType {
   Image,
   Tag,
   Details,
+  Link,
 }
 
 export interface RecipeRef {
@@ -81,5 +82,12 @@ export async function fetchInspectionData(dataItem: Recipe) : Promise<RecipeRef[
             value: `${dataItem.title}: ` + dataItem.tags.join(", ")
         });
     }
+
+    if (!dataItem.sources || dataItem.sources.length == 0)
+        problems.push({
+            id: dataItem.id,
+            problem: ProblemType.Link,
+            value: `Missing Links`
+        });
     return problems;
 }

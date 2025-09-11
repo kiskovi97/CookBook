@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from "./Input.module.css"
 import { extractImage } from "@/lib/fetchRecipe"; // Make sure this is correctly implemented
 
-const UpdateImageButton = ({ onClickedAndChanged }: { onClickedAndChanged: (image: string) => void }) => {
+const UpdateImageButton = ({ onClickedAndChanged }: { onClickedAndChanged: (image: string, url: string) => void }) => {
   const [url, setUrl] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -18,7 +18,7 @@ const UpdateImageButton = ({ onClickedAndChanged }: { onClickedAndChanged: (imag
         return;
       }
 
-      onClickedAndChanged(image);
+      onClickedAndChanged(image, url);
       alert('Image processed!');
       setUrl('');
     } catch (error) {

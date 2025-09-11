@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { ChangeEventHandler, useEffect, useState } from 'react';
 
 import styles from './RecipeInspection.module.css';
 
@@ -13,6 +13,7 @@ import { extractImage } from '@/lib/fetchRecipe';
 import { uploadData } from '@/lib/dynamoService';
 import { useRouter } from "next/navigation";
 import { useAuth } from './AuthContext';
+import Image from 'next/image';
 
 interface RecipeShowcaseProps {
     recipe: Recipe;
@@ -90,6 +91,39 @@ function TagProblem({ problem }: { problem: RecipeRef }) {
     </div>);
 }
 
+function LinkProblem({ recipe }: { recipe: Recipe }) {
+
+    const [ state, setState ] = useState("");
+    const [ link, SetLink] = useState("");
+
+    const OnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        SetLink(e.target.value);
+    };
+
+    const OnClick = async () => {
+        setState("loading");
+        if (!link)
+        {
+            alert("No link available to fix the image.");
+            setState("missing link");
+            return;
+        }
+        if (!recipe.sources)
+            recipe.sources = [];
+
+        recipe.sources.push({link:link, name:"Link"});
+        await uploadData(recipe);
+        
+        setState("finished");
+    }
+
+    return (<div>
+        <input type="text" onChange={OnChange} />
+        <button onClick={OnClick}>Set Link</button>
+        {state}
+    </div>);
+}
+
 export default function RecipeInspection({ recipe } : RecipeShowcaseProps) {
 
     const [ loading, setLoading ] = useState(true);
@@ -113,7 +147,9 @@ export default function RecipeInspection({ recipe } : RecipeShowcaseProps) {
         );
     }
 
+    var imageLink = recipe?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
     return (<div className={styles.recipeCard + " " + (problems.length == 0 ? styles.hidden : "")}>
+        <Image src={imageLink || ""} alt={"coverImage"} width={80} height={80}/>
         <div>{recipe.title}</div>
         <div>
             {problems.map((problem, idx) => {
@@ -124,6 +160,8 @@ export default function RecipeInspection({ recipe } : RecipeShowcaseProps) {
                         return <DetailsProblem key={idx} problem={problem} />;
                     case ProblemType.Tag:
                         return <TagProblem key={idx} problem={problem} />;
+                    case ProblemType.Link:
+                        return <LinkProblem key={idx} recipe={recipe} />;
                     default:
                         return null;
                 }

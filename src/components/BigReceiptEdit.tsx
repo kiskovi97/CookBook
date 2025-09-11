@@ -42,9 +42,12 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
         allValues.instructions = e.instructions;
         setAllValues({ ...allValues });
     }; 
-    const handleUpdateImage = (e: string) => {
+    const handleUpdateImage = (e: string, url: string) => {
         console.log("image was updated to: ", e);
         allValues.image = e;
+        if (!allValues.sources)
+            allValues.sources = [];
+        allValues.sources?.push({ link: url, name: "Link"});
         setAllValues({ ...allValues });
     }; 
 
@@ -68,7 +71,7 @@ const BigReceiptEdit: React.FC<BigReceiptEditProps> = ({ proj }) => {
             <div className={styles.receipt}>
                 <RecipeInspection recipe={proj} />
                 <AddDishButton onClickedAndChanged={(recipe) => handleExtract(recipe)} />
-                <UpdateImageButton onClickedAndChanged={(image) => handleUpdateImage(image)} />
+                <UpdateImageButton onClickedAndChanged={(image, url) => handleUpdateImage(image, url)} />
                 <div className={styles.description}>
                     <div>
                         <input className={inputStyles.text}

@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { Suspense } from "react";
 import AddDishButton from '@/components/ExtractRecipeButton';
 import { Recipe } from '@/types/recipe';
-import BigReceipt from '@/components/BigReceipt';
+import BigReceiptEdit from '@/components/BigReceiptEdit';
 import { uploadNewData } from '@/lib/dynamoService';
 import { useAuth } from '@/components/AuthContext';
 
@@ -32,7 +32,7 @@ export default function Page() {
       <div className={styles.page}>
         <AddDishButton onClickedAndChanged={(recipe) => setData(recipe)}/>
         <button onClick={uploadRecepie} disabled={!data} className={inputStyles.button}>UPLOAD AS NEW</button>
-        { data ? (<BigReceipt proj={data}/>) : null }
+        { data ? (<BigReceiptEdit proj={data}/>) : null }
       </div>
     </Suspense>
   </>;

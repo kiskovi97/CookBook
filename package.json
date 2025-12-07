@@ -8,7 +8,7 @@
     "@aws-sdk/lib-dynamodb": "^3.878.0",
     "firebase": "^12.2.1",
     "framer-motion": "^12.23.12",
-    "next": "^15.5.0",
+    "next": "^15.5.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-ga": "^3.3.1",

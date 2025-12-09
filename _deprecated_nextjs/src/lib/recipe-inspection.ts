@@ -1,4 +1,4 @@
-import type { Recipe } from "@/types/recipe";
+import { Recipe } from "@/types/recipe";
 
 export enum ProblemType {
   Image,
@@ -47,8 +47,8 @@ export function checkImageClient(url: string): Promise<boolean> {
 
 export async function fetchInspectionData(dataItem: Recipe) : Promise<RecipeRef[]> {
     const problems: RecipeRef[] = [];
-    const imageLink = dataItem?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
-
+    var imageLink = dataItem?.image?.replace("/CookBook/static/media", "https://kiskovi97.github.io/CookBook/images");
+    
     if (!imageLink) {
         problems.push({
             id: dataItem.id,

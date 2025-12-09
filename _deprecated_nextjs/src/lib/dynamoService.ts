@@ -1,8 +1,8 @@
 // src/lib/dynamoService.ts
 import { dynamodb } from "./aws-config";
 import { v4 as uuidv4 } from "uuid";
-import type { GetCommandInput, PutCommandInput, QueryCommandInput, ScanCommandInput } from "@aws-sdk/lib-dynamodb";
-import type { Recipe } from "../types/recipe";
+import { GetCommandInput, PutCommandInput, QueryCommandInput, ScanCommandInput } from "@aws-sdk/lib-dynamodb";
+import { Recipe } from "../types/recipe";
 
 // Generic service response type
 export interface ServiceResponse<T> {
@@ -13,7 +13,7 @@ export interface ServiceResponse<T> {
 
 // ------------------ FETCH ALL ------------------
 export const fetchData = async (): Promise<ServiceResponse<Recipe[]>> => {
-
+  
   const params: ScanCommandInput = {
     TableName: "Recepies",
   };
@@ -22,9 +22,9 @@ export const fetchData = async (): Promise<ServiceResponse<Recipe[]>> => {
     const data = await dynamodb.scan(params);
     console.log(data);
     return { success: true, data: (data.Items as Recipe[]) || [] };
-  } catch (error: unknown) {
+  } catch (error: any) {
     console.log(error);
-    return { success: false, message: (error as Error).message };
+    return { success: false, message: error.message };
   }
 };
 
@@ -33,7 +33,7 @@ export const fetchDataByTag = async (
   tag?: string
 ): Promise<ServiceResponse<Recipe[]>> => {
   if (!tag) return await fetchData();
-
+  
   const params: ScanCommandInput = {
     TableName: "Recepies",
     FilterExpression: "contains (#tags, :tag)",
@@ -48,8 +48,8 @@ export const fetchDataByTag = async (
   try {
     const data = await dynamodb.scan(params);
     return { success: true, data: (data.Items as Recipe[]) || [] };
-  } catch (error: unknown) {
-    return { success: false, message: (error as Error).message };
+  } catch (error: any) {
+    return { success: false, message: error.message };
   }
 };
 
@@ -115,8 +115,8 @@ export const fetchLastXData = async (
   try {
     const result = await dynamodb.query(params);
     return { success: true, data: (result.Items as Recipe[]) || [] };
-  } catch (error: unknown) {
-    return { success: false, message: (error as Error).message };
+  } catch (error: any) {
+    return { success: false, message: error.message };
   }
 };
 
@@ -132,7 +132,7 @@ export const fetchDataById = async (
   try {
     const data = await dynamodb.get(params);
     return { success: true, data: data.Item as Recipe };
-  } catch (error: unknown) {
-    return { success: false, message: (error as Error).message };
+  } catch (error: any) {
+    return { success: false, message: error.message };
   }
 };

@@ -1,4 +1,4 @@
-import type { Recipe } from '../types/recipe';
+import { Recipe } from '../types/recipe';
 
 export async function extractRecipe(url: string) : Promise<Recipe | null> {
     try {

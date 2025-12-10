@@ -20,6 +20,7 @@
   "dependencies": {
     "@aws-sdk/credential-providers": "^3.947.0",
     "@aws-sdk/lib-dynamodb": "^3.947.0",
+    "@vueuse/head": "^2.0.0",
     "firebase": "^12.6.0",
     "motion-v": "^1.7.4",
     "pinia": "^3.0.4",

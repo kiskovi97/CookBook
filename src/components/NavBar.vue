@@ -5,6 +5,7 @@ import { GoogleAuthProvider } from 'firebase/auth'
 import { useFirebaseAuth, useCurrentUser } from 'vuefire'
 import { onMounted, ref } from 'vue'
 import profile from '@/logos/profile-user.png'
+import burger from '@/logos/menu-burger.svg'
 
 defineProps<{
   search?: boolean
@@ -13,6 +14,7 @@ defineProps<{
 const auth = useFirebaseAuth()!
 const user = useCurrentUser()
 const error = ref(null)
+const isHamburgerShown = ref(false)
 const router = useRouter()
 
 const googleAuthProvider = new GoogleAuthProvider()
@@ -62,148 +64,158 @@ const onHandleProfileClick = () => {
 <template>
   <div class="main">
     <div class="hamburger">
-
+      <img
+        :src="burger"
+        alt=""
+        width="24"
+        height="24"
+        @click="isHamburgerShown = !isHamburgerShown"
+      />
+      <div v-if="isHamburgerShown" class="tabs_hamburger">
+        <div><RouterLink to="/desserts">Desserts</RouterLink></div>
+        <div><RouterLink to="/dishes">Main dishes</RouterLink></div>
+        <div><RouterLink to="/search">All</RouterLink></div>
+        <template v-if="user">
+          <div><RouterLink to="/upload">Upload</RouterLink></div>
+          <div><RouterLink to="/inspection">Inspection</RouterLink></div>
+        </template>
+      </div>
     </div>
     <div class="title">
       <RouterLink to="/">Husband Material</RouterLink>
     </div>
     <div class="tabs">
-      <div> <RouterLink to="/desserts" >Desserts</RouterLink></div>
-      <div> <RouterLink to="/dishes" >Main dishes</RouterLink></div>
-      <div> <RouterLink to="/search" >All</RouterLink></div>
+      <div><RouterLink to="/desserts">Desserts</RouterLink></div>
+      <div><RouterLink to="/dishes">Main dishes</RouterLink></div>
+      <div><RouterLink to="/search">All</RouterLink></div>
       <template v-if="user">
-        <div> <RouterLink to="/upload" >Upload</RouterLink></div>
-        <div> <RouterLink to="/inspection" >Inspection</RouterLink></div>
+        <div><RouterLink to="/upload">Upload</RouterLink></div>
+        <div><RouterLink to="/inspection">Inspection</RouterLink></div>
       </template>
     </div>
 
-    <div v-if="search" className={styles.search}>
-      <input
-      type="text"
-      placeholder="Search..."
-      @blur="onSearchBlur"
-    />
+    <div v-if="search" class="search">
+      <input type="text" placeholder="Search..." @blur="onSearchBlur" />
     </div>
-      <div class="profile">
-        <img class="profileImage" :src="user?.photoURL || profile" alt=""
-        width="24" height="24" @click="onHandleProfileClick"/>
+    <div class="profile">
+      <img
+        class="profileImage"
+        :src="user?.photoURL || profile"
+        alt=""
+        width="24"
+        height="24"
+        @click="onHandleProfileClick"
+      />
     </div>
-
   </div>
 </template>
 
 <style scoped>
-.main
-{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    line-height: 1.2rem;
+.main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  line-height: 1.2rem;
 }
 
 .title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--darkestColor);
-    overflow: hidden;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--darkestColor);
+  overflow: hidden;
 }
 
 .search {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .tabs {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 2rem;
-    flex-grow: 1;
-    font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  flex-grow: 1;
+  font-size: 14px;
 }
 
 .tabs_hamburger {
-    position: absolute;
-    top: 4rem;
-    left: 2rem;
-    width: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: white;
-    gap: 2rem;
-    font-size: 14px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    z-index: 1000;
-    padding: 1.5rem 1rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  gap: 2rem;
+  font-size: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  padding: 1.5rem 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
-.main a
-{
-    color: var(--darkestColor);
-    text-decoration: none;
+.main a {
+  color: var(--darkestColor);
+  text-decoration: none;
 }
 
-.main a:hover
-{
-    color: var(--mainColor);
+.main a:hover {
+  color: var(--mainColor);
 }
 
 .hamburger {
-    width: 0;
-    height: 0;
-    overflow: hidden;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
 
-
 @media only screen and (max-width: 60em) {
-    .tabs {
-        gap: 0.5rem;
-        justify-content: space-between;
-        flex-grow: unset;
-    }
-    .title
-    {
-        max-width: 6rem;
-    }
-    .main
-    {
-        margin-left: 0rem;
-        margin-right: 0rem;
-        justify-content: start;
-        gap: 1rem;
-    }
+  .tabs {
+    gap: 0.5rem;
+    justify-content: space-between;
+    flex-grow: unset;
+  }
+  .title {
+    max-width: 6rem;
+  }
+  .main {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    justify-content: start;
+    gap: 1rem;
+  }
 
-    .profile {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-    }
+  .profile {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
 
-    .search {
-        width: 0px;
-    }
+  .search {
+    width: 0px;
+  }
 }
 
 @media only screen and (max-width: 40em) {
-    .tabs {
-        width: 0;
-        height: 0;
-        overflow: hidden;
-    }
-    .hamburger {
-        width: 24px;
-        height: 24px;
-        overflow: visible;
-    }
+  .tabs {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .hamburger {
+    width: 24px;
+    height: 24px;
+    overflow: visible;
+  }
 }
 </style>

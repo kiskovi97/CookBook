@@ -24,18 +24,11 @@
         </div>
       </div>
       <div>
-        <img
-          :src="imageLink ?? ''"
-          :alt="recipe.title"
+        <EditableImage
+          v-model:imageUrl="recipe.image"
           class="background"
-          width="256"
-          height="256"
-        />
-        <textarea
-          class="textarea"
-          name="image"
-          placeholder="Paste image URL here"
-          v-model="recipe.image"
+          :width="256"
+          :height="256"
         />
       </div>
     </div>
@@ -73,7 +66,7 @@
 <script setup lang="ts">
 import { motion } from 'motion-v'
 import type { Recipe } from '@/types/recipe'
-import { computed, ref } from 'vue'
+import { ref } from 'vue'
 import { uploadData, deleteDataById } from '@/lib/dynamoService'
 import { useRouter } from 'vue-router'
 import InputList from '@/components/InputList.vue'
@@ -81,6 +74,7 @@ import EditableIngredients from '@/components/EditableIngredients.vue'
 import RecipeInspection from '@/components/RecipeInspection.vue'
 import AddDishButton from '@/components/ExtractRecipeButton.vue'
 import UpdateImageButton from '@/components/UpdateImageButton.vue'
+import EditableImage from './EditableImage.vue'
 
 const props = defineProps<{
   recipe: Recipe
@@ -118,14 +112,6 @@ const handleUpdateImage = (e: string, url: string) => {
   if (!recipe.value.sources) recipe.value.sources = []
   recipe.value.sources?.push({ link: url, name: 'Link' })
 }
-
-const imageLink = computed(
-  () =>
-    recipe.value?.image?.replace(
-      '/CookBook/static/media',
-      'https://kiskovi97.github.io/CookBook/images',
-    ) ?? '',
-)
 </script>
 
 <style scoped>

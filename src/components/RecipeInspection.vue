@@ -8,6 +8,7 @@
         <DetailsProblem v-if="problem.problem == ProblemType.Details" :recipe="recipe" />
         <TagProblem v-if="problem.problem == ProblemType.Tag" :recipe="recipe" />
         <LinkProblem v-if="problem.problem == ProblemType.Link" :recipe="recipe" />
+        <ImageServerProblem v-if="problem.problem == ProblemType.ImageUpload" :recipe="recipe" />
       </template>
     </div>
   </div>
@@ -21,6 +22,7 @@ import TagProblem from '@/components/Problems/TagProblem.vue'
 import DetailsProblem from '@/components/Problems/DetailsProblem.vue'
 import ImageProblem from '@/components/Problems/ImageProblem.vue'
 import LinkProblem from '@/components/Problems/LinkProblem.vue'
+import ImageServerProblem from '@/components/Problems/ImageServerProblem.vue'
 
 const props = defineProps<{
   recipe: Recipe

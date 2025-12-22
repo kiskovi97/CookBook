@@ -9,6 +9,7 @@
 
 <script setup lang="ts">
 import { extractImage } from '@/lib/fetchRecipe'
+import { copyImageToServer } from '@/lib/image-service'
 import { ref } from 'vue'
 
 const emit = defineEmits<{
@@ -30,7 +31,9 @@ const handleExtractAndUpload = async () => {
       return
     }
 
-    emit('clickedAndChanged', image, url.value)
+    const uploadedImage = await copyImageToServer(image)
+
+    emit('clickedAndChanged', uploadedImage, url.value)
     alert('Image processed!')
     url.value = ''
   } catch (error) {

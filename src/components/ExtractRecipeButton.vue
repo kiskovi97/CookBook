@@ -9,6 +9,7 @@
 
 <script setup lang="ts">
 import { extractRecipe } from '@/lib/fetchRecipe'
+import { copyImageToServer } from '@/lib/image-service'
 import type { Recipe } from '@/types/recipe'
 import { ref } from 'vue'
 
@@ -23,16 +24,17 @@ const handleExtractAndUpload = async () => {
   isLoading.value = true
   try {
     console.log('Extracting recipe from URL:', url.value)
-    const image = await extractRecipe(url.value)
+    const recipe = await extractRecipe(url.value)
 
-    if (!image) {
-      alert('No image found or image is invalid.')
+    if (!recipe) {
+      alert('No image found or recipe is invalid.')
       isLoading.value = false
       return
     }
+    if (recipe.image) recipe.image = await copyImageToServer(recipe.image)
 
-    emit('clickedAndChanged', image)
-    alert('Image processed!')
+    emit('clickedAndChanged', recipe)
+    alert('Recipe processed!')
     url.value = ''
   } catch (error) {
     console.error('Error:', error)

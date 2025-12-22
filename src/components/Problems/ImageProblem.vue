@@ -10,6 +10,7 @@
 <script setup lang="ts">
 import { uploadData } from '@/lib/dynamoService'
 import { extractImage } from '@/lib/fetchRecipe'
+import { copyImageToServer } from '@/lib/image-service'
 import type { Recipe } from '@/types/recipe'
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
@@ -47,7 +48,7 @@ const fixImage = async () => {
 
   console.log('Found image:', newImage)
   alert('Found image, opening in new tab. Please copy the image URL and update the recipe.')
-  recipe.image = newImage
+  recipe.image = await copyImageToServer(newImage)
   await uploadData(recipe)
 
   isLoading.value = false

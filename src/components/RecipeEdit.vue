@@ -22,6 +22,10 @@
           <h3>Tags</h3>
           <InputList name="tags" v-model="recipe.tags" />
         </div>
+        <div class="tags">
+          <h3>Links</h3>
+          <EditableSources name="tags" v-model="recipe.sources" />
+        </div>
       </div>
       <div>
         <EditableImage
@@ -75,6 +79,7 @@ import RecipeInspection from '@/components/RecipeInspection.vue'
 import AddDishButton from '@/components/ExtractRecipeButton.vue'
 import UpdateImageButton from '@/components/UpdateImageButton.vue'
 import EditableImage from './EditableImage.vue'
+import EditableSources from './EditableSources.vue'
 
 const props = defineProps<{
   recipe: Recipe

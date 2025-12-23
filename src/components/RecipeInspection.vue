@@ -1,6 +1,6 @@
 <template>
   <div class="recipeCard" v-if="problems && problems.length > 0">
-    <Image :src="imageLink" alt="coverImage" width="80" height="80" />
+    <img :src="imageLink" alt="coverImage" width="80" height="80" />
     <div>{{ recipe.title }}</div>
     <div>
       <template v-for="problem in problems" :key="problem.id">

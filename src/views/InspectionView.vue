@@ -13,12 +13,12 @@ import Navbar from '@/components/NavBar.vue'
 import type { Recipe } from '@/types/recipe'
 import { onMounted, ref } from 'vue'
 import RecipeInspection from '@/components/RecipeInspection.vue'
-import { fetchData } from '@/lib/dynamoService'
+import { fetchRecepieData } from '@/lib/dynamoService'
 
 const recepies = ref<Recipe[]>([])
 
 onMounted(async () => {
-  const data = await fetchData()
+  const data = await fetchRecepieData()
   if (data.success && data.data) recepies.value = data.data
 })
 </script>

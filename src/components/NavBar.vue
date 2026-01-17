@@ -74,9 +74,11 @@ const onHandleProfileClick = () => {
       <div v-if="isHamburgerShown" class="tabs_hamburger">
         <div><RouterLink to="/desserts">Desserts</RouterLink></div>
         <div><RouterLink to="/dishes">Main dishes</RouterLink></div>
+        <div><RouterLink to="/wines">Wines</RouterLink></div>
         <div><RouterLink to="/search">All</RouterLink></div>
         <template v-if="user">
           <div><RouterLink to="/upload">Upload</RouterLink></div>
+          <div><RouterLink to="/uploadwine">Upload Wine</RouterLink></div>
           <div><RouterLink to="/inspection">Inspection</RouterLink></div>
         </template>
       </div>
@@ -87,9 +89,11 @@ const onHandleProfileClick = () => {
     <div class="tabs">
       <div><RouterLink to="/desserts">Desserts</RouterLink></div>
       <div><RouterLink to="/dishes">Main dishes</RouterLink></div>
+      <div><RouterLink to="/wines">Wines</RouterLink></div>
       <div><RouterLink to="/search">All</RouterLink></div>
       <template v-if="user">
         <div><RouterLink to="/upload">Upload</RouterLink></div>
+        <div><RouterLink to="/uploadwine">Upload Wine</RouterLink></div>
         <div><RouterLink to="/inspection">Inspection</RouterLink></div>
       </template>
     </div>

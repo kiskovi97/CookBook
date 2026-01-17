@@ -13,7 +13,7 @@
 import Navbar from '@/components/NavBar.vue'
 import type { Recipe } from '@/types/recipe'
 import { ref } from 'vue'
-import { uploadNewData } from '@/lib/dynamoService'
+import { uploadNewRecepieData } from '@/lib/dynamoService'
 import { useCurrentUser } from 'vuefire'
 import ExtractRecipeButton from '@/components/ExtractRecipeButton.vue'
 import AddNewRecipeButton from '@/components/AddNewRecipeButton.vue'
@@ -26,7 +26,7 @@ const user = useCurrentUser()
 const uploadRecipe = async () => {
   if (!data.value) return
 
-  await uploadNewData(data.value)
+  await uploadNewRecepieData(data.value)
 
   alert('Dish uploaded successfully!')
   data.value = null

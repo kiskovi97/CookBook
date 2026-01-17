@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { uploadData } from '@/lib/dynamoService'
+import { uploadRecepieData } from '@/lib/dynamoService'
 import { extractImage } from '@/lib/fetchRecipe'
 import { copyImageToServer } from '@/lib/image-service'
 import type { Recipe } from '@/types/recipe'
@@ -47,7 +47,7 @@ const fixImage = async () => {
 
     recipe.image = await copyImageToServer(newImage)
 
-    await uploadData(recipe)
+    await uploadRecepieData(recipe)
     isFixed.value = true
   } catch (e: Error | unknown) {
     alert('Failed to fix image: ' + (e as Error).message)

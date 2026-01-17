@@ -7,6 +7,9 @@ import DessertsView from '@/views/DessertRecepiesView.vue'
 import RecepieEditView from '@/views/RecepieEditView.vue'
 import InspectionView from '@/views/InspectionView.vue'
 import UploadView from '@/views/UploadView.vue'
+import WineListView from '@/views/WineListView.vue'
+import UploadWineView from '@/views/UploadWineView.vue'
+import WineEditView from '@/views/WineEditView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +53,21 @@ const router = createRouter({
       path: '/desserts',
       name: 'desserts',
       component: DessertsView,
+    },
+    {
+      path: '/wines',
+      name: 'wines',
+      component: WineListView,
+    },
+    {
+      path: '/uploadwine',
+      name: 'upload_wine',
+      component: UploadWineView,
+    },
+    {
+      path: '/wine/:id/edit',
+      name: 'wine-edit',
+      component: WineEditView,
     },
   ],
 })

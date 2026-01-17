@@ -1,60 +1,22 @@
 <template>
   <div class="receipt">
-    <RecipeInspection :recipe="recipe" />
-    <AddDishButton @clickedAndChanged="(recipe) => handleExtract(recipe)" />
-    <UpdateImageButton @clickedAndChanged="(image, url) => handleUpdateImage(image, url)" />
     <div class="description">
       <div>
-        <input
-          class="text"
-          type="text"
-          name="title"
-          placeholder="Paste recipe URL here"
-          v-model="recipe.title"
-        />
-        <textarea
-          class="textarea"
-          name="details"
-          placeholder="Paste recipe URL here"
-          v-model="recipe.details"
-        />
+        <input class="text" type="text" name="title" placeholder="title" v-model="data.title" />
+        <textarea class="textarea" name="details" placeholder="details" v-model="data.details" />
         <div class="tags">
           <h3>Tags</h3>
-          <InputList name="tags" v-model="recipe.tags" />
-        </div>
-        <div class="tags">
-          <h3>Links</h3>
-          <EditableSources name="tags" v-model="recipe.sources" />
+          <InputList name="tags" v-model="data.tags" />
         </div>
       </div>
       <div>
         <EditableImage
-          v-model:imageUrl="recipe.image"
+          v-model:imageUrl="data.image"
           class="background"
           :width="256"
           :height="256"
         />
       </div>
-    </div>
-    <div class="description">
-      <motion.div
-        :initial="{ opacity: 0, y: 20 }"
-        :whileInView="{ opacity: 1, y: 0 }"
-        :transition="{ duration: 0.6 }"
-        :viewport="{ once: true }"
-      >
-        <EditableIngredients v-model="recipe.ingredients" />
-      </motion.div>
-      <motion.div
-        :initial="{ opacity: 0, y: 20 }"
-        :whileInView="{ opacity: 1, y: 0 }"
-        :transition="{ duration: 0.6 }"
-        :viewport="{ once: true }"
-      >
-        <div>
-          <InputList name="instructions" v-model="recipe.instructions" />
-        </div>
-      </motion.div>
     </div>
     <div class="description">
       <div>
@@ -68,54 +30,34 @@
 </template>
 
 <script setup lang="ts">
-import { motion } from 'motion-v'
-import type { Recipe } from '@/types/recipe'
+import type { Wine } from '@/types/recipe'
 import { ref } from 'vue'
-import { uploadRecepieData, deleteRecepieDataById } from '@/lib/dynamoService'
+import { uploadWineData, deleteWineDataById } from '@/lib/dynamoService'
 import { useRouter } from 'vue-router'
 import InputList from '@/components/InputList.vue'
-import EditableIngredients from '@/components/EditableIngredients.vue'
-import RecipeInspection from '@/components/RecipeInspection.vue'
-import AddDishButton from '@/components/ExtractRecipeButton.vue'
-import UpdateImageButton from '@/components/UpdateImageButton.vue'
 import EditableImage from './EditableImage.vue'
-import EditableSources from './EditableSources.vue'
 
 const props = defineProps<{
-  recipe: Recipe
+  data: Wine
 }>()
 
-const recipe = ref<Recipe>(props.recipe)
+const data = ref<Wine>(props.data)
 const router = useRouter()
 
 const upload = async () => {
-  console.log('Uploading recipe:', recipe.value)
-  await uploadRecepieData(recipe.value)
+  console.log('Uploading recipe:', data.value)
+  await uploadWineData(data.value)
   alert('Uploaded')
-  router.push('/recipe/' + recipe.value.id)
+  router.push('/wines')
 }
 
 const deleteRecipe = async () => {
   if (confirm('Are you sure you want to delete this recipe?')) {
     // Implement delete logic here
-    await deleteRecepieDataById(recipe.value.id)
+    await deleteWineDataById(data.value.id)
     alert('Recipe deleted')
     router.push('/')
   }
-}
-
-const handleExtract = (e: Recipe) => {
-  recipe.value.title = e.title
-  recipe.value.image = e.image
-  recipe.value.ingredients = e.ingredients
-  recipe.value.instructions = e.instructions
-}
-
-const handleUpdateImage = (e: string, url: string) => {
-  console.log('image was updated to: ', e)
-  recipe.value.image = e
-  if (!recipe.value.sources) recipe.value.sources = []
-  recipe.value.sources?.push({ link: url, name: 'Link' })
 }
 </script>
 

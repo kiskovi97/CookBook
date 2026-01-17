@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted } from 'vue'
 import SmallReceipt from '@/components/RecipeSmall.vue'
-import { fetchDataByTag } from '@/lib/dynamoService'
+import { fetchRecepieDataByTag } from '@/lib/dynamoService'
 import type { Recipe } from '@/types/recipe'
 
 interface DishListProps {
@@ -54,7 +54,7 @@ const recipeMatchesFilter = (filter: string | undefined, recipe: Recipe): boolea
 }
 
 const fetchAndSetData = async (tag?: string, orderBy?: string, maxCount?: number) => {
-  const result = await fetchDataByTag(tag)
+  const result = await fetchRecepieDataByTag(tag)
   if (result.success) {
     let resultData = result.data as Recipe[]
 

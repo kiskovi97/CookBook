@@ -21,3 +21,12 @@ export interface IngredientGroup {
   title?: string
   list?: string[]
 }
+
+export interface Wine {
+  id: string
+  title: string
+  CreationDate: string
+  details?: string
+  image?: string
+  tags?: string[]
+}

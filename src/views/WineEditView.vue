@@ -1,18 +1,16 @@
 <script setup lang="ts">
 import Navbar from '@/components/NavBar.vue'
-import { onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { fetchWineDataById } from '@/lib/dynamoService'
 import type { Wine } from '@/types/recipe'
 import WineEdit from '@/components/WineEdit.vue'
+import { useWineStore } from '@/stores/useWineStore'
+import { computed } from 'vue'
 
 const route = useRoute()
-const data = ref<Wine | undefined>(undefined)
-
-onMounted(async () => {
-  if (!route.params.id) return
-
-  data.value = (await fetchWineDataById(route.params.id.toString())).data
+const { getWineById } = useWineStore()
+const data = computed<Wine | undefined>(() => {
+  if (!route.params.id) return undefined
+  return getWineById(route.params.id.toString())
 })
 </script>
 

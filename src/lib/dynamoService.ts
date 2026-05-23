@@ -1,7 +1,7 @@
 // src/lib/dynamoService.ts
 import { dynamodb } from './aws-config'
 import { v4 as uuidv4 } from 'uuid'
-import type { GetCommandInput, PutCommandInput, ScanCommandInput } from '@aws-sdk/lib-dynamodb'
+import type { PutCommandInput, ScanCommandInput } from '@aws-sdk/lib-dynamodb'
 import type { Recipe, Wine } from '../types/recipe'
 
 // Generic service response type
@@ -155,20 +155,5 @@ export const uploadNewRecepieData = async (data: Recipe) => {
   } catch (error) {
     console.error('Error uploading dish:', data)
     throw error
-  }
-}
-
-// ------------------ FETCH BY ID ------------------
-export const fetchWineDataById = async (id: string): Promise<ServiceResponse<Wine>> => {
-  const params: GetCommandInput = {
-    TableName: 'Wines',
-    Key: { id },
-  }
-
-  try {
-    const data = await dynamodb.get(params)
-    return { success: true, data: data.Item as Wine }
-  } catch (error: unknown) {
-    return { success: false, message: (error as Error).message }
   }
 }

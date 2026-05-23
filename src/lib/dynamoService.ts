@@ -172,18 +172,3 @@ export const fetchWineDataById = async (id: string): Promise<ServiceResponse<Win
     return { success: false, message: (error as Error).message }
   }
 }
-
-// ------------------ FETCH BY ID ------------------
-export const fetchRecipeDataById = async (id: string): Promise<ServiceResponse<Recipe>> => {
-  const params: GetCommandInput = {
-    TableName: 'Recepies',
-    Key: { id },
-  }
-
-  try {
-    const data = await dynamodb.get(params)
-    return { success: true, data: data.Item as Recipe }
-  } catch (error: unknown) {
-    return { success: false, message: (error as Error).message }
-  }
-}

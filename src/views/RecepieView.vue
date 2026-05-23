@@ -1,23 +1,23 @@
 <script setup lang="ts">
 import Navbar from '@/components/NavBar.vue'
-import { onMounted, ref } from 'vue'
+import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { fetchRecipeDataById } from '@/lib/dynamoService'
+import { useRecipeStore } from '@/stores/useRecipeStore'
 import type { Recipe } from '@/types/recipe'
-import RecepieBig from '@/components/RecipeBig.vue'
+import RecipeBig from '@/components/RecipeBig.vue'
 import { useHead } from '@vueuse/head'
 
 const route = useRoute()
-const recipe = ref<Recipe | undefined>(undefined)
+const { getRecipeById } = useRecipeStore()
+const recipe = computed<Recipe | undefined>(() => {
+  if (!route.params.id) return undefined
+  return getRecipeById(route.params.id.toString())
+})
 
-onMounted(async () => {
-  if (!route.params.id) return
+useHead(() => {
+  if (!recipe.value) return { title: 'Recipe not found' }
 
-  recipe.value = (await fetchRecipeDataById(route.params.id.toString())).data
-
-  if (!recipe.value) return
-
-  useHead({
+  return {
     title: recipe.value.title,
     meta: [
       { name: 'description', content: recipe.value.details },
@@ -33,13 +33,13 @@ onMounted(async () => {
       { name: 'twitter:description', content: recipe.value.details },
       { name: 'twitter:image', content: recipe.value.image },
     ],
-  })
+  }
 })
 </script>
 
 <template>
   <Navbar search />
   <div class="page">
-    <RecepieBig v-if="recipe" :proj="recipe" />
+    <RecipeBig v-if="recipe" :proj="recipe" />
   </div>
 </template>

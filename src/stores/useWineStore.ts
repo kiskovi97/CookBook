@@ -1,5 +1,5 @@
 import { fetchWineData } from '@/lib/dynamoService'
-import { Wine } from '@/types/recipe'
+import type { Wine } from '@/types/recipe'
 import { defineStore } from 'pinia'
 import { onMounted, ref } from 'vue'
 

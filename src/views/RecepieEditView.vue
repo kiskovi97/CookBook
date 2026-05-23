@@ -1,18 +1,16 @@
 <script setup lang="ts">
 import Navbar from '@/components/NavBar.vue'
-import { onMounted, ref } from 'vue'
+import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { fetchRecepieDataById } from '@/lib/dynamoService'
-import type { Recipe } from '@/types/recipe'
 import RecepieEdit from '@/components/RecipeEdit.vue'
+import { useRecipeStore } from '@/stores/useRecipeStore'
 
 const route = useRoute()
-const recipe = ref<Recipe | undefined>(undefined)
 
-onMounted(async () => {
-  if (!route.params.id) return
-
-  recipe.value = (await fetchRecepieDataById(route.params.id.toString())).data
+const { getRecipeById } = useRecipeStore()
+const recipe = computed(() => {
+  if (!route.params.id) return undefined
+  return getRecipeById(route.params.id.toString())
 })
 </script>
 

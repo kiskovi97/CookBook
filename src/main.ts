@@ -4,6 +4,7 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { VueFire, VueFireAuth } from 'vuefire'
 import { initializeApp } from '@firebase/app'
+import piniaPluginPersistedState from 'pinia-plugin-persistedstate'
 
 import App from './App.vue'
 import router from './router'
@@ -13,7 +14,7 @@ const app = createApp(App)
 
 const head = createHead()
 app.use(head)
-app.use(createPinia())
+app.use(createPinia().use(piniaPluginPersistedState))
 app.use(router)
 app.use(VueFire, {
   firebaseApp: initializeApp({

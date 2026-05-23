@@ -5,10 +5,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, onMounted } from 'vue'
+import { computed } from 'vue'
 import SmallReceipt from '@/components/RecipeSmall.vue'
-import { fetchRecepieDataByTag } from '@/lib/dynamoService'
 import type { Recipe } from '@/types/recipe'
+import { useRecipeStore } from '@/stores/useRecipeStore'
 
 interface DishListProps {
   tag?: string
@@ -24,7 +24,32 @@ const props = withDefaults(defineProps<DishListProps>(), {
   orderBy: undefined,
 })
 
-const dbData = ref<Recipe[]>([])
+const { getRecipesByTag } = useRecipeStore()
+
+const recipes = computed(() => getRecipesByTag(props.tag ?? ''))
+const orderedRecipes = computed(() => {
+  let resultData = [...recipes.value]
+
+  if (props.orderBy === 'date') {
+    resultData.sort(
+      (first, second) =>
+        new Date(first.CreationDate).getTime() - new Date(second.CreationDate).getTime(),
+    )
+  } else if (props.orderBy === 'date-desc') {
+    resultData.sort(
+      (first, second) =>
+        new Date(second.CreationDate).getTime() - new Date(first.CreationDate).getTime(),
+    )
+  } else {
+    resultData.sort((first, second) => first.title.localeCompare(second.title))
+  }
+
+  if (props.maxCount) {
+    resultData = resultData.slice(0, props.maxCount)
+  }
+
+  return resultData
+})
 
 const normalizeText = (text: string): string => {
   return text
@@ -53,49 +78,7 @@ const recipeMatchesFilter = (filter: string | undefined, recipe: Recipe): boolea
   return words.every((word) => combinedText.includes(word))
 }
 
-const fetchAndSetData = async (tag?: string, orderBy?: string, maxCount?: number) => {
-  const result = await fetchRecepieDataByTag(tag)
-  if (result.success) {
-    let resultData = result.data as Recipe[]
-
-    if (orderBy === 'date') {
-      resultData = [...resultData].sort(
-        (first, second) =>
-          new Date(first.CreationDate).getTime() - new Date(second.CreationDate).getTime(),
-      )
-    } else if (orderBy === 'date-desc') {
-      resultData = [...resultData].sort(
-        (first, second) =>
-          new Date(second.CreationDate).getTime() - new Date(first.CreationDate).getTime(),
-      )
-    } else {
-      resultData = [...resultData].sort((first, second) => first.title.localeCompare(second.title))
-    }
-
-    if (maxCount) {
-      resultData = resultData.slice(0, maxCount)
-    }
-
-    dbData.value = resultData
-  } else {
-    alert('Error Fetching Data: ' + result.message)
-  }
-}
-
 const filtered = computed(() =>
-  dbData.value.filter((item) => recipeMatchesFilter(props.filter, item)),
+  orderedRecipes.value.filter((item) => recipeMatchesFilter(props.filter, item)),
 )
-
-watch(
-  () => [props.tag, props.orderBy, props.maxCount],
-  () => {
-    fetchAndSetData(props.tag, props.orderBy, props.maxCount)
-  },
-)
-
-onMounted(() => {
-  fetchAndSetData(props.tag, props.orderBy, props.maxCount)
-})
 </script>
-
-<style></style>

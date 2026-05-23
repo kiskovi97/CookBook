@@ -1,12 +1,7 @@
 // src/lib/dynamoService.ts
 import { dynamodb } from './aws-config'
 import { v4 as uuidv4 } from 'uuid'
-import type {
-  GetCommandInput,
-  PutCommandInput,
-  QueryCommandInput,
-  ScanCommandInput,
-} from '@aws-sdk/lib-dynamodb'
+import type { GetCommandInput, PutCommandInput, ScanCommandInput } from '@aws-sdk/lib-dynamodb'
 import type { Recipe, Wine } from '../types/recipe'
 
 // Generic service response type
@@ -32,7 +27,7 @@ export const fetchWineData = async (): Promise<ServiceResponse<Wine[]>> => {
   }
 }
 // ------------------ FETCH ALL ------------------
-export const fetchRecepieData = async (): Promise<ServiceResponse<Recipe[]>> => {
+export const fetchRecipeData = async (): Promise<ServiceResponse<Recipe[]>> => {
   const params: ScanCommandInput = {
     TableName: 'Recepies',
   }
@@ -47,28 +42,6 @@ export const fetchRecepieData = async (): Promise<ServiceResponse<Recipe[]>> => 
   }
 }
 
-// ------------------ FETCH BY TAG ------------------
-export const fetchRecepieDataByTag = async (tag?: string): Promise<ServiceResponse<Recipe[]>> => {
-  if (!tag) return await fetchRecepieData()
-
-  const params: ScanCommandInput = {
-    TableName: 'Recepies',
-    FilterExpression: 'contains (#tags, :tag)',
-    ExpressionAttributeNames: {
-      '#tags': 'tags',
-    },
-    ExpressionAttributeValues: {
-      ':tag': tag,
-    },
-  }
-
-  try {
-    const data = await dynamodb.scan(params)
-    return { success: true, data: (data.Items as Recipe[]) || [] }
-  } catch (error: unknown) {
-    return { success: false, message: (error as Error).message }
-  }
-}
 // ------------------ UPLOAD ------------------
 export const uploadWineData = async (data: Partial<Wine>): Promise<void> => {
   const item: Wine = {
@@ -185,27 +158,6 @@ export const uploadNewRecepieData = async (data: Recipe) => {
   }
 }
 
-// ------------------ FETCH LAST X ------------------
-export const fetchLastXRecepieData = async (count: number): Promise<ServiceResponse<Recipe[]>> => {
-  const params: QueryCommandInput = {
-    TableName: 'Recepies',
-    IndexName: 'CreationDatePKIndex',
-    KeyConditionExpression: 'CreationDatePK = :type',
-    ExpressionAttributeValues: {
-      ':type': 'dish',
-    },
-    ScanIndexForward: false,
-    Limit: count,
-  }
-
-  try {
-    const result = await dynamodb.query(params)
-    return { success: true, data: (result.Items as Recipe[]) || [] }
-  } catch (error: unknown) {
-    return { success: false, message: (error as Error).message }
-  }
-}
-
 // ------------------ FETCH BY ID ------------------
 export const fetchWineDataById = async (id: string): Promise<ServiceResponse<Wine>> => {
   const params: GetCommandInput = {
@@ -222,7 +174,7 @@ export const fetchWineDataById = async (id: string): Promise<ServiceResponse<Win
 }
 
 // ------------------ FETCH BY ID ------------------
-export const fetchRecepieDataById = async (id: string): Promise<ServiceResponse<Recipe>> => {
+export const fetchRecipeDataById = async (id: string): Promise<ServiceResponse<Recipe>> => {
   const params: GetCommandInput = {
     TableName: 'Recepies',
     Key: { id },

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Navbar from '@/components/NavBar.vue'
 import MeComponent from '@/components/MeComponent.vue'
-import DishList from '@/components/RecepieList.vue'
+import DishList from '@/components/RecipeList.vue'
 </script>
 
 <template>

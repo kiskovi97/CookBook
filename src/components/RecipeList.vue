@@ -9,6 +9,7 @@ import { computed } from 'vue'
 import SmallReceipt from '@/components/RecipeSmall.vue'
 import type { Recipe } from '@/types/recipe'
 import { useRecipeStore } from '@/stores/useRecipeStore'
+import { storeToRefs } from 'pinia'
 
 interface DishListProps {
   tag?: string
@@ -24,22 +25,31 @@ const props = withDefaults(defineProps<DishListProps>(), {
   orderBy: undefined,
 })
 
-const { getRecipesByTag } = useRecipeStore()
+const { recipesByTag, recipes } = storeToRefs(useRecipeStore())
 
-const recipes = computed(() => getRecipesByTag(props.tag ?? ''))
+type InternalRecipe = Recipe & { __searchText?: string; __creationTs?: number }
+
 const orderedRecipes = computed(() => {
-  let resultData = [...recipes.value]
+  let resultData = [...(props.tag ? (recipesByTag.value[props.tag ?? ''] ?? []) : recipes.value)]
 
   if (props.orderBy === 'date') {
-    resultData.sort(
-      (first, second) =>
-        new Date(first.CreationDate).getTime() - new Date(second.CreationDate).getTime(),
-    )
+    resultData.sort((first, second) => {
+      const a =
+        (first as unknown as InternalRecipe).__creationTs ?? new Date(first.CreationDate).getTime()
+      const b =
+        (second as unknown as InternalRecipe).__creationTs ??
+        new Date(second.CreationDate).getTime()
+      return a - b
+    })
   } else if (props.orderBy === 'date-desc') {
-    resultData.sort(
-      (first, second) =>
-        new Date(second.CreationDate).getTime() - new Date(first.CreationDate).getTime(),
-    )
+    resultData.sort((first, second) => {
+      const a =
+        (first as unknown as InternalRecipe).__creationTs ?? new Date(first.CreationDate).getTime()
+      const b =
+        (second as unknown as InternalRecipe).__creationTs ??
+        new Date(second.CreationDate).getTime()
+      return b - a
+    })
   } else {
     resultData.sort((first, second) => first.title.localeCompare(second.title))
   }
@@ -54,8 +64,7 @@ const orderedRecipes = computed(() => {
 const normalizeText = (text: string): string => {
   return text
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z\s]/gi, ' ')
+    .replace(/[^\w\s]/g, ' ')
     .toLowerCase()
 }
 
@@ -64,16 +73,10 @@ const recipeMatchesFilter = (filter: string | undefined, recipe: Recipe): boolea
 
   const words = normalizeText(filter).split(/\s+/).filter(Boolean)
 
-  const searchableFields: string[] = [
-    recipe.title,
-    recipe.details ?? '',
-    ...(recipe.tags ?? []),
-    ...(recipe.sources?.map((section) => section.link ?? '') ?? []),
-    ...(recipe.instructions ?? []),
-    ...(recipe.ingredients?.flatMap((section) => section.list ?? []) ?? []),
-  ]
-
-  const combinedText = normalizeText(searchableFields.join(' '))
+  // use precomputed __searchText when available
+  const combinedText =
+    (recipe as unknown as InternalRecipe).__searchText ??
+    normalizeText([recipe.title, recipe.details ?? '', ...(recipe.tags ?? [])].join(' '))
 
   return words.every((word) => combinedText.includes(word))
 }

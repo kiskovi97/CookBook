@@ -12,6 +12,10 @@ export interface Recipe {
   image?: string
 }
 
+export const recipeMainTypes = ['main', 'side', 'dessert', 'soup', 'other']
+
+export type RecipeMainType = (typeof recipeMainTypes)[number]
+
 export interface Source {
   link?: string
   name?: string

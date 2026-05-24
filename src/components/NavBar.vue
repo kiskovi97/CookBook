@@ -48,7 +48,7 @@ const onSearchBlur = (event: FocusEvent) => {
   const input = event.target as HTMLInputElement
   const query = input.value.trim()
   if (query.length > 0) {
-    router.push(`/search?search=${encodeURIComponent(query)}`)
+    router.push(`/recipes?search=${encodeURIComponent(query)}`)
   }
 }
 
@@ -72,13 +72,11 @@ const onHandleProfileClick = () => {
         @click="isHamburgerShown = !isHamburgerShown"
       />
       <div v-if="isHamburgerShown" class="tabs_hamburger">
-        <div><RouterLink to="/desserts">Desserts</RouterLink></div>
-        <div><RouterLink to="/dishes">Main dishes</RouterLink></div>
+        <div><RouterLink to="/recipes">Recipes</RouterLink></div>
         <div><RouterLink to="/wines">Wines</RouterLink></div>
-        <div><RouterLink to="/search">All</RouterLink></div>
         <template v-if="user">
           <div><RouterLink to="/upload">Upload</RouterLink></div>
-          <div><RouterLink to="/uploadwine">Upload Wine</RouterLink></div>
+          <div><RouterLink to="/upload-wine">Upload Wine</RouterLink></div>
           <div><RouterLink to="/inspection">Inspection</RouterLink></div>
         </template>
       </div>
@@ -87,13 +85,11 @@ const onHandleProfileClick = () => {
       <RouterLink to="/">Husband Material</RouterLink>
     </div>
     <div class="tabs">
-      <div><RouterLink to="/desserts">Desserts</RouterLink></div>
-      <div><RouterLink to="/dishes">Main dishes</RouterLink></div>
+      <div><RouterLink to="/recipes">Recipes</RouterLink></div>
       <div><RouterLink to="/wines">Wines</RouterLink></div>
-      <div><RouterLink to="/search">All</RouterLink></div>
       <template v-if="user">
         <div><RouterLink to="/upload">Upload</RouterLink></div>
-        <div><RouterLink to="/uploadwine">Upload Wine</RouterLink></div>
+        <div><RouterLink to="/upload-wine">Upload Wine</RouterLink></div>
         <div><RouterLink to="/inspection">Inspection</RouterLink></div>
       </template>
     </div>

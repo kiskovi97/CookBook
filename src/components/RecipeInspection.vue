@@ -1,6 +1,6 @@
 <template>
   <div class="recipeCard" v-if="problems && problems.length > 0">
-    <img :src="imageLink" alt="coverImage" width="80" height="80" />
+    <img :src="imageLink" alt="cover" width="80" height="80" />
     <div>{{ recipe.title }}</div>
     <div>
       <template v-for="problem in problems" :key="problem.id">
@@ -42,5 +42,3 @@ onMounted(async () => {
   problems.value = await fetchInspectionData(props.recipe)
 })
 </script>
-
-<style scoped></style>

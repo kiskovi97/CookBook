@@ -64,5 +64,3 @@ const orderedList = computed(() =>
   sortData(props.data, props.orderBy, props.maxCount, props.filter),
 )
 </script>
-
-<style></style>

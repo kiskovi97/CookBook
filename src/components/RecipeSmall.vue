@@ -15,6 +15,7 @@
             class="background"
             width="256"
             height="256"
+            loading="lazy"
           />
         </div>
         <div class="description">

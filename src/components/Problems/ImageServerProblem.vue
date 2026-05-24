@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { uploadRecepieData } from '@/lib/dynamoService'
+import { uploadRecipeData } from '@/lib/dynamoService'
 import { copyImageToServer } from '@/lib/image-service'
 import type { Recipe } from '@/types/recipe'
 import { computed, ref } from 'vue'
@@ -39,7 +39,7 @@ const fixImage = async () => {
     )
 
     recipe.image = await copyImageToServer(imageUrl)
-    await uploadRecepieData(recipe)
+    await uploadRecipeData(recipe)
 
     isLoading.value = false
     isFixed.value = true

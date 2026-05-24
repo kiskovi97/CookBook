@@ -6,7 +6,7 @@
       :transition="{ duration: 0.6 }"
       :viewport="{ once: true }"
     >
-      <RouterLink class="wine" :to="'/wine/' + data.id + '/edit'">
+      <RouterLink class="wine" :to="'/wine/' + data.id + '/edit'" :class="!user ? 'disabled' : ''">
         <div class="image">
           <img
             :src="imageLink"
@@ -35,11 +35,13 @@
 import { motion } from 'motion-v'
 import type { Wine } from '@/types/recipe'
 import { computed } from 'vue'
+import { useCurrentUser } from 'vuefire'
 
 const props = defineProps<{
   data: Wine
   hidden: boolean
 }>()
+const user = useCurrentUser()
 
 const imageLink = computed(
   () =>
@@ -51,6 +53,10 @@ const imageLink = computed(
 </script>
 
 <style scoped>
+.disabled {
+  pointer-events: none;
+}
+
 .wine {
   margin: 0 auto;
   position: relative;

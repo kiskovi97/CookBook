@@ -1,4 +1,4 @@
-import type { Recipe } from '@/types/recipe'
+import { recipeMainTypes, type Recipe } from '@/types/recipe'
 
 export enum ProblemType {
   Image,
@@ -90,7 +90,7 @@ export async function fetchInspectionData(dataItem: Recipe): Promise<RecipeRef[]
       problem: ProblemType.Tag,
       value: `No Tags for: ${dataItem.title}`,
     })
-  } else if (!dataItem.tags.includes('main') && !dataItem.tags.includes('dessert')) {
+  } else if (!includesMainTag(dataItem.tags)) {
     problems.push({
       id: dataItem.id,
       problem: ProblemType.Tag,
@@ -105,4 +105,9 @@ export async function fetchInspectionData(dataItem: Recipe): Promise<RecipeRef[]
       value: `Missing Links`,
     })
   return problems
+}
+
+function includesMainTag(tags: string[] | undefined): boolean {
+  if (!tags) return false
+  return recipeMainTypes.some((type) => tags.includes(type))
 }

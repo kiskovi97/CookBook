@@ -18,6 +18,13 @@
           placeholder="Paste recipe URL here"
           v-model="recipe.details"
         />
+        <div>
+          <select name="mainTypeSelection" id="mainTypeSelection" v-model="mainTypeSelection">
+            <option v-for="type in recipeMainTypes" :key="type" :value="type">
+              {{ type }}
+            </option>
+          </select>
+        </div>
         <div class="tags">
           <h3>Tags</h3>
           <InputList name="tags" v-model="recipe.tags" />
@@ -69,9 +76,9 @@
 
 <script setup lang="ts">
 import { motion } from 'motion-v'
-import type { Recipe } from '@/types/recipe'
+import { type Recipe, type RecipeMainType, recipeMainTypes } from '@/types/recipe'
 import { ref } from 'vue'
-import { uploadRecepieData, deleteRecepieDataById } from '@/lib/dynamoService'
+import { uploadRecipeData, deleteRecipeDataById } from '@/lib/dynamoService'
 import { useRouter } from 'vue-router'
 import InputList from '@/components/InputList.vue'
 import EditableIngredients from '@/components/EditableIngredients.vue'
@@ -86,11 +93,27 @@ const props = defineProps<{
 }>()
 
 const recipe = ref<Recipe>(props.recipe)
+const mainTypeSelection = ref<RecipeMainType>(
+  props.recipe.tags?.find((tag) => recipeMainTypes.includes(tag)) as RecipeMainType,
+)
 const router = useRouter()
 
+const applyMainType = () => {
+  const tags = new Set(recipe.value.tags ?? [])
+  for (const type of recipeMainTypes) {
+    if (tags.has(type)) {
+      tags.delete(type)
+    }
+  }
+  tags.add(mainTypeSelection.value)
+  console.log('Applied main type:', mainTypeSelection.value)
+  recipe.value.tags = Array.from(tags)
+}
+
 const upload = async () => {
+  applyMainType()
   console.log('Uploading recipe:', recipe.value)
-  await uploadRecepieData(recipe.value)
+  await uploadRecipeData(recipe.value)
   alert('Uploaded')
   router.push('/recipe/' + recipe.value.id)
 }
@@ -98,7 +121,7 @@ const upload = async () => {
 const deleteRecipe = async () => {
   if (confirm('Are you sure you want to delete this recipe?')) {
     // Implement delete logic here
-    await deleteRecepieDataById(recipe.value.id)
+    await deleteRecipeDataById(recipe.value.id)
     alert('Recipe deleted')
     router.push('/')
   }
@@ -109,6 +132,10 @@ const handleExtract = (e: Recipe) => {
   recipe.value.image = e.image
   recipe.value.ingredients = e.ingredients
   recipe.value.instructions = e.instructions
+  recipe.value.details = e.details
+  recipe.value.tags = e.tags
+  mainTypeSelection.value =
+    (e.tags?.find((tag) => recipeMainTypes.includes(tag)) as RecipeMainType) ?? 'main'
 }
 
 const handleUpdateImage = (e: string, url: string) => {

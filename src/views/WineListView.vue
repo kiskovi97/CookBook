@@ -4,6 +4,7 @@ import WineList from '@/components/WineList.vue'
 import SearchBar from '@/components/SearchBar.vue'
 import { ref, onMounted } from 'vue'
 import { useWineStore } from '@/stores/useWineStore'
+import { storeToRefs } from 'pinia'
 
 const filter = ref('')
 const orderBy = ref('name')
@@ -15,7 +16,7 @@ onMounted(() => {
   }
 })
 
-const { wines } = useWineStore()
+const { wines } = storeToRefs(useWineStore())
 </script>
 
 <template>

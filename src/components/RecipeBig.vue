@@ -5,7 +5,7 @@
         <h1 class="title">{{ proj.title }}</h1>
         <div class="tags">
           <div v-for="tag in proj.tags" :key="tag" class="tag">
-            <RouterLink :to="'/search?filter=' + tag">{{ tag }}</RouterLink>
+            <RouterLink :to="'/recipes?filter=' + tag">{{ tag }}</RouterLink>
           </div>
         </div>
         <div>{{ proj.details }}</div>

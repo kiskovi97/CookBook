@@ -1,14 +1,16 @@
 // src/lib/dynamoService.ts
 import { dynamodb } from './aws-config'
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuid } from 'uuid'
 import type { PutCommandInput, ScanCommandInput } from '@aws-sdk/lib-dynamodb'
 import type { Recipe, Wine } from '../types/recipe'
+import type { AttributeValue } from '@aws-sdk/client-dynamodb'
 
 // Generic service response type
 export interface ServiceResponse<T> {
   success: boolean
   data?: T
   message?: string
+  nextKey?: Record<string, AttributeValue>
 }
 
 // ------------------ FETCH ALL ------------------
@@ -42,10 +44,30 @@ export const fetchRecipeData = async (): Promise<ServiceResponse<Recipe[]>> => {
   }
 }
 
+export const fetchRecipePage = async (
+  limit = 25,
+  nextKey?: Record<string, AttributeValue>,
+): Promise<ServiceResponse<Recipe[]>> => {
+  const params: ScanCommandInput = {
+    TableName: 'Recepies',
+    Limit: limit,
+    ExclusiveStartKey: nextKey,
+  }
+
+  return dynamodb
+    .scan(params)
+    .then((data) => ({
+      success: true,
+      data: (data.Items as Recipe[]) || [],
+      nextKey: data.LastEvaluatedKey,
+    }))
+    .catch((error: unknown) => ({ success: false, message: (error as Error).message }))
+}
+
 // ------------------ UPLOAD ------------------
 export const uploadWineData = async (data: Partial<Wine>): Promise<void> => {
   const item: Wine = {
-    id: data.id || uuidv4(),
+    id: data.id || uuid(),
     CreationDate: data.CreationDate || new Date().toISOString(),
     title: data.title ?? '',
     ...data,
@@ -66,9 +88,9 @@ export const uploadWineData = async (data: Partial<Wine>): Promise<void> => {
 }
 
 // ------------------ UPLOAD ------------------
-export const uploadRecepieData = async (data: Partial<Recipe>): Promise<void> => {
+export const uploadRecipeData = async (data: Partial<Recipe>): Promise<void> => {
   const item: Recipe = {
-    id: data.id || uuidv4(),
+    id: data.id || uuid(),
     CreationDate: data.CreationDate || new Date().toISOString(),
     CreationDatePK: 'dish',
     title: data.title ?? '',
@@ -104,7 +126,7 @@ export const deleteWineDataById = async (id: string): Promise<void> => {
   }
 }
 
-export const deleteRecepieDataById = async (id: string): Promise<void> => {
+export const deleteRecipeDataById = async (id: string): Promise<void> => {
   const params = {
     TableName: 'Recepies',
     Key: { id },
@@ -121,7 +143,7 @@ export const deleteRecepieDataById = async (id: string): Promise<void> => {
 
 // ------------------ UPLOAD NEW ------------------
 export const uploadNewWineData = async (data: Wine) => {
-  data.id = uuidv4()
+  data.id = uuid()
   data.CreationDate = new Date().toISOString()
 
   const params = {
@@ -139,8 +161,8 @@ export const uploadNewWineData = async (data: Wine) => {
 }
 
 // ------------------ UPLOAD NEW ------------------
-export const uploadNewRecepieData = async (data: Recipe) => {
-  data.id = uuidv4()
+export const uploadNewRecipeData = async (data: Recipe) => {
+  data.id = uuid()
   data.CreationDate = new Date().toISOString()
   data.CreationDatePK = 'dish'
 

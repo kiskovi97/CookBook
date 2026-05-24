@@ -1,10 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
-import RecepieView from '@/views/RecepieView.vue'
+import RecipeView from '@/views/RecipeView.vue'
 import SearchView from '@/views/SearchView.vue'
-import MainRecepies from '@/views/MainRecepiesView.vue'
-import DessertsView from '@/views/DessertRecepiesView.vue'
-import RecepieEditView from '@/views/RecepieEditView.vue'
+import RecipeEditView from '@/views/RecipeEditView.vue'
 import InspectionView from '@/views/InspectionView.vue'
 import UploadView from '@/views/UploadView.vue'
 import WineListView from '@/views/WineListView.vue'
@@ -22,12 +20,12 @@ const router = createRouter({
     {
       path: '/recipe/:id',
       name: 'recipe',
-      component: RecepieView,
+      component: RecipeView,
     },
     {
       path: '/recipe/:id/edit',
       name: 'recipe-edit',
-      component: RecepieEditView,
+      component: RecipeEditView,
     },
     {
       path: '/inspection',
@@ -40,19 +38,14 @@ const router = createRouter({
       component: UploadView,
     },
     {
-      path: '/search',
-      name: 'search',
+      path: '/recipes',
+      name: 'recipes',
       component: SearchView,
     },
     {
-      path: '/dishes',
-      name: 'dishes',
-      component: MainRecepies,
-    },
-    {
-      path: '/desserts',
-      name: 'desserts',
-      component: DessertsView,
+      path: '/search',
+      name: 'search',
+      component: SearchView,
     },
     {
       path: '/wines',
@@ -60,8 +53,8 @@ const router = createRouter({
       component: WineListView,
     },
     {
-      path: '/uploadwine',
-      name: 'upload_wine',
+      path: '/upload-wine',
+      name: 'upload-wine',
       component: UploadWineView,
     },
     {

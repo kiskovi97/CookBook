@@ -4,8 +4,7 @@
   <div class="page" v-else>
     <ExtractRecipeButton @clickedAndChanged="(recipe) => (data = recipe)" />
     <AddNewRecipeButton @clickedAndChanged="(recipe) => (data = recipe)" />
-    <button @click="uploadRecipe" :disabled="!data" class="button">UPLOAD AS NEW</button>
-    <RecipeEdit v-if="data" :recipe="data" />
+    <RecipeEdit v-if="data" :recipe="data" :createNew="true" />
   </div>
 </template>
 
@@ -17,22 +16,10 @@ import { useCurrentUser } from 'vuefire'
 import ExtractRecipeButton from '@/components/ExtractRecipeButton.vue'
 import AddNewRecipeButton from '@/components/AddNewRecipeButton.vue'
 import RecipeEdit from '@/components/RecipeEdit.vue'
-import { useRecipeStore } from '@/stores/useRecipeStore'
 
 const data = ref<Recipe | null>(null)
 
 const user = useCurrentUser()
-
-const recipeStore = useRecipeStore()
-
-const uploadRecipe = async () => {
-  if (!data.value) return
-
-  await recipeStore.addRecipe(data.value)
-
-  alert('Dish uploaded successfully!')
-  data.value = null
-}
 </script>
 
 <style scoped>

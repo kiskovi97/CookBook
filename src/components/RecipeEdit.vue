@@ -3,9 +3,14 @@
     <RecipeInspection :recipe="recipe" />
     <AddDishButton @clickedAndChanged="(recipe) => handleExtract(recipe)" />
     <UpdateImageButton @clickedAndChanged="(image, url) => handleUpdateImage(image, url)" />
+
+    <button v-if="createNew" @click="uploadRecipe" :disabled="!recipe" class="button">
+      UPLOAD AS NEW
+    </button>
     <div class="description">
       <div>
         <input
+          id="title"
           class="text"
           type="text"
           name="title"
@@ -13,6 +18,7 @@
           v-model="recipe.title"
         />
         <textarea
+          id="details"
           class="textarea"
           name="details"
           placeholder="Paste recipe URL here"
@@ -63,7 +69,7 @@
         </div>
       </motion.div>
     </div>
-    <div class="description">
+    <div class="buttons" v-if="!createNew">
       <div>
         <button class="button" @click="upload">Upload</button>
       </div>
@@ -77,7 +83,7 @@
 <script setup lang="ts">
 import { motion } from 'motion-v'
 import { type Recipe, type RecipeMainType, recipeMainTypes } from '@/types/recipe'
-import { ref } from 'vue'
+import { ref, type PropType } from 'vue'
 import { useRouter } from 'vue-router'
 import InputList from '@/components/InputList.vue'
 import EditableIngredients from '@/components/EditableIngredients.vue'
@@ -88,8 +94,18 @@ import EditableImage from './EditableImage.vue'
 import EditableSources from './EditableSources.vue'
 import { useRecipeStore } from '@/stores/useRecipeStore.ts'
 
-const props = defineProps<{
-  recipe: Recipe
+const props = defineProps({
+  recipe: {
+    type: Object as PropType<Recipe>,
+    required: true,
+  },
+  createNew: {
+    type: Boolean,
+    default: false,
+  },
+})
+const emit = defineEmits<{
+  (e: 'uploaded'): void
 }>()
 const recipeStore = useRecipeStore()
 
@@ -107,13 +123,11 @@ const applyMainType = () => {
     }
   }
   tags.add(mainTypeSelection.value)
-  console.log('Applied main type:', mainTypeSelection.value)
   recipe.value.tags = Array.from(tags)
 }
 
 const upload = async () => {
   applyMainType()
-  console.log('Uploading recipe:', recipe.value)
   await recipeStore.updateRecipe(recipe.value)
   alert('Uploaded')
   router.push('/recipe/' + recipe.value.id)
@@ -128,6 +142,16 @@ const deleteRecipe = async () => {
   }
 }
 
+const uploadRecipe = async () => {
+  if (!recipe.value) return
+
+  applyMainType()
+  await recipeStore.addRecipe(recipe.value)
+
+  alert('Dish uploaded successfully!')
+  emit('uploaded')
+}
+
 const handleExtract = (e: Recipe) => {
   recipe.value.title = e.title
   recipe.value.image = e.image
@@ -140,7 +164,6 @@ const handleExtract = (e: Recipe) => {
 }
 
 const handleUpdateImage = (e: string, url: string) => {
-  console.log('image was updated to: ', e)
   recipe.value.image = e
   if (!recipe.value.sources) recipe.value.sources = []
   recipe.value.sources?.push({ link: url, name: 'Link' })
@@ -226,6 +249,14 @@ const handleUpdateImage = (e: string, url: string) => {
   padding-left: 1em;
   padding-right: 1em;
   max-width: 100%;
+}
+
+.receipt .buttons {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .description li,

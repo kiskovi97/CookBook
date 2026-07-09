@@ -8,14 +8,15 @@
 </template>
 
 <script setup lang="ts">
-import { uploadRecipeData } from '@/lib/dynamoService'
 import { extractImage } from '@/lib/fetchRecipe'
 import { copyImageToServer } from '@/lib/image-service'
+import { useRecipeStore } from '@/stores/useRecipeStore'
 import type { Recipe } from '@/types/recipe'
 import { computed, ref } from 'vue'
 
 const isLoading = ref(false)
 const isFixed = ref(false)
+const recipeStore = useRecipeStore()
 
 const hasAutoFix = computed(() => {
   return props.recipe && props.recipe.sources && props.recipe.sources.length > 0
@@ -47,7 +48,7 @@ const fixImage = async () => {
 
     recipe.image = await copyImageToServer(newImage)
 
-    await uploadRecipeData(recipe)
+    await recipeStore.updateRecipe(recipe)
     isFixed.value = true
   } catch (e: Error | unknown) {
     alert('Failed to fix image: ' + (e as Error).message)

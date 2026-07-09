@@ -2,12 +2,13 @@
 import Navbar from '@/components/NavBar.vue'
 import RecipeList from '@/components/RecipeList.vue'
 import SearchBar from '@/components/SearchBar.vue'
+import { useSearchStore } from '@/stores/useSearchStore'
 import type { RecipeMainType } from '@/types/recipe'
-import { ref, onMounted } from 'vue'
+import { storeToRefs } from 'pinia'
+import { onMounted } from 'vue'
 
-const filter = ref('')
-const orderBy = ref('name')
-const mainTypeSelection = ref<RecipeMainType | undefined>(undefined)
+const { filter, orderBy, mainTypeSelection } = storeToRefs(useSearchStore())
+
 onMounted(() => {
   const urlParams = new URLSearchParams(globalThis.location.search)
   const searchParam = urlParams.get('search')

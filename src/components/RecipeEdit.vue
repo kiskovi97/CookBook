@@ -78,7 +78,6 @@
 import { motion } from 'motion-v'
 import { type Recipe, type RecipeMainType, recipeMainTypes } from '@/types/recipe'
 import { ref } from 'vue'
-import { uploadRecipeData, deleteRecipeDataById } from '@/lib/dynamoService'
 import { useRouter } from 'vue-router'
 import InputList from '@/components/InputList.vue'
 import EditableIngredients from '@/components/EditableIngredients.vue'
@@ -87,10 +86,12 @@ import AddDishButton from '@/components/ExtractRecipeButton.vue'
 import UpdateImageButton from '@/components/UpdateImageButton.vue'
 import EditableImage from './EditableImage.vue'
 import EditableSources from './EditableSources.vue'
+import { useRecipeStore } from '@/stores/useRecipeStore.ts'
 
 const props = defineProps<{
   recipe: Recipe
 }>()
+const recipeStore = useRecipeStore()
 
 const recipe = ref<Recipe>(props.recipe)
 const mainTypeSelection = ref<RecipeMainType>(
@@ -113,7 +114,7 @@ const applyMainType = () => {
 const upload = async () => {
   applyMainType()
   console.log('Uploading recipe:', recipe.value)
-  await uploadRecipeData(recipe.value)
+  await recipeStore.updateRecipe(recipe.value)
   alert('Uploaded')
   router.push('/recipe/' + recipe.value.id)
 }
@@ -121,7 +122,7 @@ const upload = async () => {
 const deleteRecipe = async () => {
   if (confirm('Are you sure you want to delete this recipe?')) {
     // Implement delete logic here
-    await deleteRecipeDataById(recipe.value.id)
+    await recipeStore.deleteRecipe(recipe.value.id)
     alert('Recipe deleted')
     router.push('/')
   }

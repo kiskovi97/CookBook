@@ -21,12 +21,12 @@ type InternalRecipe = Recipe & { __creationTs: number; __searchText: string }
 export const useRecipeStore = defineStore(
   'recipes',
   () => {
-    const recipes = computed(() => recipesById.value.values())
+    const recipes = computed(() => [...recipesById.value.values()])
     const recipesById = ref<Map<string, InternalRecipe>>(new Map())
     const recipesByTag = ref<Record<string, InternalRecipe[]>>({})
     const loading = ref(false)
     const nextKey = ref<Record<string, AttributeValue> | undefined>(undefined)
-    const PAGE_SIZE = 25
+    const PAGE_SIZE = 50
 
     const reset = () => {
       recipesById.value = new Map()

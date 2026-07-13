@@ -29,8 +29,17 @@ const { recipesByTag, recipes } = storeToRefs(useRecipeStore())
 
 type InternalRecipe = Recipe & { __searchText?: string; __creationTs?: number }
 
+const recipesOfTag = computed(() => {
+  if (!props.tag) {
+    console.log('No Tag')
+
+    return [...recipes.value]
+  }
+  return recipesByTag.value[props.tag ?? ''] ?? []
+})
+
 const orderedRecipes = computed(() => {
-  let resultData = [...(props.tag ? (recipesByTag.value[props.tag ?? ''] ?? []) : recipes.value)]
+  let resultData = recipesOfTag.value
 
   if (props.orderBy === 'date') {
     resultData.sort((first, second) => {

@@ -39,7 +39,7 @@ const recipesOfTag = computed(() => {
 })
 
 const orderedRecipes = computed(() => {
-  let resultData = recipesOfTag.value
+  const resultData = [...recipesOfTag.value]
 
   if (props.orderBy === 'date') {
     resultData.sort((first, second) => {
@@ -64,7 +64,7 @@ const orderedRecipes = computed(() => {
   }
 
   if (props.maxCount) {
-    resultData = resultData.slice(0, props.maxCount)
+    return resultData.slice(0, props.maxCount)
   }
 
   return resultData

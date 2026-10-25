@@ -8,6 +8,7 @@ import {
   uploadRecipeData,
 } from '@/lib/dynamoService'
 import type { AttributeValue } from '@aws-sdk/client-dynamodb'
+import {v4 as uuidv4} from 'uuid';
 
 const normalizeText = (text: string): string =>
   text
@@ -65,6 +66,13 @@ export const useRecipeStore = defineStore(
     const initializeRecipes = async () => {
       if (initialized.value) return
       initialized.value = true
+
+      recipes.value.forEach(recipe =>
+      {
+          if (!recipe.id)
+            recipe.id = uuidv4()
+      })
+
       if (recipes.value.length > 0 && allRecipesLoaded.value) return
 
       if (recipes.value.length === 0) {
@@ -89,6 +97,8 @@ export const useRecipeStore = defineStore(
     const convertRecipe = (recipe: Recipe): InternalRecipe => {
       const creationTs = new Date(recipe.CreationDate).getTime()
       const searchText = normalizeText(recipe.title)
+      if (!recipe.id)
+        recipe.id = uuidv4();
 
       return {
         ...recipe,
@@ -98,6 +108,8 @@ export const useRecipeStore = defineStore(
     }
 
     const updateRecipe = async (updatedRecipe: Recipe) => {
+      if (!updatedRecipe.id)
+        updatedRecipe.id = uuidv4();
       const internalRecipe = convertRecipe(updatedRecipe)
       const index = recipes.value.findIndex((recipe) => recipe.id === internalRecipe.id)
       if (index >= 0) {
@@ -110,6 +122,8 @@ export const useRecipeStore = defineStore(
     }
 
     const addRecipe = async (newRecipe: Recipe) => {
+      if (!newRecipe.id)
+        newRecipe.id = uuidv4();
       recipes.value.push(convertRecipe(newRecipe))
       await uploadNewRecipeData(newRecipe)
     }
